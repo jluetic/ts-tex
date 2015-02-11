@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Campbell et~al.(2007)Campbell, Huston, and Stirling]{Campbell:2006wx}
+John~M. Campbell, J.W. Huston, and W.J. Stirling.
+\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
+\newblock \emph{Rept.Prog.Phys.}, 70:\penalty0 89, 2007.
+\newblock \doi{10.1088/0034-4885/70/1/R02}.
+
+\end{thebibliography}
