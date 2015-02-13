@@ -257,16 +257,16 @@ In this chapter a brief overview of the standard model particles and interaction
 
 \subsection{Cross sections at hadron colliders}
 
-	Determining cross sections for processes at hadron collides is not an easy task. With proton being a composite object consisting of partons, it is necessary to include it's internal structure as well as the diagrams for hard scattering of interest. This means soft and hard processes are occurring in the same event. Quarks and gluons within proton interact through strong force and are described using quantum chromodynamics. Two processes make it possible to perform calculations within the QCD, asymptotic freedom and factorization theorem. Since strong force coupling constant $\alpha_s$ depends on the scale, for high momentum transfers ($Q >> \Lambda_{QCD}~200MeV$) it becomes sufficiently small to make perturbative expansion in $\alpha_s$ possible. This feature is called asymptotic freedom and it is used to determine the hard process cross section. Figure \ref{fig:alpha_s} shows the results of the $\alpha_s$ measurements which is in complete agreement with the QCD predictions of asymptotic freedom. \\
+	Determining cross sections for processes at hadron collides is not an easy task. With proton being a composite object consisting of partons, it is necessary to include it's internal structure as well as the diagrams for hard scattering of interest. This means soft and hard processes are occurring in the same event. Quarks and gluons within proton interact through strong force and are described using quantum chromodynamics. Two processes make it possible to perform calculations within the QCD, asymptotic freedom and factorization theorem. Since strong force coupling constant $\alpha_s$ depends on the scale, for high momentum transfers ($Q >> \Lambda_{QCD}\approx 200$MeV) it becomes sufficiently small to make perturbative expansion in $\alpha_s$ possible. This feature is called asymptotic freedom and it is used to determine the hard process cross section. Figure \ref{fig:alpha_s} shows the results of the $\alpha_s$ measurements which is in complete agreement with the QCD predictions of asymptotic freedom. \\
 \begin{figure}[htbp]
 	\centering
 		\includegraphics{Figures/alpha_s.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[Strong force coupling constant]{Summary of measurement of strong coupling constant $\alpha_s$\citep{Agashe:2014kda} }
+	\caption[Strong force coupling constant]{Summary of measurement of strong coupling constant $\alpha_s$\cite{Agashe:2014kda} }
 	\label{fig:alpha_s}
 \end{figure}
 
-	However, perturbative QCD cannot be used if the momentum transfer values are small and the coupling constant becomes large. This phenomenon is called confinement and it required different treatment for the quarks inside the proton. Internal structure of a proton is described using parton distribution functions which are determined through deep inelastic scattering experiments. Parton distribution functions for each of the partons inside a proton is shown in Figure \ref{fig:MSTW} made with one specific PDF function. Using DGLAP equations, it is possible to evolve the PDFs for any momentum transfer value which is described in detail in \citep{Campbell:2006wx} 
+	\par Perturbative QCD cannot be used if the momentum transfer values are small and the coupling constant becomes large. This phenomenon is called confinement and it required different treatment for the quarks inside the proton. Internal structure of a proton is described using parton distribution functions which are determined through deep inelastic scattering experiments. Parton distribution functions for each of the partons inside a proton is shown in Figure \ref{fig:MSTW} made with one specific PDF function. Using DGLAP equations, it is possible to evolve the PDFs for any momentum transfer value which is described in detail in \cite{Campbell:2006wx} 
 
 \begin{figure}[htbp]
 	\centering
@@ -275,6 +275,8 @@ In this chapter a brief overview of the standard model particles and interaction
 	\caption[Parton distribution functions for different momentum transfers]{Parton distribution functions calculated by the MSTW group for $Q=10$GeV and $Q=10^4$GeV \citep{Martin:2009iq}}
 	\label{fig:MSTW}
 \end{figure}
+
+While performing perturbative QCD calculations, it is important to impose conditions to the final state in order to avoid soft and collinear divergences. Collinear divergences originate from configurations with a small opening angle between jets. Soft divergences appear when quark or gluon is irradiated at low momentum. Factorization scale is introduced as a cut-off for diagram calculation below which perturbative QCD calculation is not performed which means that hard scattering between partons is independant from the parton internal structure. The main point of the factorization theorem  is that because of energy dependence of strong coupling constant, hard and soft part of the process are happening at different time scales ans soft part is factorized inside a parton distribution function.
 
 
 If we want to calculate the cross section for some process where there are two protons in the initial state and some interesting final state which we call X, according to \citep{Campbell:2006wx}, necessary steps are:
@@ -286,13 +288,23 @@ If we want to calculate the cross section for some process where there are two p
 	\item Perform integration over the fraction of momentum available for a given parton(x)  
 \end{enumerate}
 
+The cross section at hadron collides is thus a convolution of the hard scattering perturbative cross section and two incoming parton distribution functions as shown in \ref{eq:xsec}
+
+\begin{equation}
+ \sum\limits_{n=1}^{\infty} \alpha_{s}^{n}(\mu_{R}^2)\sum\limits_{i,j} \int dx_1 dx_2 f_{i/p}(x_1,\mu_{F}^2) f_{j/p}(x_2,\mu_{F}^2) \sigma_{ij \rightarrow X}^{(n)}(x_1 x_2s,\mu_{R}^2,\mu_{F}^2)
+ \label{eq:xsec}
+\end{equation} 
+
+Hard process cross section $\sigma_{ij \rightarrow X}^{(n)}$ depends on $s$ which is squared center of mass energy. Two parton distribution functions are denoted with $f_{i/p}$ and $f_{j/p}$ and correspond to the probability that parton $i$($j$) with a momentum fraction $x_1$($x_2$) will be found inside a proton. Sum over all combinations of partons has to be computed. 
+
+If cross section is computed in full series, $\mu_F$ and $\mu_R$ should cancel out, and scale dependence should disappear. However, since fewer orders are used and some residual scale dependence is still present. This dependency can be used to estimate the contribution of the missing orders in the series.  
 
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics{Figures/pp_xsec.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[Proton-proton cross sections]{Standard model cross sections as a function of center of mass energy.\citep{Campbell:2006wx} }
+	\caption[Proton-proton cross sections]{Standard model cross sections as a function of center of mass energy.\cite{Campbell:2006wx} }
 	\label{fig:pp_xsec}
 \end{figure}
 
@@ -302,6 +314,7 @@ If we want to calculate the cross section for some process where there are two p
 
 \subsection{Contributions to Wbb cross section}
 
+\par Soft and collinear divergences are naturally avoided in processes with b jets because of relatively high mass of b quark which means that the scale of the process doesn't go below $2m_b$.  
 
 
 %----------------------------------------------------------------------------------------
@@ -310,13 +323,14 @@ If we want to calculate the cross section for some process where there are two p
 
 \section{Previous measurements}
 
-	Previous measurements of W boson produced in association with b quarks have been performed on different experiments. However, the final states and phase space used in these measurements were different, which means that the results cannot be directly compared, but they can be compared with theoretical predictions. This process was measured for the first time at Tevatron with D0 and CDF experiments at $\sqrt{s} =$ 1.96 TeV. The CDF collaboration published its result in 2009 and the cross-section measured is that of “jets from b-quarks produced with a W boson”\citep{Aaltonen:2009qi}. The event selection is based on reconstructing a leptonically decaying W boson, and one or two jets where at least one has to be b-tagged. Events with jets from light quarks are vetoed with a cut on the secondary vertex mass. Contribution of other background events containing a b quark in final state (e.g. events with top quark) is estimated using Monte Carlo simulations. The measured cross section is 2.8 standard deviations higher than corresponding theoretical prediction. D0 collaboration published their result in 2012. with somewhat different phase space definition\citep{D0:2012qt}. The difference with respect to the CDF measurement consists in the inclusion of the events with 3 jets and reduced pseudorapidity range in which the measurement was performed. The measurement technique is similar to that of CDF, although b-tagging algorithms were slightly different. The measured cross section was in good agreement with the Standard model prediction.
+	\par Previous measurements of a W boson produced in association with b quarks have been performed on different experiments. However, the final states and phase space used in these measurements were different, which means that the results cannot be directly compared, but they can be compared with theoretical predictions. This process was measured for the first time at Tevatron with D0 and CDF experiments at $\sqrt{s} =$ 1.96 TeV. The CDF collaboration published its result in 2009 and the cross-section measured is that of “jets from b-quarks produced with a W boson”\citep{Aaltonen:2009qi}. The event selection is based on reconstructing a leptonically decaying W boson, and one or two jets where at least one has to be b-tagged. Events with jets from light quarks are vetoed with a cut on the secondary vertex mass. Contribution of other background events containing a b quark in final state (e.g. events with top quark) is estimated using Monte Carlo simulations. The measured cross section is 2.8 standard deviations higher than corresponding theoretical prediction. \\
+	D0 collaboration published their result in 2012. with somewhat different phase space definition\citep{D0:2012qt}. The difference with respect to the CDF measurement consists in the inclusion of the events with 3 jets and reduced pseudorapidity range in which the measurement was performed. The measurement technique is similar to that of CDF, although b-tagging algorithms were slightly different. The measured cross section was in good agreement with the Standard model prediction.\\
 	First measurements at the LHC were published by the ATLAS collaboration based on 36/pb of integrated luminosity at $\sqrt{s} =$ 7 TeV. One year later they improved their measurement using $4.6/$fb.\citep{Aad:2013vka} Selected events contain one reconstructed electron or muon, significant amount of missing transverse energy and one or two jets where exactly one is b-tagged. The phase space is divided in two regions, depending on the number of jets. Events with exactly 2 b jets and events with more than 2 jets are vetoed in order to suppress background events from top quark decay. The results are shown in Figure \ref{fig:atlas_tot}. The cross section measurement in the one jet region shows an excess corresponding to 1.5 standard deviations. In the two jet region, the measured cross section is in good agreement with theoretical predictions. A differential cross section measurement as a function of leading b jet transverse momentum has been performed for the first time and shown in figure \ref{fig:atlas_diff}. The cross section measurement in the one jet region is again higher that NLO predictions but within theoretical and experimental uncertainties. The cross section measured for the events with two jets is in good agreement with the theoretical prediction.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.7\linewidth]{Figures/atlas_total.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[Atlas Wbb total cross section measurement]{Measured fiducial cross-sections in the electron, muon, and combined electron and muon channels. The cross-sections are given in the 1-jet, 2-jet, and 1+2-jet fiducial regions.\citep{Aad:2013vka} }
+	\caption[Atlas Wbb total cross section measurement]{Measured fiducial cross-sections in the electron, muon, and combined electron and muon channels. The cross-sections are given in the 1-jet, 2-jet, and 1+2-jet fiducial regions.\cite{Aad:2013vka} }
 	\label{fig:atlas_tot}
 \end{figure}
 
@@ -334,17 +348,17 @@ If we want to calculate the cross section for some process where there are two p
   \caption{}
   \label{fig:atlas_diff2j}
 \end{subfigure}
-\caption{Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$ in the 1-jet (\ref{fig:atlas_diff1j}) and 2-jet (\ref{fig:atlas_diff2j}) fiducial regions, obtained by combining the muon and electron channel results. \citep{Aad:2013vka}}
+\caption[Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$]{Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$ in the 1-jet (\ref{fig:atlas_diff1j}) and 2-jet (\ref{fig:atlas_diff2j}) fiducial regions, obtained by combining the muon and electron channel results. \cite{Aad:2013vka}}
 \label{fig:atlas_diff}
 \end{figure}
 	
 	
-The CMS collaboration published results corresponding to integrated luminosity of 5/fb. The measured events contained a muon and missing transverse energy in the final state, together with two b-tagged jets. The measured cross section is in excellent agreement with the Standard model prediction.\citep{Chatrchyan:2013uza}
+The CMS collaboration published its results corresponding to data collected during 2011. The measured events contained a muon and missing transverse energy in the final state, together with two b-tagged jets. The measured cross section is in excellent agreement with the Standard model prediction.\citep{Chatrchyan:2013uza}
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics{Figures/cms_tot.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[CMS Wbb total cross section measurement]{\citep{Chatrchyan:2013uza} }
+	\caption[CMS Wbb total cross section measurement]{\cite{Chatrchyan:2013uza} }
 	\label{fig:cms_total}
 \end{figure}
