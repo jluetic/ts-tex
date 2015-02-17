@@ -1,0 +1,2540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="567"
+   height="553"
+   viewBox="0 0 567 553"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="LA2012_specRuns.svg">
+  <metadata
+     id="metadata662">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>
+/afs/cern.ch/user/j/jluetic/public/CMSSW_5_3_3/src/CalibTracker/SiPixelLorentzAngle/test/2012/angleAna/specialRun/LA2012_spec.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1871"
+     inkscape:window-height="1176"
+     id="namedview660"
+     showgrid="false"
+     inkscape:zoom="0.85352622"
+     inkscape:cx="513.13191"
+     inkscape:cy="164.25082"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">
+/afs/cern.ch/user/j/jluetic/public/CMSSW_5_3_3/src/CalibTracker/SiPixelLorentzAngle/test/2012/angleAna/specialRun/LA2012_spec.svg
+</title>
+  <desc
+     id="desc6">
+Creator: ROOT Version 5.32/00
+CreationDate: Mon Apr 29 15:01:35 2013</desc>
+  <defs
+     id="defs8">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3872"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3020"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3022"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3024"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3026"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <rect
+     x="0"
+     y="0"
+     width="567"
+     height="553"
+     id="rect10"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     fill="white" />
+  <rect
+     x="102"
+     y="27"
+     width="454"
+     height="454"
+     id="rect12"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <rect
+     x="102"
+     y="27"
+     width="454"
+     height="454"
+     id="rect14"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <rect
+     x="102"
+     y="27"
+     width="454"
+     height="454"
+     id="rect16"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <rect
+     x="102"
+     y="27"
+     width="454"
+     height="454"
+     id="rect18"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M102,481h 454"
+     id="path20"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M186,27v 454"
+     id="path22"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M270,27v 454"
+     id="path24"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M354,27v 454"
+     id="path26"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M438,27v 454"
+     id="path28"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M521,27v 454"
+     id="path30"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M186,27v 454"
+     id="path32"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M521,27v 454"
+     id="path34"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M102,481v -454"
+     id="path36"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,481h -454"
+     id="path38"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,405h -454"
+     id="path40"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,330h -454"
+     id="path42"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,254h -454"
+     id="path44"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,179h -454"
+     id="path46"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,103h -454"
+     id="path48"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,27h -454"
+     id="path50"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-dasharray=" 1, 2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M556,481v -454"
+     id="path52"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M102,481h 454"
+     id="path54"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <text
+     x="549"
+     y="540"
+     font-size="30"
+     id="text56"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+]
+</text>
+  <text
+     x="534"
+     y="526"
+     font-size="20"
+     id="text58"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+-1
+</text>
+  <text
+     x="207"
+     y="540"
+     font-size="30"
+     id="text60"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+Integrated Luminosity[fb
+</text>
+  <path
+     d="M186,468v 13"
+     id="path62"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M203,474v 7"
+     id="path64"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M219,474v 7"
+     id="path66"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M236,474v 7"
+     id="path68"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M253,474v 7"
+     id="path70"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M270,468v 13"
+     id="path72"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M287,474v 7"
+     id="path74"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M303,474v 7"
+     id="path76"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M320,474v 7"
+     id="path78"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M337,474v 7"
+     id="path80"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M354,468v 13"
+     id="path82"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M370,474v 7"
+     id="path84"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M387,474v 7"
+     id="path86"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M404,474v 7"
+     id="path88"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M421,474v 7"
+     id="path90"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M438,468v 13"
+     id="path92"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M454,474v 7"
+     id="path94"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M471,474v 7"
+     id="path96"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M488,474v 7"
+     id="path98"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M505,474v 7"
+     id="path100"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M521,468v 13"
+     id="path102"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M186,468v 13"
+     id="path104"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M169,474v 7"
+     id="path106"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M152,474v 7"
+     id="path108"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M136,474v 7"
+     id="path110"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M119,474v 7"
+     id="path112"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M521,468v 13"
+     id="path114"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M538,474v 7"
+     id="path116"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M555,474v 7"
+     id="path118"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <text
+     x="179"
+     y="507"
+     font-size="25"
+     id="text120"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+5
+</text>
+  <text
+     x="256"
+     y="507"
+     font-size="25"
+     id="text122"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+10
+</text>
+  <text
+     x="339"
+     y="507"
+     font-size="25"
+     id="text124"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+15
+</text>
+  <text
+     x="423"
+     y="507"
+     font-size="25"
+     id="text126"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+20
+</text>
+  <text
+     x="507"
+     y="507"
+     font-size="25"
+     id="text128"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+25
+</text>
+  <path
+     d="M102,481v -454"
+     id="path130"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <g
+     transform="rotate(-90,32,37)"
+     id="g132"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="32"
+       y="37"
+       font-size="30"
+       id="text134"
+       font-family="Helvetica"
+       fill="black">
+)
+</text>
+  </g>
+  <g
+     transform="rotate(-90,14,85)"
+     id="g136"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="14"
+       y="85"
+       font-size="20"
+       id="text138"
+       font-family="Helvetica"
+       fill="black">
+slope
+</text>
+  </g>
+  <g
+     transform="rotate(-90,41,85)"
+     id="g140"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="41"
+       y="85"
+       font-size="20"
+       id="text142"
+       font-family="Helvetica"
+       fill="black">
+LA
+</text>
+  </g>
+  <g
+     transform="rotate(-90,32,100)"
+     id="g144"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="32"
+       y="100"
+       font-size="30"
+       id="text146"
+       font-family="Times"
+       fill="black">
+θ
+</text>
+  </g>
+  <g
+     transform="rotate(-90,32,153)"
+     id="g148"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="32"
+       y="153"
+       font-size="30"
+       id="text150"
+       font-family="Helvetica"
+       fill="black">
+tan(
+</text>
+  </g>
+  <path
+     d="M116,481h -14"
+     id="path152"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,466h -7"
+     id="path154"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,451h -7"
+     id="path156"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,436h -7"
+     id="path158"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,421h -7"
+     id="path160"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M116,405h -14"
+     id="path162"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,390h -7"
+     id="path164"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,375h -7"
+     id="path166"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,360h -7"
+     id="path168"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,345h -7"
+     id="path170"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M116,330h -14"
+     id="path172"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,315h -7"
+     id="path174"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,300h -7"
+     id="path176"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,284h -7"
+     id="path178"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,269h -7"
+     id="path180"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M116,254h -14"
+     id="path182"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,239h -7"
+     id="path184"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,224h -7"
+     id="path186"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,209h -7"
+     id="path188"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,194h -7"
+     id="path190"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M116,179h -14"
+     id="path192"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,163h -7"
+     id="path194"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,148h -7"
+     id="path196"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,133h -7"
+     id="path198"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,118h -7"
+     id="path200"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M116,103h -14"
+     id="path202"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,88h -7"
+     id="path204"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,73h -7"
+     id="path206"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,58h -7"
+     id="path208"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M109,43h -7"
+     id="path210"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M116,27h -14"
+     id="path212"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <text
+     x="49"
+     y="490"
+     font-size="25"
+     id="text214"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.25
+</text>
+  <text
+     x="63"
+     y="415"
+     font-size="25"
+     id="text216"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.3
+</text>
+  <text
+     x="49"
+     y="339"
+     font-size="25"
+     id="text218"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.35
+</text>
+  <text
+     x="63"
+     y="264"
+     font-size="25"
+     id="text220"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.4
+</text>
+  <text
+     x="49"
+     y="188"
+     font-size="25"
+     id="text222"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.45
+</text>
+  <text
+     x="63"
+     y="112"
+     font-size="25"
+     id="text224"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.5
+</text>
+  <text
+     x="49"
+     y="37"
+     font-size="25"
+     id="text226"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+0.55
+</text>
+  <path
+     d="M556,481v -454"
+     id="path228"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,481h 14"
+     id="path230"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,466h 7"
+     id="path232"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,451h 7"
+     id="path234"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,436h 7"
+     id="path236"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,421h 7"
+     id="path238"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,405h 14"
+     id="path240"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,390h 7"
+     id="path242"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,375h 7"
+     id="path244"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,360h 7"
+     id="path246"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,345h 7"
+     id="path248"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,330h 14"
+     id="path250"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,315h 7"
+     id="path252"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,300h 7"
+     id="path254"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,284h 7"
+     id="path256"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,269h 7"
+     id="path258"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,254h 14"
+     id="path260"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,239h 7"
+     id="path262"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,224h 7"
+     id="path264"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,209h 7"
+     id="path266"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,194h 7"
+     id="path268"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,179h 14"
+     id="path270"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,163h 7"
+     id="path272"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,148h 7"
+     id="path274"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,133h 7"
+     id="path276"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,118h 7"
+     id="path278"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,103h 14"
+     id="path280"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,88h 7"
+     id="path282"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,73h 7"
+     id="path284"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,58h 7"
+     id="path286"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M549,43h 7"
+     id="path288"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M542,27h 14"
+     id="path290"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M535,365v -3"
+     id="path292"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#ff0000"
+     fill="none" />
+  <path
+     d="M534,362h 2"
+     id="path294"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#ff0000"
+     fill="none" />
+  <path
+     d="M535,372v 3"
+     id="path296"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#ff0000"
+     fill="none" />
+  <path
+     d="M534,375h 2"
+     id="path298"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#ff0000"
+     fill="none" />
+  <g
+     id="g300"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="1"
+     stroke="#ff0000"
+     fill="#ff0000">
+    <rect
+       x=" 119.5"
+       y=" 235.5"
+       width=" 7"
+       height=" 7"
+       id="rect302" />
+    <rect
+       x=" 135.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect304" />
+    <rect
+       x=" 150.5"
+       y=" 233.5"
+       width=" 7"
+       height=" 7"
+       id="rect306" />
+    <rect
+       x=" 162.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect308" />
+    <rect
+       x=" 167.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect310" />
+    <rect
+       x=" 174.5"
+       y=" 230.5"
+       width=" 7"
+       height=" 7"
+       id="rect312" />
+    <rect
+       x=" 188.5"
+       y=" 227.5"
+       width=" 7"
+       height=" 7"
+       id="rect314" />
+    <rect
+       x=" 201.5"
+       y=" 226.5"
+       width=" 7"
+       height=" 7"
+       id="rect316" />
+    <rect
+       x=" 207.5"
+       y=" 228.5"
+       width=" 7"
+       height=" 7"
+       id="rect318" />
+    <rect
+       x=" 215.5"
+       y=" 224.5"
+       width=" 7"
+       height=" 7"
+       id="rect320" />
+    <rect
+       x=" 220.5"
+       y=" 224.5"
+       width=" 7"
+       height=" 7"
+       id="rect322" />
+    <rect
+       x=" 225.5"
+       y=" 225.5"
+       width=" 7"
+       height=" 7"
+       id="rect324" />
+    <rect
+       x=" 238.5"
+       y=" 228.5"
+       width=" 7"
+       height=" 7"
+       id="rect326" />
+    <rect
+       x=" 244.5"
+       y=" 226.5"
+       width=" 7"
+       height=" 7"
+       id="rect328" />
+    <rect
+       x=" 253.5"
+       y=" 224.5"
+       width=" 7"
+       height=" 7"
+       id="rect330" />
+    <rect
+       x=" 261.5"
+       y=" 225.5"
+       width=" 7"
+       height=" 7"
+       id="rect332" />
+    <rect
+       x=" 275.5"
+       y=" 223.5"
+       width=" 7"
+       height=" 7"
+       id="rect334" />
+    <rect
+       x=" 282.5"
+       y=" 222.5"
+       width=" 7"
+       height=" 7"
+       id="rect336" />
+    <rect
+       x=" 294.5"
+       y=" 223.5"
+       width=" 7"
+       height=" 7"
+       id="rect338" />
+    <rect
+       x=" 299.5"
+       y=" 219.5"
+       width=" 7"
+       height=" 7"
+       id="rect340" />
+    <rect
+       x=" 312.5"
+       y=" 217.5"
+       width=" 7"
+       height=" 7"
+       id="rect342" />
+    <rect
+       x=" 322.5"
+       y=" 215.5"
+       width=" 7"
+       height=" 7"
+       id="rect344" />
+    <rect
+       x=" 330.5"
+       y=" 214.5"
+       width=" 7"
+       height=" 7"
+       id="rect346" />
+    <rect
+       x=" 335.5"
+       y=" 217.5"
+       width=" 7"
+       height=" 7"
+       id="rect348" />
+    <rect
+       x=" 345.5"
+       y=" 211.5"
+       width=" 7"
+       height=" 7"
+       id="rect350" />
+    <rect
+       x=" 351.5"
+       y=" 210.5"
+       width=" 7"
+       height=" 7"
+       id="rect352" />
+    <rect
+       x=" 356.5"
+       y=" 214.5"
+       width=" 7"
+       height=" 7"
+       id="rect354" />
+    <rect
+       x=" 361.5"
+       y=" 211.5"
+       width=" 7"
+       height=" 7"
+       id="rect356" />
+    <rect
+       x=" 373.5"
+       y=" 208.5"
+       width=" 7"
+       height=" 7"
+       id="rect358" />
+    <rect
+       x=" 378.5"
+       y=" 208.5"
+       width=" 7"
+       height=" 7"
+       id="rect360" />
+    <rect
+       x=" 387.5"
+       y=" 206.5"
+       width=" 7"
+       height=" 7"
+       id="rect362" />
+    <rect
+       x=" 396.5"
+       y=" 204.5"
+       width=" 7"
+       height=" 7"
+       id="rect364" />
+    <rect
+       x=" 415.5"
+       y=" 204.5"
+       width=" 7"
+       height=" 7"
+       id="rect366" />
+    <rect
+       x=" 421.5"
+       y=" 210.5"
+       width=" 7"
+       height=" 7"
+       id="rect368" />
+    <rect
+       x=" 429.5"
+       y=" 209.5"
+       width=" 7"
+       height=" 7"
+       id="rect370" />
+    <rect
+       x=" 438.5"
+       y=" 202.5"
+       width=" 7"
+       height=" 7"
+       id="rect372" />
+    <rect
+       x=" 445.5"
+       y=" 204.5"
+       width=" 7"
+       height=" 7"
+       id="rect374" />
+    <rect
+       x=" 452.5"
+       y=" 204.5"
+       width=" 7"
+       height=" 7"
+       id="rect376" />
+    <rect
+       x=" 457.5"
+       y=" 206.5"
+       width=" 7"
+       height=" 7"
+       id="rect378" />
+    <rect
+       x=" 463.5"
+       y=" 204.5"
+       width=" 7"
+       height=" 7"
+       id="rect380" />
+    <rect
+       x=" 469.5"
+       y=" 204.5"
+       width=" 7"
+       height=" 7"
+       id="rect382" />
+    <rect
+       x=" 475.5"
+       y=" 202.5"
+       width=" 7"
+       height=" 7"
+       id="rect384" />
+    <rect
+       x=" 481.5"
+       y=" 199.5"
+       width=" 7"
+       height=" 7"
+       id="rect386" />
+    <rect
+       x=" 497.5"
+       y=" 181.5"
+       width=" 7"
+       height=" 7"
+       id="rect388" />
+    <rect
+       x=" 514.5"
+       y=" 219.5"
+       width=" 7"
+       height=" 7"
+       id="rect390" />
+    <rect
+       x=" 531.5"
+       y=" 364.5"
+       width=" 7"
+       height=" 7"
+       id="rect392" />
+  </g>
+  <path
+     d="M535,439v -1"
+     id="path394"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#00ff00"
+     fill="none" />
+  <path
+     d="M534,438h 2"
+     id="path396"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#00ff00"
+     fill="none" />
+  <path
+     d="M535,445v 1"
+     id="path398"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#00ff00"
+     fill="none" />
+  <path
+     d="M534,446h 2"
+     id="path400"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#00ff00"
+     fill="none" />
+  <g
+     id="g402"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="1"
+     stroke="#00ff00"
+     fill="#00ff00">
+    <rect
+       x=" 119.5"
+       y=" 238.5"
+       width=" 7"
+       height=" 7"
+       id="rect404" />
+    <rect
+       x=" 135.5"
+       y=" 233.5"
+       width=" 7"
+       height=" 7"
+       id="rect406" />
+    <rect
+       x=" 150.5"
+       y=" 235.5"
+       width=" 7"
+       height=" 7"
+       id="rect408" />
+    <rect
+       x=" 162.5"
+       y=" 234.5"
+       width=" 7"
+       height=" 7"
+       id="rect410" />
+    <rect
+       x=" 167.5"
+       y=" 234.5"
+       width=" 7"
+       height=" 7"
+       id="rect412" />
+    <rect
+       x=" 174.5"
+       y=" 234.5"
+       width=" 7"
+       height=" 7"
+       id="rect414" />
+    <rect
+       x=" 188.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect416" />
+    <rect
+       x=" 201.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect418" />
+    <rect
+       x=" 207.5"
+       y=" 233.5"
+       width=" 7"
+       height=" 7"
+       id="rect420" />
+    <rect
+       x=" 215.5"
+       y=" 231.5"
+       width=" 7"
+       height=" 7"
+       id="rect422" />
+    <rect
+       x=" 220.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect424" />
+    <rect
+       x=" 225.5"
+       y=" 231.5"
+       width=" 7"
+       height=" 7"
+       id="rect426" />
+    <rect
+       x=" 238.5"
+       y=" 234.5"
+       width=" 7"
+       height=" 7"
+       id="rect428" />
+    <rect
+       x=" 244.5"
+       y=" 233.5"
+       width=" 7"
+       height=" 7"
+       id="rect430" />
+    <rect
+       x=" 253.5"
+       y=" 233.5"
+       width=" 7"
+       height=" 7"
+       id="rect432" />
+    <rect
+       x=" 261.5"
+       y=" 234.5"
+       width=" 7"
+       height=" 7"
+       id="rect434" />
+    <rect
+       x=" 275.5"
+       y=" 233.5"
+       width=" 7"
+       height=" 7"
+       id="rect436" />
+    <rect
+       x=" 282.5"
+       y=" 232.5"
+       width=" 7"
+       height=" 7"
+       id="rect438" />
+    <rect
+       x=" 294.5"
+       y=" 231.5"
+       width=" 7"
+       height=" 7"
+       id="rect440" />
+    <rect
+       x=" 299.5"
+       y=" 229.5"
+       width=" 7"
+       height=" 7"
+       id="rect442" />
+    <rect
+       x=" 312.5"
+       y=" 230.5"
+       width=" 7"
+       height=" 7"
+       id="rect444" />
+    <rect
+       x=" 322.5"
+       y=" 230.5"
+       width=" 7"
+       height=" 7"
+       id="rect446" />
+    <rect
+       x=" 330.5"
+       y=" 229.5"
+       width=" 7"
+       height=" 7"
+       id="rect448" />
+    <rect
+       x=" 335.5"
+       y=" 230.5"
+       width=" 7"
+       height=" 7"
+       id="rect450" />
+    <rect
+       x=" 345.5"
+       y=" 227.5"
+       width=" 7"
+       height=" 7"
+       id="rect452" />
+    <rect
+       x=" 351.5"
+       y=" 227.5"
+       width=" 7"
+       height=" 7"
+       id="rect454" />
+    <rect
+       x=" 356.5"
+       y=" 225.5"
+       width=" 7"
+       height=" 7"
+       id="rect456" />
+    <rect
+       x=" 361.5"
+       y=" 223.5"
+       width=" 7"
+       height=" 7"
+       id="rect458" />
+    <rect
+       x=" 373.5"
+       y=" 224.5"
+       width=" 7"
+       height=" 7"
+       id="rect460" />
+    <rect
+       x=" 378.5"
+       y=" 223.5"
+       width=" 7"
+       height=" 7"
+       id="rect462" />
+    <rect
+       x=" 387.5"
+       y=" 222.5"
+       width=" 7"
+       height=" 7"
+       id="rect464" />
+    <rect
+       x=" 396.5"
+       y=" 222.5"
+       width=" 7"
+       height=" 7"
+       id="rect466" />
+    <rect
+       x=" 415.5"
+       y=" 221.5"
+       width=" 7"
+       height=" 7"
+       id="rect468" />
+    <rect
+       x=" 421.5"
+       y=" 224.5"
+       width=" 7"
+       height=" 7"
+       id="rect470" />
+    <rect
+       x=" 429.5"
+       y=" 224.5"
+       width=" 7"
+       height=" 7"
+       id="rect472" />
+    <rect
+       x=" 438.5"
+       y=" 221.5"
+       width=" 7"
+       height=" 7"
+       id="rect474" />
+    <rect
+       x=" 445.5"
+       y=" 222.5"
+       width=" 7"
+       height=" 7"
+       id="rect476" />
+    <rect
+       x=" 452.5"
+       y=" 223.5"
+       width=" 7"
+       height=" 7"
+       id="rect478" />
+    <rect
+       x=" 457.5"
+       y=" 223.5"
+       width=" 7"
+       height=" 7"
+       id="rect480" />
+    <rect
+       x=" 463.5"
+       y=" 222.5"
+       width=" 7"
+       height=" 7"
+       id="rect482" />
+    <rect
+       x=" 469.5"
+       y=" 222.5"
+       width=" 7"
+       height=" 7"
+       id="rect484" />
+    <rect
+       x=" 475.5"
+       y=" 221.5"
+       width=" 7"
+       height=" 7"
+       id="rect486" />
+    <rect
+       x=" 481.5"
+       y=" 219.5"
+       width=" 7"
+       height=" 7"
+       id="rect488" />
+    <rect
+       x=" 497.5"
+       y=" 198.5"
+       width=" 7"
+       height=" 7"
+       id="rect490" />
+    <rect
+       x=" 514.5"
+       y=" 245.5"
+       width=" 7"
+       height=" 7"
+       id="rect492" />
+    <rect
+       x=" 531.5"
+       y=" 438.5"
+       width=" 7"
+       height=" 7"
+       id="rect494" />
+  </g>
+  <path
+     d="M501,223v -4"
+     id="path496"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M500,219h 3"
+     id="path498"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M501,229v 4"
+     id="path500"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M500,233h 3"
+     id="path502"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M535,450v -2"
+     id="path504"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M534,448h 2"
+     id="path506"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M535,457v 2"
+     id="path508"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <path
+     d="M534,459h 2"
+     id="path510"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <g
+     id="g512"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="1"
+     stroke="#0000ff"
+     fill="#0000ff">
+    <polygon
+       points=" 123, 245.5 126.5, 252.5 119.5, 252.5"
+       id="polygon514" />
+    <polygon
+       points=" 139, 239.5 142.5, 246.5 135.5, 246.5"
+       id="polygon516" />
+    <polygon
+       points=" 154, 240.5 157.5, 247.5 150.5, 247.5"
+       id="polygon518" />
+    <polygon
+       points=" 166, 238.5 169.5, 245.5 162.5, 245.5"
+       id="polygon520" />
+    <polygon
+       points=" 171, 238.5 174.5, 245.5 167.5, 245.5"
+       id="polygon522" />
+    <polygon
+       points=" 178, 236.5 181.5, 243.5 174.5, 243.5"
+       id="polygon524" />
+    <polygon
+       points=" 192, 237.5 195.5, 244.5 188.5, 244.5"
+       id="polygon526" />
+    <polygon
+       points=" 205, 236.5 208.5, 243.5 201.5, 243.5"
+       id="polygon528" />
+    <polygon
+       points=" 211, 237.5 214.5, 244.5 207.5, 244.5"
+       id="polygon530" />
+    <polygon
+       points=" 219, 236.5 222.5, 243.5 215.5, 243.5"
+       id="polygon532" />
+    <polygon
+       points=" 224, 236.5 227.5, 243.5 220.5, 243.5"
+       id="polygon534" />
+    <polygon
+       points=" 229, 238.5 232.5, 245.5 225.5, 245.5"
+       id="polygon536" />
+    <polygon
+       points=" 242, 238.5 245.5, 245.5 238.5, 245.5"
+       id="polygon538" />
+    <polygon
+       points=" 248, 239.5 251.5, 246.5 244.5, 246.5"
+       id="polygon540" />
+    <polygon
+       points=" 257, 238.5 260.5, 245.5 253.5, 245.5"
+       id="polygon542" />
+    <polygon
+       points=" 265, 240.5 268.5, 247.5 261.5, 247.5"
+       id="polygon544" />
+    <polygon
+       points=" 279, 238.5 282.5, 245.5 275.5, 245.5"
+       id="polygon546" />
+    <polygon
+       points=" 286, 238.5 289.5, 245.5 282.5, 245.5"
+       id="polygon548" />
+    <polygon
+       points=" 298, 240.5 301.5, 247.5 294.5, 247.5"
+       id="polygon550" />
+    <polygon
+       points=" 303, 237.5 306.5, 244.5 299.5, 244.5"
+       id="polygon552" />
+    <polygon
+       points=" 316, 237.5 319.5, 244.5 312.5, 244.5"
+       id="polygon554" />
+    <polygon
+       points=" 326, 236.5 329.5, 243.5 322.5, 243.5"
+       id="polygon556" />
+    <polygon
+       points=" 334, 236.5 337.5, 243.5 330.5, 243.5"
+       id="polygon558" />
+    <polygon
+       points=" 339, 237.5 342.5, 244.5 335.5, 244.5"
+       id="polygon560" />
+    <polygon
+       points=" 349, 235.5 352.5, 242.5 345.5, 242.5"
+       id="polygon562" />
+    <polygon
+       points=" 355, 236.5 358.5, 243.5 351.5, 243.5"
+       id="polygon564" />
+    <polygon
+       points=" 360, 235.5 363.5, 242.5 356.5, 242.5"
+       id="polygon566" />
+    <polygon
+       points=" 365, 233.5 368.5, 240.5 361.5, 240.5"
+       id="polygon568" />
+    <polygon
+       points=" 377, 235.5 380.5, 242.5 373.5, 242.5"
+       id="polygon570" />
+    <polygon
+       points=" 382, 235.5 385.5, 242.5 378.5, 242.5"
+       id="polygon572" />
+    <polygon
+       points=" 391, 232.5 394.5, 239.5 387.5, 239.5"
+       id="polygon574" />
+    <polygon
+       points=" 400, 231.5 403.5, 238.5 396.5, 238.5"
+       id="polygon576" />
+    <polygon
+       points=" 419, 234.5 422.5, 241.5 415.5, 241.5"
+       id="polygon578" />
+    <polygon
+       points=" 425, 234.5 428.5, 241.5 421.5, 241.5"
+       id="polygon580" />
+    <polygon
+       points=" 433, 234.5 436.5, 241.5 429.5, 241.5"
+       id="polygon582" />
+    <polygon
+       points=" 442, 232.5 445.5, 239.5 438.5, 239.5"
+       id="polygon584" />
+    <polygon
+       points=" 449, 234.5 452.5, 241.5 445.5, 241.5"
+       id="polygon586" />
+    <polygon
+       points=" 456, 235.5 459.5, 242.5 452.5, 242.5"
+       id="polygon588" />
+    <polygon
+       points=" 461, 234.5 464.5, 241.5 457.5, 241.5"
+       id="polygon590" />
+    <polygon
+       points=" 467, 235.5 470.5, 242.5 463.5, 242.5"
+       id="polygon592" />
+    <polygon
+       points=" 473, 234.5 476.5, 241.5 469.5, 241.5"
+       id="polygon594" />
+    <polygon
+       points=" 479, 234.5 482.5, 241.5 475.5, 241.5"
+       id="polygon596" />
+    <polygon
+       points=" 485, 231.5 488.5, 238.5 481.5, 238.5"
+       id="polygon598" />
+    <polygon
+       points=" 501, 222.5 504.5, 229.5 497.5, 229.5"
+       id="polygon600" />
+    <polygon
+       points=" 518, 255.5 521.5, 262.5 514.5, 262.5"
+       id="polygon602" />
+    <polygon
+       points=" 535, 449.5 538.5, 456.5 531.5, 456.5"
+       id="polygon604" />
+  </g>
+  <rect
+     x="142"
+     y="72"
+     width="85"
+     height="94"
+     id="rect606"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     fill="white" />
+  <text
+     x="163"
+     y="91"
+     font-size="16"
+     font-weight="bold"
+     id="text608"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+Layer 1
+</text>
+  <path
+     d="M145,98h 15v -22h -15z"
+     id="path610"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     fill="white" />
+  <path
+     d="M145,87h 15"
+     id="path612"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#ff0000"
+     fill="none" />
+  <g
+     id="g614"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="1"
+     stroke="#ff0000"
+     fill="#ff0000">
+    <rect
+       x=" 148.5"
+       y=" 83.5"
+       width=" 7"
+       height=" 7"
+       id="rect616" />
+  </g>
+  <text
+     x="163"
+     y="123"
+     font-size="16"
+     font-weight="bold"
+     id="text618"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+Layer 2
+</text>
+  <path
+     d="M145,130h 15v -22h -15z"
+     id="path620"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     fill="white" />
+  <path
+     d="M145,119h 15"
+     id="path622"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#00ff00"
+     fill="none" />
+  <g
+     id="g624"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="1"
+     stroke="#00ff00"
+     fill="#00ff00">
+    <rect
+       x=" 148.5"
+       y=" 115.5"
+       width=" 7"
+       height=" 7"
+       id="rect626" />
+  </g>
+  <text
+     x="163"
+     y="155"
+     font-size="16"
+     font-weight="bold"
+     id="text628"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+Layer 3
+</text>
+  <path
+     d="M145,161h 15v -22h -15z"
+     id="path630"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     fill="white" />
+  <path
+     d="M145,150h 15"
+     id="path632"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="#0000ff"
+     fill="none" />
+  <g
+     id="g634"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="1"
+     stroke="#0000ff"
+     fill="#0000ff">
+    <polygon
+       points=" 152, 146.5 155.5, 153.5 148.5, 153.5"
+       id="polygon636" />
+  </g>
+  <text
+     x="490"
+     y="21"
+     font-size="18"
+     font-weight="bold"
+     id="text638"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+ = 8 TeV
+</text>
+  <text
+     x="480"
+     y="21"
+     font-size="18"
+     font-weight="bold"
+     id="text640"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+s
+</text>
+  <path
+     d="M474,12l 2, 10"
+     id="path642"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke-width="2"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M476,22l 2, -15"
+     id="path644"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <path
+     d="M478,7h 12"
+     id="path646"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     stroke="black"
+     fill="none" />
+  <text
+     x="272"
+     y="21"
+     font-size="18"
+     font-weight="bold"
+     id="text648"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+CMS Preliminary 2012, 
+</text>
+  <text
+     x="538"
+     y="49"
+     font-size="18"
+     font-weight="bold"
+     id="text650"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+C
+</text>
+  <text
+     x="398"
+     y="49"
+     font-size="18"
+     font-weight="bold"
+     id="text654"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+ = 150 V, T = 10 
+</text>
+  <text
+     x="353"
+     y="54"
+     font-size="12"
+     font-weight="bold"
+     id="text656"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+nominal
+</text>
+  <text
+     x="340"
+     y="49"
+     font-size="18"
+     font-weight="bold"
+     id="text658"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     font-family="Helvetica"
+     fill="black">
+V
+</text>
+  <path
+     sodipodi:type="arc"
+     style="fill:none;stroke:#000000;stroke-width:1.07605517;stroke-miterlimit:4;stroke-opacity:0.30136988;stroke-dasharray:none;stroke-dashoffset:0"
+     id="path3050"
+     sodipodi:cx="615.71429"
+     sodipodi:cy="297.36218"
+     sodipodi:rx="8.5714283"
+     sodipodi:ry="39.285713"
+     d="m 624.28572,297.36218 a 8.5714283,39.285713 0 1 1 -17.14285,0 8.5714283,39.285713 0 1 1 17.14285,0 z"
+     transform="matrix(1,0,0,0.86363636,-114.07569,-50.93983)"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:none;stroke:#000000;stroke-width:1.22409236;stroke-miterlimit:4;stroke-opacity:0.30136988;stroke-dasharray:none;stroke-dashoffset:0"
+     id="path3050-9"
+     sodipodi:cx="615.71429"
+     sodipodi:cy="297.36218"
+     sodipodi:rx="8.5714283"
+     sodipodi:ry="39.285713"
+     d="m 624.28572,297.36218 a 8.5714283,39.285713 0 1 1 -17.14285,0 8.5714283,39.285713 0 1 1 17.14285,0 z"
+     transform="matrix(0.96753247,0,0,0.68977272,-77.433185,36.340993)"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     sodipodi:type="arc"
+     style="fill:none;stroke:#000000;stroke-width:0.84242356;stroke-miterlimit:4;stroke-opacity:0.30136988;stroke-dasharray:none;stroke-dashoffset:0"
+     id="path3050-3"
+     sodipodi:cx="615.71429"
+     sodipodi:cy="297.36218"
+     sodipodi:rx="8.5714283"
+     sodipodi:ry="39.285713"
+     d="m 624.28572,297.36218 a 8.5714283,39.285713 0 1 1 -17.14285,0 8.5714283,39.285713 0 1 1 17.14285,0 z"
+     transform="matrix(1,0,0,1.4090909,-80.321987,-7.1731)"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+     d="m 452.85288,124.37296 36.52169,41.58374"
+     id="path3845"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow2Lend)"
+     d="m 520.71003,131.58724 0,64.86402"
+     id="path4295"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="420.07162"
+     y="119.98188"
+     id="text5060"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="420.07162"
+       y="119.98188"
+       id="tspan5062"><tspan
+         x="420.07162"
+         y="119.98188"
+         style="font-size:22px;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         id="tspan5064">140 V</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="491.37326"
+     y="119.94438"
+     id="text5066"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="491.37326"
+       y="119.94438"
+       id="tspan5068"><tspan
+         x="491.37326"
+         y="119.94438"
+         style="font-size:22px;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         id="tspan5070">160 V</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="451.41281"
+     y="317.50208"
+     id="text5072"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="451.41281"
+       y="317.50208"
+       id="tspan5074"><tspan
+         x="451.41281"
+         y="317.50208"
+         style="font-size:22px;font-variant:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         id="tspan5076">300 V</tspan></tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+     d="m 485.54011,321.19514 36.52169,41.58374"
+     id="path3845-1"
+     inkscape:connector-curvature="0"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="530.98199"
+     y="47.157307"
+     id="text3692"
+     sodipodi:linespacing="125%"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012_specRuns.svg.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><tspan
+       sodipodi:role="line"
+       id="tspan3694"
+       x="530.98199"
+       y="47.157307"
+       style="font-size:16px">°</tspan></text>
+</svg>

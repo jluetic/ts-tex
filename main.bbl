@@ -1,14 +1,95 @@
-\begin{thebibliography}{1}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{10}
 
-\bibitem[Campbell et~al.(2007)Campbell, Huston, and Stirling]{Campbell:2006wx}
+\bibitem{Aad:2012tfa}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Phys.Lett.}, B716:1--29, 2012.
+
+\bibitem{Chatrchyan:2012ufa}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Phys.Lett.}, B716:30--61, 2012.
+
+\bibitem{Griffiths:1987tj}
+D.~Griffiths.
+\newblock {\em Introduction to Elementary Particles}.
+\newblock John Wiley \& Sons, New York, USA, 1987.
+
+\bibitem{Kobayashi:1973fv}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock {\em Prog.Theor.Phys.}, 49:652--657, 1973.
+
+\bibitem{PhysRevLett.39.252}
+S.~W. Herb, D.~C. Hom, L.~M. Lederman, J.~C. Sens, H.~D. Snyder, J.~K. Yoh,
+  J.~A. Appel, B.~C. Brown, C.~N. Brown, W.~R. Innes, K.~Ueno, T.~Yamanouchi,
+  A.~S. Ito, H.~J\"ostlein, D.~M. Kaplan, and R.~D. Kephart.
+\newblock Observation of a dimuon resonance at 9.5 gev in 400-gev
+  proton-nucleus collisions.
+\newblock {\em Phys. Rev. Lett.}, 39:252--255, Aug 1977.
+
+\bibitem{Arnison:1983rp}
+G.~Arnison et~al.
+\newblock {Experimental Observation of Isolated Large Transverse Energy
+  Electrons with Associated Missing Energy at s**(1/2) = 540-GeV}.
+\newblock {\em Phys.Lett.}, B122:103--116, 1983.
+
+\bibitem{Banner:1983jy}
+M.~Banner et~al.
+\newblock {Observation of Single Isolated Electrons of High Transverse Momentum
+  in Events with Missing Transverse Energy at the CERN anti-p p Collider}.
+\newblock {\em Phys.Lett.}, B122:476--485, 1983.
+
+\bibitem{Campbell:2008cr}
+John~M. Campbell.
+\newblock {Overview of the theory of W/Z + jets and heavy flavor}.
+\newblock 2008.
+
+\bibitem{Agashe:2014kda}
+K.A. Olive et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Chin.Phys.}, C38:090001, 2014.
+
+\bibitem{Campbell:2006wx}
 John~M. Campbell, J.W. Huston, and W.J. Stirling.
 \newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
-\newblock \emph{Rept.Prog.Phys.}, 70:\penalty0 89, 2007.
-\newblock \doi{10.1088/0034-4885/70/1/R02}.
+\newblock {\em Rept.Prog.Phys.}, 70:89, 2007.
+
+\bibitem{Martin:2009iq}
+A.D. Martin, W.J. Stirling, R.S. Thorne, and G.~Watt.
+\newblock {Parton distributions for the LHC}.
+\newblock {\em Eur.Phys.J.}, C63:189--285, 2009.
+
+\bibitem{Aaltonen:2009qi}
+T.~Aaltonen et~al.
+\newblock {First Measurement of the b-jet Cross Section in Events with a W
+  Boson in p anti-p Collisions at s**(1/2) = 1.96-TeV}.
+\newblock {\em Phys.Rev.Lett.}, 104:131801, 2010.
+
+\bibitem{D0:2012qt}
+V.M. Abazov et~al.
+\newblock {Measurement of the $p\bar{p} \to W+b+X$ production cross section at
+  $\sqrt{s}=1.96$ TeV}.
+\newblock {\em Phys.Lett.}, B718:1314--1320, 2013.
+
+\bibitem{Aad:2013vka}
+Georges Aad et~al.
+\newblock {Measurement of the cross-section for W boson production in
+  association with b-jets in pp collisions at $\sqrt{s}$ = 7 TeV with the ATLAS
+  detector}.
+\newblock {\em JHEP}, 1306:084, 2013.
+
+\bibitem{Chatrchyan:2013uza}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the production cross section for a W boson and two b
+  jets in pp collisions at $\sqrt{s}$=7 TeV}.
+\newblock {\em Phys.Lett.}, B735:204--225, 2014.
+
+\bibitem{Henrich}
+B~Henrich and R~Kaufmann.
+\newblock {Lorentz-angle in irradiated silicon}.
+\newblock {\em Nucl. Instrum. Methods Phys. Res., A}, 477(1-3):304--307, 2002.
 
 \end{thebibliography}

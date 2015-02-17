@@ -1,0 +1,4250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="567"
+   height="553"
+   viewBox="0 0 567 553"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="LA2012.svg">
+  <metadata
+     id="metadata1144">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>
+/afs/cern.ch/user/j/jluetic/public/CMSSW_5_3_3/src/CalibTracker/SiPixelLorentzAngle/test/2012/angleAna/LA2012.svg
+</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1871"
+     inkscape:window-height="1176"
+     id="namedview1142"
+     showgrid="false"
+     inkscape:zoom="0.8535262"
+     inkscape:cx="662.34425"
+     inkscape:cy="450.12326"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="519.79219,517.37574"
+       id="guide3557" />
+  </sodipodi:namedview>
+  <title
+     id="title4">
+/afs/cern.ch/user/j/jluetic/public/CMSSW_5_3_3/src/CalibTracker/SiPixelLorentzAngle/test/2012/angleAna/LA2012.svg
+</title>
+  <desc
+     id="desc6">
+Creator: ROOT Version 5.32/00
+CreationDate: Mon Apr 29 14:58:29 2013</desc>
+  <defs
+     id="defs8" />
+  <rect
+     x="0"
+     y="0"
+     width="567"
+     height="553"
+     id="rect10"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="fill:#ffffff" />
+  <rect
+     x="115.99997"
+     y="27"
+     width="440"
+     height="454"
+     id="rect12"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="fill:none;stroke:#000000" />
+  <rect
+     x="115.99997"
+     y="27"
+     width="440"
+     height="454"
+     id="rect14"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="fill:none;stroke:#000000" />
+  <rect
+     x="115.99997"
+     y="27"
+     width="440"
+     height="454"
+     id="rect16"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="fill:none;stroke:#000000" />
+  <rect
+     x="115.99997"
+     y="27"
+     width="440"
+     height="454"
+     id="rect18"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 115.99998,481 h 440"
+     id="path20"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="M 149.99998,27 V 481"
+     id="path22"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 186.99998,27 V 481"
+     id="path24"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 223.99998,27 V 481"
+     id="path26"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 260.99998,27 V 481"
+     id="path28"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 297.99998,27 V 481"
+     id="path30"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 335.99998,27 V 481"
+     id="path32"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 372.99998,27 V 481"
+     id="path34"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 409.99998,27 V 481"
+     id="path36"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 446.99998,27 V 481"
+     id="path38"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 483.99998,27 V 481"
+     id="path40"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 520.99998,27 V 481"
+     id="path42"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 149.99998,27 V 481"
+     id="path44"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 520.99998,27 V 481"
+     id="path46"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 115.99998,481 V 27"
+     id="path48"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 555.99998,481 h -440"
+     id="path50"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,430 h -440"
+     id="path52"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,380 h -440"
+     id="path54"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,329 h -440"
+     id="path56"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,279 h -440"
+     id="path58"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,229 h -440"
+     id="path60"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,178 h -440"
+     id="path62"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,128 h -440"
+     id="path64"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,77 h -440"
+     id="path66"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="m 555.99998,27 h -440"
+     id="path68"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:1, 2" />
+  <path
+     d="M 555.99998,481 V 27"
+     id="path70"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 115.99998,481 h 440"
+     id="path72"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <text
+     x="549"
+     y="539"
+     font-size="30"
+     id="text74"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:30px;fill:#000000;font-family:Helvetica">]</text>
+  <text
+     x="534"
+     y="526"
+     font-size="20"
+     id="text76"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:20px;fill:#000000;font-family:Helvetica">-1</text>
+  <text
+     x="206.99997"
+     y="539"
+     font-size="30"
+     id="text78"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:30px;fill:#000000;font-family:Helvetica">Integrated Luminosity[fb</text>
+  <path
+     d="m 149.99998,468 v 13"
+     id="path80"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 159.99998,474 v 7"
+     id="path82"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 168.99998,474 v 7"
+     id="path84"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 177.99998,474 v 7"
+     id="path86"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 186.99998,468 v 13"
+     id="path88"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 196.99998,474 v 7"
+     id="path90"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 205.99998,474 v 7"
+     id="path92"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 214.99998,474 v 7"
+     id="path94"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 223.99998,468 v 13"
+     id="path96"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 233.99998,474 v 7"
+     id="path98"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 242.99998,474 v 7"
+     id="path100"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 251.99998,474 v 7"
+     id="path102"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 260.99998,468 v 13"
+     id="path104"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 270.99998,474 v 7"
+     id="path106"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 279.99998,474 v 7"
+     id="path108"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 288.99998,474 v 7"
+     id="path110"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 297.99998,468 v 13"
+     id="path112"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 307.99998,474 v 7"
+     id="path114"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 316.99998,474 v 7"
+     id="path116"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 325.99998,474 v 7"
+     id="path118"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 335.99998,468 v 13"
+     id="path120"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 344.99998,474 v 7"
+     id="path122"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 353.99998,474 v 7"
+     id="path124"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 362.99998,474 v 7"
+     id="path126"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 372.99998,468 v 13"
+     id="path128"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 381.99998,474 v 7"
+     id="path130"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 390.99998,474 v 7"
+     id="path132"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 399.99998,474 v 7"
+     id="path134"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 409.99998,468 v 13"
+     id="path136"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 418.99998,474 v 7"
+     id="path138"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 427.99998,474 v 7"
+     id="path140"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 436.99998,474 v 7"
+     id="path142"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 446.99998,468 v 13"
+     id="path144"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 455.99998,474 v 7"
+     id="path146"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 464.99998,474 v 7"
+     id="path148"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 473.99998,474 v 7"
+     id="path150"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 483.99998,468 v 13"
+     id="path152"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 492.99998,474 v 7"
+     id="path154"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 501.99998,474 v 7"
+     id="path156"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 510.99998,474 v 7"
+     id="path158"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 520.99998,468 v 13"
+     id="path160"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 149.99998,468 v 13"
+     id="path162"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 140.99998,474 v 7"
+     id="path164"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 131.99998,474 v 7"
+     id="path166"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,474 v 7"
+     id="path168"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 520.99998,468 v 13"
+     id="path170"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 529.99998,474 v 7"
+     id="path172"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 538.99998,474 v 7"
+     id="path174"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 547.99998,474 v 7"
+     id="path176"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <text
+     x="142.99997"
+     y="509"
+     font-size="28"
+     id="text178"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">2</text>
+  <text
+     x="179.99997"
+     y="509"
+     font-size="28"
+     id="text180"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">4</text>
+  <text
+     x="216.99997"
+     y="509"
+     font-size="28"
+     id="text182"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">6</text>
+  <text
+     x="253.99997"
+     y="509"
+     font-size="28"
+     id="text184"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">8</text>
+  <text
+     x="282.99997"
+     y="509"
+     font-size="28"
+     id="text186"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">10</text>
+  <text
+     x="320"
+     y="509"
+     font-size="28"
+     id="text188"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">12</text>
+  <text
+     x="357"
+     y="509"
+     font-size="28"
+     id="text190"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">14</text>
+  <text
+     x="394"
+     y="509"
+     font-size="28"
+     id="text192"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">16</text>
+  <text
+     x="431"
+     y="509"
+     font-size="28"
+     id="text194"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">18</text>
+  <text
+     x="468"
+     y="509"
+     font-size="28"
+     id="text196"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">20</text>
+  <text
+     x="505"
+     y="509"
+     font-size="28"
+     id="text198"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">22</text>
+  <path
+     d="M 115.99998,481 V 27"
+     id="path200"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <g
+     transform="matrix(0,-1,1,0,-7.0000171,67)"
+     id="g202"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="30"
+       y="37"
+       font-size="30"
+       id="text204"
+       style="font-size:30px;fill:#000000;font-family:Helvetica">)</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-73.000017,97)"
+     id="g206"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="12"
+       y="85"
+       font-size="20"
+       id="text208"
+       style="font-size:20px;fill:#000000;font-family:Helvetica">slope</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-46.000017,124)"
+     id="g210"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="39"
+       y="85"
+       font-size="20"
+       id="text212"
+       style="font-size:20px;fill:#000000;font-family:Helvetica">LA</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-70.000017,130)"
+     id="g214"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="30"
+       y="100"
+       font-size="30"
+       id="text216"
+       style="font-size:30px;fill:#000000;font-family:Times">θ</text>
+  </g>
+  <g
+     transform="matrix(0,-1,1,0,-123.00002,183)"
+     id="g218"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90">
+    <text
+       x="30"
+       y="153"
+       font-size="30"
+       id="text220"
+       style="font-size:30px;fill:#000000;font-family:Helvetica">tan(</text>
+  </g>
+  <path
+     d="m 129.99998,481 h -14"
+     id="path222"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,471 h -7"
+     id="path224"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,461 h -7"
+     id="path226"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,450 h -7"
+     id="path228"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,440 h -7"
+     id="path230"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,430 h -14"
+     id="path232"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,420 h -7"
+     id="path234"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,410 h -7"
+     id="path236"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,400 h -7"
+     id="path238"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,390 h -7"
+     id="path240"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,380 h -14"
+     id="path242"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,370 h -7"
+     id="path244"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,360 h -7"
+     id="path246"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,350 h -7"
+     id="path248"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,340 h -7"
+     id="path250"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,329 h -14"
+     id="path252"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,319 h -7"
+     id="path254"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,309 h -7"
+     id="path256"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,299 h -7"
+     id="path258"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,289 h -7"
+     id="path260"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,279 h -14"
+     id="path262"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,269 h -7"
+     id="path264"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,259 h -7"
+     id="path266"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,249 h -7"
+     id="path268"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,239 h -7"
+     id="path270"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,229 h -14"
+     id="path272"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,219 h -7"
+     id="path274"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,209 h -7"
+     id="path276"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,198 h -7"
+     id="path278"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,188 h -7"
+     id="path280"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,178 h -14"
+     id="path282"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,168 h -7"
+     id="path284"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,158 h -7"
+     id="path286"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,148 h -7"
+     id="path288"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,138 h -7"
+     id="path290"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,128 h -14"
+     id="path292"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,118 h -7"
+     id="path294"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,108 h -7"
+     id="path296"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,98 h -7"
+     id="path298"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,88 h -7"
+     id="path300"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,77 h -14"
+     id="path302"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,67 h -7"
+     id="path304"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,57 h -7"
+     id="path306"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,47 h -7"
+     id="path308"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 122.99998,37 h -7"
+     id="path310"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 129.99998,27 h -14"
+     id="path312"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <text
+     x="42"
+     y="491"
+     font-size="28"
+     id="text314"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.395</text>
+  <text
+     x="72.999969"
+     y="440"
+     font-size="28"
+     id="text316"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.4</text>
+  <text
+     x="42"
+     y="390"
+     font-size="28"
+     id="text318"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.405</text>
+  <text
+     x="60.999969"
+     y="340"
+     font-size="28"
+     id="text320"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.41</text>
+  <text
+     x="42"
+     y="289"
+     font-size="28"
+     id="text322"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.415</text>
+  <text
+     x="57.999969"
+     y="239"
+     font-size="28"
+     id="text324"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.42</text>
+  <text
+     x="42"
+     y="188"
+     font-size="28"
+     id="text326"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.425</text>
+  <text
+     x="56.999969"
+     y="138"
+     font-size="28"
+     id="text328"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.43</text>
+  <text
+     x="42"
+     y="87"
+     font-size="28"
+     id="text330"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.435</text>
+  <text
+     x="57.999969"
+     y="37"
+     font-size="28"
+     id="text332"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:28px;fill:#000000;font-family:Helvetica">0.44</text>
+  <path
+     d="M 555.99998,481 V 27"
+     id="path334"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,481 h 14"
+     id="path336"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,471 h 7"
+     id="path338"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,461 h 7"
+     id="path340"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,450 h 7"
+     id="path342"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,440 h 7"
+     id="path344"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,430 h 14"
+     id="path346"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,420 h 7"
+     id="path348"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,410 h 7"
+     id="path350"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,400 h 7"
+     id="path352"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,390 h 7"
+     id="path354"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,380 h 14"
+     id="path356"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,370 h 7"
+     id="path358"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,360 h 7"
+     id="path360"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,350 h 7"
+     id="path362"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,340 h 7"
+     id="path364"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,329 h 14"
+     id="path366"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,319 h 7"
+     id="path368"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,309 h 7"
+     id="path370"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,299 h 7"
+     id="path372"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,289 h 7"
+     id="path374"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,279 h 14"
+     id="path376"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,269 h 7"
+     id="path378"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,259 h 7"
+     id="path380"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,249 h 7"
+     id="path382"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,239 h 7"
+     id="path384"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,229 h 14"
+     id="path386"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,219 h 7"
+     id="path388"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,209 h 7"
+     id="path390"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,198 h 7"
+     id="path392"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,188 h 7"
+     id="path394"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,178 h 14"
+     id="path396"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,168 h 7"
+     id="path398"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,158 h 7"
+     id="path400"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,148 h 7"
+     id="path402"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,138 h 7"
+     id="path404"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,128 h 14"
+     id="path406"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,118 h 7"
+     id="path408"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,108 h 7"
+     id="path410"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,98 h 7"
+     id="path412"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,88 h 7"
+     id="path414"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,77 h 14"
+     id="path416"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,67 h 7"
+     id="path418"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,57 h 7"
+     id="path420"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,47 h 7"
+     id="path422"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 548.99998,37 h 7"
+     id="path424"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 541.99998,27 h 14"
+     id="path426"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="M 153.99998,302"
+     id="path428"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 152.99998,302 h 2"
+     id="path430"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="M 153.99998,309"
+     id="path432"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 152.99998,309 h 2"
+     id="path434"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 266.99998,280 v -1"
+     id="path436"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 265.99998,279 h 3"
+     id="path438"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 266.99998,286 v 1"
+     id="path440"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 265.99998,287 h 3"
+     id="path442"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="M 359.99998,194"
+     id="path444"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 358.99998,194 h 2"
+     id="path446"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 359.99998,201 v 1"
+     id="path448"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <path
+     d="m 358.99998,202 h 2"
+     id="path450"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <g
+     id="g452"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-1.7089844e-5,0)"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:1">
+    <rect
+       x="132.5"
+       y="328.5"
+       width="7"
+       height="7"
+       id="rect454" />
+    <rect
+       x="150.5"
+       y="302.5"
+       width="7"
+       height="7"
+       id="rect456" />
+    <rect
+       x="167.5"
+       y="314.5"
+       width="7"
+       height="7"
+       id="rect458" />
+    <rect
+       x="180.5"
+       y="305.5"
+       width="7"
+       height="7"
+       id="rect460" />
+    <rect
+       x="185.5"
+       y="304.5"
+       width="7"
+       height="7"
+       id="rect462" />
+    <rect
+       x="193.5"
+       y="291.5"
+       width="7"
+       height="7"
+       id="rect464" />
+    <rect
+       x="208.5"
+       y="274.5"
+       width="7"
+       height="7"
+       id="rect466" />
+    <rect
+       x="223.5"
+       y="268.5"
+       width="7"
+       height="7"
+       id="rect468" />
+    <rect
+       x="229.5"
+       y="280.5"
+       width="7"
+       height="7"
+       id="rect470" />
+    <rect
+       x="238.5"
+       y="254.5"
+       width="7"
+       height="7"
+       id="rect472" />
+    <rect
+       x="244.5"
+       y="252.5"
+       width="7"
+       height="7"
+       id="rect474" />
+    <rect
+       x="250.5"
+       y="256.5"
+       width="7"
+       height="7"
+       id="rect476" />
+    <rect
+       x="263.5"
+       y="279.5"
+       width="7"
+       height="7"
+       id="rect478" />
+    <rect
+       x="270.5"
+       y="266.5"
+       width="7"
+       height="7"
+       id="rect480" />
+    <rect
+       x="280.5"
+       y="254.5"
+       width="7"
+       height="7"
+       id="rect482" />
+    <rect
+       x="290.5"
+       y="258.5"
+       width="7"
+       height="7"
+       id="rect484" />
+    <rect
+       x="305.5"
+       y="247.5"
+       width="7"
+       height="7"
+       id="rect486" />
+    <rect
+       x="312.5"
+       y="236.5"
+       width="7"
+       height="7"
+       id="rect488" />
+    <rect
+       x="326.5"
+       y="242.5"
+       width="7"
+       height="7"
+       id="rect490" />
+    <rect
+       x="331.5"
+       y="215.5"
+       width="7"
+       height="7"
+       id="rect492" />
+    <rect
+       x="346.5"
+       y="207.5"
+       width="7"
+       height="7"
+       id="rect494" />
+    <rect
+       x="356.5"
+       y="194.5"
+       width="7"
+       height="7"
+       id="rect496" />
+    <rect
+       x="365.5"
+       y="188.5"
+       width="7"
+       height="7"
+       id="rect498" />
+    <rect
+       x="371.5"
+       y="205.5"
+       width="7"
+       height="7"
+       id="rect500" />
+    <rect
+       x="382.5"
+       y="166.5"
+       width="7"
+       height="7"
+       id="rect502" />
+    <rect
+       x="388.5"
+       y="159.5"
+       width="7"
+       height="7"
+       id="rect504" />
+    <rect
+       x="394.5"
+       y="185.5"
+       width="7"
+       height="7"
+       id="rect506" />
+    <rect
+       x="399.5"
+       y="162.5"
+       width="7"
+       height="7"
+       id="rect508" />
+    <rect
+       x="412.5"
+       y="146.5"
+       width="7"
+       height="7"
+       id="rect510" />
+    <rect
+       x="418.5"
+       y="147.5"
+       width="7"
+       height="7"
+       id="rect512" />
+    <rect
+       x="428.5"
+       y="130.5"
+       width="7"
+       height="7"
+       id="rect514" />
+    <rect
+       x="439.5"
+       y="119.5"
+       width="7"
+       height="7"
+       id="rect516" />
+    <rect
+       x="459.5"
+       y="116.5"
+       width="7"
+       height="7"
+       id="rect518" />
+    <rect
+       x="466.5"
+       y="158.5"
+       width="7"
+       height="7"
+       id="rect520" />
+    <rect
+       x="474.5"
+       y="150.5"
+       width="7"
+       height="7"
+       id="rect522" />
+    <rect
+       x="485.5"
+       y="106.5"
+       width="7"
+       height="7"
+       id="rect524" />
+    <rect
+       x="492.5"
+       y="120.5"
+       width="7"
+       height="7"
+       id="rect526" />
+    <rect
+       x="500.5"
+       y="119.5"
+       width="7"
+       height="7"
+       id="rect528" />
+    <rect
+       x="506.5"
+       y="130.5"
+       width="7"
+       height="7"
+       id="rect530" />
+    <rect
+       x="512.5"
+       y="117.5"
+       width="7"
+       height="7"
+       id="rect532" />
+    <rect
+       x="519.5"
+       y="121.5"
+       width="7"
+       height="7"
+       id="rect534" />
+    <rect
+       x="526.5"
+       y="106.5"
+       width="7"
+       height="7"
+       id="rect536" />
+    <rect
+       x="532.5"
+       y="86.5"
+       width="7"
+       height="7"
+       id="rect538" />
+  </g>
+  <path
+     d="M 135.99998,345"
+     id="path540"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 134.99998,345 h 2"
+     id="path542"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 135.99998,352"
+     id="path544"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 134.99998,352 h 2"
+     id="path546"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 153.99998,312 v -1"
+     id="path548"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 152.99998,311 h 2"
+     id="path550"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 153.99998,319"
+     id="path552"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 152.99998,319 h 2"
+     id="path554"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 266.99998,321 v -1"
+     id="path556"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 265.99998,320 h 3"
+     id="path558"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 266.99998,328 v 1"
+     id="path560"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 265.99998,329 h 3"
+     id="path562"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 359.99998,290 v -1"
+     id="path564"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 358.99998,289 h 2"
+     id="path566"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 359.99998,297 v 1"
+     id="path568"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 358.99998,298 h 2"
+     id="path570"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 391.99998,269"
+     id="path572"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 390.99998,269 h 2"
+     id="path574"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 391.99998,276"
+     id="path576"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 390.99998,276 h 2"
+     id="path578"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 402.99998,248"
+     id="path580"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 401.99998,248 h 2"
+     id="path582"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 402.99998,255"
+     id="path584"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 401.99998,255 h 2"
+     id="path586"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 462.99998,234"
+     id="path588"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 461.99998,234 h 2"
+     id="path590"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 462.99998,241"
+     id="path592"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 461.99998,241 h 2"
+     id="path594"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 509.99998,248"
+     id="path596"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 507.99998,248 h 3"
+     id="path598"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 509.99998,255"
+     id="path600"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 507.99998,255 h 3"
+     id="path602"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="M 515.99998,240"
+     id="path604"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 513.99998,240 h 3"
+     id="path606"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 515.99998,247 v 1"
+     id="path608"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <path
+     d="m 513.99998,248 h 3"
+     id="path610"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <g
+     id="g612"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-1.7089844e-5,0)"
+     style="fill:#00ff00;stroke:#00ff00;stroke-width:1">
+    <rect
+       x="132.5"
+       y="344.5"
+       width="7"
+       height="7"
+       id="rect614" />
+    <rect
+       x="150.5"
+       y="311.5"
+       width="7"
+       height="7"
+       id="rect616" />
+    <rect
+       x="167.5"
+       y="324.5"
+       width="7"
+       height="7"
+       id="rect618" />
+    <rect
+       x="180.5"
+       y="315.5"
+       width="7"
+       height="7"
+       id="rect620" />
+    <rect
+       x="185.5"
+       y="316.5"
+       width="7"
+       height="7"
+       id="rect622" />
+    <rect
+       x="193.5"
+       y="316.5"
+       width="7"
+       height="7"
+       id="rect624" />
+    <rect
+       x="208.5"
+       y="308.5"
+       width="7"
+       height="7"
+       id="rect626" />
+    <rect
+       x="223.5"
+       y="302.5"
+       width="7"
+       height="7"
+       id="rect628" />
+    <rect
+       x="229.5"
+       y="310.5"
+       width="7"
+       height="7"
+       id="rect630" />
+    <rect
+       x="238.5"
+       y="301.5"
+       width="7"
+       height="7"
+       id="rect632" />
+    <rect
+       x="244.5"
+       y="304.5"
+       width="7"
+       height="7"
+       id="rect634" />
+    <rect
+       x="250.5"
+       y="301.5"
+       width="7"
+       height="7"
+       id="rect636" />
+    <rect
+       x="263.5"
+       y="320.5"
+       width="7"
+       height="7"
+       id="rect638" />
+    <rect
+       x="270.5"
+       y="310.5"
+       width="7"
+       height="7"
+       id="rect640" />
+    <rect
+       x="280.5"
+       y="313.5"
+       width="7"
+       height="7"
+       id="rect642" />
+    <rect
+       x="290.5"
+       y="319.5"
+       width="7"
+       height="7"
+       id="rect644" />
+    <rect
+       x="305.5"
+       y="312.5"
+       width="7"
+       height="7"
+       id="rect646" />
+    <rect
+       x="312.5"
+       y="302.5"
+       width="7"
+       height="7"
+       id="rect648" />
+    <rect
+       x="326.5"
+       y="299.5"
+       width="7"
+       height="7"
+       id="rect650" />
+    <rect
+       x="331.5"
+       y="288.5"
+       width="7"
+       height="7"
+       id="rect652" />
+    <rect
+       x="346.5"
+       y="292.5"
+       width="7"
+       height="7"
+       id="rect654" />
+    <rect
+       x="356.5"
+       y="289.5"
+       width="7"
+       height="7"
+       id="rect656" />
+    <rect
+       x="365.5"
+       y="284.5"
+       width="7"
+       height="7"
+       id="rect658" />
+    <rect
+       x="371.5"
+       y="289.5"
+       width="7"
+       height="7"
+       id="rect660" />
+    <rect
+       x="382.5"
+       y="269.5"
+       width="7"
+       height="7"
+       id="rect662" />
+    <rect
+       x="388.5"
+       y="269.5"
+       width="7"
+       height="7"
+       id="rect664" />
+    <rect
+       x="394.5"
+       y="260.5"
+       width="7"
+       height="7"
+       id="rect666" />
+    <rect
+       x="399.5"
+       y="248.5"
+       width="7"
+       height="7"
+       id="rect668" />
+    <rect
+       x="412.5"
+       y="250.5"
+       width="7"
+       height="7"
+       id="rect670" />
+    <rect
+       x="418.5"
+       y="246.5"
+       width="7"
+       height="7"
+       id="rect672" />
+    <rect
+       x="428.5"
+       y="240.5"
+       width="7"
+       height="7"
+       id="rect674" />
+    <rect
+       x="439.5"
+       y="236.5"
+       width="7"
+       height="7"
+       id="rect676" />
+    <rect
+       x="459.5"
+       y="233.5"
+       width="7"
+       height="7"
+       id="rect678" />
+    <rect
+       x="466.5"
+       y="249.5"
+       width="7"
+       height="7"
+       id="rect680" />
+    <rect
+       x="474.5"
+       y="250.5"
+       width="7"
+       height="7"
+       id="rect682" />
+    <rect
+       x="485.5"
+       y="230.5"
+       width="7"
+       height="7"
+       id="rect684" />
+    <rect
+       x="492.5"
+       y="241.5"
+       width="7"
+       height="7"
+       id="rect686" />
+    <rect
+       x="500.5"
+       y="242.5"
+       width="7"
+       height="7"
+       id="rect688" />
+    <rect
+       x="506.5"
+       y="247.5"
+       width="7"
+       height="7"
+       id="rect690" />
+    <rect
+       x="512.5"
+       y="240.5"
+       width="7"
+       height="7"
+       id="rect692" />
+    <rect
+       x="519.5"
+       y="238.5"
+       width="7"
+       height="7"
+       id="rect694" />
+    <rect
+       x="526.5"
+       y="231.5"
+       width="7"
+       height="7"
+       id="rect696" />
+    <rect
+       x="532.5"
+       y="217.5"
+       width="7"
+       height="7"
+       id="rect698" />
+  </g>
+  <path
+     d="m 135.99998,390 v -2"
+     id="path700"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 134.99998,388 h 2"
+     id="path702"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 135.99998,397 v 2"
+     id="path704"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 134.99998,399 h 2"
+     id="path706"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 153.99998,349 v -2"
+     id="path708"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 152.99998,347 h 2"
+     id="path710"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 153.99998,356 v 2"
+     id="path712"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 152.99998,358 h 2"
+     id="path714"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 170.99998,357 v -1"
+     id="path716"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 169.99998,356 h 2"
+     id="path718"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 170.99998,363 v 1"
+     id="path720"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 169.99998,364 h 2"
+     id="path722"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 183.99998,344 v -1"
+     id="path724"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 181.99998,343 h 3"
+     id="path726"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 183.99998,351"
+     id="path728"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 181.99998,351 h 3"
+     id="path730"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 188.99998,347"
+     id="path732"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 187.99998,347 h 2"
+     id="path734"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 188.99998,354 v 1"
+     id="path736"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 187.99998,355 h 2"
+     id="path738"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 196.99998,335 v -1"
+     id="path740"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 194.99998,334 h 3"
+     id="path742"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 196.99998,341 v 1"
+     id="path744"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 194.99998,342 h 3"
+     id="path746"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 211.99998,340 v -1"
+     id="path748"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 210.99998,339 h 2"
+     id="path750"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 211.99998,346 v 1"
+     id="path752"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 210.99998,347 h 2"
+     id="path754"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 226.99998,333 v -1"
+     id="path756"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 225.99998,332 h 3"
+     id="path758"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 226.99998,340 v 1"
+     id="path760"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 225.99998,341 h 3"
+     id="path762"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 232.99998,341 v -1"
+     id="path764"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 231.99998,340 h 3"
+     id="path766"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 232.99998,348"
+     id="path768"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 231.99998,348 h 3"
+     id="path770"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 241.99998,331 v -1"
+     id="path772"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 240.99998,330 h 2"
+     id="path774"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 241.99998,338 v 1"
+     id="path776"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 240.99998,339 h 2"
+     id="path778"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 247.99998,333 v -1"
+     id="path780"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 246.99998,332 h 2"
+     id="path782"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 247.99998,340"
+     id="path784"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 246.99998,340 h 2"
+     id="path786"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 253.99998,345 v -1"
+     id="path788"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 252.99998,344 h 2"
+     id="path790"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 253.99998,352"
+     id="path792"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 252.99998,352 h 2"
+     id="path794"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 266.99998,347 v -2"
+     id="path796"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 265.99998,345 h 3"
+     id="path798"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 266.99998,354 v 3"
+     id="path800"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 265.99998,357 h 3"
+     id="path802"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 283.99998,347"
+     id="path804"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 282.99998,347 h 2"
+     id="path806"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 283.99998,354 v 1"
+     id="path808"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 282.99998,355 h 2"
+     id="path810"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 293.99998,359 v -1"
+     id="path812"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 291.99998,358 h 3"
+     id="path814"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 293.99998,366"
+     id="path816"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 291.99998,366 h 3"
+     id="path818"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 315.99998,349 v -1"
+     id="path820"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 314.99998,348 h 2"
+     id="path822"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 315.99998,355 v 1"
+     id="path824"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 314.99998,356 h 2"
+     id="path826"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 329.99998,357"
+     id="path828"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 328.99998,357 h 2"
+     id="path830"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 329.99998,364 v 1"
+     id="path832"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 328.99998,365 h 2"
+     id="path834"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 349.99998,339 v -1"
+     id="path836"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 348.99998,338 h 2"
+     id="path838"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 349.99998,346"
+     id="path840"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 348.99998,346 h 2"
+     id="path842"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 359.99998,332 v -3"
+     id="path844"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 358.99998,329 h 2"
+     id="path846"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 359.99998,339 v 3"
+     id="path848"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 358.99998,342 h 2"
+     id="path850"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 368.99998,333"
+     id="path852"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 367.99998,333 h 2"
+     id="path854"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 368.99998,340 v 1"
+     id="path856"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 367.99998,341 h 2"
+     id="path858"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 385.99998,324 v -1"
+     id="path860"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 384.99998,323 h 3"
+     id="path862"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 385.99998,331 v 1"
+     id="path864"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 384.99998,332 h 3"
+     id="path866"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 391.99998,330 v -1"
+     id="path868"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 390.99998,329 h 2"
+     id="path870"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 391.99998,337 v 2"
+     id="path872"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 390.99998,339 h 2"
+     id="path874"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 397.99998,326 v -1"
+     id="path876"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 396.99998,325 h 2"
+     id="path878"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 397.99998,333 v 1"
+     id="path880"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 396.99998,334 h 2"
+     id="path882"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 402.99998,314 v -2"
+     id="path884"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 401.99998,312 h 2"
+     id="path886"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 402.99998,320 v 2"
+     id="path888"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 401.99998,322 h 2"
+     id="path890"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 415.99998,323 v -1"
+     id="path892"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 414.99998,322 h 2"
+     id="path894"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 415.99998,329 v 1"
+     id="path896"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 414.99998,330 h 2"
+     id="path898"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 421.99998,328 v -2"
+     id="path900"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 420.99998,326 h 2"
+     id="path902"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 421.99998,334 v 2"
+     id="path904"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 420.99998,336 h 2"
+     id="path906"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 431.99998,304 v -1"
+     id="path908"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 430.99998,303 h 3"
+     id="path910"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 431.99998,311 v 1"
+     id="path912"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 430.99998,312 h 3"
+     id="path914"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 442.99998,300 v -1"
+     id="path916"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 440.99998,299 h 3"
+     id="path918"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 442.99998,306 v 1"
+     id="path920"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 440.99998,307 h 3"
+     id="path922"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 462.99998,320 v -2"
+     id="path924"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 461.99998,318 h 2"
+     id="path926"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 462.99998,327 v 1"
+     id="path928"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 461.99998,328 h 2"
+     id="path930"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 469.99998,321 v -1"
+     id="path932"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 468.99998,320 h 2"
+     id="path934"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 469.99998,328"
+     id="path936"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 468.99998,328 h 2"
+     id="path938"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 477.99998,320"
+     id="path940"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 476.99998,320 h 2"
+     id="path942"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 477.99998,327 v 1"
+     id="path944"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 476.99998,328 h 2"
+     id="path946"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 488.99998,308"
+     id="path948"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 487.99998,308 h 2"
+     id="path950"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 488.99998,315"
+     id="path952"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 487.99998,315 h 2"
+     id="path954"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 495.99998,319 v -1"
+     id="path956"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 494.99998,318 h 2"
+     id="path958"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 495.99998,325 v 1"
+     id="path960"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 494.99998,326 h 2"
+     id="path962"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 503.99998,324"
+     id="path964"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 502.99998,324 h 2"
+     id="path966"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 503.99998,331 v 1"
+     id="path968"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 502.99998,332 h 2"
+     id="path970"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 509.99998,320 v -1"
+     id="path972"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 507.99998,319 h 3"
+     id="path974"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 509.99998,327 v 1"
+     id="path976"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 507.99998,328 h 3"
+     id="path978"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 515.99998,328 v -2"
+     id="path980"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 513.99998,326 h 3"
+     id="path982"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 515.99998,335 v 2"
+     id="path984"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 513.99998,337 h 3"
+     id="path986"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 522.99998,319"
+     id="path988"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 521.99998,319 h 2"
+     id="path990"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 522.99998,326"
+     id="path992"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 521.99998,326 h 2"
+     id="path994"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 535.99998,296"
+     id="path996"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 533.99998,296 h 3"
+     id="path998"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="M 535.99998,303"
+     id="path1000"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <path
+     d="m 533.99998,303 h 3"
+     id="path1002"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <g
+     id="g1004"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-1.7089844e-5,0)"
+     style="fill:#0000ff;stroke:#0000ff;stroke-width:1">
+    <polygon
+       points="132.5,397.5 136,390.5 139.5,397.5 "
+       id="polygon1006" />
+    <polygon
+       points="150.5,355.5 154,348.5 157.5,355.5 "
+       id="polygon1008" />
+    <polygon
+       points="167.5,363.5 171,356.5 174.5,363.5 "
+       id="polygon1010" />
+    <polygon
+       points="180.5,350.5 184,343.5 187.5,350.5 "
+       id="polygon1012" />
+    <polygon
+       points="185.5,354.5 189,347.5 192.5,354.5 "
+       id="polygon1014" />
+    <polygon
+       points="193.5,341.5 197,334.5 200.5,341.5 "
+       id="polygon1016" />
+    <polygon
+       points="208.5,346.5 212,339.5 215.5,346.5 "
+       id="polygon1018" />
+    <polygon
+       points="223.5,340.5 227,333.5 230.5,340.5 "
+       id="polygon1020" />
+    <polygon
+       points="229.5,347.5 233,340.5 236.5,347.5 "
+       id="polygon1022" />
+    <polygon
+       points="238.5,337.5 242,330.5 245.5,337.5 "
+       id="polygon1024" />
+    <polygon
+       points="244.5,339.5 248,332.5 251.5,339.5 "
+       id="polygon1026" />
+    <polygon
+       points="250.5,351.5 254,344.5 257.5,351.5 "
+       id="polygon1028" />
+    <polygon
+       points="263.5,354.5 267,347.5 270.5,354.5 "
+       id="polygon1030" />
+    <polygon
+       points="270.5,359.5 274,352.5 277.5,359.5 "
+       id="polygon1032" />
+    <polygon
+       points="280.5,354.5 284,347.5 287.5,354.5 "
+       id="polygon1034" />
+    <polygon
+       points="290.5,365.5 294,358.5 297.5,365.5 "
+       id="polygon1036" />
+    <polygon
+       points="305.5,354.5 309,347.5 312.5,354.5 "
+       id="polygon1038" />
+    <polygon
+       points="312.5,355.5 316,348.5 319.5,355.5 "
+       id="polygon1040" />
+    <polygon
+       points="326.5,364.5 330,357.5 333.5,364.5 "
+       id="polygon1042" />
+    <polygon
+       points="331.5,345.5 335,338.5 338.5,345.5 "
+       id="polygon1044" />
+    <polygon
+       points="346.5,345.5 350,338.5 353.5,345.5 "
+       id="polygon1046" />
+    <polygon
+       points="356.5,338.5 360,331.5 363.5,338.5 "
+       id="polygon1048" />
+    <polygon
+       points="365.5,340.5 369,333.5 372.5,340.5 "
+       id="polygon1050" />
+    <polygon
+       points="371.5,348.5 375,341.5 378.5,348.5 "
+       id="polygon1052" />
+    <polygon
+       points="382.5,331.5 386,324.5 389.5,331.5 "
+       id="polygon1054" />
+    <polygon
+       points="388.5,337.5 392,330.5 395.5,337.5 "
+       id="polygon1056" />
+    <polygon
+       points="394.5,332.5 398,325.5 401.5,332.5 "
+       id="polygon1058" />
+    <polygon
+       points="399.5,320.5 403,313.5 406.5,320.5 "
+       id="polygon1060" />
+    <polygon
+       points="412.5,329.5 416,322.5 419.5,329.5 "
+       id="polygon1062" />
+    <polygon
+       points="418.5,334.5 422,327.5 425.5,334.5 "
+       id="polygon1064" />
+    <polygon
+       points="428.5,311.5 432,304.5 435.5,311.5 "
+       id="polygon1066" />
+    <polygon
+       points="439.5,306.5 443,299.5 446.5,306.5 "
+       id="polygon1068" />
+    <polygon
+       points="459.5,326.5 463,319.5 466.5,326.5 "
+       id="polygon1070" />
+    <polygon
+       points="466.5,327.5 470,320.5 473.5,327.5 "
+       id="polygon1072" />
+    <polygon
+       points="474.5,327.5 478,320.5 481.5,327.5 "
+       id="polygon1074" />
+    <polygon
+       points="485.5,314.5 489,307.5 492.5,314.5 "
+       id="polygon1076" />
+    <polygon
+       points="492.5,325.5 496,318.5 499.5,325.5 "
+       id="polygon1078" />
+    <polygon
+       points="500.5,331.5 504,324.5 507.5,331.5 "
+       id="polygon1080" />
+    <polygon
+       points="506.5,326.5 510,319.5 513.5,326.5 "
+       id="polygon1082" />
+    <polygon
+       points="512.5,334.5 516,327.5 519.5,334.5 "
+       id="polygon1084" />
+    <polygon
+       points="519.5,326.5 523,319.5 526.5,326.5 "
+       id="polygon1086" />
+    <polygon
+       points="526.5,322.5 530,315.5 533.5,322.5 "
+       id="polygon1088" />
+    <polygon
+       points="532.5,302.5 536,295.5 539.5,302.5 "
+       id="polygon1090" />
+  </g>
+  <rect
+     x="141.99997"
+     y="72"
+     width="85"
+     height="94"
+     id="rect1092"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="fill:#ffffff" />
+  <text
+     x="162.99997"
+     y="91"
+     font-size="16"
+     font-weight="bold"
+     id="text1094"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:16px;font-weight:bold;fill:#000000;font-family:Helvetica">Layer 1</text>
+  <path
+     d="m 144.99998,98 h 15 V 76 h -15 z"
+     id="path1096"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <path
+     d="m 144.99998,87 h 15"
+     id="path1098"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000" />
+  <g
+     id="g1100"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-1.7089844e-5,0)"
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:1">
+    <rect
+       x="148.5"
+       y="83.5"
+       width="7"
+       height="7"
+       id="rect1102" />
+  </g>
+  <text
+     x="162.99997"
+     y="123"
+     font-size="16"
+     font-weight="bold"
+     id="text1104"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:16px;font-weight:bold;fill:#000000;font-family:Helvetica">Layer 2</text>
+  <path
+     d="m 144.99998,130 h 15 v -22 h -15 z"
+     id="path1106"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <path
+     d="m 144.99998,119 h 15"
+     id="path1108"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#00ff00" />
+  <g
+     id="g1110"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-1.7089844e-5,0)"
+     style="fill:#00ff00;stroke:#00ff00;stroke-width:1">
+    <rect
+       x="148.5"
+       y="115.5"
+       width="7"
+       height="7"
+       id="rect1112" />
+  </g>
+  <text
+     x="162.99997"
+     y="155"
+     font-size="16"
+     font-weight="bold"
+     id="text1114"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:16px;font-weight:bold;fill:#000000;font-family:Helvetica">Layer 3</text>
+  <path
+     d="m 144.99998,161 h 15 v -22 h -15 z"
+     id="path1116"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <path
+     d="m 144.99998,150 h 15"
+     id="path1118"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#0000ff" />
+  <g
+     id="g1120"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-1.7089844e-5,0)"
+     style="fill:#0000ff;stroke:#0000ff;stroke-width:1">
+    <polygon
+       points="148.5,153.5 152,146.5 155.5,153.5 "
+       id="polygon1122" />
+  </g>
+  <text
+     x="490"
+     y="21"
+     font-size="18"
+     font-weight="bold"
+     id="text1124"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:18px;font-weight:bold;fill:#000000;font-family:Helvetica">= 8 TeV</text>
+  <text
+     x="480"
+     y="21"
+     font-size="18"
+     font-weight="bold"
+     id="text1126"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:18px;font-weight:bold;fill:#000000;font-family:Helvetica">s</text>
+  <path
+     d="m 473.99998,12 2,10"
+     id="path1128"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2" />
+  <path
+     d="m 475.99998,22 2,-15"
+     id="path1130"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <path
+     d="m 477.99998,7 h 12"
+     id="path1132"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000" />
+  <text
+     x="271.99997"
+     y="21"
+     font-size="18"
+     font-weight="bold"
+     id="text1134"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:18px;font-weight:bold;fill:#000000;font-family:Helvetica">CMS Preliminary 2012,</text>
+  <text
+     x="532"
+     y="49"
+     font-size="18"
+     font-weight="bold"
+     id="text1136"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:18px;font-weight:bold;fill:#000000;font-family:Helvetica">C</text>
+  <text
+     x="525"
+     y="49"
+     font-size="18"
+     id="text1138"
+     style="font-size:18px;fill:#000000;font-family:Times" />
+  <text
+     x="380"
+     y="49"
+     font-size="18"
+     font-weight="bold"
+     id="text1140"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     style="font-size:18px;font-weight:bold;fill:#000000;font-family:Helvetica">V = 150 V, T = 10</text>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3549"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     transform="translate(332.39406,-30.352027)"
+     inkscape:export-filename="/home/jelena/Documents/Prezentacije/Pixel/02.25. Approval2/LA2012.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"><flowRegion
+       id="flowRegion3551"><rect
+         id="rect3553"
+         width="515.50848"
+         height="73.81144"
+         x="192.14407"
+         y="60.923717" /></flowRegion><flowPara
+       id="flowPara3555"
+       style="font-size:20px">°</flowPara></flowRoot></svg>
