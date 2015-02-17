@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
 Warning--empty journal in Campbell:2008cr
-You've used 16 entries,
+You've used 19 entries,
             1791 wiz_defined-function locations,
-            559 strings with 6298 characters,
-and the built_in function-call counts, 3541 in all, are:
-= -- 302
-> -- 171
+            579 strings with 6740 characters,
+and the built_in function-call counts, 4189 in all, are:
+= -- 362
+> -- 191
 < -- 0
-+ -- 63
-- -- 47
-* -- 239
-:= -- 600
-add.period$ -- 48
-call.type$ -- 16
-change.case$ -- 15
++ -- 71
+- -- 52
+* -- 282
+:= -- 704
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 144
-empty$ -- 343
-format.name$ -- 47
-if$ -- 777
+cite$ -- 20
+duplicate$ -- 171
+empty$ -- 412
+format.name$ -- 52
+if$ -- 923
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 17
-newline$ -- 83
-num.names$ -- 16
-pop$ -- 25
+int.to.str$ -- 19
+missing$ -- 20
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 28
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 57
+skip$ -- 68
 stack$ -- 0
-substring$ -- 256
-swap$ -- 15
+substring$ -- 316
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 31
-width$ -- 18
-write$ -- 176
+while$ -- 37
+width$ -- 21
+write$ -- 209
 (There was 1 warning)
