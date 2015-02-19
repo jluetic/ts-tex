@@ -85,6 +85,8 @@ Standard model Higgs boson branching ratio for decays into a bottom quark-antiqu
 pair (bb) is $\approx 58\%$. Study of this decay channel is therefore essential in determining the nature of the newly discovered boson. The measurement of the H $\rightarrow$ bb decay will be the first direct test of whether the observed boson interacts as expected with the quark sector, as the coupling to the top quark has only been tested through loop effects. However, the large backgrounds for this measurement make it essential that all the contributing processes including W+b jets are well understood.
 There are also Beyond Standard Model searches where contributions from this process is substantial including some Supersymmetry searches with lepton, b jets and missing energy in the final state.
 
+Soft and collinear divergences are naturally avoided in processes with b jets because of relatively high mass of b quark which means that the scale of the process doesn't go below $2m_b$.
+
 
 %-----------------------------------
 %	SUBSECTION 2.1
@@ -136,7 +138,10 @@ The cross section at hadron collides is thus a convolution of the hard scatterin
 \par Equation \ref{eq:xsec} shows cross section perturbation series in $\alpha_s$, $n$ denotes the order of the series where $n=1$ is leading order, $n=2$ is next to leading order, etc. 
 Hard process cross section between two partons $\sigma_{ij \rightarrow X}^{(n)}$ is computed in the framework of perturbative QCD and depends on $s$ which is squared center of mass energy. Two parton distribution functions are denoted with $f_{i/A}$ and $f_{j/B}$ and correspond to the probability density that parton $i$($j$) with proton momentum fraction $x_1$($x_2$) will be found inside a proton. Sum over all combinations of partons has to be computed. Integral over available phase space for proton fraction momentum $dx$ is usually carried out by simulations.\\ 
 Here $\mu_F$ represents \textit{factorization scale} and $\mu_R$ is \textit{renormalization scale} for running coupling constant. They are arbitrary cut-offs used to remove nonperturbative effects and be able to make perturbative calculations. If cross section is computed in full series, $\mu_F$ and $\mu_R$ should cancel out, and scale dependence should disappear. However, since fewer orders are used and some residual scale dependence is still present. This dependency can be used to estimate the contribution of the missing orders in the series.  
-\par Usually factorization and renormalization scales are chosen to be identical and close to the scale of the process in question.   
+\par Usually factorization and renormalization scales are chosen to be identical and close to the scale of the process in question. 
+
+\textbf{NAPISATI PRIRODNE IZBORE SKALE!!!}  
+
 \begin{figure}[htbp]
 	\centering
 		\includegraphics{Figures/pp_xsec.pdf}
@@ -153,7 +158,11 @@ Here $\mu_F$ represents \textit{factorization scale} and $\mu_R$ is \textit{reno
 
 \subsection{Contributions to Wbb cross section}
 
-Soft and collinear divergences are naturally avoided in processes with b jets because of relatively high mass of b quark which means that the scale of the process doesn't go below $2m_b$.  
+
+From theoretical point of view, the origin of W+b jets can be divided into three production categories: only light quarks in the initial state, b quark in the initial state, usually called five flavor scheme(5FS) and double parton interactions.
+
+
+First leading order calculations for associated production of a W boson and heavy quarks at hadron colliders were presented in 1993. Feynmann diagram for leading order W + 2 b jets production is shown in Figure \ref{fig:LO_diag}.Exact leading order matrix element has been computed and higher order corrections were estimated using Monte Carlo. Their results are summarized in the Figure \ref{fig:scale_dep} where the differential cross section for W+2 b jets as a function of a leading b jet $p_T$ is shown. Two scale choices have been studied, first one with $\mu_0=Mbb$ which is the invariant mass of the dijet system and is represented with solid line. Second choice is $\mu_0=m_W+p_T^W$ and is represented with the dotted line. Looking at the normalizations of two diagrams, the difference is clearly visible which indicates a strong total cross section scale dependence. However, the shape of the differential cross section shows the same behavior in both cases which means that the scale only affects total cross section.      
 \begin{figure}[htbp]
 	\centering
 		\includegraphics{Figures/LO_diag.pdf}
@@ -161,6 +170,46 @@ Soft and collinear divergences are naturally avoided in processes with b jets be
 	\caption[Leading order Wbb Feynmann diagram]{Leading order Wbb Feynmann diagram}
 	\label{fig:LO_diag}
 \end{figure}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics{Figures/scale_dep.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Scale dependence of Wbb cross section]{Scale dependence of Wbb cross section}
+	\label{fig:scale_dep}
+\end{figure}
+\par Later development of theoretical calculations included adding additional partons to the final state. This was a first step towards the full NLO calculation. The only thing missing was taking into account the loop effects. This approach made it possible to access some previously inaccessible kinematics, however at the expense of introducing additional scale dependence. The list of new final states is simple and it includes $Wbbq$, $Wbbq\bar{q}$, $Wbb\bar{q}q'\bar{q'}$... For the measurements at the LHC in particular, calculations for new initial states $qg$ and $gg$ were of great importance. First results were published in \cite{Mangano:2001xp} where calculations for up to six additional jets have been performed. Although these processes are suppressed by an additional $\alpha_s$ factor, the gluon PDF inside a proton is much larger than anti-quark, so this production mechanism is significant at the LHC energies. 
+\par First full NLO calculations were published in 2006\cite{FebresCordero:2006sj}. 
+Events with b jet pair in the final state were selected, with of the dijet system $p_T>$15 GeV  and a pseudorapidity less than 2. The results were shown for two categories, inclusive and exclusive, depending on the treatment of extra jets. In the inclusive case events with additional jets were included, while in the exclusive case exactly two jets were required.
+Figure \ref{fig:2006_scale} shows the overall scale dependence of LO, NLO inclusive and NLO exclusive total cross-ections, when both renormalization scale and factorization scale are varied independently between $\mu 0/2$ and $4\mu 0$ (with $\mu 0 = m_b + M_W /2)$, including full bottom-quark mass effects. NLO cross sections have a reduced scale dependence over most of the range of scales shown, and the exclusive NLO cross-section is more stable than the inclusive one especially at low scales.
+This is consistent with the fact that the inclusive NLO cross-section integrates over the
+entire phase space of the $qg(\bar{q}g) \rightarrow \bar{b}bW + q(\bar{q})$ channels that are evaluated with NLO $\alpha_s$ and NLO PDF, but are actually tree-level processes and retain therefore a strong scale
+dependence. The effect of the b quark mass has been shown to affect the total NLO cross section on the orger of $\approx 8\%$. This is expected to be small when considering well separated jets.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics{Figures/2006_scale.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Wbb NLO scale dependence]{Wbb NLO scale dependence\cite{FebresCordero:2006sj}}
+	\label{fig:2006_scale}
+\end{figure}
+\par
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics{Figures/5FS_diag.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Wbb production within 5 flavor scheme]{Wbb production within 5 flavor scheme}
+	\label{fig:5FS_diag}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics{Figures/DPS_diag.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Double parton scattering]{Double parton scattering}
+	\label{fig:DPS_diag}
+\end{figure}
+
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2.3
