@@ -15,46 +15,46 @@
 \contentsline {subsection}{\numberline {2.2.1}Cross sections at hadron colliders}{7}{subsection.17}
 \contentsline {subsection}{\numberline {2.2.2}Contributions to Wbb cross section}{11}{subsection.28}
 \contentsline {subsubsection}{\numberline {2.2.2.1}Double parton scattering}{16}{subsubsection.33}
-\contentsline {section}{\numberline {2.3}Previous measurements}{17}{section.35}
-\contentsline {chapter}{\numberline {3}Large Hadron Collider}{20}{chapter.39}
-\contentsline {section}{\numberline {3.1}Physics goals for the LHC}{20}{section.40}
-\contentsline {subsection}{\numberline {3.1.1}Features}{20}{subsection.41}
-\contentsline {subsection}{\numberline {3.1.2}Collisions}{21}{subsection.42}
-\contentsline {section}{\numberline {3.2}Main Section 2}{21}{section.43}
-\contentsline {chapter}{\numberline {4}Compact Muon Solenoid}{22}{chapter.44}
-\contentsline {section}{\numberline {4.1}Inner tracker system}{22}{section.45}
-\contentsline {subsection}{\numberline {4.1.1}Pixel Detector}{22}{subsection.46}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Lorentz angle measurement}{23}{subsubsection.47}
-\contentsline {subsection}{\numberline {4.1.2}Strip detector}{23}{subsection.48}
-\contentsline {section}{\numberline {4.2}Electromagnetic calorimeter}{23}{section.49}
-\contentsline {section}{\numberline {4.3}Hadronic calorimeter}{24}{section.50}
-\contentsline {section}{\numberline {4.4}Solenoid}{24}{section.51}
-\contentsline {section}{\numberline {4.5}Muon chambers}{24}{section.52}
-\contentsline {section}{\numberline {4.6}Trigger}{24}{section.53}
-\contentsline {section}{\numberline {4.7}Data acquisition system}{24}{section.54}
-\contentsline {chapter}{\numberline {5}Physics objects definitions}{25}{chapter.55}
-\contentsline {section}{\numberline {5.1}Electrons}{25}{section.56}
-\contentsline {subsection}{\numberline {5.1.1}Electron identification}{25}{subsection.57}
-\contentsline {subsection}{\numberline {5.1.2}Electron isolation}{26}{subsection.58}
-\contentsline {section}{\numberline {5.2}Muons}{26}{section.59}
-\contentsline {subsection}{\numberline {5.2.1}Muon identification}{27}{subsection.60}
-\contentsline {subsection}{\numberline {5.2.2}Muon isolation}{27}{subsection.61}
-\contentsline {section}{\numberline {5.3}Jets}{27}{section.62}
-\contentsline {subsection}{\numberline {5.3.1}Jet identification}{27}{subsection.63}
-\contentsline {subsection}{\numberline {5.3.2}Jets from b quarks}{27}{subsection.64}
-\contentsline {section}{\numberline {5.4}Missing transverse energy}{27}{section.65}
-\contentsline {section}{\numberline {5.5}W boson candidates}{27}{section.66}
-\contentsline {chapter}{\numberline {6}Signal selection}{28}{chapter.67}
-\contentsline {section}{\numberline {6.1}Analysis strategy}{28}{section.68}
-\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{28}{subsection.69}
-\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{29}{subsection.70}
-\contentsline {section}{\numberline {6.2}Background estimation}{29}{section.71}
-\contentsline {chapter}{\numberline {7}Prosireni sazetak:}{30}{chapter.72}
-\contentsline {section}{\numberline {7.1}Main Section 1}{30}{section.73}
-\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{30}{subsection.74}
-\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{31}{subsection.75}
-\contentsline {section}{\numberline {7.2}Main Section 2}{31}{section.76}
+\contentsline {section}{\numberline {2.3}Previous measurements}{18}{section.36}
+\contentsline {chapter}{\numberline {3}Large Hadron Collider}{21}{chapter.40}
+\contentsline {section}{\numberline {3.1}Physics goals for the LHC}{21}{section.41}
+\contentsline {subsection}{\numberline {3.1.1}Features}{21}{subsection.42}
+\contentsline {subsection}{\numberline {3.1.2}Collisions}{22}{subsection.43}
+\contentsline {section}{\numberline {3.2}Main Section 2}{22}{section.44}
+\contentsline {chapter}{\numberline {4}Compact Muon Solenoid}{23}{chapter.45}
+\contentsline {section}{\numberline {4.1}Inner tracker system}{23}{section.46}
+\contentsline {subsection}{\numberline {4.1.1}Pixel Detector}{23}{subsection.47}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Lorentz angle measurement}{24}{subsubsection.48}
+\contentsline {subsection}{\numberline {4.1.2}Strip detector}{24}{subsection.49}
+\contentsline {section}{\numberline {4.2}Electromagnetic calorimeter}{24}{section.50}
+\contentsline {section}{\numberline {4.3}Hadronic calorimeter}{25}{section.51}
+\contentsline {section}{\numberline {4.4}Solenoid}{25}{section.52}
+\contentsline {section}{\numberline {4.5}Muon chambers}{25}{section.53}
+\contentsline {section}{\numberline {4.6}Trigger}{25}{section.54}
+\contentsline {section}{\numberline {4.7}Data acquisition system}{25}{section.55}
+\contentsline {chapter}{\numberline {5}Physics objects definitions}{26}{chapter.56}
+\contentsline {section}{\numberline {5.1}Electrons}{26}{section.57}
+\contentsline {subsection}{\numberline {5.1.1}Electron identification}{26}{subsection.58}
+\contentsline {subsection}{\numberline {5.1.2}Electron isolation}{27}{subsection.59}
+\contentsline {section}{\numberline {5.2}Muons}{27}{section.60}
+\contentsline {subsection}{\numberline {5.2.1}Muon identification}{28}{subsection.61}
+\contentsline {subsection}{\numberline {5.2.2}Muon isolation}{28}{subsection.62}
+\contentsline {section}{\numberline {5.3}Jets}{28}{section.63}
+\contentsline {subsection}{\numberline {5.3.1}Jet identification}{28}{subsection.64}
+\contentsline {subsection}{\numberline {5.3.2}Jets from b quarks}{28}{subsection.65}
+\contentsline {section}{\numberline {5.4}Missing transverse energy}{28}{section.66}
+\contentsline {section}{\numberline {5.5}W boson candidates}{28}{section.67}
+\contentsline {chapter}{\numberline {6}Signal selection}{29}{chapter.68}
+\contentsline {section}{\numberline {6.1}Analysis strategy}{29}{section.69}
+\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{29}{subsection.70}
+\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{30}{subsection.71}
+\contentsline {section}{\numberline {6.2}Background estimation}{30}{section.72}
+\contentsline {chapter}{\numberline {7}Prosireni sazetak:}{31}{chapter.73}
+\contentsline {section}{\numberline {7.1}Main Section 1}{31}{section.74}
+\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{31}{subsection.75}
+\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{32}{subsection.76}
+\contentsline {section}{\numberline {7.2}Main Section 2}{32}{section.77}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{32}{appendix.77}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{33}{appendix.78}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{36}{dummy.90}
+\contentsline {chapter}{Bibliography}{37}{dummy.91}

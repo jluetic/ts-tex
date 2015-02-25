@@ -197,8 +197,17 @@ dependence. The effect of the b quark mass has been shown to affect the total NL
 
 \subsubsection{Double parton scattering}
 \label{sec:DPS}
-
-\par Double-parton scattering 
+\cite{Quackenbush:2011bf}
+\cite{Gaunt:2009re}
+\par Multiple parton interactions happen due to composite nature of the proton. Usually inside a proton, only one parton has significant fraction of proton momentum $x$ to produce a hard scattering. However, sometimes can happen that two such partons exist which results in two hard scatterings in the same collisions. This phenomenon is called Double Parton Scattering (DPS). In the framework of this thesis, this means that two partons are responsible for creation of a W boson and other two for creation of pair of b jets. 
+\par Double parton scattering cannot be modeled in the framework of preturbative QCD, but it is approximated using simulations. The phenomenology of DPS starts from the assumption that factorization between two hard processes is possible, as well as factorization between hard processes and proton kinematics. Cross sections for hard scatterings are computed separately of each pair of partons. However, instead of using regular parton distribution functions, a new set of distribution functions has been defined which are called Double Parton Distribution Functions (dPDFs). Factorized cross section for two hard processes A and B to happen in proton-proton scattering can be written as:
+\begin{equation}
+\begin{split}
+\sigma_{(A,B)}^{DPS} \approx \sum\limits_{i,j,k,l} \int & dx_1 dx_2  dx'_1 dx'_2 d^2b  \Gamma_{ij}(x_1,x_2,b;Q_1,Q_2)\sigma_{ik}^A(x_1,x'_1) \\
+ & \sigma_{jl}^B(x_2,x'_2) \Gamma_{kl}(x'_1,x'_2,b;Q_1,Q_2)
+\end{split}
+\end{equation}
+\par Parton level cross sections are denoted with $\sigma_{ik}$, for hard process between partons $i$ and $k$, and $\sigma_{jl}$ for hard process between partons $j$ and $l$. These are the same as for single parton scattering and are know for most of the processes of interest today. Quantity $\Gamma_{ij}(x_1,x_2,b;t_1,t_2)$ represents double parton distribution function which describes the probability of finding a parton $i$ with momentum fraction $x_1$ at scale $Q_1$ inside a proton together with a parton $j$ with momentum fraction $x_2$ at scale $Q_2$. Another parameter in this distribution function is $b$ which describes transverse distance between two partons. Scales $Q_1$ and $Q_2$ and correspond to characteristic scales of hard processes $A$ and $B$. For example in the framework of this thesis W boson production would correspond to process $A$ and production of two b jets would correspond to process $B$.  
 
 \begin{figure}[htbp]
 	\centering

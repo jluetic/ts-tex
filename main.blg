@@ -4,45 +4,46 @@ The top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
 Warning--empty journal in Campbell:2008cr
-You've used 23 entries,
+Warning--empty journal in Quackenbush:2011bf
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            605 strings with 7453 characters,
-and the built_in function-call counts, 5065 in all, are:
-= -- 437
-> -- 232
+            616 strings with 7826 characters,
+and the built_in function-call counts, 5423 in all, are:
+= -- 464
+> -- 254
 < -- 0
-+ -- 86
-- -- 63
-* -- 345
-:= -- 851
-add.period$ -- 69
-call.type$ -- 23
-change.case$ -- 22
++ -- 94
+- -- 69
+* -- 366
+:= -- 915
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 207
-empty$ -- 498
-format.name$ -- 63
-if$ -- 1115
+cite$ -- 27
+duplicate$ -- 224
+empty$ -- 531
+format.name$ -- 69
+if$ -- 1191
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 24
-newline$ -- 118
-num.names$ -- 23
-pop$ -- 32
+int.to.str$ -- 25
+missing$ -- 26
+newline$ -- 128
+num.names$ -- 25
+pop$ -- 38
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 81
+skip$ -- 88
 stack$ -- 0
-substring$ -- 382
-swap$ -- 22
+substring$ -- 391
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 45
-width$ -- 25
-write$ -- 253
-(There was 1 warning)
+warning$ -- 2
+while$ -- 48
+width$ -- 27
+write$ -- 273
+(There were 2 warnings)
