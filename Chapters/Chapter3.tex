@@ -6,7 +6,7 @@
 
 \lhead{Chapter 3. \emph{Large Hadron Collider}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-CERN is the largest particle physics laboratory in the world, located near the city of Genava, on the French-Swiss border. It was founded in 1953 by 12 countries and today it has 21 member states. It's main function is to provide particle accelerators and infrastructure for high energy physics experiments. Current accelerator complex is a chain of smaller accelerators with increasingly higher energies of which the largest one is Large Hadron Collider (LHC) (Figure \ref{LHC}). Protons accelerated in the chain are obtained by taking hydrogen atoms and stripping them of the orbiting electrons. Protons are then accelerated by a small linear accelerator Linac2 to 50 MeV and injected to PS Booster. After reaching 1.4 GeV, protons are injected to Proton Synchrotron and accelerated to 25 GeV. Next accelerators in chain are Super Proton Synchrotron (SPS) with energy of 450 GeV, and Large Hadron collider with beam energy of 7 TeV. 
+CERN is the largest particle physics laboratory in the world, located near the city of Genava, on the French-Swiss border. It was founded in 1953 by 12 countries and today it has 21 member states. It's main function is to provide particle accelerators and infrastructure for high energy physics experiments. Current accelerator complex is a chain of smaller accelerators with increasingly higher energies of which the largest one is Large Hadron Collider (LHC) (Figure \ref{fig:LHC}). Protons accelerated in the chain are obtained by taking hydrogen atoms and stripping them of the orbiting electrons. Protons are then accelerated by a small linear accelerator Linac2 to 50 MeV and injected to PS Booster. After reaching 1.4 GeV, protons are injected to Proton Synchrotron and accelerated to 25 GeV. Next accelerators in chain are Super Proton Synchrotron (SPS) with energy of 450 GeV, and Large Hadron Collider with beam energy of 7 TeV. In addition to proton-proton collisions, LHC is also able to deliver lead-lead collisions and lead-proton collisions. 
 Some of the major physics results at CERN include the discovery of neutral currents, discovery of W and Z bosons, creation of antihydrogen atom and direct observation of CP violation among others. 
 In this chapter, we will briefly go through the motivation for the LHC design, building blocks of the LHC will be presented together with the accelerator performance during the past few years.   
 \begin{figure}[htbp]
@@ -20,22 +20,34 @@ In this chapter, we will briefly go through the motivation for the LHC design, b
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Design of the Large Hadron Collider}
+\section{Physics goals for the LHC}
 
-The Standard model of elementary particles describes nicely all known particles and interactions, however there are still some unanswered questions. One of the major question was the existence of Higgs boson which was solved in the past few years with the discovery of a new particle at 125 GeV. Other questions that is still open is the unification of fundamental forces, as it is difficult to construct a theory of gravity which would be similar to those of other fundamental interactions. One attempt to achieve this goal is the theory of supersymmetry which predicts that each particle has its heavier supersymetric partner which according to some theories could unify all fundamental forces. If the theory of supersymetry is correct, lightest supersymetic particles could be found at the LHC.  
+The standard model of elementary particles describes nicely all known particles and interactions, however there are still some unanswered questions. One of the major question was the existence of Higgs boson which was solved in the past few years with the discovery of a new particle at 125 GeV. In order to be able to claim a discovery, all known standard model processes have to be well measured and understood. This requirement lead to many precision measurements which determined precisely cross sections, couplings, masses and other parameters within the standard model. Any deviation from standard model predictions can be an evidence for physics beyond standard model. One of the questions that remain open is the unification of fundamental forces, as it is difficult to construct a theory of gravity which would be similar to those of other fundamental interactions. One attempt to achieve this goal is the theory of supersymmetry which predicts that each particle has its heavier supersymmetric partner which according to some theories could unify all fundamental forces. If the theory of supersymmetry is correct, lightest supersymmetic particles could be found at the LHC. This could potentially solve the problem of the dark matter which could be, according to some theories, undiscovered supersymmetric particles. Also the problem of matter-antimatter asymmetry could be addressed trying to discover why is the world built only of matter. Other theories that involve extra dimensions, bound states of quarks and leptons LHC also performed lead-lead and lead-proton collisions in which a state called quark-gluon plasma is produced that resembles the conditions in the early universe. 
+\par During the past few years, various models for new physics have been extensively tested, and new exclusion limits have been set. After three years of data taking at 7 and 8 TeV, and a shutdown period of two years, LHC is now almost ready to deliver collisions at record energies of 13 TeV which could hopefully show signs of new physics.        
 
+%-----------------------------------
+%	SECTION 2
+%-----------------------------------
 
+\section{Design of the LHC}
+
+The LHC is placed inside a 27 km tunnel, which lies between 45 m and 170 m below the ground surface and previously housed LEP accelerator. Beams circulating inside the LHC, collide at four interaction points. At each of these points, a detector has been built to record the products of proton collisions. This thesis uses data collected by the CMS (Compact Muon Solenoid) detector. Other detector with the same purpose but different design is the ATLAS (A Toroidal LHC Apparatus) detector located at the opposite side of the LHC ring. These two are so called multiple purpose particle detectors, covering a large portion of spacial angle around the interaction point, and aimed towards discovering Higgs boson, supersymmetry, precision measurements etc. The other two experiments are ALICE (A Large Ion Collider Experiment) which is designed to study quark-gluon plasma from lead collisions, and LHCb (LHC Beauty) for B physics. Two other experiments TOTEM and LHCf are placed away from the interaction point to measure the products along the beam direction.
+\par Magnets
+\par vacuum
+\par beam pipe
+\par rf cavities
+    
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.7\textwidth]{Figures/LHC_magnet.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[Schematics of dipole magnets]{Schematics of Dipole magnets}
+	\caption[Schematics of dipole magnets]{Schematics of Dipole magnets \cite{Evans:2008zzb}}
 	\label{fig:LHC_mag}
 \end{figure}
 
 %-----------------------------------
-%	SECTION 2
+%	SECTION 3
 %-----------------------------------
 
 \section{Performance}
@@ -45,7 +57,7 @@ Since the start of the LHC in 2009, there were three years of machine operation,
 
 \begin{table}[h]
 \centering
-  \caption{LHC performance in 2012}
+  \caption{LHC performance in 2012 together with design performance \cite{Evans:2008zzb}}
   \begin{tabular}{ l  c  c }
       \hline
       \hline
@@ -63,7 +75,7 @@ Since the start of the LHC in 2009, there were three years of machine operation,
   \end{tabular}
 \end{table}
 
-LHC head achieved very good luminosity performance during pat years mainly because of the excellent beam quality delivered by the injectors with significantly more protons than nominal and with lower emittances. Since the LHC was capable to absorb these beams, it was chosen to continue to operate with 50 ns bunch spacing. This meant higher pile-up which had to be dealt with by the experiments. 
+LHC achieved very good luminosity performance during pat years mainly because of the excellent beam quality delivered by the injectors with significantly more protons than nominal and with lower emittances. Since the LHC was capable to absorb these beams, it was chosen to continue to operate with 50 ns bunch spacing. This meant higher pile-up which had to be dealt with by the experiments. 
 
 
 \begin{table}[h]
