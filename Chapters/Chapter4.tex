@@ -68,7 +68,13 @@ Silicon pixel tracker is built in layers around Pixel detector where track parti
 
 \section{Electromagnetic calorimeter}
 
-The role of the Electromagnetic calorimeter in CMS is precise measurement of electron and photon energies.  
+The role of the Electromagnetic calorimeter in CMS is precise measurement of electron and photon energies and corresponding electromagnetic showers. It is built from lead tungstate (PbWO$_4$), a material with very high density (8.28 g$/$cm$^3$) and a small Moli\'ere radius (0.89 cm) which is a scale of transverse dimension of the fully contained electromagnetic showers. The scintillation light emitted within a single bunch crossing of 25 ns is about 80$\%$ of the total light which is a large advantage of this material. The calorimeters is built of 61 200 crystals in the barrel region and 14 670 crystals in the endcaps. Each crystal has a size of 22$\times$22 mm$^2$ in the front, 26$\times$26 mm$^2$ at the back side and length on 23 cm in the barrel region. In the endcaps, the size of the crystals goes from $28.62\times28.62$ in the front to $30\times\30$ mm^$2$ in the back with a length of 22 cm. The whole systems covers the $\eta$ range to $|\eta|<3$.
+\par Operation temperature of the detector is 18$\deg$C at which $\sim$4.5 photoelectrons are collected per MeV. The blue-green scintillation light is measured my the avalanche photodiodes in the barrel and vacuum phototriodes in the endcaps.   
+\par The ECAL energy resolution is affected by three uncorrelated sources. Equation \ref{eq:ECAL_res} shows the parametrisation of the ECAL resolution where parameters $a$, $b$ and $c$ are determined from the test beam. The stohactic term $a$ is very low for the lead tungstate crystals ($a$ = 2.83$\pm$0.3$\%$) which means that showers can be mostly contained within the crystals. The noise term $b$ is determined from the electronics and is usually $b=124$ MeV. The last term $c$ is the constant term which limits the ECAL accuracy at high energies.   
+\begin{equation}
+\left(\frac{\sigma_E}{E}\right)^2 = \left(\frac{a}{\sqrt{E}}\right)^2 + \left(\frac{b}{E}\right)^2 + c^2
+\label{eq:ECAL_res}
+\end{equation}   
 
 %----------------------------------------------------------------------------------------
 %	SECTION 4
@@ -76,7 +82,8 @@ The role of the Electromagnetic calorimeter in CMS is precise measurement of ele
 
 \section{Hadronic calorimeter}
 
-
+Hadronic calorimeter is used to measure energies of hadrons like pions, kaons, protons neutrons etc. Barrel and endcap hadronic calorimeters cover the pseudorapidity rande to $|\eta|=3$. 
+Since in the transverse direction, the absorber thickness is only 5.82 interaction lengths, additional layer was placed outside the solenoid.  Hadronic calorimeter is a sampling calorimeter which consists of layers of brass and plastic scintillator layers. Showers are produced mostly in brass and are detected in the scintillator and reemitted in the narrow wavelength range in which photodetectors operate. In the endcap region, steel and quartz are used because of higher radiation hardness. There is an additional part of the detector placed 11.2 meters from the interaction point on both sides called forward HCAL which extends the coverage to $|\eta|=5.2$. Large HCAL coverage and good energy measurement are very important for jet reconstruction as well as for missing transverse energy measurement.  
 
 
 
