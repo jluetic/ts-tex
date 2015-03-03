@@ -4,16 +4,38 @@
 
 \lhead{Chapter 4. \emph{Compact Muon Solenoid}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-Compact Muon Solenoid is a general purpose detector designed to be able to cover a wide range of physics at the LHC. It has a layered design with each layer detecting different kinds of particles and covering a large portion or the spherical angle around the interaction point. Inside a large soleonid, with a tracker and calorimeter built inside to improve the resolution of the momentum measurements. Detectors outside the solenoid are designed primarily to detect muons. 
-\par This chapter is organized in subsections describing each part of the detector separately together with it's role in CMS.  
+Compact Muon Solenoid is a general purpose detector designed to be able to cover a wide range of physics at the LHC. It has a layered design with each layer detecting different kinds of particles and covering a large portion or the spherical angle around the interaction point. Inside a large soleonid, with a tracker and calorimeter built inside to improve the resolution of the momentum measurements. Detectors outside the solenoid are designed primarily to detect muons.  \\
+
+DODATI JOS OPCENITO O CMS-u
+
+\par The goals for the CMS with respect to its purpose in the LHC programme is very good muon identification and good momentum resolution over wide range of phase space and ambiguous determination of muon charge. Very good inner tracking system for detection of charged particles and high efficiency offline b quark tagging and $\tau$ tagging. Other important requirements, specially for Higgs searches, is diphoton mass resolution, and photon and electron identification and isolation at high energies. 
+CMS detector with its design meets all these requirements as it shown in following sections of this chapter.  Each section describing a part of the detector separately together with it's role in CMS.  
+
+%----------------------------------------------------------------------------------------
+%	SECTION 0
+%----------------------------------------------------------------------------------------
+
+\section{CMS coordinate system}
+
+CMS uses a right-handed coordinate system with the origin in the interaction point. $z-$axis is pointing along the beam line. $x-$axis is pointing towards the center of the ring while y axis points upwards. Two angles are used when describing position inside the detector, azimuthal angle $\phi$ and polar angle $\theta$. $\phi$ angle lies in $x-y$ plane with a range $[-\pi,\pi]$  and is defined as $\phi=$atctan$(y/x)$. The other angle $\theta$ is usually not used in high-energy physics because differences in $\theta$ are not Lorentz invariant.
+The variable that is Lorentz invariant is rapidity:
+\begin{equation}
+y=\frac{1}{2}ln\left[ \frac{E+p_z}{E-p_z}\right[
+\end{equation}
+In high energy experiments in the relativistic limit where $E>>m$, a quantity called pseudorapidity is a good approximation of rapidity:
+\begin{equation}
+\eta = -ln \left[ tan \frac{\theta}{2} \right[
+\end{equation}
+Pseudorapidity Lorentz invariance means that a measurement of $\Delta\eta$ between particles is not dependent on specifying a reference frame, such as the rest frame of a particle or the laboratory frame. When using the term "forward" direction, it refers to regions of the detector that are close to the beam axis, at high |$\eta$|. When the distinction between "forward" and "backward" is relevant, the former refers to the positive z-direction and the latter to the negative z-direction.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{CMS coordinate system}
+\section{Solenoid magnet}
 
-CMS uses a right-handed coordinate system with the origin in the interaction point. $z-$axis is pointing along the beam line. $x-$axis is pointing towards the center of the ring while y axis points upwards. Two angles are used when describing position inside the detector, azimuthal angle $\phi$ and polar angle $\theta$. $\phi$ angle lies in $x-y$ plane with range $[-\pi,\pi]$
+Solenoid magnet within the CMS has the length of 12.9 m, an inner diameter of 5.9 m provides provides a magnetic field of 3.8 T. The solenoid is large enough to contain inner tracking system and calorimeters inside which reduces the material budget before the energy measurement in the calorimeters. The strong magnetic field increases the curvature of the trajectories of the highly energetic particles thus improving the momentum resolution.
+\par Superconducting materials are used to build the solenoid with the operational temperature of 4.6 K. It is composed of four layers of superconducting material inserted in aluminum. Muon detectors outside the solenoid operate in 2 T magnetic field enhanced by the 10 000-t iron yoke.  
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -21,12 +43,15 @@ CMS uses a right-handed coordinate system with the origin in the interaction poi
 
 \section{Inner tracker system}
 
+The role of inner tracking system in CMS is to provide a precise measurement of charged particles trajectories created in collisions with $p_T>1$ GeV and the pseudorapidity $|\eta|<2.5$. Other important task is precise secondary vertex positions reconstruction and impact parameter determination. The size of CMS inner tracker is 5.8 m in length with a diameter of 2.5 m. Large magnetic field of 4 T is provided by the surrounding solenoid and is homogeneous across the entire inner tracking system. With the design LHC luminosity, expected occupancy of inner tracking system is more than 1000 particles from 20 primary interactions in each bunch crossing. This requires high granularity detectors with fast responses and low dead time of the detector. Trying to design a detector with these characteristics while at the same time reducing the amount of material in the detector to minimum and taking into account the radiation hardness, lead to the solution of building an all-silicon detector. CMS inner tracking system has two separate parts, Pixel detector and Strip detector which are described below.    
+
 
 %-----------------------------------
 %	SUBSECTION 2.1
 %-----------------------------------
 \subsection{Pixel Detector}
 
+Pixel detector is the closest part of the CMS to the interaction point. Barrel pixel is the central part with three layers located at radii of 4.4 cm, 7.3 cm and 11 cm. On each side of the barrel pixel, there are two discs at $z=$ 34.5 cm and 46.5 cm. The detector is fully modular hybrid detector with silicon layer bump bonded to read-out chips where each pixel is read out separately. 
 
 %-----------------------------------
 %	SUBSECTION 2.2
@@ -34,13 +59,16 @@ CMS uses a right-handed coordinate system with the origin in the interaction poi
 
 \subsection{Strip detector}
 
+Silicon pixel tracker is built in layers around Pixel detector where track particle flux is lower and lower granularity detector can be used instead. Detector is built of strips in which a passing charged particle induces current. Current is than transferred to silicon detectors connected to the wires. The barrel section of the strip detector consists of four layers in the inner part (TIB) and 6 layer in the outer part (TOB). In the forward regions there are three tracker inner discs (TID) on each side of the barrel and 9 layers in the tracker endcap (TEC). 
+\\par Some strips are built in double layers tilted against each other by an angle of 100 mrad to precisely measure the position of both $r\phi$ and $rz$ directions. The pitch size between strips varies from 80 $\mu m$ in the TIB to 184 $\mu$m in TOB and TEC. With the increasing distance from the interaction point, both strip pitch and strip length increase and sensor thickness becomes larger which affects the resolution.    
+
 %----------------------------------------------------------------------------------------
 %	SECTION 3
 %----------------------------------------------------------------------------------------
 
 \section{Electromagnetic calorimeter}
 
-
+The role of the Electromagnetic calorimeter in CMS is precise measurement of electron and photon energies.  
 
 %----------------------------------------------------------------------------------------
 %	SECTION 4
@@ -49,27 +77,23 @@ CMS uses a right-handed coordinate system with the origin in the interaction poi
 \section{Hadronic calorimeter}
 
 
+
+
+
 %----------------------------------------------------------------------------------------
 %	SECTION 5
-%----------------------------------------------------------------------------------------
-
-\section{Solenoid}
-
-
-%----------------------------------------------------------------------------------------
-%	SECTION 6
 %----------------------------------------------------------------------------------------
 
 \section{Muon chambers}
 
 %----------------------------------------------------------------------------------------
-%	SECTION 7
+%	SECTION 6
 %----------------------------------------------------------------------------------------
 
 \section{Trigger}
 
 %----------------------------------------------------------------------------------------
-%	SECTION 8
+%	SECTION 7
 %----------------------------------------------------------------------------------------
 
 \section{Data acquisition system}

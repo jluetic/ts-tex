@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Evans:2008zzb}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock {\em JINST}, 3:S08001, 2008.
+
 \bibitem{Aad:2012tfa}
 Georges Aad et~al.
 \newblock {Observation of a new particle in the search for the Standard Model
@@ -151,6 +156,11 @@ Georges Aad et~al.
   detector}.
 \newblock {\em JHEP}, 1306:084, 2013.
 
+\bibitem{Chatrchyan:2008aa}
+S.~Chatrchyan et~al.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock {\em JINST}, 3:S08004, 2008.
+
 \bibitem{Aad:2008zzm}
 G.~Aad et~al.
 \newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
@@ -165,11 +175,6 @@ K.~Aamodt et~al.
 Jr. Alves, A.~Augusto et~al.
 \newblock {The LHCb Detector at the LHC}.
 \newblock {\em JINST}, 3:S08005, 2008.
-
-\bibitem{Evans:2008zzb}
-Lyndon Evans and Philip Bryant.
-\newblock {LHC Machine}.
-\newblock {\em JINST}, 3:S08001, 2008.
 
 \bibitem{Bruning:782076}
 Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
