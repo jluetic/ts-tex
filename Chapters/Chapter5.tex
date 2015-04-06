@@ -2,7 +2,9 @@
 
 \label{Chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-\lhead{Chapter X. \emph{Chapter Title Here}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+\lhead{Chapter 5. \emph{Physics object definitions}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -10,21 +12,39 @@
 
 \section{Electrons}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
+Electrons in CMS are detected as a track in tracker and an energy deposit in the electromagnetic calorimeter. Two different algorithms are used for electron reconstruction, "tracker driven" seeding which is more suitable for low $p_T$ electrons and electrons inside jets. Other algorithm is "ECAL driven" seeding which is optimized for high $p_T$ isolated electrons. Both approaches take electromagnetic crystals with deposited energy and join them into \textit{clusters}. Electron passing through the detector bends due to magnetic field and interacts with the detector material emitting \textit{bremsstrahlung} photons. ECAL energy deposits from these photons are spread in $\phi$ direction in very narrow $\eta$ range and combined with the existing cluster forming a \textit{supercluster}. Trajectories are reconstructed using modeling of electron energy loss in detector material and fitted with a Gaussian Sum Filter(GSF)\cite{2005JPhG31N9A}.
+\par Matching ECAL superclusters and reconstructed tracks is where the two approaches differ. Tracker driven seeding uses track from the electromagnetic calorimeter and tries to match it with the supercluster in the ECAL.   
+Each electron candidate has to pass various quality cuts in order to maximize the probability of the electron coming from the hard interaction, and reject electrons from jets or conversion. These selection cuts can be divided into three categories: identification, isolation and conversion cuts. Details on electron reconstruction and performance can be found in \cite{CMS:2010bta}.
 
 %-----------------------------------
 %	SUBSECTION 1.1
 %-----------------------------------
 \subsection{Electron identification}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+Electron identification procedure first focuses on good matching between reconstructed track and supercluster, by imposing cuts on angular distance $\Delta \eta$ and $\Delta \phi$ between the two. Cut is also imposed on $\sigma_{i\eta i\eta}$ which describes a shower shape spread in $\eta$ direction. The ratio between the energy deposits in the hadronic calorimeter and electromagnetic calorimeter is expected to be small in the case of real electrons. Cutting on this ratio, lowers the probability of selecting an electron within a jet.
+\par Electrons coming from converted photons are rejected by requiring a hit in each of the pixel layers. Cuts are also imposed on the impact parameters in both $xy$ and $z$ directions. Due to the gap in the electromagnetic calorimeter in 1.4442 < $\eta$ < 1.566, all electrons which have a supercluster position reconstructed in this range are rejected. All identification criteria is summarized in Table \ref{tab:eleID}.
+ \begin{table}[h]
+\centering
+  \caption{A summary of electron identification criteria.}
+  \label{tab:eleID}
+  \begin{tabular}{ l  c c}
+      \hline
+      \hline
+    		$\Delta\eta$ < &  0.004 & 0.005 \\
+     	$\Delta\phi$ < &  0.03 & 0.02 \\
+     	$\sigma_{i\eta i\eta}$ < & 0.01 & 0.03 \\
+		$H/E$ < & 0.12 & 0.10 \\
+		$d_{xy}$ < & 0.02 cm & 0.02 cm \\
+		$d_{z}$ <  & 0.1 cm & 0.1 cm \\
+		$(1/E - 1/p)$ < & 0.05 & 0.05\\
+		Missing hits  & 0 & 1 \\
+		Vertex Fit Probability & $10^{-6}$ & $10^{-6}$ \\    	
 
-%-----------------------------------
-%	SUBSECTION 1.2
-%-----------------------------------
+      \hline
+      \hline 
+  \end{tabular}
+\end{table}
 
-\subsection{Electron isolation}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -32,19 +52,25 @@ Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar p
 
 \section{Muons}
 
-Sed ullamcorper quam eu nisl interdum at interdum enim egestas. Aliquam placerat justo sed lectus lobortis ut porta nisl porttitor. Vestibulum mi dolor, lacinia molestie gravida at, tempus vitae ligula. Donec eget quam sapien, in viverra eros. Donec pellentesque justo a massa fringilla non vestibulum metus vestibulum. Vestibulum in orci quis felis tempor lacinia. Vivamus ornare ultrices facilisis. Ut hendrerit volutpat vulputate. Morbi condimentum venenatis augue, id porta ipsum vulputate in. Curabitur luctus tempus justo. Vestibulum risus lectus, adipiscing nec condimentum quis, condimentum nec nisl. Aliquam dictum sagittis velit sed iaculis. Morbi tristique augue sit amet nulla pulvinar id facilisis ligula mollis. Nam elit libero, tincidunt ut aliquam at, molestie in quam. Aenean rhoncus vehicula hendrerit.
+Muons in CMS are reconstructed by combining a reconstructed track inside the tracker(\textit{tracker track}) and track in muon chambers (\textit{standalone muon track}). Similar as with electrons, two approaches are used for combining these objects. \textit{Global muon reconstruction} approach uses a standalone muon track in the muon chambers and tries to find a matching tracker track by combining parameters of two tracks by projecting it to the common surface. This \textit{outside-in} approach uses Kalman filter technique \cite{Frühwirth1987444} to combine these two objects. The second approach for muon reconstruction is \textit{tracker muon reconstruction} which starts from tracks inside the tracker with $p_T>0.5$ GeV/c and total momentum $p>2.5$ GeV/c as potential muon candidates. Extrapolation is than performed to the muon chambers taking into account the magnetic field, Coulomb scattering in the material and other energy losses. \textit{Tracker moun} is found if at least one muon segment matches the extrapolated track. The efficiency of the \textit{Tracker muon} reconstruction is higher for low energy muons than the efficiency for the Global muons, because only a single muon segment in the muon chambers is required. For high energy muons where more there are more segments inside muon chambers, \textit{Global muon} algorithm is designed to have high efficiency.    
 
 %-----------------------------------
 %	SUBSECTION 2.1
 %-----------------------------------
 
 \subsection{Muon identification}
+In this analysis \textit{particle flow} muon identification selection is applied to the \textit{global} and \textit{tracker} muons. Selection is applied in order to minimize misidentification of charged hadrons as muons, maximize the efficiency of identification of muons inside jets. The details on \textit{particle flow} identification can be found in \cite{CMS-PAS-PFT-10-003}. Muons used in the analysis have $|\eta|<2.1$ and transverse momentum $p_T<30$ GeV and are required to have at least one good muon chamber hit in the \textit{global muon} track fit. Additional cuts on the impact parameter with respect to the primary vertex of $|d_{xy}|<$0.2 cm and $|d_z|<$ 0.5 cm are applied. More than 5 hits in the silicon tracker and at least one hit in pixel detector must be identified. In order to further suppress muons from decays in flight it is required for the \textit{global muon} fit to have at $\chi^2/ndof<$10, to have more at least one muon chamber hit included in the fit and muon segments in at least two muon stations.
+ 
 
 %-----------------------------------
 %	SUBSECTION 2.2
 %-----------------------------------
 
-\subsection{Muon isolation}
+\section{Lepton isolation}
+Leptons from W decays are in general expected to be well isolated. The degree of isolation is calculated using \textit{particle flow} approach by summing the transverse momenta contributions of particles around the lepton inside a specific cone. All charged particles are considered as well as photons and neutral hadrons with $p_T>$0.5 GeV. The cone used for determination of energy deposits is defined as $\Delta R = \sqrt{\Delta \phi^2+ \Delta \eta^2}$ around the lepton axis and isolation measure is defined as:
+\begin{equation}
+I_{PF}^{rel} = frac{\left[\sum p_T^{charged} + max(0, \sum E_T^{\gamma}+\sum E_T^{neutral}-0.5\sumE_T^{PU})}{p_T&l}
+\end{equation}
 
 
 %----------------------------------------------------------------------------------------
