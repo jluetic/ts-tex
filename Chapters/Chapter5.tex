@@ -21,8 +21,13 @@ Each electron candidate has to pass various quality cuts in order to maximize th
 %-----------------------------------
 \subsection{Electron identification}
 
-Electron identification procedure first focuses on good matching between reconstructed track and supercluster, by imposing cuts on angular distance $\Delta \eta$ and $\Delta \phi$ between the two. Cut is also imposed on $\sigma_{i\eta i\eta}$ which describes a shower shape spread in $\eta$ direction. The ratio between the energy deposits in the hadronic calorimeter and electromagnetic calorimeter is expected to be small in the case of real electrons. Cutting on this ratio, lowers the probability of selecting an electron within a jet.
-\par Electrons coming from converted photons are rejected by requiring a hit in each of the pixel layers. Cuts are also imposed on the impact parameters in both $xy$ and $z$ directions. Due to the gap in the electromagnetic calorimeter in 1.4442 < $\eta$ < 1.566, all electrons which have a supercluster position reconstructed in this range are rejected. All identification criteria is summarized in Table \ref{tab:eleID}.
+Electron identification procedure first focuses on good matching between reconstructed track and supercluster, by imposing cuts on angular distance $\Delta \eta$ and $\Delta \phi$ between the two. These variables are computed as absolute $\eta$ and $\phi$ distance of the supercluster and electron track extrapolated to the ECAL surface. Cut is also imposed on $\sigma_{i\eta i\eta}$ which describes a shower shape spread in $\eta$ direction. This variable is particularly discriminating against clusters coming from electrons and energy deposits from photons and fakes. Shower shape is defined as:
+\begin{equation}
+\sigma_{i\eta i\eta} = \sqrt{\frac{\sum_{i}^{5\times 5} w_i(\eta_i-\eta_{seed})^2\times \Delta \eta^2_{xtal} }{\sum_{i}^{5\times 5}}}
+\end{equation}
+where $i$ is running over all crystals in $5\times5$ block around supercluster seed, $\eta_i-\eta_{seed}$ is the distance in number of crystals in $\eta$ direction between $i$-th crystal in supercluster and seed crystal and $\Delta \eta^2_{xtal}$ is the average width of a single crystal. Each crystal is given a weight defined as $w_i=max(0,4.7+lnE_i/E_{5\times5})$, where $E_i$ is a single crystal energy, and $E_5\times 5$ is the sum of energy deposits inside a 5$\times$5 crystal block. 
+The ratio between the energy deposits in the hadronic calorimeter and electromagnetic calorimeter for electrons is used to discard the events with significant hadron activity.
+\par Electrons coming from converted photons are rejected by requiring a hit in every layer of the inner tracking system. Additionally, for each electron track a fit is performed trying to combine it with another electron track under the hypothesis that both electrons originated from converted photon. Electron is selected only if this probability is sufficiently small. Electron compatibility with the primary vertex is estimated by looking at the impact parameters in both $xy$ and $z$ planes. Due to the gap in the electromagnetic calorimeter in 1.4442 < $\eta$ < 1.566, all electrons which have a supercluster position reconstructed in this range are rejected. A full list of identification criteria is summarized in Table \ref{tab:eleID}.
  \begin{table}[h]
 \centering
   \caption{A summary of electron identification criteria.}
@@ -30,6 +35,8 @@ Electron identification procedure first focuses on good matching between reconst
   \begin{tabular}{ l  c c}
       \hline
       \hline
+      	Variable & Barrel & Endcap \\
+      	\hline
     		$\Delta\eta$ < &  0.004 & 0.005 \\
      	$\Delta\phi$ < &  0.03 & 0.02 \\
      	$\sigma_{i\eta i\eta}$ < & 0.01 & 0.03 \\
@@ -52,14 +59,36 @@ Electron identification procedure first focuses on good matching between reconst
 
 \section{Muons}
 
-Muons in CMS are reconstructed by combining a reconstructed track inside the tracker(\textit{tracker track}) and track in muon chambers (\textit{standalone muon track}). Similar as with electrons, two approaches are used for combining these objects. \textit{Global muon reconstruction} approach uses a standalone muon track in the muon chambers and tries to find a matching tracker track by combining parameters of two tracks by projecting it to the common surface. This \textit{outside-in} approach uses Kalman filter technique \cite{Frühwirth1987444} to combine these two objects. The second approach for muon reconstruction is \textit{tracker muon reconstruction} which starts from tracks inside the tracker with $p_T>0.5$ GeV/c and total momentum $p>2.5$ GeV/c as potential muon candidates. Extrapolation is than performed to the muon chambers taking into account the magnetic field, Coulomb scattering in the material and other energy losses. \textit{Tracker moun} is found if at least one muon segment matches the extrapolated track. The efficiency of the \textit{Tracker muon} reconstruction is higher for low energy muons than the efficiency for the Global muons, because only a single muon segment in the muon chambers is required. For high energy muons where more there are more segments inside muon chambers, \textit{Global muon} algorithm is designed to have high efficiency.    
+Muons in CMS are reconstructed by combining a reconstructed track inside the tracker(\textit{tracker track}) and track in muon chambers (\textit{standalone muon track}). Similar as with electrons, two approaches are used for combining these objects. \textit{Global muon reconstruction} approach uses a standalone muon track in the muon chambers and tries to find a matching tracker track by combining parameters of two tracks by projecting it to the common surface. This \textit{outside-in} approach uses Kalman filter technique \cite{Fruhwirth1987444} to combine these two objects. The second approach for muon reconstruction is \textit{tracker muon reconstruction} which starts from tracks inside the tracker with $p_T>0.5$ GeV/c and total momentum $p>2.5$ GeV/c as potential muon candidates. Extrapolation is than performed to the muon chambers taking into account the magnetic field, Coulomb scattering in the material and other energy losses. \textit{Tracker moun} is found if at least one muon segment matches the extrapolated track. The efficiency of the \textit{Tracker muon} reconstruction is higher for low energy muons than the efficiency for the Global muons, because only a single muon segment in the muon chambers is required. For high energy muons where more there are more segments inside muon chambers, \textit{Global muon} algorithm is designed to have high efficiency.    
 
 %-----------------------------------
 %	SUBSECTION 2.1
 %-----------------------------------
 
 \subsection{Muon identification}
-In this analysis \textit{particle flow} muon identification selection is applied to the \textit{global} and \textit{tracker} muons. Selection is applied in order to minimize misidentification of charged hadrons as muons, maximize the efficiency of identification of muons inside jets. The details on \textit{particle flow} identification can be found in \cite{CMS-PAS-PFT-10-003}. Muons used in the analysis have $|\eta|<2.1$ and transverse momentum $p_T<30$ GeV and are required to have at least one good muon chamber hit in the \textit{global muon} track fit. Additional cuts on the impact parameter with respect to the primary vertex of $|d_{xy}|<$0.2 cm and $|d_z|<$ 0.5 cm are applied. More than 5 hits in the silicon tracker and at least one hit in pixel detector must be identified. In order to further suppress muons from decays in flight it is required for the \textit{global muon} fit to have at $\chi^2/ndof<$10, to have more at least one muon chamber hit included in the fit and muon segments in at least two muon stations.
+
+In this analysis \textit{particle flow} muon identification selection is applied to the \textit{global} muons. Selection is applied in order to minimize misidentification of charged hadrons as muons, maximize the efficiency of identification of muons inside jets and ensure good momentum measurement. Muons used in the analysis have $|\eta|<2.1$ and transverse momentum $p_T<30$ GeV with more than 5 hits in the inner tracker system and at least one hit in pixel detector. At least one good muon chamber hit in the \textit{global muon} track fit is required to have $\chi^2/ndof<10$, at least two segments in two different muon stations should be matched to a track in order to supress muons from in-flight decays. Cosmic muons are rejected by applying cuts on the impact parameter with respect to the primary vertex of $|d_{xy}|<$0.2 cm and $|d_z|<$ 0.5 cm. Muon identification criteria is summarized in Table \ref{tab:muID}.
+
+  \begin{table}[h]
+\centering
+  \caption{A summary of muon identification criteria.}
+  \label{tab:muID}
+  \begin{tabular}{ l  c c}
+      \hline
+      \hline
+      	Variable & Requirement \\
+      	\hline
+    		number of pixel hits > &  0 \\
+     	number of inner tracker hits > &  5 \\
+     	$\chi^2/ndof$ < & 10 \\
+		number of muon hits > & 0  \\
+		chambers with matched segments > & 1  \\		
+		$d_{xy}$ < & 0.2 cm \\
+		$d_{z}$ <  & 0.5 cm \\
+      \hline
+      \hline 
+  \end{tabular}
+\end{table}
  
 
 %-----------------------------------
@@ -69,8 +98,9 @@ In this analysis \textit{particle flow} muon identification selection is applied
 \section{Lepton isolation}
 Leptons from W decays are in general expected to be well isolated. The degree of isolation is calculated using \textit{particle flow} approach by summing the transverse momenta contributions of particles around the lepton inside a specific cone. All charged particles are considered as well as photons and neutral hadrons with $p_T>$0.5 GeV. The cone used for determination of energy deposits is defined as $\Delta R = \sqrt{\Delta \phi^2+ \Delta \eta^2}$ around the lepton axis and isolation measure is defined as:
 \begin{equation}
-I_{PF}^{rel} = frac{\left[\sum p_T^{charged} + max(0, \sum E_T^{\gamma}+\sum E_T^{neutral}-0.5\sumE_T^{PU})}{p_T&l}
+I_{PF}^{rel} = \frac{\sum p_T^{charged} + max(0, \sum E_T^{\gamma}+\sum E_T^{neutral}-0.5\sum E_T^{PU})}{p_T^l}
 \end{equation}
+where $p_T^{charged}$ is the sum of the momenta of charged hadrons and $E_T^{\gamma} $ and $E_T^{neutral}$ are the sums of photon and neutral hadron momenta. $E_T^{PU}$ is the sum of the pile-up transverse energies from neutral particles and is calculated as a sum of track transverse momenta not coming from the primary vertex inside the isolation cone. This is divided by the factor of 0.5 which corresponds approximately to the ratio of neutral to charged hadron production in the hadronization process of pile-up interactions. Selected muons are required to pass isolation cut $I_{rel}^{PF}<0.12$ and in case of additional muon veto $I_{PF}^{rel}<0.2$. Electron isolation is computed in the same way with cut of $I_{rel}^{PF}<0.1$ for selected electrons and $I_{rel}^{PF}<0.15$ for vetoed additional electrons.
 
 
 %----------------------------------------------------------------------------------------
@@ -79,14 +109,33 @@ I_{PF}^{rel} = frac{\left[\sum p_T^{charged} + max(0, \sum E_T^{\gamma}+\sum E_T
 
 \section{Jets}
 
+In high energy physics, jets are a colimated group of hadrons which emerges as a result of quark or gluon fragmentation and hadronization process. Hadrons reconstructed in a particle detector need to be combined in order to form a jet and give information about the initial parton. A set of rules has to be created for how to group particles and how to assign momentum to the new jet. Usually this is done by summing the four-momentum of each particle in a jet.
+
 %-----------------------------------
 %	SUBSECTION 3.1
+%-----------------------------------
+
+\subsection{Jet algorithms}
+
+Jet algorithms are taking into account the distance between particles and define rules which determine which particle belongs to which jet. Same jet algorithms should be applicable to both, experimental data and theoretical calculation.  Other important properties of jet algorithms is \textit{infrared safety} and \textit{collinear safety} which means is an event is modified by addition of soft emission of collinear splitting, the final number of hard jets will remain unchanged. These two properties together are called \texit{IRC safety}. IRC unsafe jet algorithms may break the cancellation of divergences by yielding one set of jets for tree-level splitting while loop diagrams lead to another giving infinite cross-sections in the final calculations. Jet definitions, jet relation to partons and an overview of different jet algorithms are summarized in \cite{Salam:2009jx}.
+\par In general, there are two types of jet algorithms which are most commonly used: \textit{cone algorithms} and \textit{sequential recombination algorithms}. 
+
+%-----------------------------------
+%	SUBSECTION 3.2
+%-----------------------------------
+
+\subsection{Jet corrections}
+
+
+
+%-----------------------------------
+%	SUBSECTION 3.3
 %-----------------------------------
 
 \subsection{Jet identification}
 
 %-----------------------------------
-%	SUBSECTION 3.2
+%	SUBSECTION 3.4
 %-----------------------------------
 
 \subsection{Jets from b quarks}
@@ -97,6 +146,12 @@ I_{PF}^{rel} = frac{\left[\sum p_T^{charged} + max(0, \sum E_T^{\gamma}+\sum E_T
 
 \section{Missing transverse energy}
 
+Missing transverse momentum is the imbalance in the vectorial sum of transverse momenta of all measured particles. Momentum conservation delegates that the imbalance arises from weakly interacting neutral particles such as neutrinos. Missing transverse energy is the magnitude of the missing transverse momentum and is calculated as:
+\begin{equation}
+E_T^{miss}= |-\sum_{i} \vec{p}_i|
+\end{equation}
+where i goes over all visible particles. Measurement of the missing transverse energy relies on the good measurement of all other particles in the event and as such is very sensitive to detector inefficiencies, particle missmeasurements, limited acceptance of the detector, cosmic-ray particles all of which can cause artificial missing energy. There are several approaches to determine $E_T^{miss}$. In this analysis, particle flow technique is used which tries to identify each particle each particle in the event by combining the information from all subdetectors and gives the best missing energy resolution.\cite{CMS-PAS-PFT-09-001,Chatrchyan:2011tn} Several corrections are applied to the $E_T^{miss}$ which include jet energy correction propagation, pile-up correction and phi modulation correction. 
+
 %----------------------------------------------------------------------------------------
 %	SECTION 5
 %----------------------------------------------------------------------------------------
@@ -104,8 +159,3 @@ I_{PF}^{rel} = frac{\left[\sum p_T^{charged} + max(0, \sum E_T^{\gamma}+\sum E_T
 \section{W boson candidates}
 
 
-%----------------------------------------------------------------------------------------
-%	SECTION 6
-%----------------------------------------------------------------------------------------
-
-%\section{Main Section 2}

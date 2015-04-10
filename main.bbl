@@ -182,6 +182,33 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
 \newblock {\em {LHC Design Report}}.
 \newblock CERN, Geneva, 2004.
 
+\bibitem{2005JPhG31N9A}
+W.~{Adam}, R.~{Fr{\"u}hwirth}, A.~{Strandlie}, and T.~{Todorov}.
+\newblock {RESEARCH NOTE FROM COLLABORATION: Reconstruction of electrons with
+  the Gaussian-sum filter in the CMS tracker at the LHC}.
+\newblock {\em Journal of Physics G Nuclear Physics}, 31:9, September 2005.
+
+\bibitem{CMS:2010bta}
+{Electron reconstruction and identification at sqrt(s) = 7 TeV}.
+\newblock 2010.
+
+\bibitem{Fruhwirth1987444}
+R.~Frühwirth.
+\newblock Application of kalman filtering to track and vertex fitting.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  262(2–3):444 -- 450, 1987.
+
+\bibitem{CMS-PAS-PFT-09-001}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, 2009. Geneva, Apr 2009.
+
+\bibitem{Chatrchyan:2011tn}
+Serguei Chatrchyan et~al.
+\newblock {Missing transverse energy performance of the CMS detector}.
+\newblock {\em JINST}, 6:P09001, 2011.
+
 \bibitem{Henrich}
 B~Henrich and R~Kaufmann.
 \newblock {Lorentz-angle in irradiated silicon}.

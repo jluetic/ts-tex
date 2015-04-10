@@ -33,26 +33,25 @@
 \contentsline {chapter}{\numberline {5}Physics objects definitions}{40}{chapter.72}
 \contentsline {section}{\numberline {5.1}Electrons}{40}{section.73}
 \contentsline {subsection}{\numberline {5.1.1}Electron identification}{41}{subsection.74}
-\contentsline {subsection}{\numberline {5.1.2}Electron isolation}{42}{subsection.76}
 \contentsline {section}{\numberline {5.2}Muons}{42}{section.77}
 \contentsline {subsection}{\numberline {5.2.1}Muon identification}{43}{subsection.78}
-\contentsline {subsection}{\numberline {5.2.2}Muon isolation}{43}{subsection.79}
-\contentsline {section}{\numberline {5.3}Jets}{43}{section.80}
-\contentsline {subsection}{\numberline {5.3.1}Jet identification}{43}{subsection.81}
-\contentsline {subsection}{\numberline {5.3.2}Jets from b quarks}{43}{subsection.82}
-\contentsline {section}{\numberline {5.4}Missing transverse energy}{43}{section.83}
-\contentsline {section}{\numberline {5.5}W boson candidates}{43}{section.84}
-\contentsline {chapter}{\numberline {6}Signal selection}{44}{chapter.85}
-\contentsline {section}{\numberline {6.1}Analysis strategy}{44}{section.86}
-\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{44}{subsection.87}
-\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{45}{subsection.88}
-\contentsline {section}{\numberline {6.2}Background estimation}{45}{section.89}
-\contentsline {chapter}{\numberline {7}Prosireni sazetak:}{46}{chapter.90}
-\contentsline {section}{\numberline {7.1}Main Section 1}{46}{section.91}
-\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{46}{subsection.92}
-\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{47}{subsection.93}
-\contentsline {section}{\numberline {7.2}Main Section 2}{47}{section.94}
+\contentsline {section}{\numberline {5.3}Lepton isolation}{43}{section.80}
+\contentsline {section}{\numberline {5.4}Jets}{44}{section.82}
+\contentsline {subsection}{\numberline {5.4.1}Jet identification}{44}{subsection.83}
+\contentsline {subsection}{\numberline {5.4.2}Jets from b quarks}{44}{subsection.84}
+\contentsline {section}{\numberline {5.5}Missing transverse energy}{44}{section.85}
+\contentsline {section}{\numberline {5.6}W boson candidates}{45}{section.87}
+\contentsline {chapter}{\numberline {6}Signal selection}{46}{chapter.88}
+\contentsline {section}{\numberline {6.1}Analysis strategy}{46}{section.89}
+\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{46}{subsection.90}
+\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{47}{subsection.91}
+\contentsline {section}{\numberline {6.2}Background estimation}{47}{section.92}
+\contentsline {chapter}{\numberline {7}Prosireni sazetak:}{48}{chapter.93}
+\contentsline {section}{\numberline {7.1}Main Section 1}{48}{section.94}
+\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{48}{subsection.95}
+\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{49}{subsection.96}
+\contentsline {section}{\numberline {7.2}Main Section 2}{49}{section.97}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{48}{appendix.95}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{50}{appendix.98}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{52}{dummy.108}
+\contentsline {chapter}{Bibliography}{54}{dummy.111}

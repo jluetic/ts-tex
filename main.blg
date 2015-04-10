@@ -6,45 +6,48 @@ Database file #1: Bibliography.bib
 Warning--empty journal in Campbell:2008cr
 Warning--empty journal in Quackenbush:2011bf
 Warning--empty journal in Bansal:2014paa
-You've used 33 entries,
+Warning--empty author in CMS:2010bta
+Warning--empty journal in CMS:2010bta
+Warning--empty author in CMS-PAS-PFT-09-001
+You've used 38 entries,
             1791 wiz_defined-function locations,
-            659 strings with 8822 characters,
-and the built_in function-call counts, 7099 in all, are:
-= -- 600
-> -- 345
-< -- 0
-+ -- 127
-- -- 94
-* -- 472
-:= -- 1202
-add.period$ -- 99
-call.type$ -- 33
-change.case$ -- 31
+            689 strings with 9657 characters,
+and the built_in function-call counts, 7958 in all, are:
+= -- 674
+> -- 373
+< -- 1
++ -- 139
+- -- 101
+* -- 535
+:= -- 1337
+add.period$ -- 112
+call.type$ -- 38
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 296
-empty$ -- 693
-format.name$ -- 94
-if$ -- 1556
+cite$ -- 44
+duplicate$ -- 338
+empty$ -- 784
+format.name$ -- 101
+if$ -- 1745
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 35
-newline$ -- 168
-num.names$ -- 33
-pop$ -- 55
+int.to.str$ -- 38
+missing$ -- 39
+newline$ -- 191
+num.names$ -- 36
+pop$ -- 66
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 117
+skip$ -- 133
 stack$ -- 0
-substring$ -- 490
-swap$ -- 30
-text.length$ -- 0
+substring$ -- 538
+swap$ -- 34
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 62
-width$ -- 35
-write$ -- 359
-(There were 3 warnings)
+warning$ -- 6
+while$ -- 68
+width$ -- 40
+write$ -- 409
+(There were 6 warnings)
