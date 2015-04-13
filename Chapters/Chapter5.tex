@@ -37,13 +37,13 @@ The ratio between the energy deposits in the hadronic calorimeter and electromag
       \hline
       	Variable & Barrel & Endcap \\
       	\hline
-    		$\Delta\eta$ < &  0.004 & 0.005 \\
-     	$\Delta\phi$ < &  0.03 & 0.02 \\
-     	$\sigma_{i\eta i\eta}$ < & 0.01 & 0.03 \\
-		$H/E$ < & 0.12 & 0.10 \\
-		$d_{xy}$ < & 0.02 cm & 0.02 cm \\
-		$d_{z}$ <  & 0.1 cm & 0.1 cm \\
-		$(1/E - 1/p)$ < & 0.05 & 0.05\\
+    		$\Delta\eta$ $<$ &  0.004 & 0.005 \\
+     	$\Delta\phi$ $<$ &  0.03 & 0.02 \\
+     	$\sigma_{i\eta i\eta}$ $<$ & 0.01 & 0.03 \\
+		$H/E$ $<$ & 0.12 & 0.10 \\
+		$d_{xy}$ $<$ & 0.02 cm & 0.02 cm \\
+		$d_{z}$ $<$  & 0.1 cm & 0.1 cm \\
+		$(1/E - 1/p)$ $<$ & 0.05 & 0.05\\
 		Missing hits  & 0 & 1 \\
 		Vertex Fit Probability & $10^{-6}$ & $10^{-6}$ \\    	
 
@@ -78,13 +78,13 @@ In this analysis \textit{particle flow} muon identification selection is applied
       \hline
       	Variable & Requirement \\
       	\hline
-    		number of pixel hits > &  0 \\
-     	number of inner tracker hits > &  5 \\
-     	$\chi^2/ndof$ < & 10 \\
-		number of muon hits > & 0  \\
-		chambers with matched segments > & 1  \\		
-		$d_{xy}$ < & 0.2 cm \\
-		$d_{z}$ <  & 0.5 cm \\
+    		number of pixel hits $>$ &  0 \\
+     	number of inner tracker hits $>$ &  5 \\
+     	$\chi^2/ndof$ $<$ & 10 \\
+		number of muon hits $>$ & 0  \\
+		chambers with matched segments $>$ & 1  \\		
+		$d_{xy}$ $<$ & 0.2 cm \\
+		$d_{z}$ $<$  & 0.5 cm \\
       \hline
       \hline 
   \end{tabular}
@@ -117,9 +117,17 @@ In high energy physics, jets are a colimated group of hadrons which emerges as a
 
 \subsection{Jet algorithms}
 
-Jet algorithms are taking into account the distance between particles and define rules which determine which particle belongs to which jet. Same jet algorithms should be applicable to both, experimental data and theoretical calculation.  Other important properties of jet algorithms is \textit{infrared safety} and \textit{collinear safety} which means is an event is modified by addition of soft emission of collinear splitting, the final number of hard jets will remain unchanged. These two properties together are called \textit{IRC safety}. IRC unsafe jet algorithms may break the cancellation of divergences by yielding one set of jets for tree-level splitting while loop diagrams lead to another giving infinite cross-sections in the final calculations. Jet definitions, jet relation to partons and an overview of different jet algorithms are summarized in \cite{Salam:2009jx}.
+Jet algorithms are taking into account the distance between particles and define rules which determine which particle belongs to which jet. Same jet algorithms should be applicable to both, experimental data and theoretical calculation.  Other important properties of jet algorithms is \textit{infrared safety} and \textit{collinear safety} which means is an event is modified by addition of soft emission of collinear splitting, the final number of hard jets will remain unchanged. These two properties together are called \textit{IRC safety}. IRC unsafe jet algorithms may break the cancellation of divergences by yielding one set of jets for tree-level splitting while loop diagrams lead to another, as shown if figure \ref{fig:jet_unsafe}, giving infinite cross-sections in the final calculations. Jet definitions, jet relation to partons and an overview of different jet algorithms are summarized in \cite{Salam:2009jx}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Figures/jet_unsafe2.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[An example of configuration of IRC unsafe jet algorithm.]{Configuration showing IC  unsafety with W boson and two partons. Adding a soft gluon causes two jets to be reconstructed as one. \cite{Salam:2009jx}}
+	\label{fig:jet_unsafe}
+\end{figure}
+
 \par There are two types of jet algorithms which are most commonly used: \textit{cone algorithms} and \textit{sequential recombination algorithms}. In the case of \textit{cone algorithms}, a jet is defined as a set of particles inside a stable cone around their center of mass. Most popular cone algorithm is \textit{iterative cones} (IC) where a seed particle is chosen and momenta of all particles around that initial particle inside a cone of radius $R$ are summed. After adding each new particle to the sum, the direction of the new sum is taken as a seed direction, and the procedure repeats until the direction of the resulting cone is stable. Particles inside the cone are than removed from the list of available particles and the procedure repeats. This approach is not IRC safe as nearly collinear splitting of the hardest particle in the event can be reconstructed as two jets thus leaving another, less energetic, particle, pointing in another direction, to become the hardest particle in the event, yielding different set of jets. Cone algorithms can be IRC safe using a \textit{seedless cone} (SC) algorithm where all stable cone solutions are identified at once. However this approach is very time consuming even for small number of particles and thus very impractical to use.
-\par \textit{Sequential recombination algorithms} at hadron colliders two distances which are longitudinally invariant are introduced: $d_{ij}$ which is the distance between each pair of particles and $d_iB$ which is the particle-beam distance. These distances are defined as: 
+t{Sequential recombination algorithms} at hadron colliders two distances which are longitudinally invariant are introduced: $d_{ij}$ which is the distance between each pair of particles and $d_iB$ which is the particle-beam distance. These distances are defined as: 
 \begin{equation}
 d_{ij} = min(k_{T,i}^{2p},k_{T,j}^{2p}) \frac{\Delta R_{ij}^2}{R^2}
 \end{equation}
@@ -127,7 +135,14 @@ d_{ij} = min(k_{T,i}^{2p},k_{T,j}^{2p}) \frac{\Delta R_{ij}^2}{R^2}
 d_{iB}=k_{t,i}^2p
 \end{equation}
 where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is computed as $\Delta R_{ij}^2 = (\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2$. $R$ is an angular cut-off, similar to the one in \textit{cone algorithms} and $p$ defines which particles are clustered first which is described below. Both are free parameters of the algorithm. The algorithm is applied using the following approach: first two distances $d_{ij}$ and $d_iB$ are computed and minimal values are found. If $d_{ij}$ is smaller, that two particles are combined, treated as a new particle and the distance with next particle in the list is computed. In case of $d_iB$ being smaller, $i$ is declared to be the final jet is removed from the list of particles. The procedure continues until there are no more particles in the list.
-\par Parameter $p$ defines which particles are clustered first thus defining the type of algorithm. The $k_T$ algorithm uses $p=1$, clustering soft particles first. This results in irregularly shaped jets which are sensitive to radiation in the event and difficult to calibrate. The \textit{Cambridge-Aachen} algorithm (CA) uses $p=0$ thus relying only on angular distribution of the input particles. This approach is particularly useful for jet substructure analysis and is less sensitive to radiation. The algorithm used in this analysis is $anti-k_T$ algorithm where $p=-1$ clusterizing the hardest particles first. $Anti-k_T$ is an IRC safe algorithm with jets that are circular in shape because they are not affected by the softer components of the jet.       
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Figures/diff_algos.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Clustering particles into jets with different algorithms.]{Clustering same set of reconstructed particles into jets using different jet algorithms. \cite{Salam:2009jx}}
+	\label{fig:jetAlgos}
+\end{figure}
+\par Parameter $p$ defines which particles are clustered first thus defining the type of algorithm. The $k_T$ algorithm uses $p=1$, clustering soft particles first. This results in irregularly shaped jets, as shown in figure \ref{fig:jetAlgos}, which are sensitive to radiation in the event and difficult to calibrate. The \textit{Cambridge-Aachen} algorithm (CA) uses $p=0$ thus relying only on angular distribution of the input particles. This approach is particularly useful for jet substructure analysis and is less sensitive to radiation. The algorithm used in this analysis is $anti-k_T$ algorithm where $p=-1$ clusterizing the hardest particles first \cite{Cacciari:2008gp}. $Anti-k_T$ is an IRC safe algorithm with jets that are circular in shape because they are not affected by the softer components of the jet.       
 
 
 %-----------------------------------
@@ -136,6 +151,12 @@ where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is comp
 
 \subsection{Jet corrections}
 
+Measured jet energy at detector level in general doesn't correspond to the energy of the originating particle. Jet calibration procedure is introduced to compensate for the nonlinear response of the calorimeters. This is done using a factorized approach where corrections on each level of correction are determined separately as described in \cite{Chatrchyan:2011ds}. Final corrected jet momentum is obtained from measured $p^{raw}$ according to:
+\begin{equation}
+p^{corr} = C_{offset}(p_T^{raw},\eta)\times C_{rel}(\eta) \times C_{abs}(p'_T) \times C_{res}(p_T'',\eta) \times p^{raw}
+\end{equation}     
+where offset correction $C_{offset}$ and calibration factors $C_{rel}$ and $C_{abs}$ are applied to both data and simulation, $C_{res}$ is applied only to data. Corrections are applied sequentially, in a fixed order such that $p_T'$ is transverse momentum after applying the offset correction, and $p_T''$ is transverse momentum after applying both offset correction and calibration factors. Correction factors used in this analysis are summarized in \cite{CMS-DP-2013-033}.
+
 
 
 %-----------------------------------
@@ -143,6 +164,30 @@ where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is comp
 %-----------------------------------
 
 \subsection{Jet identification}
+
+This analysis uses $anti-k_T$ algorithm with cone size $R=0.5$. Jet algorithm implementation is done in the \textit{Fast-jet} package \cite{Cacciari:2011ma}. Depending on which signals is the algorithm applied to, there are different kinds of jets: calo jets (using calorimeter deposits), jet-plus-track jets (calorimeter deposits complemented with tracker information) and most widely used \textit{particle flow} jets (PF). These jets are clustered from PF particles identified with PF algorithm, thus using the information not only from HCAL, but also from tracking system and ECAL which show much better resolution. Only neutral fraction of the jet is measured only with HCAL which makes about 15$\%$ of the total jet composition. PF jets show excellent performance and are the default jets for most CMS analysis. Pile-up information is also taken into account by removing charged hadrons originating from pile-up vertices from the list of particles available for the jet clusterization. This procedure is called \textit{charged hadron subtraction}. Some additional cuts to the jet composition are applied in order to endure good jet identification.  
+  \begin{table}[h]
+\centering
+  \caption{A summary of jet identification criteria.}
+  \label{tab:jetID}
+  \begin{tabular}{ l  c c}
+      \hline
+      \hline
+      	Variable & Requirement \\
+      	\hline
+    		Neutral hadron fraction & $<$ 0.99  \\
+     	Neutral EM fraction & $<$ 0.99 \\
+     	Number of Constituents & $>$ 1 \\		
+		\hline
+		Additional cuts for $|\eta|<2.4$ \\
+		\hline
+		Charged hadron fraction & $>$ 0 \\ 
+		Charged multiplicity & $>$ 0 \\
+		Charged EM fraction & $<$ 0.99 \\
+      \hline
+      \hline 
+  \end{tabular}
+\end{table}
 
 %-----------------------------------
 %	SUBSECTION 3.4

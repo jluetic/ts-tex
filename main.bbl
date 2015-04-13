@@ -199,6 +199,21 @@ R.~Frühwirth.
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   262(2–3):444 -- 450, 1987.
 
+\bibitem{Salam:2009jx}
+Gavin~P. Salam.
+\newblock {Towards Jetography}.
+\newblock {\em Eur.Phys.J.}, C67:637--686, 2010.
+
+\bibitem{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The Anti-k(t) jet clustering algorithm}.
+\newblock {\em JHEP}, 0804:063, 2008.
+
+\bibitem{Cacciari:2011ma}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {FastJet User Manual}.
+\newblock {\em Eur.Phys.J.}, C72:1896, 2012.
+
 \bibitem{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
   MET}.

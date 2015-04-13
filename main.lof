@@ -27,10 +27,12 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{38}{figure.caption.69}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces A drawing of CMS Trigger System.}}{39}{figure.caption.71}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{45}{figure.caption.84}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{47}{figure.caption.87}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{53}{figure.caption.107}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{54}{figure.caption.110}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{54}{figure.caption.111}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{55}{figure.caption.113}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{55}{figure.caption.111}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{56}{figure.caption.114}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{56}{figure.caption.115}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{57}{figure.caption.117}
