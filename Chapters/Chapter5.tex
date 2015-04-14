@@ -155,10 +155,30 @@ Measured jet energy at detector level in general doesn't correspond to the energ
 \begin{equation}
 p^{corr} = C_{offset}(p_T^{raw},\eta)\times C_{rel}(\eta) \times C_{abs}(p'_T) \times C_{res}(p_T'',\eta) \times p^{raw}
 \end{equation}     
-where offset correction $C_{offset}$ and calibration factors $C_{rel}$ and $C_{abs}$ are applied to both data and simulation, $C_{res}$ is applied only to data. Corrections are applied sequentially, in a fixed order such that $p_T'$ is transverse momentum after applying the offset correction, and $p_T''$ is transverse momentum after applying both offset correction and calibration factors. Correction factors used in this analysis are summarized in \cite{CMS-DP-2013-033}.
+where offset correction $C_{offset}$ and calibration factors $C_{rel}$ and $C_{abs}$ are applied to both data and simulation, $C_{res}$ is applied only to data. Corrections are applied sequentially, in a fixed order such that $p_T' = C_{offset} \times C_{rel}(\eta) \times p^{raw}$ , and $p_T'' = C_{rel}(\eta) \times C_{abs}(p'_T)$. Correction factors used in this analysis can be found in \cite{CMS-DP-2013-033}.
+Each level of corrections is summarized below:
+\begin{itemize}
+\item Offset correction $C_{offset}$ compensates for energy contributions arising from pile-up events or instrument noise. The offset is determined in dependence of pseudorapidity, jet area $p_T density$ which is described in \cite{Cacciari2008119}.
+\item Relative correction $C_{rel}$ is aimed to flattening the jet scale in pseudorapidity. The correction is determined from simulation, adjusting the jet scale in all $\eta$ regions to one of the jets in $|\eta|<1.3$ without changing the absolute scale.
+\item Absolute correction $C_{abs}$ flattens the jet scale in $p_T$. This correction is also determined from QCD multijet events as inverse of average response at fixed $p_T^{gen}$.
+\item Residual correction $C_{res}$ is applied only to data in order to account for possible residual differences in data and simulation agreement after applying absolute and relative corrections. These corrections are derived using events with momentum balance in transverse plane, like dijet events or $Z/\gamma$ + jet events.
+\end{itemize}
+The total jet correction for a fixed jet $p_T$ as a function of pseudorapidity is shown in figure \ref{fig:tot_corr_eta}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.9\textwidth]{Figures/jet_tot_corr_eta.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.]{Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values. Corrections are shown for all three types of jets, calo, JPT and PF jets. Bands indicate corresponding uncertainty.}
+	\label{fig:tot_corr_eta}
+\end{figure}
 
-
-
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.9\textwidth]{Figures/jet_tot_corr_pt.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Total jet energy correction as a function of transverse momentum for four different $\eta$ values.]{Total jet energy correction as a function of transverse momentum for four different $\eta$ values. Corrections are shown for all three types of jets, calo, JPT and PF jets. Bands indicate corresponding uncertainty.}
+	\label{fig:tot_corr_pt}
+\end{figure}
 %-----------------------------------
 %	SUBSECTION 3.3
 %-----------------------------------
@@ -195,6 +215,8 @@ This analysis uses $anti-k_T$ algorithm with cone size $R=0.5$. Jet algorithm im
 
 \subsection{Jets from b quarks}
 
+
+
 %----------------------------------------------------------------------------------------
 %	SECTION 4
 %----------------------------------------------------------------------------------------
@@ -211,6 +233,6 @@ where i goes over all visible particles. Measurement of the missing transverse e
 %	SECTION 5
 %----------------------------------------------------------------------------------------
 
-\section{W boson candidates}
+%\section{W boson candidates}
 
 

@@ -209,6 +209,22 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {The Anti-k(t) jet clustering algorithm}.
 \newblock {\em JHEP}, 0804:063, 2008.
 
+\bibitem{Chatrchyan:2011ds}
+Serguei Chatrchyan et~al.
+\newblock {Determination of Jet Energy Calibration and Transverse Momentum
+  Resolution in CMS}.
+\newblock {\em JINST}, 6:P11002, 2011.
+
+\bibitem{CMS-DP-2013-033}
+{8 TeV Jet Energy Corrections and Uncertainties based on 19.8 fb$^{-1}$ of data
+  in CMS}.
+\newblock Oct 2013.
+
+\bibitem{Cacciari2008119}
+Matteo Cacciari and Gavin~P. Salam.
+\newblock Pileup subtraction using jet areas.
+\newblock {\em Physics Letters B}, 659(1–2):119 -- 126, 2008.
+
 \bibitem{Cacciari:2011ma}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {FastJet User Manual}.
