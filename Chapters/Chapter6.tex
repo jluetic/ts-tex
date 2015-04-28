@@ -6,30 +6,206 @@
 
 \lhead{Chapter 6. \emph{Event selection and analysis strategy}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-%----------------------------------------------------------------------------------------
-%	SECTION 1
-%----------------------------------------------------------------------------------------
+%%----------------------------------------------------------------------------------------
+%%	SECTION 1
+%%----------------------------------------------------------------------------------------
+%
+%\section{Analysis strategy}
+%
+%
+%%-----------------------------------
+%%	SUBSECTION 1
+%%-----------------------------------
+%\subsection{Subsection 1}
+%
+%
+%
+%%-----------------------------------
+%%	SUBSECTION 2
+%%-----------------------------------
+%
+%\subsection{Subsection 2}
+%
+%
+%%----------------------------------------------------------------------------------------
+%%	SECTION 2
+%%----------------------------------------------------------------------------------------
+%
+%\section{Background estimation}
 
-\section{Analysis strategy}
+Signal events are characterized by presence of a W boson and two jets which have been tagged as comming from b quarks.
+Candidates for a W boson are identified as isolated muons or electron and significant missing energy.
+Jets are identified as particle flow objects clustered with anti-$k_T$ alghorithm with a cone size of $0.5$.
+Standard jet energy corrections and resolution smearing procedures prescribed by the Jet POG are applied.
+Combined secondary vertex (CSV) alghoritm is then used to identify jets arising from fragmentation and hadronization of b-quarks.
+This algohithm combines in an optimal way information about track impact parameters and identified secondary vertices
+within the jet even when full vertex information is not available.
+Isolated leptons not arising from W decays are not expected, and additional jet activity is minimal.
+
+\subsection{Signal extraction}
+Signal event selection is described in the Signal selection section.
+For each of the major backgrounds a separate control region is defined in order to verify Monte Carlo normalizations.
+
+The dominant backgrounds encountered in this analysis arise from few sources:
+\begin{itemize}
+        \item {\textbf{Top quarks:}} production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections.
+$t\bar{t}$ events are largely reduced by requiring an additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts,
+but production cross-section is smaller resulting in a smaller contribution in the final distributions.
+        \item {\textbf{W + light and c jets:}} contribution from this source of backgroung is largely reduced by applying b-tag requirement to selected jets.
+        \item {\textbf{Drell-Yan:}} contribution from this process is largely reduced by requiring only one islated lepton in the final state.
+        \item {\textbf{Dibosons(WW, WZ, ZZ):}} contribution from this type of background in case where one boson decays leptonicaly
+and the other decays to jets  is indistinguishable from the signal events apart from the peak in the invariant mass distribution of two jets.
+\end{itemize}
+
+For this test $t\bar{t}$ multijet control region is used which is defined to be same as signal region, but requiring additional jet activity.
 
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Subsection 1}
+
+\subsection{Systematics}
+
+The primary physics result described in this note is the cross section for production of a W boson and two b
+jets. Systematic uncertainties on the expected signal and background yields and shapes affect
+the final result. For a given sistematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
+
+\begin{itemize}
+        \item{\textbf{Luminosity:}}
+        an uncertainty of 2.2\% for luminosity measurement during 2012 datataking.
+        \item{\textbf{Jet energy scale:}}
+        the jet energy scale for each jet is varied within one standard deviation based on $p_T$ and $\eta$, and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
+        \item{\textbf{Jet energy resolution:}}
+        we smear the energy resolution for each jet using the Jet- MET prescription as our default, and then modified signal and background templates are created in which jet energy is smeared by $\pm 1 \sigma$ taken from JetMET POG.
+        \item{\textbf{Lepton energy scale:}}
+        muon and electron trigger, reconstruction, and identification ef-ficiencies are determined in data using the standard tag-and-probe technique with Z bosons. The systematic uncertainty is evaluated by varying lepton energy scale for each lepton within one standard deviation taken from POG.
+        \item{\textbf{Unclustered missing energy:}}
+        we follow the suggested procedure from the JetMET POG to determine the systematic uncertainty on the calibration of unclustered MET (missing energy associated with particles not clustered into jets).
+        \item{\textbf{MC samples normalizations:}}
+        the finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations are also allowed to vary within the uncertainties of measured Standard model cross-sections.(cite all sources)
+        \item{\textbf{Jet b-tagging:}}
+        official b-tagging scale factors are applied consistently to jets in signal and background events.
+\end{itemize}
+
+Contributions from different sources of systematic variations are summarized in Table \ref{tab:systZG}. Table also shows relative contribution to the signal strength uncertainty for each source of uncertainty together with the decreade in total systematic uncertainty when removing specific source of uncertainty.
+
+\begin{table}[!htb]
+\begin{center}
+\begin{tabular}{ccccc} \hline \hline
+&  & Event yield uncertainty &Individual contribution & Effect of removal  \\
+Source & Type & range (\%) &  to $\mu$ uncertainty (\%) & on $\mu$ uncertainty (\%) \\ \hline
+b-tag efficiency & shape &
+10.34 & 1.48 & 1.73\\
+b-tag fake rate & shape &
+0.08 & 0.01 & 0.40\\
+Jet resolution & shape &
+0.01 & 0.02 & 0.52\\
+Jet energy scale & shape &
+0.07 & $<0.01$ & 1.36\\
+Unclustered MET & shape &
+$<0.01$ & $<0.01$ & 5.20\\
+Muon scale & shape &
+0.12 & $<0.01$ & 0.38\\
+Luminosity & norm. &
+2.60 & 1.90 & 1.21\\
+Monte Carlo statistics & norm. &
+0.78 & 2.40 & 5.83\\
+\hline
+\end{tabular}
+\caption{Information about each source of systematic uncertainty together with the information whether just normalization or shape is included in the final fit. The table also shows the uncertainty on signal and background yields and the relative contribution to the signal strength uncertainty. Due to correlations, the total systematic uncertainty is smaller that the quadrature sume of individual uncertainties. The last column shows the decreade in total systematic uncertainty when removing specific source of uncertainty.}
+\label{tab:systZG}
+\end{center}
+\end{table}
+\subsection{Fit Results \label{sec:FitZagreb}}
+
+Binned maximum likelihood fits are peformed using
+templates derived from simulation. Systematic uncertainties on the fitted scale factors are de-
+determined by evaluating the effect on the template shapes from various sources of systematics,
+including b-tagging and jet energy scale and resolution.
+Final fit is performed simultaneously fitting transverse mass distributions in both signal
+region and $t\bar{t}$ multijet control region .
+
+Final yields are summarized in the Tables \ref{tab:fitYieldsJelena} for signal region and \ref{tab:fitYieldsJelenaTT} for $t\bar{t}$ multijet control region.
+Obtained yields are found to be in a good agreement with data. Measured signal strength for Wbb of $r = 1.34 \pm 0.16$ is in good agreement with signal strengths from Results section.
+
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {r|l|l} \hline \hline
+\bf{W+bb} & \multicolumn{2}{c}{Fit Result: r = 1.15 $\pm$ 0.16}\\
+        Sample          & Prefit                & Postfit \\
+        \hline
+        W+bb            &370.8$\pm$12.3 &556.6\\
+        W+cc            &20.3$\pm$5.3   &24.0\\
+        W+udscg         &1.7$\pm$1.0    &1.7\\
+        Z+jets          &21.8$\pm$6.9   &22.9\\
+        Single Top      &540.7$\pm$14.2 &624.5\\
+        T$\bar{T}$      &5577.3$\pm$20.5&6383.7\\
+        VV              &25.3$\pm$1.3   &28.2\\
+        QCD             &234.4$\pm$10.7 &158.7\\
+        \hline
+        Sum             &6792.4$\pm$31.1&7906.3\\
+        \hline
+        Data&\multicolumn{2}{c}{7995.0$\pm$89.4}\\
+        \hline\hline
+   \end{tabular}
+\caption{Data and MC yields before and after the fit in $t\bar{t}$ control region.}
+\label{tab:fitYieldsJelenaTT}
+\end{center}
+\end{table}
+
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {r|l|l} \hline \hline
+\bf{W+bb} & \multicolumn{2}{c}{Fit Result: r = 1.34 $\pm$ 0.16}\\
+        Sample          & Prefit                & Postfit \\
+        \hline
+        W+bb            &879.7$\pm$23.2         &1350.0\\
+        W+cc            &35.5$\pm$8.2           &42.5\\
+        W+udscg         &19.7$\pm$6.9           &20.1\\
+        Z+jets          &122.5$\pm$17.3         &131.2\\
+        Single Top      &722.1$\pm$15.5         &833.0\\
+        T$\bar{T}$      &2338.6$\pm$11.1        &2676.7\\
+        VV              &106.4$\pm$2.6          &121.4\\
+        QCD             &249.3$\pm$14.9         &220.6\\
+        \hline
+        Total MC        &4473.9$\pm$39.4        &5426.1\\
+        \hline
+        Data&\multicolumn{2}{c}{5355.0$\pm$73.2}\\
+   \hline\hline
+   \end{tabular}
+\caption{Yields of MC samples before and after the fit.}
+\label{tab:fitYieldsJelena}
+\end{center}
+\end{table}
 
 
 
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
-\subsection{Subsection 2}
 
 
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
+\subsection{Tests of the fit stability}
 
-\section{Background estimation}
+Additional tests were performed in order to verify the fit stability od the signal strength.
+This was done by fitting different combinations of distributions in both signal region and $t\bar{t}$ control region.
+Additional distributions include missing energy in the signal region and $t\bar{t}$ control region and
+invariant mass of third and fourth jet in $t\bar{t}$ control region. All distributions show good agreement
+in shapes between data and Monte Carlo. Fitting procedure is the as described in section \ref{sec:FitZagreb}.
+Obtained signal strengths are summarized in Table \ref{tab:addFitTest}.
 
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {ccc} \hline\hline
+   Fitted distribution (Wbb/TT) & ~~~Signal Strength~~~ & ~~~~Yield Ratio~~~ \\
+        \hline
+        $M_T$/$M_T$                     &1.34$\pm$0.15  &1.55\\
+        $M_T$/$E^{miss}_T$              &1.31$\pm$0.14  &1.52\\
+        $M_T$/$M(j_3j_4)$               &1.35$\pm$0.16  &1.53\\
+        $E^{miss}_T$/$M_T$              &1.43$\pm$0.21  &1.64\\
+        $E^{miss}_T$/$E^{miss}_T$       &1.33$\pm$0.17  &1.53\\
+        $E^{miss}_T$/$M(j_3j_4)$        &1.38$\pm$0.21  &1.55\\
+   \hline\hline
+   \end{tabular}
+                                                                                                                                                                                                 \caption{Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other.}
+\label{tab:addFitTest}
+\end{center}
+\end{table}
+
+
+
+       

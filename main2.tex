@@ -1,0 +1,287 @@
+% This is the main file for the template for doctoral thesis at
+% University of Zagreb, Faculty of Electrical Engineering and Computing
+% in Zagreb, Croatia.
+% Initial version was created in April 2013, last update was in July 2014.
+
+% Author: Jelena Bozek, jelena.bozek@fer.hr
+% Contributor: Vedran Miletic, vmiletic@inf.uniri.hr
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% POSTAVKE / SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,oneside, a4paper]{book}
+\usepackage{etex}
+\usepackage{xcolor}
+\usepackage[pdftex]{graphicx}
+\usepackage{rotating}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+% required for printing index
+% use \index{name} in text
+%\usepackage{makeidx}
+%\makeindex
+% required for printing nomenclature
+% use \nomenclature{symbol}{description} in text
+%\usepackage{nomencl}
+%\makenomenclature
+%\renewcommand{\nomname}{Popis oznaka}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{cmap}
+%\usepackage[croatian]{babel}
+\usepackage{ae}
+\usepackage[unicode]{hyperref}
+\usepackage{mathptmx}
+\usepackage{amscd}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{setspace} 
+\linespread{1.3}
+\usepackage{fancyhdr} % setting up header and position of page numbers
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{\nouppercase{\fancyplain{}{\leftmark}}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\rfoot{\thepage}
+
+\usepackage{hhline}
+\usepackage{enumerate}
+\usepackage{delarray}
+\usepackage{array}  % package for some table properties
+\usepackage{tabularx} % package that allows dynamical changing table cell width
+\usepackage{multirow}  % package that enables multiple rows in a table
+\usepackage[bf, font=small]{caption}
+\usepackage[labelfont=small, font=small]{subcaption}
+\usepackage{wasysym}
+\usepackage{subeqnarray}
+\usepackage{aeguill}
+\usepackage{pdflscape} % setting page into landscape view
+\usepackage{enumitem} % for itemize lists
+\setlist{nolistsep}   % setting for itemize lists
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}  % to get unnumbered footnotes
+\renewcommand{\arraystretch}{1.5} % stretching row height
+
+\usepackage[square, numbers, sort]{natbib} 
+
+
+
+% Adding a dot after chapter number in TOC 
+\let\savenumberline\numberline
+\def\numberline#1{\savenumberline{#1.}}
+
+% Adding dots after chapter titles to page number in TOC
+\makeatletter
+\renewcommand*\l@chapter[2]{%
+  \ifnum \c@tocdepth >\m@ne
+  \addpenalty{-\@highpenalty}%
+  \vskip 1.0em \@plus\p@
+  \setlength\@tempdima{1.5em}%
+  \begingroup
+  \parindent \z@ \rightskip \@pnumwidth
+  \parfillskip -\@pnumwidth
+  \leavevmode \bfseries
+  \advance\leftskip\@tempdima
+  \hskip -\leftskip
+  #1\nobreak\normalfont\leaders\hbox{$\m@th
+    \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
+    mu$}\hfill\nobreak\hb@xt@\@pnumwidth{\hss #2}\par
+  \penalty\@highpenalty
+  \endgroup
+  \fi}
+\makeatother
+
+% adjust the line spacing in a matrix
+\makeatletter
+\renewcommand*\env@matrix[1][\arraystretch]{%
+  \edef\arraystretch{#1}%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{*\c@MaxMatrixCols c}}
+\makeatother
+
+% remove footer (page number) from TOC, list of figures and list of tables
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}}
+\AtBeginDocument{\addtocontents{lof}{\protect\thispagestyle{empty}}}
+\AtBeginDocument{\addtocontents{lot}{\protect\thispagestyle{empty}}}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+%%%%%%%%%%%%%%%%%%%% NASLOVNICA / FRONT COVER PAGE %%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+  \fontsize{16pt}{20pt}\selectfont
+  \fontfamily{phv}\fontseries{mc}\selectfont
+  \newgeometry{left=3cm,right=3cm,top=3cm,bottom=2.5cm}
+  \setlength{\intextsep}{0pt plus 0pt minus 0pt}
+
+  \begin{center}
+    \begin{figure}[ht!]
+      \begin{center}
+        \includegraphics[height=4.1184cm, width=5.94cm]{logo_unizg_eng}
+      \end{center}
+    \end{figure}
+    \vspace{0cm}
+    {FACULTY OF SCIENCE} \\
+    \vspace{3cm}
+    Jelena Luetić \\
+    \vspace{2cm}
+    {\fontsize{22pt}{22pt}\selectfont\textbf{Measurement of the cross section for associated production of a W boson and two b quarks with the CMS detector at the Large Hadron Collider}} \\
+    \vspace{2cm}  
+    DOKTORSKI RAD \\    
+    \vfill{Zagreb, 2015.}
+  \end{center}
+  \restoregeometry
+\end{titlepage}
+%%%%%%%%%%%%%% Prva UNUTARNJA STRANICA / SECOND INNER PAGE %%%%%%%%%%%%%%%
+\begin{titlepage}
+  \fontsize{16pt}{20pt}\selectfont
+  \fontfamily{phv}\fontseries{mc}\selectfont
+  \newgeometry{left=3cm,right=3cm,top=3cm,bottom=2.5cm}
+  \setlength{\intextsep}{0pt plus 0pt minus 0pt}
+
+  \begin{center}
+    \begin{figure}[ht!]
+      \begin{center}
+        \includegraphics[height=4.1184cm, width=5.94cm]{logo_unizg_eng}
+      \end{center}
+    \end{figure}		
+    \vspace{0cm}
+    {\fontsize{16pt}{16pt}{FACULTY OF SCIENCE}} \\
+    \vspace{3cm}
+    Jelena Luetić \\
+    \vspace{2cm}
+    {\fontsize{22pt}{22pt}\selectfont\textbf{Measurement of the cross section for associated production of a W boson and two b quarks with the CMS detector at the Large Hadron Collider}} \\
+    \vspace{2cm}   
+    DOCTORAL THESIS \\  
+    \vspace{5cm}   % adjust this spacing if necessary
+    Supervisor: Professor Vuko Brigljević, PhD \\
+    \vfill{Zagreb, 2015}
+  \end{center}
+  \restoregeometry
+\end{titlepage}
+%%%%%%%%%%%%%%% Druga UNUTARNJA STRANICA / FIRST INNER PAGE %%%%%%%%%%%%%%%%
+\begin{titlepage}
+  \fontsize{16pt}{20pt}\selectfont
+  \fontfamily{phv}\fontseries{mc}\selectfont
+  \newgeometry{left=3cm,right=3cm,top=3cm,bottom=2.5cm}
+  \setlength{\intextsep}{0pt plus 0pt minus 0pt}
+
+  \begin{center}
+    \begin{figure}[ht!]
+      \begin{center}
+        \includegraphics[height=4.1184cm, width=5.94cm]{logo_unizg2}
+      \end{center}
+    \end{figure}		
+    \vspace{0cm}
+    {PRIRODOSLOVNO MATEMATIČKI FAKULTET} \\
+    \vspace{3cm}
+    Jelena Luetić \\
+    \vspace{2cm}
+    {\fontsize{22pt}{22pt}\selectfont\textbf{Mjerenje udarnog presjeka zajedničke produkcije W bozona i para b kvarkova CMS detektorom na Velikom hadronskom sudarivaču}} \\
+    \vspace{2cm}    
+    DOKTORSKI RAD \\
+    \vspace{5cm}    % adjust this spacing if necessary
+    Mentor: Prof. dr. sc. Vuko Brigljević \\
+    \vfill{Zagreb, 2015.}
+  \end{center}
+  \restoregeometry
+\end{titlepage}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+  \begin{minipage}{\dimexpr\textwidth-1cm}
+    \vspace{3cm}
+    Doktorski rad izrađen je na Sveučilištu u Zagrebu
+    Prirodoslovno matematičkom fakultetu
+
+    \vspace{1cm}
+    Mentor: prof. dr. sc. Vuko Brigljević
+
+    \vspace{1cm}
+    Doktorski rad ima: XYZ stranica
+
+    \vspace{1cm}
+    Doktorski rad br.: \line(1,0){64}
+  \end{minipage}
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% insert optional page with thanks or dedication
+%\include{eg_thanks_dedication}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TOC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty} % remove header/footer 
+\tableofcontents
+\cleardoublepage % start new page
+
+%\pagestyle{fancyplain} % puts headers/footers back on
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+%\input{Chapters/Chapter1}
+\input{Chapters/Chapter2} 
+\input{Chapters/Chapter3}
+\input{Chapters/Chapter4} 
+\input{Chapters/Chapter5} 
+\input{Chapters/Chapter6} 
+%\input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+%\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\bibliographystyle{unsrt}
+
+\bibliography{Bibliography}
+
+
+
+
+\end{document}
