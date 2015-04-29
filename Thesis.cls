@@ -239,60 +239,60 @@
 %----------------------------------------------------------------------------------------    
 
 % The default title page, this is not used in this www.latextemplates.com version            
-\renewcommand\maketitle{
-  \btypeout{Title Page}
-  \hypersetup{pdftitle={\@title}}
-  \hypersetup{pdfsubject=\subjectname}
-  \hypersetup{pdfauthor=\authornames}
-  \hypersetup{pdfkeywords=\keywordnames}
-  \thispagestyle{empty}
-  \begin{titlepage}
-    \let\footnotesize\small
-    \let\footnoterule\relax
-    \let \footnote \thanks
-    \setcounter{footnote}{0}
-    \null\vfil
-    \vskip 60\p@
-    \begin{center}
-      \setlength{\parskip}{0pt}
-      {\large\textbf{\UNIVNAME}\par}
-      \vfill
-      {\huge \bf \@title \par}
-      \vfill
-      {\LARGE by \par}
-      \smallskip
-      {\LARGE \authornames \par}
-      \vfill
-      {\large A thesis submitted in partial fulfillment for the \par}
-      {\large degree of \degreename \par}
-      \bigskip
-      \bigskip
-      {\large in the \par}
-      {\large \facname \par}
-      {\large \deptname \par} 
-      \bigskip
-      \bigskip
-      \bigskip
-      {\Large \@date \par}
-      \bigskip
-    \end{center}
-    \par
-    \@thanks
-    \vfil\null
-  \end{titlepage}
-  \setcounter{footnote}{0}%
-  \global\let\thanks\relax
-  \global\let\maketitle\relax
-  \global\let\@thanks\@empty
-  \global\let\@author\@empty
-  \global\let\@date\@empty
-  \global\let\@title\@empty
-  \global\let\title\relax
-  \global\let\author\relax
-  \global\let\date\relax
-  \global\let\and\relax
-  \cleardoublepage
-}
+%\renewcommand\maketitle{
+%  \btypeout{Title Page}
+%  \hypersetup{pdftitle={\@title}}
+%  \hypersetup{pdfsubject=\subjectname}
+%  \hypersetup{pdfauthor=\authornames}
+%  \hypersetup{pdfkeywords=\keywordnames}
+%  \thispagestyle{empty}
+%  \begin{titlepage}
+%    \let\footnotesize\small
+%    \let\footnoterule\relax
+%    \let \footnote \thanks
+%    \setcounter{footnote}{0}:
+%    \null\vfil
+%    \vskip 60\p@
+%    \begin{center}
+%      \setlength{\parskip}{0pt}
+%      {\large\textbf{\UNIVNAME}\par}
+%      \vfill
+%      {\huge \bf \@title \par}
+%      \vfill
+%      {\LARGE by \par}
+%      \smallskip
+%      {\LARGE \authornames \par}
+%      \vfill
+%      {\large A thesis submitted in partial fulfillment for the \par}
+%      {\large degree of \degreename \par}
+%      \bigskip
+%      \bigskip
+%      {\large in the \par}
+%      {\large \facname \par}
+%      {\large \deptname \par} 
+%      \bigskip
+%      \bigskip
+%      \bigskip
+%      {\Large \@date \par}
+%      \bigskip
+%    \end{center}
+%    \par
+%    \@thanks
+%    \vfil\null
+%  \end{titlepage}
+%  \setcounter{footnote}{0}%
+%  \global\let\thanks\relax
+%  \global\let\maketitle\relax
+%  \global\let\@thanks\@empty
+%  \global\let\@author\@empty
+%  \global\let\@date\@empty
+%  \global\let\@title\@empty
+%  \global\let\title\relax
+%  \global\let\author\relax
+%  \global\let\date\relax
+%  \global\let\and\relax
+%  \cleardoublepage
+%}
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE DESIGN
 %----------------------------------------------------------------------------------------

@@ -8,7 +8,7 @@
 \setlength\parindent{24pt}
 \hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
 \title{\ttitle} % Defines the thesis title - don't touch this
-
+%\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
@@ -34,40 +34,40 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\begin{titlepage}
-\begin{center}
-
-\textsc{\LARGE \univname}\\[1.5cm] % University name
-\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
-
-\HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
-\HRule \\[1.5cm] % Horizontal line
- 
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Author:}\\
-{\authornames} % Author name - remove the \href bracket to remove the link
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Supervisor:} \\
-{\supname} % Supervisor name - remove the \href bracket to remove the link  
-\end{flushright}
-\end{minipage}\\[3cm]
- 
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
- 
-{\large \today}\\[4cm] % Date
-%\includegraphics{Logo} % University/department logo - uncomment to place it
- 
-\vfill
-\end{center}
-
-\end{titlepage}
+%\begin{titlepage}
+%\begin{center}
+%
+%\textsc{\LARGE \univname}\\[1.5cm] % University name
+%\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+%
+%\HRule \\[0.4cm] % Horizontal line
+%{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
+%\HRule \\[1.5cm] % Horizontal line
+% 
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushleft} \large
+%\emph{Author:}\\
+%{\authornames} % Author name - remove the \href bracket to remove the link
+%\end{flushleft}
+%\end{minipage}
+%\begin{minipage}{0.4\textwidth}
+%\begin{flushright} \large
+%\emph{Supervisor:} \\
+%{\supname} % Supervisor name - remove the \href bracket to remove the link  
+%\end{flushright}
+%\end{minipage}\\[3cm]
+% 
+%\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+%\textit{in the}\\[0.4cm]
+%\groupname\\\deptname\\[2cm] % Research group name and department name
+% 
+%{\large \today}\\[4cm] % Date
+%%\includegraphics{Logo} % University/department logo - uncomment to place it
+% 
+%\vfill
+%\end{center}
+%
+%\end{titlepage}
 
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
@@ -97,6 +97,85 @@
 %}
 %
 %\clearpage % Start a new page
+\begin{titlepage}
+  \fontsize{16pt}{20pt}\selectfont
+  \fontfamily{phv}\fontseries{mc}\selectfont
+  %\newgeometry{left=3cm,right=3cm,top=3cm,bottom=2.5cm}
+  \setlength{\intextsep}{0pt plus 0pt minus 0pt}
+
+  \begin{center}
+    \begin{figure}[ht!]
+      \begin{center}
+        \includegraphics[height=4.1184cm, width=5.94cm]{logo_unizg_eng}
+      \end{center}
+    \end{figure}
+    \vspace{0cm}
+    {FACULTY OF SCIENCE} \\
+    \vspace{3cm}
+    Jelena Luetić \\
+    \vspace{2cm}
+    {\fontsize{22pt}{22pt}\selectfont\textbf{Measurement of the cross section for associated production of a W boson and two b quarks with the CMS detector at the Large Hadron Collider}} \\
+    \vspace{2cm}  
+    DOCTORAL THESIS \\    
+    \vfill{Zagreb, 2015.}
+  \end{center}
+  %\restoregeometry
+\end{titlepage}
+%%%%%%%%%%%%%% Prva UNUTARNJA STRANICA / SECOND INNER PAGE %%%%%%%%%%%%%%%
+\begin{titlepage}
+  \fontsize{16pt}{20pt}\selectfont
+  \fontfamily{phv}\fontseries{mc}\selectfont
+  %\newgeometry{left=3cm,right=3cm,top=3cm,bottom=2.5cm}
+  \setlength{\intextsep}{0pt plus 0pt minus 0pt}
+
+  \begin{center}
+    \begin{figure}[ht!]
+      \begin{center}
+        \includegraphics[height=4.1184cm, width=5.94cm]{logo_unizg_eng}
+      \end{center}
+    \end{figure}		
+    \vspace{0cm}
+    {\fontsize{16pt}{16pt}{FACULTY OF SCIENCE}} \\
+    \vspace{3cm}
+    Jelena Luetić \\
+    \vspace{2cm}
+    {\fontsize{22pt}{22pt}\selectfont\textbf{Measurement of the cross section for associated production of a W boson and two b quarks with the CMS detector at the Large Hadron Collider}} \\
+    \vspace{2cm}   
+    DOCTORAL THESIS \\  
+    \vspace{5cm}   % adjust this spacing if necessary
+    Supervisor: Professor Vuko Brigljević, PhD \\
+    \vfill{Zagreb, 2015}
+  \end{center}
+  %\restoregeometry
+\end{titlepage}
+%%%%%%%%%%%%%%% Druga UNUTARNJA STRANICA / FIRST INNER PAGE %%%%%%%%%%%%%%%%
+\begin{titlepage}
+  \fontsize{16pt}{20pt}\selectfont
+  \fontfamily{phv}\fontseries{mc}\selectfont
+  %\newgeometry{left=3cm,right=3cm,top=3cm,bottom=2.5cm}
+  \setlength{\intextsep}{0pt plus 0pt minus 0pt}
+
+  \begin{center}
+    \begin{figure}[ht!]
+      \begin{center}
+        \includegraphics[height=4.1184cm, width=5.94cm]{logo_unizg2}
+      \end{center}
+    \end{figure}		
+    \vspace{0cm}
+    {PRIRODOSLOVNO MATEMATIČKI FAKULTET} \\
+    \vspace{3cm}
+    Jelena Luetić \\
+    \vspace{2cm}
+    {\fontsize{22pt}{22pt}\selectfont\textbf{Mjerenje udarnog presjeka zajedničke produkcije W bozona i para b kvarkova CMS detektorom na Velikom hadronskom sudarivaču}} \\
+    \vspace{2cm}    
+    DOKTORSKI RAD \\
+    \vspace{5cm}    % adjust this spacing if necessary
+    Mentor: Prof. dr. sc. Vuko Brigljević \\
+    \vfill{Zagreb, 2015.}
+  \end{center}
+  %\restoregeometry
+\end{titlepage}
+
 
 %----------------------------------------------------------------------------------------
 %	QUOTATION PAGE

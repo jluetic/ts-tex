@@ -4,7 +4,7 @@
 
 \lhead{Chapter 5. \emph{Physics object definitions}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-
+CMS detector is designed in order to efficiently identify and reconstruct interesting physics objects. Reconstruction procedure which takes as input the signals from all the subdetectors and combines them to get physics objects is called \textit{particle flow}. \cite{CMS:2009nxa} This algorithm classifies all the objects into one of the following categories: charged hadrons, neutral hadrons, photons, electrons and muons. These are built from reconstructed tracks, energy deposits in the calorimeters and signals in the muon chambers creating a global event description. Additionally, a set of cuts is imposed on both input signals and reconstructed object in order to minimize the misidentification, e.g wrongly identifying electron as a jet. Electron, muon and jet reconstruction is described in detail in the following sections. 
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -137,7 +137,7 @@ d_{iB}=k_{T,i}^2p
 where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is computed as $$\Delta R_{ij}^2 = (\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2$$. $R$ is an angular cut-off, similar to the one in \textit{cone algorithms} and $p$ defines which particles are clustered first which is described below. Both are free parameters of the algorithm. The algorithm is applied using the following approach: first two distances $d_{ij}$ and $d_iB$ are computed and minimal values are found. If $d_{ij}$ is smaller, that two particles are combined, treated as a new particle and the distance with next particle in the list is computed. In case of $d_iB$ being smaller, $i$ is declared to be the final jet is removed from the list of particles. The procedure continues until there are no more particles in the list.
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{Figures/diff_algos.pdf}
+		\includegraphics[width=0.9\textwidth]{Figures/diff_algos.pdf}
 		%\rule{35em}{0.5pt}
 	\caption[Clustering particles into jets with different algorithms.]{Clustering same set of reconstructed particles into jets using different jet algorithms. \cite{Salam:2009jx}}
 	\label{fig:jetAlgos}
@@ -215,7 +215,26 @@ This analysis uses $anti-k_T$ algorithm with cone size $R=0.5$. Jet algorithm im
 
 \subsection{Jets from b quarks}
 
-Properties of the bottom quark, like relatively large mass and long lifetime, can be used to identify hadronic jets originating from b quarks. Such jets are originating from secondary interaction point with significant impact parameter, and $p_T$ of the jet constituents is harder than for light jets.  
+Unique properties of the bottom quark can be used to identify hadronic jets originating from b quarks which are usually referred to as b-jets. Long lifetime of B hadrons is a consequence of weak force decay which results in their displacement by few micrometers at the LHC energies. B hadron decays show a large number of tracks with hard $p_T$ spectrum and soft leptons emerging from semi-leptonic decays. The process of b-jet identification is called $b-tagging$. This process takes one or more variables and produces a single discriminant value for each jet. This value shows how much the observed jet looks like a b-jet. There are several \textit{b-tagging} algorithms in use at CMS which are described in detail in \cite{Chatrchyan:2012jua} and the following were used in 2012 data analysis:
+\begin{itemize}
+	\item \textit{Track counting}(TC) - The discriminant value is the impact parameter significance which is calculated as impact parameter value divided by the respective impact parameter uncertainty. Impact parameter values are sorted in the decreasing order. Depending on whether second or third value is chosen, the algorithm is denoted as high efficiency or high purity. 
+	\item \textit{Jet Probability}(JP) - This algorithm combines information from several tracks inside a jet by computing a likelihood thet all tracks originated from the primary vertex.  
+	\item \textit{Combined secondary vertex}(CSV) - This is the most efficient \textit{b-tagging} algorithm currently used at CMS. Both secondary vertex and track related information are combined to build a CSV discriminant value. It shows high efficiency even when no good secondary vertex can be reconstructed. Some of the variables used in CSV algorithm are flight distance, vertex mass, impact parameter significance, track multiplicity at the vertex and track multiplicity in a jet. The distribution of CSV discriminant value is shown in figure \ref{fig:csv}.
+\end{itemize}
+\begin{figure}[ht]
+	\includegraphics[width=\textwidth]{Figures/b-tag_csv.pdf}
+	\caption{Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite{CMS:2013vea}}
+	\label{fig:csv}
+\end{figure}
+For each non-b-jet there is a chance that it would be identified as b-jet. Based on this misidentification rate, three operating points have been defined for the discriminant value: loose, medium and tight. For an average jet of 80 GeV, these values correspond to misidentification rates of 10\%, 1\% and 0.1\% respectively. Misidentification probabilities as a function of b-jer efficiency for several algorithms are shown in figure \ref{fig:misID}. 
+\begin{figure}[ht]
+\centering
+	\includegraphics[width=0.6\textwidth]{Figures/MisID_CSVM.pdf}
+	\caption{Combined secondary vertex misidentification probability for data and MC for medium working point.\cite{CMS:2013vea}}
+	\label{fig:misID}
+\end{figure}
+
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 4

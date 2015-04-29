@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{CMS:2013vea}
+CMS Collaboration.
+\newblock {Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and
+  boosted topology events}.
+\newblock 2013.
+
 \bibitem{Evans:2008zzb}
 Lyndon Evans and Philip Bryant.
 \newblock {LHC Machine}.
@@ -182,6 +188,11 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
 \newblock {\em {LHC Design Report}}.
 \newblock CERN, Geneva, 2004.
 
+\bibitem{CMS:2009nxa}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock 2009.
+
 \bibitem{2005JPhG31N9A}
 W.~{Adam}, R.~{Fr{\"u}hwirth}, A.~{Strandlie}, and T.~{Todorov}.
 \newblock {RESEARCH NOTE FROM COLLABORATION: Reconstruction of electrons with
@@ -229,6 +240,11 @@ Matteo Cacciari and Gavin~P. Salam.
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {FastJet User Manual}.
 \newblock {\em Eur.Phys.J.}, C72:1896, 2012.
+
+\bibitem{Chatrchyan:2012jua}
+Serguei Chatrchyan et~al.
+\newblock {Identification of b-quark jets with the CMS experiment}.
+\newblock {\em JINST}, 8:P04013, 2013.
 
 \bibitem{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and

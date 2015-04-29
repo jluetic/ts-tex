@@ -1,40 +1,42 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces List of Standard model elementary particles}}{4}{figure.caption.12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Strong force coupling constant}}{8}{figure.caption.18}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Parton distribution functions for different momentum transfers}}{9}{figure.caption.19}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Drawing of a proton-proton collision}}{10}{figure.caption.20}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Proton-proton cross sections}}{12}{figure.caption.27}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Leading order Wbb Feynmann diagram}}{13}{figure.caption.29}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Scale dependence of Wbb cross section}}{14}{figure.caption.30}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Wbb NLO scale dependence}}{15}{figure.caption.31}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Wbb production within 5 flavor scheme}}{16}{figure.caption.32}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Double parton scattering}}{17}{figure.caption.34}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{19}{figure.caption.38}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Atlas Wbb total cross section measurement}}{21}{figure.caption.40}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$}}{22}{figure.caption.41}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces CMS Wbb total cross section measurement}}{22}{figure.caption.42}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces List of Standard model elementary particles}}{4}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Strong force coupling constant}}{8}{figure.caption.21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Parton distribution functions for different momentum transfers}}{9}{figure.caption.22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Drawing of a proton-proton collision}}{10}{figure.caption.23}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Proton-proton cross sections}}{12}{figure.caption.30}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Leading order Wbb Feynmann diagram}}{13}{figure.caption.32}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Scale dependence of Wbb cross section}}{14}{figure.caption.33}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Wbb NLO scale dependence}}{15}{figure.caption.34}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Wbb production within 5 flavor scheme}}{16}{figure.caption.35}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Double parton scattering}}{17}{figure.caption.37}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{19}{figure.caption.41}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Atlas Wbb total cross section measurement}}{21}{figure.caption.43}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$}}{22}{figure.caption.44}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces CMS Wbb total cross section measurement}}{22}{figure.caption.45}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{24}{figure.caption.44}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{27}{figure.caption.47}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{29}{figure.caption.51}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{24}{figure.caption.47}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{27}{figure.caption.50}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{29}{figure.caption.54}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{31}{figure.caption.53}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Strip Detector}}{34}{figure.caption.61}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces CMS Electromagnetic Calorimeter}}{35}{figure.caption.63}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CMS Hadronic Calorimeter}}{36}{figure.caption.66}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces CMS Muon Chambers}}{38}{figure.caption.68}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{38}{figure.caption.69}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces A drawing of CMS Trigger System.}}{39}{figure.caption.71}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{31}{figure.caption.56}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Strip Detector}}{34}{figure.caption.64}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces CMS Electromagnetic Calorimeter}}{35}{figure.caption.66}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CMS Hadronic Calorimeter}}{36}{figure.caption.69}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces CMS Muon Chambers}}{38}{figure.caption.71}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{38}{figure.caption.72}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces A drawing of CMS Trigger System.}}{39}{figure.caption.74}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{45}{figure.caption.84}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{47}{figure.caption.87}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{48}{figure.caption.90}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{49}{figure.caption.91}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{45}{figure.caption.87}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{47}{figure.caption.90}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{49}{figure.caption.93}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{50}{figure.caption.94}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{52}{figure.caption.98}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{52}{figure.caption.99}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{55}{figure.caption.114}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{56}{figure.caption.117}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{56}{figure.caption.118}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{57}{figure.caption.120}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{58}{figure.caption.126}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{59}{figure.caption.129}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{59}{figure.caption.130}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{60}{figure.caption.132}
