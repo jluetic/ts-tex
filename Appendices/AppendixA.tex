@@ -6,6 +6,7 @@
 
 \lhead{Appendix A. \emph{Lorentz angle measurement in Pixel detector}} 
 
+\section{Grazing angle method}
 Lorentz angle is measured by using grazing angle method described in detail in \cite{Henrich}. From the individual signals in the detector, using reconstruction algorithms, tracks of muon candidates are obtained. From these reconstructed track it is possible to extract the entry point ($x_{reco}$,$y_{reco}$) to each layer of the detector. 
 Distance between reconstructed entry point and the actual hit in the detector is then defined as ($\Delta x$,$\Delta y$):
 \begin{equation}
@@ -87,4 +88,29 @@ Figure \ref{fig:La2012} shows how Lorentz angle changes with integrated luminosi
 \caption{Lorentz angle as a function of integrated luminosity for 2012.}
 \label{fig:La2012}
 \end{figure}
+
+\section{Minimum cluster size method (V-method)}
+The pixel cluster size in the drift direction depends on the incident
+angle and is minimal when incident angle is equal to the Lorentz angle. Thus, measuring the average cluster size in drift direction as a function of incident angle and obtaining a minimum of that
+distribution is an alternative and direct method of measuring the Lorentz angle. The method is usually referred to as V-method due
+to a shape of distribution which in the simple case can be approximated with formula
+
+\begin{equation}
+p_1*abs(tan(\theta) - p_0) + p_2
+\end{equation}
+where $p_0$, $p_1$ and $p_2$ are parameters obtained from the fit and $p_0$ = $tan(\theta_{LA})$.
+
+The method was successfully applied to cosmic muon tracks during CMS commissioning period in 2008 and again in 2015. The fit result is shown in figure \ref{fig:LA_VMethod}.
+
+\begin{figure}[hbtp!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Figures/LA_VMethod_2015.pdf}
+\end{figure}
+
+Application to collision data is more challenging. Coordinates of a track passing through the detector, its incoming angle, and its $p_T$ are
+correlated and therefore incoming angles from collision tracks have limited range. With
+standard running conditions the value of Lorentz angle is at the edge of that range where tracks with very low $p_T$ (<0.5 GeV) dominate. Because
+of that average cluster size as a function of incoming angle cannot be described by a simple model like above mentioned for cosmic data.
+While  results for collision data obtained with V-method are in general agreement with the default calculation,  the uncertainty of
+the method at present is too big to be used as a viable alternative.
 

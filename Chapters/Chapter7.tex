@@ -200,6 +200,54 @@
 
 \section{Systematics}
 
+The primary physics result described in this note is the cross section for production of a W boson and two b
+jets. Systematic uncertainties on the expected signal and background yields and shapes affect
+the final result. For a given systematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
+
+\begin{itemize}
+        \item{\textbf{Luminosity:}}
+        an uncertainty of 2.2\% for luminosity measurement during 2012 datataking is reported by the CMS luminosity group.
+        \item{\textbf{Jet energy scale:}}
+        the jet energy scale for each jet is varied within one standard deviation of the applied jet energy corrections based on $p_T$ and $\eta$ of the jet, and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
+        \item{\textbf{Jet energy resolution:}}
+        jet energy resolution in simulation is smeared by default in order to take into account worse resolution in data. The uncertainty on the applied smearing factors is used to produce modified signal and background templates are created and used in the final fit.
+        \item{\textbf{Lepton energy scale:}}
+        muon and electron trigger, reconstruction, and identification efficiencies are determined in data using the standard tag-and-probe technique with Z bosons. The systematic uncertainty is evaluated by varying lepton energy scale for each lepton type within one standard deviation taken from POG.
+        \item{\textbf{Unclustered missing energy:}}
+        we follow the suggested procedure from the JetMET POG to determine the systematic uncertainty on the calibration of unclustered MET (missing energy associated with particles not clustered into jets).
+        \item{\textbf{MC samples normalizations:}}
+        the finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations for each of the Monte-Carlo samples are also allowed to vary within the uncertainties of measured Standard model cross-sections. Cross section uncertainties are summarized in the table \ref{tab:SMunc}
+        \item{\textbf{Jet b-tagging:}}
+        official b-tagging scale factors are applied consistently to jets in signal and background events.
+\end{itemize}
+
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {r c} \hline \hline
+        Process         & Cross section uncertainty \\
+        \hline
+        W+c(c)          & 8.1$\%$ \\
+        W+udsg          & 13.2$\%$ \\
+        Z+jets          & 7.9$\%$ \\
+        Single Top      & 5.4$\%$ \\
+        T$\bar{T}$      & 7.4$\%$ \\
+        VV              & 8.1$\%$ \\
+        \hline\hline
+   \end{tabular}
+\caption{Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.}
+\label{tab:SMunc}
+\end{center}
+\end{table}
+
+Shape variations used in the final fit are shown in the figure \ref{fig:shapeVar}. Contributions from different sources of systematic variations are summarized in Table \ref{tab:systContrib}. Table also shows relative contribution to the signal strength uncertainty for each source of uncertainty together with the change in total systematic uncertainty when removing specific source of uncertainty.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.49\textwidth]{Figures/syst_Wbb_var.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/syst_TT_var.pdf}
+	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (left) and TT control region(right).}
+	\label{fig:shapeVar}
+\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 3

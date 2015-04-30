@@ -42,25 +42,22 @@
 \contentsline {subsection}{\numberline {5.4.3}Jet identification}{49}{subsection.95}
 \contentsline {subsection}{\numberline {5.4.4}Jets from b quarks}{50}{subsection.97}
 \contentsline {section}{\numberline {5.5}Missing transverse energy}{52}{section.100}
-\contentsline {chapter}{\numberline {6}Cross section measurement}{54}{chapter.102}
+\contentsline {chapter}{\numberline {6}Event selection and background estimation}{54}{chapter.102}
 \contentsline {section}{\numberline {6.1}Event selection}{55}{section.103}
-\contentsline {subsection}{\numberline {6.1.1}Pile-up multiplicity}{55}{subsection.104}
-\contentsline {subsection}{\numberline {6.1.2}Trigger efficiency}{55}{subsection.105}
-\contentsline {subsection}{\numberline {6.1.3}b-tagging efficiency}{55}{subsection.106}
-\contentsline {section}{\numberline {6.2}Background estimation}{55}{section.107}
-\contentsline {subsection}{\numberline {6.2.1}Top quark background}{55}{subsection.108}
-\contentsline {subsection}{\numberline {6.2.2}Z+jets}{55}{subsection.109}
-\contentsline {subsection}{\numberline {6.2.3}W+light jets}{55}{subsection.110}
-\contentsline {subsection}{\numberline {6.2.4}QCD}{55}{subsection.111}
-\contentsline {subsection}{\numberline {6.2.5}Other backgrounds}{55}{subsection.112}
-\contentsline {section}{\numberline {6.3}Fitting procedure}{55}{section.113}
-\contentsline {section}{\numberline {6.4}Systematics}{55}{section.114}
-\contentsline {section}{\numberline {6.5}Acceptance and efficiency}{55}{section.115}
-\contentsline {chapter}{\numberline {7}Cross section measurement}{56}{chapter.116}
-\contentsline {subsection}{\numberline {7.0.1}Subsection 1}{56}{subsection.117}
-\contentsline {subsection}{\numberline {7.0.2}Subsection 2}{56}{subsection.118}
-\contentsline {section}{\numberline {7.1}Main Section 2}{56}{section.119}
+\contentsline {subsection}{\numberline {6.1.1}Monte-Carlo corrections}{55}{subsection.104}
+\contentsline {section}{\numberline {6.2}Background estimation}{55}{section.105}
+\contentsline {subsection}{\numberline {6.2.1}Top quark background}{55}{subsection.106}
+\contentsline {subsection}{\numberline {6.2.2}Z+jets}{55}{subsection.107}
+\contentsline {subsection}{\numberline {6.2.3}W+light jets}{55}{subsection.108}
+\contentsline {subsection}{\numberline {6.2.4}QCD}{55}{subsection.109}
+\contentsline {subsection}{\numberline {6.2.5}Other backgrounds}{55}{subsection.110}
+\contentsline {chapter}{\numberline {7}Cross section measurement}{56}{chapter.111}
+\contentsline {section}{\numberline {7.1}Fitting procedure}{56}{section.112}
+\contentsline {section}{\numberline {7.2}Systematics}{56}{section.113}
+\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{58}{section.116}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{57}{appendix.120}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{59}{appendix.117}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{59}{section.118}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{63}{section.131}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{61}{dummy.133}
+\contentsline {chapter}{Bibliography}{65}{dummy.134}
