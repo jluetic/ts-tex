@@ -7,7 +7,7 @@
 \contentsline {chapter}{List of Tables}{ix}{dummy.10}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}
-\contentsline {chapter}{\numberline {2}Theoretical overview}{2}{chapter.13}
+\contentsline {chapter}{\numberline {2}Theoretical overview and previous measurements}{2}{chapter.13}
 \contentsline {section}{\numberline {2.1}Standard model overview}{3}{section.14}
 \contentsline {subsection}{\numberline {2.1.1}Bottom quarks}{5}{subsection.16}
 \contentsline {subsection}{\numberline {2.1.2}Discovery and role of W boson}{5}{subsection.18}
@@ -23,41 +23,44 @@
 \contentsline {chapter}{\numberline {4}Compact Muon Solenoid}{30}{chapter.55}
 \contentsline {section}{\numberline {4.1}CMS coordinate system}{31}{section.57}
 \contentsline {section}{\numberline {4.2}Solenoid magnet}{32}{section.60}
-\contentsline {section}{\numberline {4.3}Inner tracker system}{32}{section.61}
+\contentsline {section}{\numberline {4.3}Inner tracker system}{33}{section.61}
 \contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{33}{subsection.62}
-\contentsline {subsection}{\numberline {4.3.2}Strip detector}{33}{subsection.63}
-\contentsline {section}{\numberline {4.4}Electromagnetic calorimeter}{34}{section.65}
-\contentsline {section}{\numberline {4.5}Hadronic calorimeter}{36}{section.68}
-\contentsline {section}{\numberline {4.6}Muon chambers}{37}{section.70}
-\contentsline {section}{\numberline {4.7}Trigger}{37}{section.73}
-\contentsline {chapter}{\numberline {5}Physics objects definitions}{40}{chapter.75}
-\contentsline {section}{\numberline {5.1}Electrons}{40}{section.76}
-\contentsline {subsection}{\numberline {5.1.1}Electron identification}{41}{subsection.77}
-\contentsline {section}{\numberline {5.2}Muons}{42}{section.80}
-\contentsline {subsection}{\numberline {5.2.1}Muon identification}{43}{subsection.81}
-\contentsline {section}{\numberline {5.3}Lepton isolation}{44}{section.83}
-\contentsline {section}{\numberline {5.4}Jets}{45}{section.85}
-\contentsline {subsection}{\numberline {5.4.1}Jet algorithms}{45}{subsection.86}
-\contentsline {subsection}{\numberline {5.4.2}Jet corrections}{48}{subsection.91}
-\contentsline {subsection}{\numberline {5.4.3}Jet identification}{49}{subsection.95}
-\contentsline {subsection}{\numberline {5.4.4}Jets from b quarks}{50}{subsection.97}
-\contentsline {section}{\numberline {5.5}Missing transverse energy}{52}{section.100}
-\contentsline {chapter}{\numberline {6}Event selection and background estimation}{54}{chapter.102}
-\contentsline {section}{\numberline {6.1}Event selection}{55}{section.103}
-\contentsline {subsection}{\numberline {6.1.1}Monte-Carlo corrections}{55}{subsection.104}
-\contentsline {section}{\numberline {6.2}Background estimation}{55}{section.105}
-\contentsline {subsection}{\numberline {6.2.1}Top quark background}{55}{subsection.106}
-\contentsline {subsection}{\numberline {6.2.2}Z+jets}{55}{subsection.107}
-\contentsline {subsection}{\numberline {6.2.3}W+light jets}{55}{subsection.108}
-\contentsline {subsection}{\numberline {6.2.4}QCD}{55}{subsection.109}
-\contentsline {subsection}{\numberline {6.2.5}Other backgrounds}{55}{subsection.110}
-\contentsline {chapter}{\numberline {7}Cross section measurement}{56}{chapter.111}
-\contentsline {section}{\numberline {7.1}Fitting procedure}{56}{section.112}
-\contentsline {section}{\numberline {7.2}Systematics}{56}{section.113}
-\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{58}{section.116}
+\contentsline {subsection}{\numberline {4.3.2}Strip detector}{35}{subsection.65}
+\contentsline {section}{\numberline {4.4}Electromagnetic calorimeter}{36}{section.67}
+\contentsline {section}{\numberline {4.5}Hadronic calorimeter}{38}{section.70}
+\contentsline {section}{\numberline {4.6}Muon chambers}{39}{section.72}
+\contentsline {section}{\numberline {4.7}Trigger}{39}{section.75}
+\contentsline {chapter}{\numberline {5}Physics objects definitions}{42}{chapter.77}
+\contentsline {section}{\numberline {5.1}Electrons}{42}{section.78}
+\contentsline {subsection}{\numberline {5.1.1}Electron identification}{43}{subsection.79}
+\contentsline {section}{\numberline {5.2}Muons}{44}{section.82}
+\contentsline {subsection}{\numberline {5.2.1}Muon identification}{45}{subsection.83}
+\contentsline {section}{\numberline {5.3}Lepton isolation}{46}{section.85}
+\contentsline {section}{\numberline {5.4}Jets}{47}{section.87}
+\contentsline {subsection}{\numberline {5.4.1}Jet algorithms}{47}{subsection.88}
+\contentsline {subsection}{\numberline {5.4.2}Jet corrections}{50}{subsection.93}
+\contentsline {subsection}{\numberline {5.4.3}Jet identification}{51}{subsection.97}
+\contentsline {subsection}{\numberline {5.4.4}Jets from b quarks}{52}{subsection.99}
+\contentsline {section}{\numberline {5.5}Missing transverse energy}{54}{section.102}
+\contentsline {chapter}{\numberline {6}Event selection and background estimation}{56}{chapter.104}
+\contentsline {section}{\numberline {6.1}Event selection}{56}{section.105}
+\contentsline {section}{\numberline {6.2}Background estimation}{57}{section.106}
+\contentsline {subsection}{\numberline {6.2.1}Top quark background}{57}{subsection.107}
+\contentsline {subsection}{\numberline {6.2.2}Z+jets}{58}{subsection.108}
+\contentsline {subsection}{\numberline {6.2.3}W+light jets}{58}{subsection.109}
+\contentsline {subsection}{\numberline {6.2.4}QCD}{58}{subsection.110}
+\contentsline {subsection}{\numberline {6.2.5}Other backgrounds}{58}{subsection.111}
+\contentsline {section}{\numberline {6.3}Monte-Carlo corrections}{58}{section.112}
+\contentsline {subsection}{\numberline {6.3.1}Pile-up}{58}{subsection.113}
+\contentsline {subsection}{\numberline {6.3.2}Lepton efficiency measurement}{59}{subsection.115}
+\contentsline {subsection}{\numberline {6.3.3}\textit {b-tagging} scale factors}{60}{subsection.119}
+\contentsline {chapter}{\numberline {7}Cross section measurement}{62}{chapter.120}
+\contentsline {section}{\numberline {7.1}Fitting procedure}{62}{section.121}
+\contentsline {section}{\numberline {7.2}Systematics}{62}{section.122}
+\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{64}{section.125}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{59}{appendix.117}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{59}{section.118}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{63}{section.131}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{66}{appendix.130}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{66}{section.131}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{70}{section.144}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{65}{dummy.134}
+\contentsline {chapter}{Bibliography}{72}{dummy.147}

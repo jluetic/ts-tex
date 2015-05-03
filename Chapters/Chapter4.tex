@@ -4,9 +4,7 @@
 
 \lhead{Chapter 4. \emph{Compact Muon Solenoid}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-Compact Muon Solenoid is a general purpose detector designed to be able to cover a wide range of physics at the LHC. It has a layered design with each layer detecting different kinds of particles and covering a large portion or the spherical angle around the interaction point. Inside a large soleonid, with a tracker and calorimeter built inside to improve the resolution of the momentum measurements. Detectors outside the solenoid are designed primarily to detect muons.  \\
-
-DODATI JOS OPCENITO O CMS-u
+Compact Muon Solenoid is a general purpose detector designed to be able to cover a wide range of physics at the LHC. It has a layered design with each layer detecting different kinds of particles and covering a large portion or the spherical angle around the interaction point. Inside a large soleonid, a tracker and calorimeter are found, in order to improve the resolution of the momentum measurements. Detectors outside the solenoid are designed primarily to detect muons.  \\
 
 \begin{figure}[htbp]
 	\centering
@@ -15,7 +13,7 @@ DODATI JOS OPCENITO O CMS-u
 	\caption[CMS detector]{A drawing of the CMS detector. \cite{Chatrchyan:2008aa}}
 	\label{fig:CMS}
 \end{figure}
-\par The goals for the CMS with respect to its purpose in the LHC programme is very good muon identification and good momentum resolution over wide range of phase space and ambiguous determination of muon charge. Very good inner tracking system for detection of charged particles and high efficiency offline b quark tagging and $\tau$ tagging. Other important requirements, specially for Higgs searches, is diphoton mass resolution, and photon and electron identification and isolation at high energies. 
+\par The goals for the CMS with respect to its purpose in the LHC programme is very good muon identification and good momentum resolution over wide range of phase space and ambiguous determination of muon charge. Very good inner tracking system allows for detection of charged particles and high efficiency offline b quark tagging and $\tau$ tagging. Other important requirements, specially for Higgs searches, is diphoton mass resolution, and photon and electron identification and isolation at high energies. 
 CMS detector with its design meets all these requirements as it shown in following sections of this chapter.  Each section describing a part of the detector separately together with it's role in CMS.  
 
 %----------------------------------------------------------------------------------------
@@ -34,6 +32,8 @@ In high energy experiments in the relativistic limit where $E>>m$, a quantity ca
 \eta = -ln \left[ tan \frac{\theta}{2} \right]
 \end{equation}
 Pseudorapidity Lorentz invariance means that a measurement of $\Delta\eta$ between particles is not dependent on specifying a reference frame, such as the rest frame of a particle or the laboratory frame. When using the term "forward" direction, it refers to regions of the detector that are close to the beam axis, at high |$\eta$|. When the distinction between "forward" and "backward" is relevant, the former refers to the positive z-direction and the latter to the negative z-direction.
+\par In proton-proton collisions, objects that collide are partons and gluons. Given the energy-momentum conservation and the fact that the momentum in the plane perpendicular to the beam axis is negligible, the momenta of the final state particles have to be balanced in the $x-y$ plane. This is why transverse momentum is often used in various analyses and is computed as $p_T=\sqrt{p_x^2+p_y^2}$.
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -50,7 +50,7 @@ Solenoid magnet within the CMS has the length of 12.9 m, an inner diameter of 5.
 
 \section{Inner tracker system}
 
-The role of inner tracking system in CMS is to provide a precise measurement of charged particles trajectories created in collisions with $p_T>1$ GeV and the pseudorapidity $|\eta|<2.5$. Other important task is precise secondary vertex positions reconstruction and impact parameter determination. The size of CMS inner tracker is 5.8 m in length with a diameter of 2.5 m. Large magnetic field of 4 T is provided by the surrounding solenoid and is homogeneous across the entire inner tracking system. With the design LHC luminosity, expected occupancy of inner tracking system is more than 1000 particles from 20 primary interactions in each bunch crossing. This requires high granularity detectors with fast responses and low dead time of the detector. Trying to design a detector with these characteristics while at the same time reducing the amount of material in the detector to minimum and taking into account the radiation hardness, lead to the solution of building an all-silicon detector. CMS inner tracking system has two separate parts, Pixel detector and Strip detector which are described below.    
+The role of inner tracking system in CMS is to provide a precise measurement of charged particles trajectories created in collisions with $p_T>1$ GeV and the pseudorapidity $|\eta|<2.5$. Other important task is precise secondary vertex positions reconstruction and impact parameter determination. The size of CMS inner tracker is 5.8 m in length with a diameter of 2.5 m. Large magnetic field of 4 T is provided by the surrounding solenoid and is homogeneous across the entire inner tracking system. With the design LHC luminosity, expected occupancy of inner tracking system is more than 1000 particles from 20 primary interactions in each bunch crossing. This requires high granularity detectors with fast responses and low dead time of the detector. Trying to design a detector with these characteristics while at the same time reducing the amount of material in the detector to minimum and taking into account the radiation hardness, lead to the solution of building an all-silicon detector with high granularity. CMS inner tracking system has two separate parts, Pixel detector and Strip detector which are described below.    
 
 
 %-----------------------------------
@@ -58,8 +58,7 @@ The role of inner tracking system in CMS is to provide a precise measurement of 
 %-----------------------------------
 \subsection{Pixel Detector}
 
-Pixel detector is the closest part of the CMS to the interaction point. Barrel pixel is the central part with three layers located at radii of 4.4 cm, 7.3 cm and 11 cm. On each side of the barrel pixel, there are two discs at $z=$ 34.5 cm and 46.5 cm. The detector is fully modular hybrid detector with silicon layer bump bonded to read-out chips where each pixel is read out separately. 
-
+Pixel detector is the innermost part of the CMS, closest to the interaction point inside a 3.8T magnetic field. The central part, called barrel pixel, consists of three layers located at radii of 4.4 cm, 7.3 cm and 11 cm. On each side of the barrel pixel, there are two discs at $z=$ 34.5 cm and 46.5 cm. The detector covers pseudorapidity range $-2.5<\eta<2.5$. Its purpose is to provide precise three dimensional space points for charged particle tracking and vertex position determination.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{Figures/pixel_detector.png}
@@ -67,7 +66,17 @@ Pixel detector is the closest part of the CMS to the interaction point. Barrel p
 	\caption[CMS Pixel Detector]{A drawing of the CMS pixel detector. \cite{Chatrchyan:2008aa}}
 	\label{fig:pixels}
 \end{figure}
-DODATI JOS O PIXELU
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.49\textwidth]{Figures/pixel_eta.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/pixel_eta2.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[CMS Pixel Detector psudorapidity range coverage and efficiency]{A schetch of CMS Pixel Detector psudorapidity range coverage(\textit{left}) and hit efficiency as a function of pseudorapidity(\textit{right}). \cite{Chatrchyan:2008aa}}
+	\label{fig:pixels}
+\end{figure}
+\par Pixel detector is fully modular, consisting of rectangular modules in barrel part of the detector and quasi-triangular modules in the discs. Modules are arranged in a way to ensure measurements in atleast three layers for each of the trajectories passing through the detector. Pixel size is $100\times150$ $\mu$m$^2$ which results in similar resolution in $z$ and $r-\phi$ directions. The achieved resolution in the barrel part is $15-20$ $\mu$m due to interpolation made possible by charge sharing. Electrons inside the silicon shift under Lorentz force which is used in the reconstruction to determine the correct hit position. Detailed measurement of the Lorentz measurement is described in the Appendix \ref{App:LA}. Pixel detector consists of 66 million pixels in total with 48 million being in the barrel pixel and 18 million in the forward. The closeness to the interaction point implies high track occupancy and necessity for radiation resistant materials. 
+\par Readout of the pixel detector goes through read-out chips (ROC) to which each pixel is bump bonded and read out individually. There are around 16000 ROCs in the detector. Each ROC consists of 52$\times$80 pixels. Only pixels with signal above certain threshold will be read out which can be tuned manually for each pixel. The average noise level in the detector is around 170 electrons at T$=-$10$^\circ$C. The information for each event is stored in a temporary buffer awaiting the signal from the Level-1 trigger in order to be read-out. Data is read out serially, with packets containing all the hits corresponding to a single trigger. Each pixel hits uses six values, five to encode pixel address, and sixth value is signal charge. ROC header is added at the beginning of each ROC sequence in order to make ROC hit-association possible. Signal is than digitized and sent to central data acquisition for further processing. Various other systems are installed in order monitor and adjust the temperature, humidity, voltages, etc. 
+\par With the design LHC luminosity, there are more than 1000 particles hitting the detector in every bunch-crossing. Very small pixel size results in the occupancy for each pixel of the order $10^{-4}$. The Pixel detector has been operational for several years and shows very little drop in performance due to irradiation. The plan is to keep the present detector during the Run 2, until 2017, and than replace it with new, four-layer piel detector which is currently being built.
 
 %-----------------------------------
 %	SUBSECTION 2.2
@@ -80,7 +89,7 @@ Silicon pixel tracker is built in layers around Pixel detector where track parti
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.8\textwidth]{Figures/strip_detector.png}
+		\includegraphics[width=0.9\textwidth]{Figures/strip_detector.png}
 		%\rule{35em}{0.5pt}
 	\caption[CMS Strip Detector]{A drawing of the CMS strip detector. \cite{Chatrchyan:2008aa}}
 	\label{fig:strips}

@@ -14,36 +14,37 @@ Warning--empty journal in CMS:2010bta
 Warning--empty author in CMS-DP-2013-033
 Warning--empty journal in CMS-DP-2013-033
 Warning--empty author in CMS-PAS-PFT-09-001
-You've used 47 entries,
+Warning--empty journal in CMS:2013wea
+You've used 48 entries,
             1791 wiz_defined-function locations,
-            734 strings with 10547 characters,
-and the built_in function-call counts, 9590 in all, are:
-= -- 814
-> -- 429
+            737 strings with 10596 characters,
+and the built_in function-call counts, 9718 in all, are:
+= -- 824
+> -- 433
 < -- 1
-+ -- 162
-- -- 115
-* -- 640
-:= -- 1598
-add.period$ -- 137
-call.type$ -- 47
-change.case$ -- 45
++ -- 164
+- -- 116
+* -- 643
+:= -- 1621
+add.period$ -- 140
+call.type$ -- 48
+change.case$ -- 46
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 416
-empty$ -- 958
-format.name$ -- 115
-if$ -- 2105
+cite$ -- 60
+duplicate$ -- 424
+empty$ -- 972
+format.name$ -- 116
+if$ -- 2132
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 48
-newline$ -- 234
-num.names$ -- 43
-pop$ -- 89
+int.to.str$ -- 48
+missing$ -- 49
+newline$ -- 239
+num.names$ -- 44
+pop$ -- 94
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 165
+skip$ -- 168
 stack$ -- 0
 substring$ -- 643
 swap$ -- 40
@@ -51,8 +52,8 @@ text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 81
-width$ -- 49
-write$ -- 498
-(There were 11 warnings)
+warning$ -- 12
+while$ -- 82
+width$ -- 50
+write$ -- 507
+(There were 12 warnings)

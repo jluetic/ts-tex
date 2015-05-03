@@ -13,13 +13,15 @@
 %----------------------------------------------------------------------------------------
 
 \section{Event selection}
-
-
-
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Monte-Carlo corrections}
+\label{sec:selection}
+Signal events are characterized by presence of a W boson and two jets which have been tagged as coming from b quarks.
+Candidates for a W boson are identified as isolated muons or electron and significant missing energy.
+Jets are identified as particle flow objects clustered with anti-$k_T$ algorithm with a cone size of $0.5$.
+Standard jet energy corrections and resolution smearing procedures prescribed by the Jet POG are applied.
+Combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks.
+This algorithm combines in an optimal way information about track impact parameters and identified secondary vertices
+within the jet even when full vertex information is not available.
+Isolated leptons not arising from W decays are not expected, and additional jet activity is minimal.
 
 
 
@@ -30,11 +32,21 @@
 
 \section{Background estimation}
 
+The dominant backgrounds encountered in this analysis arise from few sources:
+\begin{itemize}
+        \item {\textbf{Top quarks:}} 
+        \item {\textbf{W + light and c jets:}} contribution from this source of background is largely reduced by applying b-tag requirement to selected jets.
+        \item {\textbf{Drell-Yan:}} contribution from this process is largely reduced by requiring only one isolated lepton in the final state.
+        \item {\textbf{Dibosons(WW, WZ, ZZ):}} contribution from this type of background in case where one boson decays leptonicaly
+and the other decays to jets  is indistinguishable from the signal events apart from the peak in the invariant mass distribution of two jets.
+\end{itemize}
+
 
 
 \subsection{Top quark background}
 
-
+Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring an additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions.
+With very large contribution of the $t\bar{t}$ background, a test of the normalization was performed. A separate control region was created which was defined to be same as signal region, but requiring additional jet activity. This results in a $t\bar{t}$ enriched sample where it is visible that the shape of the distribution is well described in the simulation, but the overall normalization is too small. 
 
 \subsection{Z+jets}
 
@@ -42,5 +54,57 @@
 
 \subsection{QCD}
 
-\subsection{Other backgrounds}
 
+
+\subsection{Other backgrounds}
+Other backgrounds include processes with final states that match the final state of the signal. One 
+
+
+%-----------------------------------
+%	SECTION 3
+%-----------------------------------
+\section{Monte-Carlo corrections}
+\label{sec:mcSF}
+
+\subsection{Pile-up}
+
+In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions could happen. These additional interactions are usually referred to as pile-up interactions. The average number of additional interactions during 2012 was 21 with some events going up to 70 interactions. With these conditions it is important to be able to recognize the signature from additional interactions. Usually pile-up interactions originate form low$-p_T$ QCD jets. The identification of pileup jets as well as their removal is described in detail in \cite{CMS:2013wea}. 
+\par Simulated events could have different distribution for number of pileup interaction is an event. This requires for the simulated events to be rewighted accordingly. For each event, a weight $w_{PU}$ is derived to match the distribution in data. Figure \ref{fig:N_pu} shows number of pile-up events before and after the rewighting procedure for signal events in the muon channel. The agreement between data and simulation has clearly improved after the procedure. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.9\textwidth]{Figures/NPU_placeholder.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Placeholder - PU]{Placeholder - $N_PU$}
+	\label{fig:N_pu}
+\end{figure} 
+
+\subsection{Lepton efficiency measurement}
+
+Events used for cross section measurement are required to pass certain triggers in order to be selected. However, trigger selection is not 100$\%$ efficient and the selection efficiency has to be measured. The following steps in the analysis like reconstruction and isolation have some inefficiencies as well. Efficiency estimation from simulation shows large systematic errors due to inaccuracy in signal modeling and detector response. This was the main motivation for development of the fully data-driven efficiency estimation called \textit{Tag and probe}. Using well-known mass resonances, such as Z boson mass resonance, a selection criteria is applied to the decay products. \textit{Tag} lepton is the one passing very tight selection cuts with low missidentification probability. The efficiency for certain cuts is than measured by counting \textit{probe} leptons which are leptons passing this looser cut divided by number of all leptons. Probes are selected in such way that the invariant mass of the two leptons falls into the Z mass resonance. The following relation is used for the measurement:
+\begin{equation}
+\epsilon = \frac{N_{pass}}{N_{pass}+N_{fail}}
+\end{equation}   
+Final selection contains a number of events where Z boson was not actually produced and which have to be subtracted. Both signal and background contributions are parametrized their relative contributions are estimated using Maximum likelihood fit. For signal events a convolution of Z generator shape with a Gaussian is used to take into account the detector effects, while for background parametrization, a combination of exponential function and polinomial was used.
+\par The efficiency was measured as a function of pseudorapidity and transverse momentum of a passing probe. Trigger, identification and isolation criteria were used in electron and muon channels separately. Both data and Monte Carlo efficiencies were measured and their ratio was used as a scale factor for each event in order to match simulated lepton efficiencies to measured data. Muon identification and isolation efficiency measurement for data and MC is shown in figure \ref{fig:eff_IDISO} while trigger efficiency measurement is shown in figure \ref{fig:eff_trig}.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.49\textwidth]{Figures/ID_eff.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/ISO_eff.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Muon identification and isolation efficiencies using \textit{tag and probe} method.]{Muon identification and isolation efficiencies as a function of a probe $p_T$ using \textit{tag and probe} method. The measurement shown here is for barrel part of the detector$(\eta<0.9)$, but similar measurements were performed for the region between barrel and endcap$(0.9<\eta<1.2)$ and endcap $(1.2<\eta<2.1)$ separately.}
+	\label{fig:eff_IDISO}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{Figures/trig_eff.pdf}
+		%\rule{35em}{0.5pt}
+	\caption[Muon trigger efficiency using \textit{tag and probe} method.]{Muon trigger efficiency for $\mathrm{HLT\_IsoMu24}$ using \textit{tag and probe} method of barrel part of the detector $(\eta<0.9)$.}
+	\label{fig:eff_trig}
+\end{figure}  
+
+
+
+\subsection{\textit{b-tagging} scale factors}

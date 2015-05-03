@@ -10,60 +10,121 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-%\section{Main Section 1}
-%
-%Signal events are characterized by presence of a W boson and two jets which have been tagged as coming from b quarks.
-%Candidates for a W boson are identified as isolated muons or electron and significant missing energy.
-%Jets are identified as particle flow objects clustered with anti-$k_T$ algorithm with a cone size of $0.5$.
-%Standard jet energy corrections and resolution smearing procedures prescribed by the Jet POG are applied.
-%Combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks.
-%This algorithm combines in an optimal way information about track impact parameters and identified secondary vertices
-%within the jet even when full vertex information is not available.
-%Isolated leptons not arising from W decays are not expected, and additional jet activity is minimal.
-%
-%\subsection{Signal extraction}
-%Signal event selection is described in the Signal selection section.
-%For each of the major backgrounds a separate control region is defined in order to verify Monte Carlo normalizations.
-%
-%The dominant backgrounds encountered in this analysis arise from few sources:
-%\begin{itemize}
-%        \item {\textbf{Top quarks:}} production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections.
-%$t\bar{t}$ events are largely reduced by requiring an additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts,
-%but production cross-section is smaller resulting in a smaller contribution in the final distributions.
-%        \item {\textbf{W + light and c jets:}} contribution from this source of backgroung is largely reduced by applying b-tag requirement to selected jets.
-%        \item {\textbf{Drell-Yan:}} contribution from this process is largely reduced by requiring only one islated lepton in the final state.
-%        \item {\textbf{Dibosons(WW, WZ, ZZ):}} contribution from this type of background in case where one boson decays leptonicaly
-%and the other decays to jets  is indistinguishable from the signal events apart from the peak in the invariant mass distribution of two jets.
-%\end{itemize}
-%
-%For this test $t\bar{t}$ multijet control region is used which is defined to be same as signal region, but requiring additional jet activity.
-%
-%
-%
-%\subsection{Systematics}
-%
-%The primary physics result described in this note is the cross section for production of a W boson and two b
-%jets. Systematic uncertainties on the expected signal and background yields and shapes affect
-%the final result. For a given sistematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
-%
-%\begin{itemize}
-%        \item{\textbf{Luminosity:}}
-%        an uncertainty of 2.2\% for luminosity measurement during 2012 datataking.
-%        \item{\textbf{Jet energy scale:}}
-%        the jet energy scale for each jet is varied within one standard deviation based on $p_T$ and $\eta$, and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
-%        \item{\textbf{Jet energy resolution:}}
-%        we smear the energy resolution for each jet using the Jet- MET prescription as our default, and then modified signal and background templates are created in which jet energy is smeared by $\pm 1 \sigma$ taken from JetMET POG.
-%        \item{\textbf{Lepton energy scale:}}
-%        muon and electron trigger, reconstruction, and identification ef-ficiencies are determined in data using the standard tag-and-probe technique with Z bosons. The systematic uncertainty is evaluated by varying lepton energy scale for each lepton within one standard deviation taken from POG.
-%        \item{\textbf{Unclustered missing energy:}}
-%        we follow the suggested procedure from the JetMET POG to determine the systematic uncertainty on the calibration of unclustered MET (missing energy associated with particles not clustered into jets).
-%        \item{\textbf{MC samples normalizations:}}
-%        the finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations are also allowed to vary within the uncertainties of measured Standard model cross-sections.(cite all sources)
-%        \item{\textbf{Jet b-tagging:}}
-%        official b-tagging scale factors are applied consistently to jets in signal and background events.
-%\end{itemize}
-%
-%Contributions from different sources of systematic variations are summarized in Table \ref{tab:systZG}. Table also shows relative contribution to the signal strength uncertainty for each source of uncertainty together with the decreade in total systematic uncertainty when removing specific source of uncertainty.
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Fitting procedure}
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Systematics}
+
+The primary physics result described in this note is the cross section for production of a W boson and two b
+jets. Systematic uncertainties on the expected signal and background yields and shapes affect
+the final result. For a given systematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
+
+\begin{itemize}
+        \item{\textbf{Luminosity:}}
+        an uncertainty of 2.2\% for luminosity measurement during 2012 datataking is reported by the CMS luminosity group.
+        \item{\textbf{Jet energy scale:}}
+        the jet energy scale for each jet is varied within one standard deviation of the applied jet energy corrections based on $p_T$ and $\eta$ of the jet, and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
+        \item{\textbf{Jet energy resolution:}}
+        jet energy resolution in simulation is smeared by default in order to take into account worse resolution in data. The uncertainty on the applied smearing factors is used to produce modified signal and background templates are created and used in the final fit.
+        \item{\textbf{Lepton energy scale:}}
+        muon and electron trigger, reconstruction, and identification efficiencies are determined in data using the standard tag-and-probe technique with Z bosons. The systematic uncertainty is evaluated by varying lepton energy scale for each lepton type within one standard deviation taken from POG.
+        \item{\textbf{Unclustered missing energy:}}
+        we follow the suggested procedure from the JetMET POG to determine the systematic uncertainty on the calibration of unclustered MET (missing energy associated with particles not clustered into jets).
+        \item{\textbf{MC samples normalizations:}}
+        the finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations for each of the Monte-Carlo samples are also allowed to vary within the uncertainties of measured Standard model cross-sections. Cross section uncertainties are summarized in the table \ref{tab:SMunc}
+        \item{\textbf{Jet b-tagging:}}
+        official b-tagging scale factors are applied consistently to jets in signal and background events.
+\end{itemize}
+
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {r c} \hline \hline
+        Process         & Cross section uncertainty \\
+        \hline
+        W+c(c)          & 8.1$\%$ \\
+        W+udsg          & 13.2$\%$ \\
+        Z+jets          & 7.9$\%$ \\
+        Single Top      & 5.4$\%$ \\
+        T$\bar{T}$      & 7.4$\%$ \\
+        VV              & 8.1$\%$ \\
+        \hline\hline
+   \end{tabular}
+\caption{Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.}
+\label{tab:SMunc}
+\end{center}
+\end{table}
+
+Shape variations used in the final fit are shown in the figure \ref{fig:shapeVar}. Contributions from different sources of systematic variations are summarized in Table \ref{tab:systContrib}. Table also shows relative contribution to the signal strength uncertainty for each source of uncertainty together with the change in total systematic uncertainty when removing specific source of uncertainty.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.49\textwidth]{Figures/syst_Wbb_var.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/syst_TT_var.pdf}
+	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (left) and TT control region(right).}
+	\label{fig:shapeVar}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Acceptance and efficiency}
+    
+Due to the limitations of the detector, not all produced signal events will be detected. Some final state particles will end up outside the functional part of the detector. The fraction of the phase space covered with functional detector for signal final state particles is called \textit{acceptance}. Usually this part of the phase space is called \textit{fiducial region} and applied cuts are summarized in table \ref{tab:fiducial}.             
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {l l} \hline \hline
+        Variable         & Cut \\
+        \hline
+        Lepton $p_T$    & $>$ 30\ GeV \\
+        Lepton $|\eta|$   & $<$ 2.1 \\
+        Jet $p_T$       & $>$ 25  \\
+        Jet $|\eta|$      & $<$ 2.4 \\
+        \multicolumn{2}{l}{
+        Jet matched to a B hadron within a cone of 0.5} \\
+        \hline\hline
+   \end{tabular}
+\caption{Fiducial cuts used for cross section measurements.}
+\label{tab:fiducial}
+\end{center}
+\end{table}
+However, fraction of the events that fall into the fiducial volume will not be detected due to trigger and reconstruction inefficiency or selection cuts imposed by trigger or the analysis. Usually, acceptance and efficiency are estimated as a single quantity which is a product of these two numbers, defined as:
+\begin{equation}
+A\times \epsilon=\frac{\mathrm{number\ of\ selected\ Wbb\ events}}{\mathrm{number\ of\ generated\ Wbb\ events\ in\ the\ fiducial\ volume}}
+\end{equation}
+This ratio is computed using simulated Wbb sample for each of the channels separately. Number of selected events is obtained by applying the selection cuts described in \ref{sec:selection}. Number of generated hits is obtained by applying generator-level cuts summarized in the table \ref{tab:fiducial}. With this ratio being derived from simulation, it is necessary to correct it for the difference between data and Monte-Carlo. These corrections include pile-up  $w^{PU}$, lepton trigger, reconstruction and identification scale factors $w^{lep}$, and b-tagging scale factors $w^{b-tag}$ all described in \ref{sec:mcSF}. With all the corrections, $A\times \epsilon$ for each channel becomes:
+\begin{equation}
+A\times \epsilon = \frac{\sum^{sel} w^{lep} w^{PU} w^{b-tag}}{N_{fiducial}^{gen}}
+\end{equation}
+
+Obtained results are summarized in the table \ref{tab:AE} for each channel.
+
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {r c} \hline \hline
+        Channel         & A$\times \epsilon$ \\
+        \hline
+        Muon channel         & 8.1$\%$ \\
+        Electron channel     & 7.8$\%$ \\
+        \hline\hline
+   \end{tabular}
+\caption{Results of the A$\times \epsilon$ measurement for both, muon and electron channel.}
+\label{tab:AE}
+\end{center}
+\end{table}
+
+
 %
 %\begin{table}[!htb]
 %\begin{center}
@@ -184,76 +245,3 @@
 %\label{tab:addFitTest}
 %\end{center}
 %\end{table}
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-%----------------------------------------------------------------------------------------
-%	SECTION 3
-%----------------------------------------------------------------------------------------
-
-\section{Fitting procedure}
-
-
-%----------------------------------------------------------------------------------------
-%	SECTION 3
-%----------------------------------------------------------------------------------------
-
-\section{Systematics}
-
-The primary physics result described in this note is the cross section for production of a W boson and two b
-jets. Systematic uncertainties on the expected signal and background yields and shapes affect
-the final result. For a given systematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
-
-\begin{itemize}
-        \item{\textbf{Luminosity:}}
-        an uncertainty of 2.2\% for luminosity measurement during 2012 datataking is reported by the CMS luminosity group.
-        \item{\textbf{Jet energy scale:}}
-        the jet energy scale for each jet is varied within one standard deviation of the applied jet energy corrections based on $p_T$ and $\eta$ of the jet, and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
-        \item{\textbf{Jet energy resolution:}}
-        jet energy resolution in simulation is smeared by default in order to take into account worse resolution in data. The uncertainty on the applied smearing factors is used to produce modified signal and background templates are created and used in the final fit.
-        \item{\textbf{Lepton energy scale:}}
-        muon and electron trigger, reconstruction, and identification efficiencies are determined in data using the standard tag-and-probe technique with Z bosons. The systematic uncertainty is evaluated by varying lepton energy scale for each lepton type within one standard deviation taken from POG.
-        \item{\textbf{Unclustered missing energy:}}
-        we follow the suggested procedure from the JetMET POG to determine the systematic uncertainty on the calibration of unclustered MET (missing energy associated with particles not clustered into jets).
-        \item{\textbf{MC samples normalizations:}}
-        the finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations for each of the Monte-Carlo samples are also allowed to vary within the uncertainties of measured Standard model cross-sections. Cross section uncertainties are summarized in the table \ref{tab:SMunc}
-        \item{\textbf{Jet b-tagging:}}
-        official b-tagging scale factors are applied consistently to jets in signal and background events.
-\end{itemize}
-
-\begin{table}[!htb]
-\begin{center}
-   \begin{tabular} {r c} \hline \hline
-        Process         & Cross section uncertainty \\
-        \hline
-        W+c(c)          & 8.1$\%$ \\
-        W+udsg          & 13.2$\%$ \\
-        Z+jets          & 7.9$\%$ \\
-        Single Top      & 5.4$\%$ \\
-        T$\bar{T}$      & 7.4$\%$ \\
-        VV              & 8.1$\%$ \\
-        \hline\hline
-   \end{tabular}
-\caption{Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.}
-\label{tab:SMunc}
-\end{center}
-\end{table}
-
-Shape variations used in the final fit are shown in the figure \ref{fig:shapeVar}. Contributions from different sources of systematic variations are summarized in Table \ref{tab:systContrib}. Table also shows relative contribution to the signal strength uncertainty for each source of uncertainty together with the change in total systematic uncertainty when removing specific source of uncertainty.
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.49\textwidth]{Figures/syst_Wbb_var.pdf}
-		\includegraphics[width=0.49\textwidth]{Figures/syst_TT_var.pdf}
-	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (left) and TT control region(right).}
-	\label{fig:shapeVar}
-\end{figure}
-
-%----------------------------------------------------------------------------------------
-%	SECTION 3
-%----------------------------------------------------------------------------------------
-
-\section{Acceptance and efficiency}
-       
-
-
