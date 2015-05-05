@@ -1,17 +1,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces LHC performance in 2012 together with design performance\cite {Evans:2008zzb}\relax }}{28}{table.caption.52}
-\contentsline {table}{\numberline {3.2}{\ignorespaces LHC performance highlights\relax }}{29}{table.caption.53}
+\contentsline {table}{\numberline {3.1}{\ignorespaces LHC performance in 2012 together with design performance\cite {Evans:2008zzb}\relax }}{30}{table.caption.52}
+\contentsline {table}{\numberline {3.2}{\ignorespaces LHC performance highlights\relax }}{31}{table.caption.53}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces A summary of electron identification criteria.\relax }}{44}{table.caption.81}
-\contentsline {table}{\numberline {5.2}{\ignorespaces A summary of muon identification criteria.\relax }}{46}{table.caption.84}
-\contentsline {table}{\numberline {5.3}{\ignorespaces A summary of jet identification criteria.\relax }}{53}{table.caption.98}
+\contentsline {table}{\numberline {5.1}{\ignorespaces A summary of electron identification criteria.\relax }}{47}{table.caption.81}
+\contentsline {table}{\numberline {5.2}{\ignorespaces A summary of muon identification criteria.\relax }}{49}{table.caption.84}
+\contentsline {table}{\numberline {5.3}{\ignorespaces A summary of jet identification criteria.\relax }}{56}{table.caption.98}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Samples, generators and cross sections used for normalizations for signal and background simulation considered in this analysis. All samples are calculated to the NLO order except the W+jets which is NLO and $t\mathaccentV {bar}016{t}$ which is normalized to the latest combined mcross section measurement of ATLAS and CMS collaborations\cite {CMS:2014gta}. \relax }}{61}{table.caption.106}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.\relax }}{72}{table.caption.130}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Fiducial cuts used for cross section measurements.\relax }}{74}{table.caption.133}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Results of the A$\times \epsilon $ measurement for both, muon and electron channel.\relax }}{74}{table.caption.136}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.\relax }}{65}{table.caption.127}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Fiducial cuts used for cross section measurements.\relax }}{67}{table.caption.130}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Results of the A$\times \epsilon $ measurement for both, muon and electron channel.\relax }}{67}{table.caption.133}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Selection criteria for Lorentz angle measurement\relax }}{71}{table.caption.146}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Selection criteria for Lorentz angle measurement\relax }}{80}{table.caption.151}

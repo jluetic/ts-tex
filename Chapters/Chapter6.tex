@@ -10,24 +10,76 @@
 
 \section{Data and Monte Carlo samples}
 
+Data samples used in this analysis are collected with CMS experiment in proton proton collisions during 2012. After performing necessary data-quality checks, 19.8$fb^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
+\begin{itemize}
+\item Isolated muon with $p_T>24$ GeV (HLT$\_$IsoMu24$\_$eta2p1)
+\item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.(HLT$\_$Ele27$\_$WP80)
+\end{itemize}
+
+\par Simulated samples for signal and background processes were obtained using Monte Carlo simulation, as a part of the official 2012 CMS production campaign. Several event generators were used to produce samples used in the analysis:
+\begin{itemize}
+\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is only able to calculate tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses so called Z2 tune for modeling the underlying event\cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and TT samples were produced with Madgraph and showered with Pythia.  
+\item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements on tree level to arbitrary order (up to 10). Radiation of hard gluons in initial and final state radiation is taken into account on the matrix element calculation level. A minimum $p_T$ threshold has to be defined in order to avoid soft gluon emissions which causes total cross section to be strongly scale dependent. Thus, cross section is normalized to predictions from other software, such as MCFM\cite{Campbell:2010ff} for Standard model processes.   
+\item \textbf{Powheg} \cite{Oleari:2010nx} is a package optimized for heavy quark production in hadronic collisions. The hard process is calculated at the NLO order, but for fragmentation and hadronization other software is used (e.g. Pythia). Single top events were produced using this generator and showered with Pythia. 
+\item \textbf{Tauola} \cite{Jadach:1993hs} is a package for simulation of $\tau$ decays.
+\end{itemize}
+        
+Detector response is simulated using GEANT4 simulation package \cite{Agostinelli:2002hh}. List of the used samples together wit the corresponding luminosities is listed in the Table \ref{tab:samples}.
+
+\begin{table}[h]
+  \centering
+  \caption{Samples, generators and cross sections used for normalizations for signal and background simulation considered in this analysis. All samples are calculated to the NLO order except the W+jets which is NLO and $t\bar{t}$ which is normalized to the latest combined cross section measurement of ATLAS and CMS collaborations\cite{CMS:2014gta}. }
+  \label{tab:samples}
+  \begin{tabular}{ l  c c}
+      \hline
+      \hline
+      	Sample & Generator & $\sigma(pb)(NLO)$ \\
+      	\hline
+    		W($\rightarrow l \nu$)+jets &  Madgraph + Pythia & $37509$ (NNLO) \\
+     	W $+$ 1 jet & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ 2 jet & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ 3 jet & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ 4 jet & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ bb & Madgraph + Pythia & 377.4 \\
+     	\hline
+     	Z $+$ jets & Madgraph $+$ Pythia &  3531.9 \\     	
+     	$t\bar(t)$ semileptonic & Madgraph $+$ Pythia &  107.7 \\
+     	$t\bar{t}$ full leptonic & Madgraph $+$ Pythia &  25.8 \\
+     	\hline
+     	single $t$ - t$-$channel & Powheg $+$ Pythia &  56.4 \\
+     	single $t$ - s$-$channel & Powheg $+$ Pythia &  3.97 \\
+		single $t$ - tW$-$channel & Powheg $+$ Pythia &  11.1 \\
+		single $\bar{t}$ - t$-$channel & Powheg $+$ Pythia &  30.7 \\
+		single $\bar{t}$ - s$-$channel & Powheg $+$ Pythia &  1.76 \\
+		single $\bar{t}$ - tW$-$channel & Powheg $+$ Pythia &  11.1 \\
+		\hline
+		WZ & Pythia & 33.6 \\
+		WW & Pythia & 56.0 \\
+      \hline
+      \hline 
+  \end{tabular}
+\end{table}
+
+
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
 \section{Event selection}
 \label{sec:selection}
-Signal events are characterized by presence of a W boson and two jets which have been tagged as coming from b quarks.
-Candidates for a W boson are identified as isolated muons or electron and significant missing energy.
+Signal events are characterized by presence of a W boson and two jets which have been tagged as coming from b quarks. 
+Candidates for a W boson are identified as isolated muons or electron and significant missing energy. 
 Jets are identified as particle flow objects clustered with anti-$k_T$ algorithm with a cone size of $0.5$.
-Standard jet energy corrections and resolution smearing procedures prescribed by the Jet POG are applied.
-Combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks.
-This algorithm combines in an optimal way information about track impact parameters and identified secondary vertices
-within the jet even when full vertex information is not available.
-Isolated leptons not arising from W decays are not expected, and additional jet activity is minimal.
+Combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks which is explained in \ref{sec:btagging}. Signal events are selected requiring the following:
+\begin{itemize}
+\item One muon or electron with $p_T>30$ GeV, within $|\eta|<$ 2.1. which passes the trigger requirement and tight ID criteria described in \ref{sec:muID}, and has $I_{rel}^{PF}<0.12(0.10)$ in case of muons(electrons).
+\item Exactly two jets with jet $p_T>25$ GeV, within $|\eta|<$ 2.4 passing loose ID criteria from \ref{sec:jetID} with distance between lepton and jet $\Delta R>0.5$. Events with more such jets are rejected.
+\item Events containing jets with $p_T>25$ in high pseudorapidity range $2.4<|\eta|<5$ are rejected.
+\item Events containing additional lepton with $p_T>10$ GeV, within $|\eta|<$ 2.1, tight ID and isolation are rejected.
+\item Both selected jets are required to pass tight CSV discriminator cut of 0.898.
+\end{itemize} 
 
-
-
-
+After applying the described criteria, in the final distribution only around 20$\%$ of the selected events come from the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
@@ -39,8 +91,18 @@ After applying all selection cuts described in the previous section, major backg
 
 \subsection{Top quark background}
 
-Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring an additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions.
+Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions.
 With very large contribution of the $t\bar{t}$ background, a test of the normalization was performed. A separate control region was created which was defined to be same as signal region, but requiring additional jet activity. This results in a $t\bar{t}$ enriched sample where it is visible that the shape of the distribution is well described in the simulation, but the overall normalization is too small. 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetVMt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_H_mass_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Top quark control region]{Top quark control region. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:TT_CR}
+\end{figure}
 
 \subsection{Z+jets}
 
@@ -48,7 +110,18 @@ The contribution from the events where Z boson is produced in association with t
 
 \subsection{W+light jets and W+charm}
 
+W+jets is the major background before applying the b-tagging criteria which can be visible in figure \ref{fig:Wjets}. Both shape and normalization agree well between data and Monte Carlo for several distributions shown. Very tight b-tag selection reduces both W+light jets and W+charm to almost negligible levels.  
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetVMt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_H_mass_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Distribution obtained using Wbb event selection before applying b-tagging criteria.]{Distribution obtained using Wbb event selection before applying b-tagging criteria.}
+	\label{fig:Wjets}
+\end{figure}
 
 \subsection{QCD}
 
