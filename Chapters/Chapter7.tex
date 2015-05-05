@@ -9,9 +9,12 @@
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
+Cross section is measured using the following relation:
+\begin{equation}
+\sigma = \frac{N_{sig}}{A\times \epsilon \cdot \mathcal{L}}
+\end{equation}
 
-
-
+where $N_{sig}$ is the number of signal events estimated using the procedure described in the section below. $A\times \epsilon$ is the detector acceptance and efficiency and $\mathcal{L}$ is the total integrated luminosity for the period over the which data was collected, in this case 19.8$fb^{-1}$. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -80,6 +83,7 @@ Shape variations used in the final fit are shown in the figure \ref{fig:shapeVar
 %----------------------------------------------------------------------------------------
 
 \section{Acceptance and efficiency}
+\label{sec:AE}
     
 Due to the limitations of the detector, not all produced signal events will be detected. Some final state particles will end up outside the functional part of the detector. The fraction of the phase space covered with functional detector for signal final state particles is called \textit{acceptance}. Usually this part of the phase space is called \textit{fiducial region} and applied cuts are summarized in table \ref{tab:fiducial}.             
 \begin{table}[!htb]
