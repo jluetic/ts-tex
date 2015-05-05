@@ -43,24 +43,25 @@
 \contentsline {subsection}{\numberline {5.4.4}Jets from b quarks}{52}{subsection.99}
 \contentsline {section}{\numberline {5.5}Missing transverse energy}{54}{section.102}
 \contentsline {chapter}{\numberline {6}Event selection and background estimation}{56}{chapter.104}
-\contentsline {section}{\numberline {6.1}Event selection}{56}{section.105}
-\contentsline {section}{\numberline {6.2}Background estimation}{57}{section.106}
-\contentsline {subsection}{\numberline {6.2.1}Top quark background}{57}{subsection.107}
-\contentsline {subsection}{\numberline {6.2.2}Z+jets}{58}{subsection.108}
-\contentsline {subsection}{\numberline {6.2.3}W+light jets}{58}{subsection.109}
-\contentsline {subsection}{\numberline {6.2.4}QCD}{58}{subsection.110}
-\contentsline {subsection}{\numberline {6.2.5}Other backgrounds}{58}{subsection.111}
-\contentsline {section}{\numberline {6.3}Monte-Carlo corrections}{58}{section.112}
-\contentsline {subsection}{\numberline {6.3.1}Pile-up}{58}{subsection.113}
-\contentsline {subsection}{\numberline {6.3.2}Lepton efficiency measurement}{59}{subsection.115}
-\contentsline {subsection}{\numberline {6.3.3}\textit {b-tagging} scale factors}{60}{subsection.119}
-\contentsline {chapter}{\numberline {7}Cross section measurement}{62}{chapter.120}
-\contentsline {section}{\numberline {7.1}Fitting procedure}{62}{section.121}
-\contentsline {section}{\numberline {7.2}Systematics}{62}{section.122}
-\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{64}{section.125}
+\contentsline {section}{\numberline {6.1}Data and Monte Carlo samples}{56}{section.105}
+\contentsline {section}{\numberline {6.2}Event selection}{56}{section.106}
+\contentsline {section}{\numberline {6.3}Background estimation}{57}{section.107}
+\contentsline {subsection}{\numberline {6.3.1}Top quark background}{57}{subsection.108}
+\contentsline {subsection}{\numberline {6.3.2}Z+jets}{57}{subsection.109}
+\contentsline {subsection}{\numberline {6.3.3}W+light jets and W+charm}{58}{subsection.110}
+\contentsline {subsection}{\numberline {6.3.4}QCD}{58}{subsection.111}
+\contentsline {subsection}{\numberline {6.3.5}Other backgrounds}{59}{subsection.115}
+\contentsline {section}{\numberline {6.4}Monte-Carlo corrections}{60}{section.116}
+\contentsline {subsection}{\numberline {6.4.1}Pileup}{60}{subsection.117}
+\contentsline {subsection}{\numberline {6.4.2}Lepton efficiency measurement}{61}{subsection.119}
+\contentsline {subsection}{\numberline {6.4.3}\textit {b-tagging} scale factors}{63}{subsection.123}
+\contentsline {chapter}{\numberline {7}Cross section measurement}{64}{chapter.124}
+\contentsline {section}{\numberline {7.1}Fitting procedure}{64}{section.125}
+\contentsline {section}{\numberline {7.2}Systematics}{64}{section.126}
+\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{66}{section.129}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{66}{appendix.130}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{66}{section.131}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{70}{section.144}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{68}{appendix.134}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{68}{section.135}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{72}{section.148}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{72}{dummy.147}
+\contentsline {chapter}{Bibliography}{74}{dummy.151}

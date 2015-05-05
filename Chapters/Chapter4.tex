@@ -22,7 +22,7 @@ CMS detector with its design meets all these requirements as it shown in followi
 
 \section{CMS coordinate system}
 
-CMS uses a right-handed coordinate system with the origin in the interaction point. $z-$axis is pointing along the beam line. $x-$axis is pointing towards the center of the ring while y axis points upwards. Two angles are used when describing position inside the detector, azimuthal angle $\phi$ and polar angle $\theta$. $\phi$ angle lies in $x-y$ plane with a range $[-\pi,\pi]$  and is defined as $\phi=$atctan$(y/x)$. The other angle $\theta$ is usually not used in high-energy physics because differences in $\theta$ are not Lorentz invariant.
+CMS uses a right-handed coordinate system with the origin in the interaction point. $z-$axis is pointing along the beam line. $x-$axis is pointing towards the center of the ring while y axis points upwards. Two angles are used when describing position inside the detector, azimuthal angle $\phi$ and polar angle $\theta$. $\phi$ angle lies in $x-y$ plane with a range $[-\pi,\pi]$  and is defined as $\phi=$arctan$(y/x)$. The other angle $\theta$ is usually not used in high-energy physics because differences in $\theta$ are not Lorentz invariant.
 The variable that is Lorentz invariant is rapidity:
 \begin{equation}
 y=\frac{1}{2}ln\left[ \frac{E+p_z}{E-p_z}\right]
@@ -58,7 +58,7 @@ The role of inner tracking system in CMS is to provide a precise measurement of 
 %-----------------------------------
 \subsection{Pixel Detector}
 
-Pixel detector is the innermost part of the CMS, closest to the interaction point inside a 3.8T magnetic field. The central part, called barrel pixel, consists of three layers located at radii of 4.4 cm, 7.3 cm and 11 cm. On each side of the barrel pixel, there are two discs at $z=$ 34.5 cm and 46.5 cm. The detector covers pseudorapidity range $-2.5<\eta<2.5$. Its purpose is to provide precise three dimensional space points for charged particle tracking and vertex position determination.
+Pixel detector is the innermost part of the CMS, closest to the interaction point inside a 3.8T magnetic field. The central part, called barrel pixel, consists of three layers located at radii of 4.4 cm, 7.3 cm and 11 cm. On each side of the barrel pixel, there are two discs at $z=$ 34.5 cm and 46.5 cm. The detector covers pseudorapidity range $-2.5<\eta<2.5$ which is illustrated in figure \ref{fig:pixels_eta}. Its purpose is to provide precise three dimensional space points for charged particle tracking and vertex position determination.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.8\textwidth]{Figures/pixel_detector.png}
@@ -72,7 +72,7 @@ Pixel detector is the innermost part of the CMS, closest to the interaction poin
 		\includegraphics[width=0.49\textwidth]{Figures/pixel_eta2.pdf}
 		%\rule{35em}{0.5pt}
 	\caption[CMS Pixel Detector psudorapidity range coverage and efficiency]{A schetch of CMS Pixel Detector psudorapidity range coverage(\textit{left}) and hit efficiency as a function of pseudorapidity(\textit{right}). \cite{Chatrchyan:2008aa}}
-	\label{fig:pixels}
+	\label{fig:pixels_eta}
 \end{figure}
 \par Pixel detector is fully modular, consisting of rectangular modules in barrel part of the detector and quasi-triangular modules in the discs. Modules are arranged in a way to ensure measurements in atleast three layers for each of the trajectories passing through the detector. Pixel size is $100\times150$ $\mu$m$^2$ which results in similar resolution in $z$ and $r-\phi$ directions. The achieved resolution in the barrel part is $15-20$ $\mu$m due to interpolation made possible by charge sharing. Electrons inside the silicon shift under Lorentz force which is used in the reconstruction to determine the correct hit position. Detailed measurement of the Lorentz measurement is described in the Appendix \ref{App:LA}. Pixel detector consists of 66 million pixels in total with 48 million being in the barrel pixel and 18 million in the forward. The closeness to the interaction point implies high track occupancy and necessity for radiation resistant materials. 
 \par Readout of the pixel detector goes through read-out chips (ROC) to which each pixel is bump bonded and read out individually. There are around 16000 ROCs in the detector. Each ROC consists of 52$\times$80 pixels. Only pixels with signal above certain threshold will be read out which can be tuned manually for each pixel. The average noise level in the detector is around 170 electrons at T$=-$10$^\circ$C. The information for each event is stored in a temporary buffer awaiting the signal from the Level-1 trigger in order to be read-out. Data is read out serially, with packets containing all the hits corresponding to a single trigger. Each pixel hits uses six values, five to encode pixel address, and sixth value is signal charge. ROC header is added at the beginning of each ROC sequence in order to make ROC hit-association possible. Signal is than digitized and sent to central data acquisition for further processing. Various other systems are installed in order monitor and adjust the temperature, humidity, voltages, etc. 

@@ -8,6 +8,8 @@
 
 
 
+\section{Data and Monte Carlo samples}
+
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
@@ -32,15 +34,7 @@ Isolated leptons not arising from W decays are not expected, and additional jet 
 
 \section{Background estimation}
 
-The dominant backgrounds encountered in this analysis arise from few sources:
-\begin{itemize}
-        \item {\textbf{Top quarks:}} 
-        \item {\textbf{W + light and c jets:}} contribution from this source of background is largely reduced by applying b-tag requirement to selected jets.
-        \item {\textbf{Drell-Yan:}} contribution from this process is largely reduced by requiring only one isolated lepton in the final state.
-        \item {\textbf{Dibosons(WW, WZ, ZZ):}} contribution from this type of background in case where one boson decays leptonicaly
-and the other decays to jets  is indistinguishable from the signal events apart from the peak in the invariant mass distribution of two jets.
-\end{itemize}
-
+After applying all selection cuts described in the previous section, major backgrounds that remain are top quark, Z+jets, W+jets, diboson and QCD background. Each of the background contributions is described in detail below. 
 
 
 \subsection{Top quark background}
@@ -50,14 +44,40 @@ With very large contribution of the $t\bar{t}$ background, a test of the normali
 
 \subsection{Z+jets}
 
-\subsection{W+light jets}
+The contribution from the events where Z boson is produced in association with two b jets is largely suppressed by requiring only one lepton in the event. However, it can happen that one of the leptons from Z decay escapes the detection or is missidentified which possibly causes significant missing energy. Such events are than passing all selection criteria and have to be taken into account in the final cross section measurement. 
+
+\subsection{W+light jets and W+charm}
+
+
 
 \subsection{QCD}
 
+QCD background arises from QCD events containing soft leptons. An example of such event is shown in the left part of figure \ref{fig:QCD}. This is one of the more challenging backgrounds as it is difficult to simulate significant amount of such events without restrictions. Therefore, the contribution of QCD events in the signal region is determined from data. The illustration of the method is shown in the right part of figure \ref{fig:QCD}. Two uncorrelated variables are chosen, in this case transverse mass and lepton isolation. Signal region is shown in the region A. Control sample dominated by QCD events is created by inverting the lepton isolation cut to $iso>0.2$($0.15$) for muons(electrons) which is shown as region C. The rest of the selection criteria in the control sample is the same as in signal region. It is assumed that the QCD distribution has the same shape in regions A and C. The obtained sample is relatively clean, the shape of the distribution is determined by subtracting the simulation events that pass the selection. Normalization of the distribution is determined form the $M_T$ region below 30 GeV. Fake rate is determined from regions B and D by subtracting simulation number of simulated events that pass the cuts from the number of data events. The final normalization is than expressed as:
+\begin{equation}
+QCD^A=\frac{N^B_{data}-N^B_{MC}}{N^D_{data}-N^D_{MC}}\times QCD^{C}_{data}
+\end{equation}       
+where $N^B_{data}$ and $N^D_{data}$ are the number of data events in data in regions B and D respectively, and $N^C_{MC}$ and $N^D_{MC}$ are the number of MC events in regions B and D respectively. The signal region before and after the QCD contribution determination is shown in figure \ref{fig:QCD_dist}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.4\textwidth]{Figures/QCD_diag.png}
+		\includegraphics[width=0.45\textwidth]{Figures/QCD_AB.png}		
+		%\rule{35em}{0.5pt}
+	\caption[QCD diagram and illustration of QCD background determination]{An example of QCD event which looks like signal event (\textit{left}) and illustration of ABCD method used for QCD background determination(\textit{right})}
+	\label{fig:QCD}
+\end{figure} 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/VMt_QCD_before.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/VMt_QCD_after.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Transverse mass distribution before and after QCD distribution determination.]{Transverse mass distribution before(\textit{left}) and after QCD background determination(\textit{right}).}
+	\label{fig:QCD_dist}
+\end{figure} 
 
 
 \subsection{Other backgrounds}
-Other backgrounds include processes with final states that match the final state of the signal. One 
+Other backgrounds include processes with final states that match the final state of the signal. One of such signals is WZ where W decays leptonically and Z decays in a pair of b quarks. Another example is the production of Higgs boson in association with W boson where Higgs also decays to a pair of  quarks. Such backgrounds are called irreducible backgrounds.
 
 
 %-----------------------------------
@@ -66,10 +86,10 @@ Other backgrounds include processes with final states that match the final state
 \section{Monte-Carlo corrections}
 \label{sec:mcSF}
 
-\subsection{Pile-up}
+\subsection{Pileup}
 
-In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions could happen. These additional interactions are usually referred to as pile-up interactions. The average number of additional interactions during 2012 was 21 with some events going up to 70 interactions. With these conditions it is important to be able to recognize the signature from additional interactions. Usually pile-up interactions originate form low$-p_T$ QCD jets. The identification of pileup jets as well as their removal is described in detail in \cite{CMS:2013wea}. 
-\par Simulated events could have different distribution for number of pileup interaction is an event. This requires for the simulated events to be rewighted accordingly. For each event, a weight $w_{PU}$ is derived to match the distribution in data. Figure \ref{fig:N_pu} shows number of pile-up events before and after the rewighting procedure for signal events in the muon channel. The agreement between data and simulation has clearly improved after the procedure. 
+In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions could happen. These additional interactions are usually referred to as pileup interactions. The average number of additional interactions during 2012 was 21 with some events going up to 70. With these conditions it is important to be able to recognize the signature from such interactions. Usually pileup originates form low$-p_T$ QCD jets. The identification of pileup jets as well as their removal is described in detail in \cite{CMS:2013wea}. 
+\par Simulated events have different distribution for number of pileup interaction with respect to data. This occurs because when generating simulated events, it was difficult to predict the exact pileup distribution in data. Therefore, simulated events to be rewighted to match the distribution in data. The data pile up distribution in the collision period was estimated assuming total proton-proton cross section of 68 mb. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows number of pile-up events before and after the rewighting procedure for signal events in the muon channel. The agreement between data and simulation has clearly improved after the procedure. 
 
 \begin{figure}[htbp]
 	\centering

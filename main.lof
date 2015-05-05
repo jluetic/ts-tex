@@ -36,13 +36,16 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{54}{figure.caption.100}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{54}{figure.caption.101}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Placeholder - PU}}{59}{figure.caption.114}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{60}{figure.caption.117}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{61}{figure.caption.118}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces QCD diagram and illustration of QCD background determination}}{59}{figure.caption.113}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{59}{figure.caption.114}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Placeholder - PU}}{60}{figure.caption.118}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{62}{figure.caption.121}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{62}{figure.caption.122}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{64}{figure.caption.124}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{66}{figure.caption.128}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{67}{figure.caption.137}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{68}{figure.caption.140}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{68}{figure.caption.141}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{69}{figure.caption.143}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{69}{figure.caption.141}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{70}{figure.caption.144}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{70}{figure.caption.145}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{71}{figure.caption.147}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{72}{figure.caption.150}
