@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{63}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,48 @@ CMS Collaboration.
 \newblock {Combination of ATLAS and CMS top quark pair cross section
   measurements in the emu final state using proton-proton collisions at 8 TeV}.
 \newblock 2014.
+
+\bibitem[Glashow(1961)]{Glashow1961579}
+Sheldon~L. Glashow.
+\newblock Partial-symmetries of weak interactions.
+\newblock \emph{Nuclear Physics}, 22\penalty0 (4):\penalty0 579 -- 588, 1961.
+\newblock ISSN 0029-5582.
+\newblock \doi{http://dx.doi.org/10.1016/0029-5582(61)90469-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0029558261904692}.
+
+\bibitem[Weinberg(1967)]{PhysRevLett.19.1264}
+Steven Weinberg.
+\newblock A model of leptons.
+\newblock \emph{Phys. Rev. Lett.}, 19:\penalty0 1264--1266, Nov 1967.
+\newblock \doi{10.1103/PhysRevLett.19.1264}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.19.1264}.
+
+\bibitem[Salam(1968)]{Salam:1968rm}
+Abdus Salam.
+\newblock {Weak and Electromagnetic Interactions}.
+\newblock \emph{Conf.Proc.}, C680519:\penalty0 367--377, 1968.
+
+\bibitem[et~al.(1983)]{Arnison1983103}
+G.~Arnison et~al.
+\newblock Experimental observation of isolated large transverse energy
+  electrons with associated missing energy at s=540 gev.
+\newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103 -- 116,
+  1983.
+\newblock ISSN 0370-2693.
+\newblock \doi{http://dx.doi.org/10.1016/0370-2693(83)91177-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383911772}.
+
+\bibitem[Arnison(1983)]{Arnison1983398}
+G.~et~al Arnison.
+\newblock Experimental observation of lepton pairs of invariant mass around 95
+  gev/c2 at the cern sps collider.
+\newblock \emph{Physics Letters B}, 126\penalty0 (5):\penalty0 398--410, 1983.
+\newblock \doi{10.1016/0370-2693(83)90188-0}.
+\newblock URL
+  \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-23044516930&partnerID=40&md5=8be07e2a211517aafdf5135170ca9591}.
+\newblock cited By 379.
 
 \bibitem[Aad et~al.(2012)]{Aad:2012tfa}
 Georges Aad et~al.
