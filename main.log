@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  8 MAY 2015 14:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  14 MAY 2015 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -879,97 +879,98 @@ Package pdftex.def Info: Figures/Elementary_Particles.png used on input line 22
 File: Figures/alpha_s.pdf Graphic file (type pdf)
 
 <use Figures/alpha_s.pdf>
-Package pdftex.def Info: Figures/alpha_s.pdf used on input line 94.
+Package pdftex.def Info: Figures/alpha_s.pdf used on input line 91.
 (pdftex.def)             Requested size: 241.01228pt x 168.46487pt.
- [8] [9 <./Figures/alpha_s.pdf>]
-<Figures/MSTW.pdf, id=724, 415.62657pt x 265.3915pt>
+ [8]
+<Figures/MSTW.pdf, id=629, 415.62657pt x 265.3915pt>
 File: Figures/MSTW.pdf Graphic file (type pdf)
  <use Figures/MSTW.pdf>
-Package pdftex.def Info: Figures/MSTW.pdf used on input line 104.
+Package pdftex.def Info: Figures/MSTW.pdf used on input line 101.
 (pdftex.def)             Requested size: 415.62555pt x 265.39084pt.
 
-<Figures/diagram.pdf, id=727, 219.02448pt x 146.14731pt>
+<Figures/diagram.pdf, id=632, 219.02448pt x 146.14731pt>
 File: Figures/diagram.pdf Graphic file (type pdf)
 
 <use Figures/diagram.pdf>
-Package pdftex.def Info: Figures/diagram.pdf used on input line 113.
+Package pdftex.def Info: Figures/diagram.pdf used on input line 110.
 (pdftex.def)             Requested size: 219.02394pt x 146.14693pt.
- [10 <./Figures/MSTW.pdf>] [11 <./Figures/diagram.pdf>] <Figures/pp_xsec.pdf, i
-d=843, 335.36642pt x 445.99pt>
+ [9 <./Figures/alpha_s.pdf>] [10 <./Figures/MSTW.pdf>] [11 <./Figures/diagram.p
+df>]
+<Figures/pp_xsec.pdf, id=843, 335.36642pt x 445.99pt>
 File: Figures/pp_xsec.pdf Graphic file (type pdf)
 
 <use Figures/pp_xsec.pdf>
-Package pdftex.def Info: Figures/pp_xsec.pdf used on input line 140.
+Package pdftex.def Info: Figures/pp_xsec.pdf used on input line 137.
 (pdftex.def)             Requested size: 335.3656pt x 445.9889pt.
  [12] [13 <./Figures/pp_xsec.pdf>]
 <Figures/LO_diag.pdf, id=902, 212.09238pt x 154.06729pt>
 File: Figures/LO_diag.pdf Graphic file (type pdf)
 
 <use Figures/LO_diag.pdf>
-Package pdftex.def Info: Figures/LO_diag.pdf used on input line 163.
+Package pdftex.def Info: Figures/LO_diag.pdf used on input line 160.
 (pdftex.def)             Requested size: 212.09184pt x 154.06691pt.
 
 <Figures/scale_dep.pdf, id=903, 394.73201pt x 284.27806pt>
 File: Figures/scale_dep.pdf Graphic file (type pdf)
 
 <use Figures/scale_dep.pdf>
-Package pdftex.def Info: Figures/scale_dep.pdf used on input line 170.
+Package pdftex.def Info: Figures/scale_dep.pdf used on input line 167.
 (pdftex.def)             Requested size: 364.70882pt x 262.66243pt.
- [14]
-<Figures/2006_scale.pdf, id=912, 350.06384pt x 253.16171pt>
+ [14 <./Figures/LO_diag.pdf>]
+<Figures/2006_scale.pdf, id=945, 350.06384pt x 253.16171pt>
 File: Figures/2006_scale.pdf Graphic file (type pdf)
 
 <use Figures/2006_scale.pdf>
-Package pdftex.def Info: Figures/2006_scale.pdf used on input line 184.
+Package pdftex.def Info: Figures/2006_scale.pdf used on input line 181.
 (pdftex.def)             Requested size: 350.06299pt x 253.16109pt.
- [15 <./Figures/LO_diag.pdf> <./Figures/scale_dep.pdf>] <Figures/5FS_diag.pdf, 
-id=985, 215.53845pt x 174.6528pt>
+ [15 <./Figures/scale_dep.pdf>]
+<Figures/5FS_diag.pdf, id=985, 215.53845pt x 174.6528pt>
 File: Figures/5FS_diag.pdf Graphic file (type pdf)
 
 <use Figures/5FS_diag.pdf>
-Package pdftex.def Info: Figures/5FS_diag.pdf used on input line 192.
+Package pdftex.def Info: Figures/5FS_diag.pdf used on input line 189.
 (pdftex.def)             Requested size: 215.53792pt x 174.65237pt.
  [16 <./Figures/2006_scale.pdf>]
 <Figures/DPS_diag.pdf, id=1037, 207.21596pt x 161.55005pt>
 File: Figures/DPS_diag.pdf Graphic file (type pdf)
 
 <use Figures/DPS_diag.pdf>
-Package pdftex.def Info: Figures/DPS_diag.pdf used on input line 204.
+Package pdftex.def Info: Figures/DPS_diag.pdf used on input line 201.
 (pdftex.def)             Requested size: 207.21545pt x 161.54965pt.
  [17 <./Figures/5FS_diag.pdf>] [18 <./Figures/DPS_diag.pdf>] <Figures/DPS_res.p
-df, id=1118, 190.25137pt x 181.56142pt>
+df, id=1119, 190.25137pt x 181.56142pt>
 File: Figures/DPS_res.pdf Graphic file (type pdf)
 
 <use Figures/DPS_res.pdf>
-Package pdftex.def Info: Figures/DPS_res.pdf used on input line 230.
+Package pdftex.def Info: Figures/DPS_res.pdf used on input line 227.
 (pdftex.def)             Requested size: 190.2509pt x 181.56096pt.
  [19]
 <Figures/atlas_total.pdf, id=1136, 569.12625pt x 408.52625pt>
 File: Figures/atlas_total.pdf Graphic file (type pdf)
 
 <use Figures/atlas_total.pdf>
-Package pdftex.def Info: Figures/atlas_total.pdf used on input line 248.
+Package pdftex.def Info: Figures/atlas_total.pdf used on input line 245.
 (pdftex.def)             Requested size: 319.1176pt x 229.07858pt.
 
 <Figures/atlas_diff1j.pdf, id=1139, 569.12625pt x 503.8825pt>
 File: Figures/atlas_diff1j.pdf Graphic file (type pdf)
 
 <use Figures/atlas_diff1j.pdf>
-Package pdftex.def Info: Figures/atlas_diff1j.pdf used on input line 257.
+Package pdftex.def Info: Figures/atlas_diff1j.pdf used on input line 254.
 (pdftex.def)             Requested size: 227.94214pt x 201.81084pt.
 
 <Figures/atlas_diff.pdf, id=1140, 569.12625pt x 503.8825pt>
 File: Figures/atlas_diff.pdf Graphic file (type pdf)
 
 <use Figures/atlas_diff.pdf>
-Package pdftex.def Info: Figures/atlas_diff.pdf used on input line 263.
+Package pdftex.def Info: Figures/atlas_diff.pdf used on input line 260.
 (pdftex.def)             Requested size: 227.94214pt x 201.81084pt.
  [20 <./Figures/DPS_res.pdf>] [21]
 <Figures/cms_tot.pdf, id=1251, 213.70972pt x 266.14651pt>
 File: Figures/cms_tot.pdf Graphic file (type pdf)
 
 <use Figures/cms_tot.pdf>
-Package pdftex.def Info: Figures/cms_tot.pdf used on input line 274.
+Package pdftex.def Info: Figures/cms_tot.pdf used on input line 271.
 (pdftex.def)             Requested size: 213.70918pt x 266.14586pt.
 ) (./Chapters/Chapter3.tex [22 <./Figures/atlas_total.pdf>] [23 <./Figures/atla
 s_diff1j.pdf> <./Figures/atlas_diff.pdf> <./Figures/cms_tot.pdf>] [24
@@ -1425,7 +1426,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 31E0A08DB240ECAFBC7282B90E2509E7;11894.
+(rerunfilecheck)             Checksum: 94CF82A18F641690ACD8047E0F4BF477;11881.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1443,7 +1444,7 @@ Here is how much of TeX's memory you used:
  16886 multiletter control sequences out of 15000+600000
  17827 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,15n,45p,1774b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,15n,45p,1744b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
@@ -1485,7 +1486,7 @@ onts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
 urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on main.pdf (107 pages, 9386457 bytes).
+Output written on main.pdf (107 pages, 9407171 bytes).
 PDF statistics:
  3415 PDF objects out of 3580 (max. 8388607)
  2576 compressed objects within 26 object streams
