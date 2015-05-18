@@ -61,6 +61,7 @@ Detector response is simulated using GEANT4 simulation package \cite{Agostinelli
 \end{table}
 
 
+
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
@@ -201,3 +202,6 @@ Final selection contains a number of events where Z boson was not actually produ
 
 
 \subsection{\textit{b-tagging} scale factors}
+
+CMS simulations describe very well the detector performance, however, it can be difficult to accurately model all parameters used in b-tagging algorithms. Procedure used to identify b-jets is described in \ref{sec:btagging} and it depends on track reconstruction efficiency, tracking resolution and other tracking related parameters. Efficiency and missidentification probability are functions of transverse momentum and pseudorapidity of a jet. Therefore, it is very important to determine the b-tagging efficiency from data. The obtained corrections are applied to simulated events as a scale factors which is ration between efficiency measured in collisions and efficiency from simulated events. In simulation, MC information is used to determine the generated jet flavour. 
+Measurements are performed using b-jet enriched sample such as $t\bar{t}$ or multijets events with jet containing a muon. In B hadron decays, the semileptonic branching ratio 
