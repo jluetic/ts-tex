@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  14 MAY 2015 18:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  18 MAY 2015 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,7 +765,7 @@ LaTeX Font Info:    Try loading font information for OT1+phv on input line 102.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-<logo_unizg_eng.jpg, id=261, 359.07378pt x 249.175pt>
+<logo_unizg_eng.jpg, id=265, 359.07378pt x 249.175pt>
 File: logo_unizg_eng.jpg Graphic file (type jpg)
  <use logo_unizg_eng.jpg>
 Package pdftex.def Info: logo_unizg_eng.jpg used on input line 109.
@@ -788,7 +788,7 @@ Package pdftex.def Info: logo_unizg_eng.jpg used on input line 134.
  [1] [2
 
 ]
-<logo_unizg2.jpg, id=283, 359.07378pt x 249.31728pt>
+<logo_unizg2.jpg, id=287, 359.07378pt x 249.31728pt>
 File: logo_unizg2.jpg Graphic file (type jpg)
  <use logo_unizg2.jpg>
 Package pdftex.def Info: logo_unizg2.jpg used on input line 161.
@@ -867,7 +867,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Theoretical overview and previous measurements
 ------------------------------------------------------------------------------
-[3] <Figures/Elementary_Particles.png, id=569, 445.665pt x 445.665pt>
+[3] <Figures/Elementary_Particles.png, id=574, 445.665pt x 445.665pt>
 File: Figures/Elementary_Particles.png Graphic file (type png)
 
 <use Figures/Elementary_Particles.png>
@@ -875,20 +875,20 @@ Package pdftex.def Info: Figures/Elementary_Particles.png used on input line 22
 .
 (pdftex.def)             Requested size: 227.94214pt x 227.94577pt.
  [4] [5 <./Figures/Elementary_Particles.png>] [6] [7] <Figures/alpha_s.pdf, id=
-617, 241.0129pt x 168.46529pt>
+622, 241.0129pt x 168.46529pt>
 File: Figures/alpha_s.pdf Graphic file (type pdf)
 
 <use Figures/alpha_s.pdf>
 Package pdftex.def Info: Figures/alpha_s.pdf used on input line 91.
 (pdftex.def)             Requested size: 241.01228pt x 168.46487pt.
  [8]
-<Figures/MSTW.pdf, id=629, 415.62657pt x 265.3915pt>
+<Figures/MSTW.pdf, id=634, 415.62657pt x 265.3915pt>
 File: Figures/MSTW.pdf Graphic file (type pdf)
  <use Figures/MSTW.pdf>
 Package pdftex.def Info: Figures/MSTW.pdf used on input line 101.
 (pdftex.def)             Requested size: 415.62555pt x 265.39084pt.
 
-<Figures/diagram.pdf, id=632, 219.02448pt x 146.14731pt>
+<Figures/diagram.pdf, id=637, 219.02448pt x 146.14731pt>
 File: Figures/diagram.pdf Graphic file (type pdf)
 
 <use Figures/diagram.pdf>
@@ -896,77 +896,77 @@ Package pdftex.def Info: Figures/diagram.pdf used on input line 110.
 (pdftex.def)             Requested size: 219.02394pt x 146.14693pt.
  [9 <./Figures/alpha_s.pdf>] [10 <./Figures/MSTW.pdf>] [11 <./Figures/diagram.p
 df>]
-<Figures/pp_xsec.pdf, id=843, 335.36642pt x 445.99pt>
+<Figures/pp_xsec.pdf, id=848, 335.36642pt x 445.99pt>
 File: Figures/pp_xsec.pdf Graphic file (type pdf)
 
 <use Figures/pp_xsec.pdf>
 Package pdftex.def Info: Figures/pp_xsec.pdf used on input line 137.
 (pdftex.def)             Requested size: 335.3656pt x 445.9889pt.
  [12] [13 <./Figures/pp_xsec.pdf>]
-<Figures/LO_diag.pdf, id=902, 212.09238pt x 154.06729pt>
+<Figures/LO_diag.pdf, id=907, 212.09238pt x 154.06729pt>
 File: Figures/LO_diag.pdf Graphic file (type pdf)
 
 <use Figures/LO_diag.pdf>
 Package pdftex.def Info: Figures/LO_diag.pdf used on input line 160.
 (pdftex.def)             Requested size: 212.09184pt x 154.06691pt.
 
-<Figures/scale_dep.pdf, id=903, 394.73201pt x 284.27806pt>
+<Figures/scale_dep.pdf, id=908, 394.73201pt x 284.27806pt>
 File: Figures/scale_dep.pdf Graphic file (type pdf)
 
 <use Figures/scale_dep.pdf>
 Package pdftex.def Info: Figures/scale_dep.pdf used on input line 167.
 (pdftex.def)             Requested size: 364.70882pt x 262.66243pt.
  [14 <./Figures/LO_diag.pdf>]
-<Figures/2006_scale.pdf, id=945, 350.06384pt x 253.16171pt>
+<Figures/2006_scale.pdf, id=950, 350.06384pt x 253.16171pt>
 File: Figures/2006_scale.pdf Graphic file (type pdf)
 
 <use Figures/2006_scale.pdf>
 Package pdftex.def Info: Figures/2006_scale.pdf used on input line 181.
 (pdftex.def)             Requested size: 350.06299pt x 253.16109pt.
  [15 <./Figures/scale_dep.pdf>]
-<Figures/5FS_diag.pdf, id=985, 215.53845pt x 174.6528pt>
+<Figures/5FS_diag.pdf, id=990, 215.53845pt x 174.6528pt>
 File: Figures/5FS_diag.pdf Graphic file (type pdf)
 
 <use Figures/5FS_diag.pdf>
 Package pdftex.def Info: Figures/5FS_diag.pdf used on input line 189.
 (pdftex.def)             Requested size: 215.53792pt x 174.65237pt.
  [16 <./Figures/2006_scale.pdf>]
-<Figures/DPS_diag.pdf, id=1037, 207.21596pt x 161.55005pt>
+<Figures/DPS_diag.pdf, id=1042, 207.21596pt x 161.55005pt>
 File: Figures/DPS_diag.pdf Graphic file (type pdf)
 
 <use Figures/DPS_diag.pdf>
 Package pdftex.def Info: Figures/DPS_diag.pdf used on input line 201.
 (pdftex.def)             Requested size: 207.21545pt x 161.54965pt.
  [17 <./Figures/5FS_diag.pdf>] [18 <./Figures/DPS_diag.pdf>] <Figures/DPS_res.p
-df, id=1119, 190.25137pt x 181.56142pt>
+df, id=1124, 190.25137pt x 181.56142pt>
 File: Figures/DPS_res.pdf Graphic file (type pdf)
 
 <use Figures/DPS_res.pdf>
 Package pdftex.def Info: Figures/DPS_res.pdf used on input line 227.
 (pdftex.def)             Requested size: 190.2509pt x 181.56096pt.
  [19]
-<Figures/atlas_total.pdf, id=1136, 569.12625pt x 408.52625pt>
+<Figures/atlas_total.pdf, id=1141, 569.12625pt x 408.52625pt>
 File: Figures/atlas_total.pdf Graphic file (type pdf)
 
 <use Figures/atlas_total.pdf>
 Package pdftex.def Info: Figures/atlas_total.pdf used on input line 245.
 (pdftex.def)             Requested size: 319.1176pt x 229.07858pt.
 
-<Figures/atlas_diff1j.pdf, id=1139, 569.12625pt x 503.8825pt>
+<Figures/atlas_diff1j.pdf, id=1144, 569.12625pt x 503.8825pt>
 File: Figures/atlas_diff1j.pdf Graphic file (type pdf)
 
 <use Figures/atlas_diff1j.pdf>
 Package pdftex.def Info: Figures/atlas_diff1j.pdf used on input line 254.
 (pdftex.def)             Requested size: 227.94214pt x 201.81084pt.
 
-<Figures/atlas_diff.pdf, id=1140, 569.12625pt x 503.8825pt>
+<Figures/atlas_diff.pdf, id=1145, 569.12625pt x 503.8825pt>
 File: Figures/atlas_diff.pdf Graphic file (type pdf)
 
 <use Figures/atlas_diff.pdf>
 Package pdftex.def Info: Figures/atlas_diff.pdf used on input line 260.
 (pdftex.def)             Requested size: 227.94214pt x 201.81084pt.
  [20 <./Figures/DPS_res.pdf>] [21]
-<Figures/cms_tot.pdf, id=1251, 213.70972pt x 266.14651pt>
+<Figures/cms_tot.pdf, id=1256, 213.70972pt x 266.14651pt>
 File: Figures/cms_tot.pdf Graphic file (type pdf)
 
 <use Figures/cms_tot.pdf>
@@ -980,7 +980,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
  3 Large Hadron Collider
 ------------------------------------------------------------------------------
-<Figures/LHC.jpg, id=1357, 845.1575pt x 683.05188pt>
+<Figures/LHC.jpg, id=1362, 845.1575pt x 683.05188pt>
 File: Figures/LHC.jpg Graphic file (type jpg)
  <use Figures/LHC.jpg>
 Package pdftex.def Info: Figures/LHC.jpg used on input line 14.
@@ -992,21 +992,21 @@ Overfull \hbox (1.18909pt too wide) in paragraph at lines 35--39
 lud-ing dipoles, quadrupoles,
  []
 
-<Figures/LHC_magnet.pdf, id=1380, 406.67093pt x 345.5594pt>
+<Figures/LHC_magnet.pdf, id=1385, 406.67093pt x 345.5594pt>
 File: Figures/LHC_magnet.pdf Graphic file (type pdf)
 
 <use Figures/LHC_magnet.pdf>
 Package pdftex.def Info: Figures/LHC_magnet.pdf used on input line 44.
 (pdftex.def)             Requested size: 227.94214pt x 193.69121pt.
 
-<Figures/LHC_MagVec.pdf, id=1381, 276.69835pt x 277.66145pt>
+<Figures/LHC_MagVec.pdf, id=1386, 276.69835pt x 277.66145pt>
 File: Figures/LHC_MagVec.pdf Graphic file (type pdf)
 
 <use Figures/LHC_MagVec.pdf>
 Package pdftex.def Info: Figures/LHC_MagVec.pdf used on input line 50.
 (pdftex.def)             Requested size: 227.94214pt x 228.74303pt.
  [28] [29 <./Figures/LHC_magnet.pdf> <./Figures/LHC_MagVec.pdf>] [30] <Figures/
-lumi.png, id=1468, 1027.84pt x 410.53375pt>
+lumi.png, id=1474, 1027.84pt x 410.53375pt>
 File: Figures/lumi.png Graphic file (type png)
 
 <use Figures/lumi.png>
@@ -1025,28 +1025,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<Figures/CMS.pdf, id=1479, 845.1575pt x 597.23125pt>
+<Figures/CMS.pdf, id=1484, 845.1575pt x 597.23125pt>
 File: Figures/CMS.pdf Graphic file (type pdf)
  <use Figures/CMS.pdf>
 Package pdftex.def Info: Figures/CMS.pdf used on input line 11.
 (pdftex.def)             Requested size: 364.70882pt x 257.72484pt.
 
 [33] [34 <./Figures/CMS.pdf>] [35]
-<Figures/pixel_detector.png, id=1646, 4717.625pt x 3333.45375pt>
+<Figures/pixel_detector.png, id=1651, 4717.625pt x 3333.45375pt>
 File: Figures/pixel_detector.png Graphic file (type png)
 
 <use Figures/pixel_detector.png>
 Package pdftex.def Info: Figures/pixel_detector.png used on input line 64.
 (pdftex.def)             Requested size: 364.70882pt x 257.67876pt.
 
-<Figures/pixel_eta.pdf, id=1649, 199.95953pt x 102.75047pt>
+<Figures/pixel_eta.pdf, id=1654, 199.95953pt x 102.75047pt>
 File: Figures/pixel_eta.pdf Graphic file (type pdf)
 
 <use Figures/pixel_eta.pdf>
 Package pdftex.def Info: Figures/pixel_eta.pdf used on input line 71.
 (pdftex.def)             Requested size: 223.3858pt x 114.79124pt.
 
-<Figures/pixel_eta2.pdf, id=1650, 213.63704pt x 99.42555pt>
+<Figures/pixel_eta2.pdf, id=1655, 213.63704pt x 99.42555pt>
 File: Figures/pixel_eta2.pdf Graphic file (type pdf)
 
 <use Figures/pixel_eta2.pdf>
@@ -1054,42 +1054,42 @@ Package pdftex.def Info: Figures/pixel_eta2.pdf used on input line 72.
 (pdftex.def)             Requested size: 223.3858pt x 103.96751pt.
  [36] [37 <./Figures/pixel_detector.png> <./Figures/pixel_eta.pdf> <./Figures/p
 ixel_eta2.pdf>] [38]
-<Figures/strip_detector.png, id=1768, 482.80376pt x 241.90375pt>
+<Figures/strip_detector.png, id=1773, 482.80376pt x 241.90375pt>
 File: Figures/strip_detector.png Graphic file (type png)
 
 <use Figures/strip_detector.png>
 Package pdftex.def Info: Figures/strip_detector.png used on input line 92.
 (pdftex.def)             Requested size: 410.29308pt x 205.57855pt.
 
-<Figures/ECAL.pdf, id=1771, 396.36963pt x 265.40305pt>
+<Figures/ECAL.pdf, id=1776, 396.36963pt x 265.40305pt>
 File: Figures/ECAL.pdf Graphic file (type pdf)
  <use Figures/ECAL.pdf>
 Package pdftex.def Info: Figures/ECAL.pdf used on input line 107.
 (pdftex.def)             Requested size: 364.70882pt x 244.2183pt.
 
 [39 <./Figures/strip_detector.png (PNG copy)>]
-<Figures/HCAL.pdf, id=1781, 399.99248pt x 234.73618pt>
+<Figures/HCAL.pdf, id=1786, 399.99248pt x 234.73618pt>
 File: Figures/HCAL.pdf Graphic file (type pdf)
  <use Figures/HCAL.pdf>
 Package pdftex.def Info: Figures/HCAL.pdf used on input line 129.
 (pdftex.def)             Requested size: 364.70882pt x 214.04005pt.
 
 [40 <./Figures/ECAL.pdf>]
-<Figures/Muon_chambres.png, id=1812, 790.955pt x 574.145pt>
+<Figures/Muon_chambres.png, id=1817, 790.955pt x 574.145pt>
 File: Figures/Muon_chambres.png Graphic file (type png)
 
 <use Figures/Muon_chambres.png>
 Package pdftex.def Info: Figures/Muon_chambres.png used on input line 145.
 (pdftex.def)             Requested size: 364.70882pt x 264.74068pt.
  [41 <./Figures/HCAL.pdf>]
-<Figures/MU_pt_res.pdf, id=1866, 197.06071pt x 225.59944pt>
+<Figures/MU_pt_res.pdf, id=1871, 197.06071pt x 225.59944pt>
 File: Figures/MU_pt_res.pdf Graphic file (type pdf)
 
 <use Figures/MU_pt_res.pdf>
 Package pdftex.def Info: Figures/MU_pt_res.pdf used on input line 154.
 (pdftex.def)             Requested size: 227.94214pt x 260.9692pt.
 
-<Figures/trigger.pdf, id=1869, 172.65816pt x 214.7489pt>
+<Figures/trigger.pdf, id=1874, 172.65816pt x 214.7489pt>
 File: Figures/trigger.pdf Graphic file (type pdf)
 
 <use Figures/trigger.pdf>
@@ -1113,14 +1113,14 @@ ed track in-side the tracker(\OT1/cmr/m/it/12 tracker
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48] [49] <Figures/jet_unsafe2.pdf, id=2003, 353.5824pt x 108.08731pt>
+[48] [49] <Figures/jet_unsafe2.pdf, id=2008, 353.5824pt x 108.08731pt>
 File: Figures/jet_unsafe2.pdf Graphic file (type pdf)
 
 <use Figures/jet_unsafe2.pdf>
 Package pdftex.def Info: Figures/jet_unsafe2.pdf used on input line 125.
 (pdftex.def)             Requested size: 364.70882pt x 111.49443pt.
  [50 <./Figures/jet_unsafe2.pdf>]
-<Figures/diff_algos.pdf, id=2064, 492.73836pt x 369.69287pt>
+<Figures/diff_algos.pdf, id=2069, 492.73836pt x 369.69287pt>
 File: Figures/diff_algos.pdf Graphic file (type pdf)
 
 <use Figures/diff_algos.pdf>
@@ -1136,14 +1136,14 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
 
-<Figures/jet_tot_corr_eta.pdf, id=2121, 405.92354pt x 202.37949pt>
+<Figures/jet_tot_corr_eta.pdf, id=2126, 405.92354pt x 202.37949pt>
 File: Figures/jet_tot_corr_eta.pdf Graphic file (type pdf)
 
 <use Figures/jet_tot_corr_eta.pdf>
 Package pdftex.def Info: Figures/jet_tot_corr_eta.pdf used on input line 171.
 (pdftex.def)             Requested size: 410.29308pt x 204.56532pt.
  [53]
-<Figures/jet_tot_corr_pt.pdf, id=2130, 400.78487pt x 384.00032pt>
+<Figures/jet_tot_corr_pt.pdf, id=2135, 400.78487pt x 384.00032pt>
 File: Figures/jet_tot_corr_pt.pdf Graphic file (type pdf)
 
 <use Figures/jet_tot_corr_pt.pdf>
@@ -1154,14 +1154,14 @@ Package pdftex.def Info: Figures/jet_tot_corr_pt.pdf used on input line 179.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [55 <./Figures/jet_tot_corr_pt.pdf>]
-<Figures/b-tag_csv.pdf, id=2293, 432.45007pt x 147.89072pt>
+<Figures/b-tag_csv.pdf, id=2298, 432.45007pt x 147.89072pt>
 File: Figures/b-tag_csv.pdf Graphic file (type pdf)
 
 <use Figures/b-tag_csv.pdf>
 Package pdftex.def Info: Figures/b-tag_csv.pdf used on input line 228.
 (pdftex.def)             Requested size: 455.8843pt x 155.90813pt.
 
-<Figures/MisID_CSVM.pdf, id=2297, 239.7494pt x 98.11145pt>
+<Figures/MisID_CSVM.pdf, id=2302, 239.7494pt x 98.11145pt>
 File: Figures/MisID_CSVM.pdf Graphic file (type pdf)
 
 <use Figures/MisID_CSVM.pdf>
@@ -1180,36 +1180,36 @@ Chapter 6.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [60] [61]
-<Figures/Results/TT_GetMET_doQCD1.pdf, id=2501, 569.12625pt x 546.04pt>
+<Figures/Results/TT_GetMET_doQCD1.pdf, id=2506, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_GetMET_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetMET_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_GetMET_doQCD1.pdf used on input lin
-e 98.
+e 99.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/TT_GetVMt_doQCD1.pdf, id=2502, 569.12625pt x 546.04pt>
+<Figures/Results/TT_GetVMt_doQCD1.pdf, id=2507, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_GetVMt_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetVMt_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_GetVMt_doQCD1.pdf used on input lin
-e 99.
+e 100.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/TT_GetWpt_doQCD1.pdf, id=2503, 569.12625pt x 546.04pt>
+<Figures/Results/TT_GetWpt_doQCD1.pdf, id=2508, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_GetWpt_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetWpt_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_GetWpt_doQCD1.pdf used on input lin
-e 100.
+e 101.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/TT_H_mass_doQCD1.pdf, id=2504, 569.12625pt x 546.04pt>
+<Figures/Results/TT_H_mass_doQCD1.pdf, id=2509, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_H_mass_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_H_mass_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_H_mass_doQCD1.pdf used on input lin
-e 101.
+e 102.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
  [62] [63 <./Figures/Results/TT_GetMET_doQCD1.pdf, page is rotated 90 degrees> 
 <./Figures/Results/TT_GetVMt_doQCD1.pdf, page is rotated 90 degrees> <./Figures
@@ -1218,113 +1218,128 @@ T_H_mass_doQCD1.pdf, page is rotated 90 degrees>]
 File: Figures/Results/TT_GetMET_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/TT_GetMET_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_GetMET_doQCD1.pdf used on input lin
-e 117.
+e 118.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 File: Figures/Results/TT_GetVMt_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetVMt_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_GetVMt_doQCD1.pdf used on input lin
-e 118.
+e 119.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 File: Figures/Results/TT_GetWpt_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetWpt_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_GetWpt_doQCD1.pdf used on input lin
-e 119.
+e 120.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 File: Figures/Results/TT_H_mass_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_H_mass_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/TT_H_mass_doQCD1.pdf used on input lin
-e 120.
+e 121.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
  [64]
-<Figures/QCD_diag.png, id=2695, 284.06125pt x 199.74625pt>
+<Figures/QCD_diag.png, id=2700, 284.06125pt x 199.74625pt>
 File: Figures/QCD_diag.png Graphic file (type png)
 
 <use Figures/QCD_diag.png>
-Package pdftex.def Info: Figures/QCD_diag.png used on input line 135.
+Package pdftex.def Info: Figures/QCD_diag.png used on input line 136.
 (pdftex.def)             Requested size: 182.35092pt x 128.23033pt.
 
-<Figures/QCD_AB.png, id=2696, 351.3125pt x 296.10625pt>
+<Figures/QCD_AB.png, id=2701, 351.3125pt x 296.10625pt>
 File: Figures/QCD_AB.png Graphic file (type png)
 
 <use Figures/QCD_AB.png>
-Package pdftex.def Info: Figures/QCD_AB.png used on input line 136.
+Package pdftex.def Info: Figures/QCD_AB.png used on input line 137.
 (pdftex.def)             Requested size: 205.14653pt x 172.91647pt.
 
-<Figures/VMt_QCD_before.pdf, id=2697, 569.12625pt x 546.04pt>
+<Figures/VMt_QCD_before.pdf, id=2702, 569.12625pt x 546.04pt>
 File: Figures/VMt_QCD_before.pdf Graphic file (type pdf)
 
 <use Figures/VMt_QCD_before.pdf>
-Package pdftex.def Info: Figures/VMt_QCD_before.pdf used on input line 144.
+Package pdftex.def Info: Figures/VMt_QCD_before.pdf used on input line 145.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/VMt_QCD_after.pdf, id=2698, 569.12625pt x 546.04pt>
+<Figures/VMt_QCD_after.pdf, id=2703, 569.12625pt x 546.04pt>
 File: Figures/VMt_QCD_after.pdf Graphic file (type pdf)
 
 <use Figures/VMt_QCD_after.pdf>
-Package pdftex.def Info: Figures/VMt_QCD_after.pdf used on input line 145.
+Package pdftex.def Info: Figures/VMt_QCD_after.pdf used on input line 146.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
  [65] [66 <./Figures/QCD_diag.png> <./Figures/QCD_AB.png> <./Figures/VMt_QCD_be
 fore.pdf, page is rotated 90 degrees> <./Figures/VMt_QCD_after.pdf, page is rot
 ated 90 degrees>]
-<Figures/NPU_placeholder.pdf, id=2799, 443.5132pt x 155.5957pt>
+<Figures/NPU_placeholder.pdf, id=2804, 443.5132pt x 155.5957pt>
 File: Figures/NPU_placeholder.pdf Graphic file (type pdf)
 
 <use Figures/NPU_placeholder.pdf>
-Package pdftex.def Info: Figures/NPU_placeholder.pdf used on input line 169.
+Package pdftex.def Info: Figures/NPU_placeholder.pdf used on input line 170.
 (pdftex.def)             Requested size: 410.29308pt x 143.94513pt.
  [67 <./Figures/NPU_placeholder.pdf>]
-<Figures/ID_eff.pdf, id=2878, 375.56932pt x 359.33295pt>
+<Figures/ID_eff.pdf, id=2883, 375.56932pt x 359.33295pt>
 File: Figures/ID_eff.pdf Graphic file (type pdf)
 
 <use Figures/ID_eff.pdf>
-Package pdftex.def Info: Figures/ID_eff.pdf used on input line 186.
+Package pdftex.def Info: Figures/ID_eff.pdf used on input line 187.
 (pdftex.def)             Requested size: 223.3858pt x 213.73174pt.
 
-<Figures/ISO_eff.pdf, id=2879, 367.28949pt x 360.55623pt>
+<Figures/ISO_eff.pdf, id=2884, 367.28949pt x 360.55623pt>
 File: Figures/ISO_eff.pdf Graphic file (type pdf)
 
 <use Figures/ISO_eff.pdf>
-Package pdftex.def Info: Figures/ISO_eff.pdf used on input line 187.
+Package pdftex.def Info: Figures/ISO_eff.pdf used on input line 188.
 (pdftex.def)             Requested size: 223.3858pt x 219.28978pt.
 
-<Figures/trig_eff.pdf, id=2880, 365.98665pt x 357.25426pt>
+<Figures/trig_eff.pdf, id=2885, 365.98665pt x 357.25426pt>
 File: Figures/trig_eff.pdf Graphic file (type pdf)
 
 <use Figures/trig_eff.pdf>
-Package pdftex.def Info: Figures/trig_eff.pdf used on input line 195.
+Package pdftex.def Info: Figures/trig_eff.pdf used on input line 196.
 (pdftex.def)             Requested size: 227.94214pt x 222.50381pt.
-) (./Chapters/Chapter7.tex [68] [69 <./Figures/ID_eff.pdf> <./Figures/ISO_eff.p
-df> <./Figures/trig_eff.pdf>] [70]
+ [68] [69 <./Figures/ID_eff.pdf> <./Figures/ISO_eff.pdf> <./Figures/trig_eff.pd
+f>] [70]
+<Figures/b-tagSF.pdf, id=3006, 281.33849pt x 147.10298pt>
+File: Figures/b-tagSF.pdf Graphic file (type pdf)
+
+<use Figures/b-tagSF.pdf>
+Package pdftex.def Info: Figures/b-tagSF.pdf used on input line 219.
+(pdftex.def)             Requested size: 273.53336pt x 143.03311pt.
+
+<Figures/miss-tag.pdf, id=3007, 281.21251pt x 105.02106pt>
+File: Figures/miss-tag.pdf Graphic file (type pdf)
+
+<use Figures/miss-tag.pdf>
+Package pdftex.def Info: Figures/miss-tag.pdf used on input line 220.
+(pdftex.def)             Requested size: 273.53336pt x 102.16193pt.
+) (./Chapters/Chapter7.tex [71 <./Figures/b-tagSF.pdf> <./Figures/miss-tag.pdf>
+] [72
+
+]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Cross section measurement
 ------------------------------------------------------------------------------
-[71
+[73]
 
-]
-
-LaTeX Warning: Reference `tab:systContrib' on page 72 undefined on input line 7
+LaTeX Warning: Reference `tab:systContrib' on page 74 undefined on input line 7
 1.
 
-[72] <Figures/syst_Wbb_var.pdf, id=3011, 569.12625pt x 546.04pt>
+[74] <Figures/syst_Wbb_var.pdf, id=3105, 569.12625pt x 546.04pt>
 File: Figures/syst_Wbb_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_Wbb_var.pdf>
 Package pdftex.def Info: Figures/syst_Wbb_var.pdf used on input line 75.
 (pdftex.def)             Requested size: 223.3858pt x 214.3295pt.
 
-<Figures/syst_TT_var.pdf, id=3012, 569.12625pt x 546.04pt>
+<Figures/syst_TT_var.pdf, id=3106, 569.12625pt x 546.04pt>
 File: Figures/syst_TT_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_TT_var.pdf>
 Package pdftex.def Info: Figures/syst_TT_var.pdf used on input line 76.
 (pdftex.def)             Requested size: 223.3858pt x 214.3295pt.
- [73 <./Figures/syst_Wbb_var.pdf, page is rotated 90 degrees> <./Figures/syst_T
-T_var.pdf, page is rotated 90 degrees>] [74])
-(./Chapters/Chapter8.tex [75] [76
+ [75 <./Figures/syst_Wbb_var.pdf, page is rotated 90 degrees> <./Figures/syst_T
+T_var.pdf, page is rotated 90 degrees>] [76])
+(./Chapters/Chapter8.tex [77] [78
 
 ]
 Chapter 8.
@@ -1332,56 +1347,66 @@ Chapter 8.
  8 Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcij
 e W bozona i para b kvarkova
 ------------------------------------------------------------------------------
-) (./Appendices/AppendixA.tex [77] [78
+) (./Appendices/AppendixA.tex [79] [80
 
 ]
 Appendix A.
 ------------------------------------------------------------------------------
  A Lorentz angle measurement in Pixel detector
 ------------------------------------------------------------------------------
-[79] <Figures/kut.png, id=3141, 358.4592pt x 255.8358pt>
+[81] <Figures/kut.png, id=3245, 358.4592pt x 255.8358pt>
 File: Figures/kut.png Graphic file (type png)
  <use Figures/kut.png>
 Package pdftex.def Info: Figures/kut.png used on input line 34.
 (pdftex.def)             Requested size: 227.94214pt x 162.68425pt.
 
-[80 <./Figures/kut.png>]
-<Figures/LA2012_2D.png, id=3154, 598.235pt x 574.145pt>
+[82 <./Figures/kut.png>]
+<Figures/LA2012_2D.png, id=3259, 598.235pt x 574.145pt>
 File: Figures/LA2012_2D.png Graphic file (type png)
 
 <use Figures/LA2012_2D.png>
 Package pdftex.def Info: Figures/LA2012_2D.png used on input line 53.
 (pdftex.def)             Requested size: 227.94214pt x 218.76433pt.
 
-<Figures/LA2012_Profile.png, id=3155, 569.12625pt x 546.04pt>
+<Figures/LA2012_Profile.png, id=3260, 569.12625pt x 546.04pt>
 File: Figures/LA2012_Profile.png Graphic file (type png)
 
 <use Figures/LA2012_Profile.png>
 Package pdftex.def Info: Figures/LA2012_Profile.png used on input line 60.
 (pdftex.def)             Requested size: 227.94214pt x 218.6954pt.
- [81 <./Figures/LA2012_2D.png> <./Figures/LA2012_Profile.png>] <Figures/LA2012.
-png, id=3164, 457.71pt x 444.059pt>
+ [83 <./Figures/LA2012_2D.png> <./Figures/LA2012_Profile.png>] <Figures/LA2012.
+png, id=3269, 457.71pt x 444.059pt>
 File: Figures/LA2012.png Graphic file (type png)
 
 <use Figures/LA2012.png>
 Package pdftex.def Info: Figures/LA2012.png used on input line 87.
 (pdftex.def)             Requested size: 227.94214pt x 221.14131pt.
- [82 <./Figures/LA2012.png>]
+ [84 <./Figures/LA2012.png>]
 
 Package caption Warning: \label without proper \caption on input line 108.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:LA_VMethod' on page 83 undefined on input line 10
+LaTeX Warning: Reference `fig:LA_VMethod' on page 85 undefined on input line 10
 3.
 
-<Figures/LA_VMethod_2015.pdf, id=3171, 569.12625pt x 546.04pt>
+<Figures/LA_VMethod_2015.pdf, id=3278, 569.12625pt x 546.04pt>
 File: Figures/LA_VMethod_2015.pdf Graphic file (type pdf)
 
 <use Figures/LA_VMethod_2015.pdf>
 Package pdftex.def Info: Figures/LA_VMethod_2015.pdf used on input line 107.
 (pdftex.def)             Requested size: 227.94214pt x 218.6954pt.
- [83 <./Figures/LA_VMethod_2015.pdf, page is rotated 90 degrees>]) [84]
+ [85 <./Figures/LA_VMethod_2015.pdf, page is rotated 90 degrees>]) (./Appendice
+s/AppendixB.tex [86]
+Appendix B.
+------------------------------------------------------------------------------
+ B Acceptance and efficiency error calculation
+------------------------------------------------------------------------------
+) [87
+
+] [88
+
+]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1415,19 +1440,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--67
 . 0-[]23044516930&partnerID =
  []
 
-[85
+[89
 
-
-] [86] [87] [88] [89] [90])
+] [90] [91] [92] [93] [94])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
- [91]
+ [95]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 94CF82A18F641690ACD8047E0F4BF477;11881.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 38BE404229AB2ED2DD225B279782308F;12168
+(rerunfilecheck)             After:  6BDE690DD0D26C959EF777B2FDCCDF60;12168.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
@@ -1435,61 +1465,121 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 14040 strings out of 493315
- 201236 string characters out of 6137903
- 269966 words of memory out of 5000000
- 16886 multiletter control sequences out of 15000+600000
+ 14083 strings out of 493315
+ 201900 string characters out of 6137903
+ 270041 words of memory out of 5000000
+ 16897 multiletter control sequences out of 15000+600000
  17827 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,15n,45p,1744b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/mathpazo/fplmr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/m
-athpazo/fplmri.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-supe
-r/sfsx1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr
-8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
-urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/
-utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on main.pdf (107 pages, 9407171 bytes).
+pdfTeX warning (dest): name{table.caption.154} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.139} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.136} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.133} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.158} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.155} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.152} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.149} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.134} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{dummy.160} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.159} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.156} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.143} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.142} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.141} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.140} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.135} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.131} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.129} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/mathpazo/fplmr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/mat
+hpazo/fplmri.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/
+sfsx1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (111 pages, 9583292 bytes).
 PDF statistics:
- 3415 PDF objects out of 3580 (max. 8388607)
- 2576 compressed objects within 26 object streams
- 329 named destinations out of 1000 (max. 500000)
- 793 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3542 PDF objects out of 3580 (max. 8388607)
+ 2682 compressed objects within 27 object streams
+ 356 named destinations out of 1000 (max. 500000)
+ 811 words of extra memory for PDF output out of 10000 (max. 10000000)
 

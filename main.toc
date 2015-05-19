@@ -55,15 +55,16 @@
 \contentsline {subsection}{\numberline {6.4.1}Pileup}{67}{subsection.120}
 \contentsline {subsection}{\numberline {6.4.2}Lepton efficiency measurement}{68}{subsection.122}
 \contentsline {subsection}{\numberline {6.4.3}\textit {b-tagging} scale factors}{70}{subsection.126}
-\contentsline {chapter}{\numberline {7}Cross section measurement}{71}{chapter.127}
-\contentsline {section}{\numberline {7.1}Fitting procedure}{71}{section.129}
-\contentsline {section}{\numberline {7.2}Systematics}{71}{section.130}
-\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{74}{section.133}
-\contentsline {chapter}{\numberline {8}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{77}{chapter.138}
-\contentsline {section}{\numberline {8.1}Main Section 1}{77}{section.139}
+\contentsline {chapter}{\numberline {7}Cross section measurement}{73}{chapter.130}
+\contentsline {section}{\numberline {7.1}Fitting procedure}{73}{section.132}
+\contentsline {section}{\numberline {7.2}Systematics}{73}{section.133}
+\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{76}{section.136}
+\contentsline {chapter}{\numberline {8}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{79}{chapter.141}
+\contentsline {section}{\numberline {8.1}Main Section 1}{79}{section.142}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{79}{appendix.140}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{79}{section.141}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{83}{section.154}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{81}{appendix.143}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{81}{section.144}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{85}{section.157}
+\contentsline {chapter}{\numberline {B}Acceptance and efficiency error calculation}{87}{appendix.160}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{85}{dummy.157}
+\contentsline {chapter}{Bibliography}{89}{dummy.161}
