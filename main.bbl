@@ -5,24 +5,6 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Collaboration(2013{\natexlab{a}})]{CMS:2013vea}
-CMS Collaboration.
-\newblock {Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and
-  boosted topology events}.
-\newblock 2013{\natexlab{a}}.
-
-\bibitem[Evans and Bryant(2008)]{Evans:2008zzb}
-Lyndon Evans and Philip Bryant.
-\newblock {LHC Machine}.
-\newblock \emph{JINST}, 3:\penalty0 S08001, 2008.
-\newblock \doi{10.1088/1748-0221/3/08/S08001}.
-
-\bibitem[Collaboration(2014)]{CMS:2014gta}
-CMS Collaboration.
-\newblock {Combination of ATLAS and CMS top quark pair cross section
-  measurements in the emu final state using proton-proton collisions at 8 TeV}.
-\newblock 2014.
-
 \bibitem[Glashow(1961)]{Glashow1961579}
 Sheldon~L. Glashow.
 \newblock Partial-symmetries of weak interactions.
@@ -269,6 +251,12 @@ Jr. Alves, A.~Augusto et~al.
 \newblock \emph{JINST}, 3:\penalty0 S08005, 2008.
 \newblock \doi{10.1088/1748-0221/3/08/S08005}.
 
+\bibitem[Evans and Bryant(2008)]{Evans:2008zzb}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock \emph{JINST}, 3:\penalty0 S08001, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08001}.
+
 \bibitem[Brüning et~al.(2004)Brüning, Collier, Lebrun, Myers, Ostojic, Poole,
   and Proudlock]{Bruning:782076}
 Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
@@ -354,6 +342,12 @@ Serguei Chatrchyan et~al.
 \newblock \emph{JINST}, 8:\penalty0 P04013, 2013{\natexlab{a}}.
 \newblock \doi{10.1088/1748-0221/8/04/P04013}.
 
+\bibitem[Collaboration(2013{\natexlab{a}})]{CMS:2013vea}
+CMS Collaboration.
+\newblock {Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and
+  boosted topology events}.
+\newblock 2013{\natexlab{a}}.
+
 \bibitem[CMS(2009)]{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
   MET}.
@@ -423,6 +417,12 @@ S.~Agostinelli et~al.
 \newblock {GEANT4: A Simulation toolkit}.
 \newblock \emph{Nucl.Instrum.Meth.}, A506:\penalty0 250--303, 2003.
 \newblock \doi{10.1016/S0168-9002(03)01368-8}.
+
+\bibitem[Collaboration(2014)]{CMS:2014gta}
+CMS Collaboration.
+\newblock {Combination of ATLAS and CMS top quark pair cross section
+  measurements in the emu final state using proton-proton collisions at 8 TeV}.
+\newblock 2014.
 
 \bibitem[Collaboration(2013{\natexlab{b}})]{CMS:2013wea}
 CMS Collaboration.

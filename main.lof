@@ -2,22 +2,22 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces List of Standard model elementary particles}}{5}{figure.caption.15}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Strong force coupling constant}}{9}{figure.caption.21}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Parton distribution functions for different momentum transfers}}{10}{figure.caption.22}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Drawing of a proton-proton collision}}{11}{figure.caption.23}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Drawing of a proton-proton collision}}{10}{figure.caption.22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Parton distribution functions for different momentum transfers}}{12}{figure.caption.29}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Proton-proton cross sections}}{13}{figure.caption.30}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Leading order Wbb Feynmann diagram}}{14}{figure.caption.32}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Leading order Wbb Feynmann diagram}}{15}{figure.caption.32}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Scale dependence of Wbb cross section}}{15}{figure.caption.33}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Wbb NLO scale dependence}}{16}{figure.caption.34}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Wbb NLO scale dependence}}{17}{figure.caption.34}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Wbb production within 5 flavor scheme}}{17}{figure.caption.35}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Double parton scattering}}{18}{figure.caption.37}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{20}{figure.caption.41}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Atlas Wbb total cross section measurement}}{22}{figure.caption.43}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{21}{figure.caption.41}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Atlas Wbb total cross section measurement}}{23}{figure.caption.43}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$}}{23}{figure.caption.44}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces CMS Wbb total cross section measurement}}{23}{figure.caption.45}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces CMS Wbb total cross section measurement}}{24}{figure.caption.45}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{26}{figure.caption.47}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{29}{figure.caption.50}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{31}{figure.caption.54}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{28}{figure.caption.50}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{30}{figure.caption.54}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{34}{figure.caption.56}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Pixel Detector}}{37}{figure.caption.63}
@@ -37,13 +37,13 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{57}{figure.caption.101}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Top quark control region}}{63}{figure.caption.110}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{64}{figure.caption.113}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{65}{figure.caption.113}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces QCD diagram and illustration of QCD background determination}}{66}{figure.caption.116}
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{66}{figure.caption.117}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Placeholder - PU}}{67}{figure.caption.121}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Placeholder - PU}}{68}{figure.caption.121}
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{69}{figure.caption.124}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{69}{figure.caption.125}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces B-tagging scale factora and misstag scale factors\relax }}{71}{figure.caption.129}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{70}{figure.caption.125}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{71}{figure.caption.129}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{75}{figure.caption.135}
 \addvspace {10\p@ }
