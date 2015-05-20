@@ -7,50 +7,50 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Proton-proton cross sections}}{13}{figure.caption.30}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Leading order Wbb Feynmann diagram}}{15}{figure.caption.32}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Scale dependence of Wbb cross section}}{15}{figure.caption.33}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Wbb NLO scale dependence}}{17}{figure.caption.34}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Wbb NLO scale dependence}}{16}{figure.caption.34}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Wbb production within 5 flavor scheme}}{17}{figure.caption.35}
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Double parton scattering}}{18}{figure.caption.37}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{21}{figure.caption.41}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Atlas Wbb total cross section measurement}}{23}{figure.caption.43}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{20}{figure.caption.41}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Atlas Wbb total cross section measurement}}{22}{figure.caption.43}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$}}{23}{figure.caption.44}
 \contentsline {figure}{\numberline {2.14}{\ignorespaces CMS Wbb total cross section measurement}}{24}{figure.caption.45}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{26}{figure.caption.47}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{28}{figure.caption.50}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{30}{figure.caption.54}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{31}{figure.caption.57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{34}{figure.caption.56}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Pixel Detector}}{37}{figure.caption.63}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces CMS Pixel Detector psudorapidity range coverage and efficiency}}{37}{figure.caption.64}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CMS Strip Detector}}{39}{figure.caption.66}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces CMS Electromagnetic Calorimeter}}{40}{figure.caption.68}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CMS Hadronic Calorimeter}}{41}{figure.caption.71}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces CMS Muon Chambers}}{43}{figure.caption.73}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{43}{figure.caption.74}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces A drawing of CMS Trigger System.}}{44}{figure.caption.76}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{34}{figure.caption.59}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Pixel Detector}}{37}{figure.caption.66}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces CMS Pixel Detector psudorapidity range coverage and efficiency}}{37}{figure.caption.67}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CMS Strip Detector}}{39}{figure.caption.69}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces CMS Electromagnetic Calorimeter}}{40}{figure.caption.71}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CMS Hadronic Calorimeter}}{41}{figure.caption.74}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces CMS Muon Chambers}}{43}{figure.caption.76}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{43}{figure.caption.77}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces A drawing of CMS Trigger System.}}{44}{figure.caption.79}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{50}{figure.caption.89}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{52}{figure.caption.92}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{54}{figure.caption.95}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{55}{figure.caption.96}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{57}{figure.caption.100}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{57}{figure.caption.101}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{50}{figure.caption.92}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{52}{figure.caption.95}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{54}{figure.caption.98}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{55}{figure.caption.99}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{57}{figure.caption.103}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{57}{figure.caption.104}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Top quark control region}}{63}{figure.caption.110}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{65}{figure.caption.113}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces QCD diagram and illustration of QCD background determination}}{66}{figure.caption.116}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{66}{figure.caption.117}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Placeholder - PU}}{68}{figure.caption.121}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{69}{figure.caption.124}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{70}{figure.caption.125}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{71}{figure.caption.129}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Top quark control region}}{63}{figure.caption.113}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{65}{figure.caption.116}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces QCD diagram and illustration of QCD background determination}}{66}{figure.caption.119}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{66}{figure.caption.120}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Placeholder - PU}}{68}{figure.caption.124}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{69}{figure.caption.127}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{70}{figure.caption.128}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{71}{figure.caption.132}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{75}{figure.caption.135}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{75}{figure.caption.138}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{82}{figure.caption.150}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{83}{figure.caption.153}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{83}{figure.caption.154}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{84}{figure.caption.156}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{85}{figure.caption.159}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{82}{figure.caption.153}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{83}{figure.caption.156}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{83}{figure.caption.157}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{84}{figure.caption.159}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{85}{figure.caption.162}
 \addvspace {10\p@ }
