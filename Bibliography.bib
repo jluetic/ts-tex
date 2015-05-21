@@ -11,6 +11,17 @@ doi = "http://dx.doi.org/10.1016/0029-5582(61)90469-2",
 url = "http://www.sciencedirect.com/science/article/pii/0029558261904692",
 author = "Sheldon L. Glashow"
 }
+@book{opac-b1131978,
+   title = "An introduction to quantum field theory",
+   author = "Peskin, Michael Edward and Schroeder, Daniel V.",
+   series = "Advanced book program",
+   publisher = "Westview Press Reading (Mass.)",
+   address = "Boulder (Colo.)",
+   url = "http://opac.inria.fr/record=b1131978",
+   isbn = "0-201-50934-2",
+   note = "Autre tirage : 1997",
+   year = 1995
+}
 @article{PhysRevLett.19.1264,
   title = {A Model of Leptons},
   author = {Weinberg, Steven},
@@ -39,7 +50,7 @@ url = "http://www.sciencedirect.com/science/article/pii/0370269383911772",
 author = "G. Arnison et al."
 }
 @ARTICLE{Arnison1983398,
-author={Arnison, G. et al},
+author={G. Arnison et al},
 title={Experimental observation of lepton pairs of invariant mass around 95 GeV/c2 at the CERN SPS collider},
 journal={Physics Letters B},
 year={1983},
@@ -540,15 +551,16 @@ SLACcitation = "%%CITATION = JINST,3,S08003;%%",
       address       = "Geneva",
       year          = "2004",
 }
-@article{CMS:2009nxa, 
-key = "925379", 
+@techreport{CMS:2009nxa, 
+author = "CMS Collaboration", 
 title = "{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and MET}", 
 collaboration = "CMS Collaboration", 
 year = "2009", 
-reportNumber = "CMS-PAS-PFT-09-001", 
+number = "CMS-PAS-PFT-09-001", 
+type = "CMS Physics Analysis Summary",
 SLACcitation = "%%CITATION = CMS-PAS-PFT-09-001 ETC.;%%", }
 
-@article{CMS:2010bta, key = "925263", title = "{Electron reconstruction and identification at sqrt(s) = 7 TeV}", collaboration = "CMS Collaboration", year = "2010", reportNumber = "CMS-PAS-EGM-10-004", SLACcitation = "%%CITATION = CMS-PAS-EGM-10-004 ETC.;%%", }
+@techreport{CMS:2010bta, author = "CMS Collaboration", title = "{Electron reconstruction and identification at sqrt(s) = 7 TeV}", collaboration = "CMS Collaboration", year = "2010", number = "CMS-PAS-EGM-10-004", type = "CMS Physics Analysis Summary",SLACcitation = "%%CITATION = CMS-PAS-EGM-10-004 ETC.;%%", }
 @ARTICLE{2005JPhG31N9A,
    author = {{Adam}, W. and {Fr{\"u}hwirth}, R. and {Strandlie}, A. and {Todorov}, T.
 	},
@@ -564,7 +576,7 @@ SLACcitation = "%%CITATION = CMS-PAS-PFT-09-001 ETC.;%%", }
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 @ARTICLE{2012JInst7P0002T,
-   author = {{The CMS Collaboration}},
+   author = {The CMS Collaboration},
     title = "{Performance of CMS muon reconstruction in pp collision events at {\surd}s = 7 TeV}",
   journal = {Journal of Instrumentation},
 archivePrefix = "arXiv",
@@ -593,8 +605,7 @@ author = "R. Frühwirth"
 }
 @techreport{CMS-PAS-PFT-10-003,
       title         = "{Particle-flow commissioning with muons and electrons
-                       from
-  J/Psi and W events at 7 TeV}",
+                       from J/$\psi$ and W events at 7 TeV}",
       institution   = "CERN",
       collaboration = "CMS Collaboration",
       address       = "2010. Geneva",
@@ -638,10 +649,9 @@ author = "R. Frühwirth"
 
 @article{Cacciari:2011ma, author = "Cacciari, Matteo and Salam, Gavin P. and Soyez, Gregory", title = "{FastJet User Manual}", journal = "Eur.Phys.J.", volume = "C72", pages = "1896", doi = "10.1140/epjc/s10052-012-1896-2", year = "2012", eprint = "1111.6097", archivePrefix = "arXiv", primaryClass = "hep-ph", reportNumber = "CERN-PH-TH-2011-297", SLACcitation = "%%CITATION = ARXIV:1111.6097;%%", }
 @article{Chatrchyan:2011ds, author = "Chatrchyan, Serguei and others", title = "{Determination of Jet Energy Calibration and Transverse Momentum Resolution in CMS}", collaboration = "CMS Collaboration", journal = "JINST", volume = "6", pages = "P11002", doi = "10.1088/1748-0221/6/11/P11002", year = "2011", eprint = "1107.4277", archivePrefix = "arXiv", primaryClass = "physics.ins-det", reportNumber = "CERN-PH-EP-2011-102, CMS-JME-10-011", SLACcitation = "%%CITATION = ARXIV:1107.4277;%%", }
-@article{CMS-DP-2013-033,
-      title         = "{8 TeV Jet Energy Corrections and
-Uncertainties based on
-                       19.8 fb$^{-1}$ of data in CMS}",
+@techreport{CMS-DP-2013-033,
+	author = "CMS Collaboration",
+      title         = "{8 TeV Jet Energy Corrections and Uncertainties based on 19.8 fb$^{-1}$ of data in CMS}",
       collaboration = "CMS Collaboration",
       month         = "Oct",
       year          = "2013",
@@ -649,6 +659,7 @@ Uncertainties based on
       url           = "http://cds.cern.ch/record/1627305",
 }
 @article{Cacciari2008119,
+author = "CMS Collaboration",
 title = "Pileup subtraction using jet areas ",
 journal = "Physics Letters B ",
 volume = "659",
@@ -662,19 +673,20 @@ url = "http://www.sciencedirect.com/science/article/pii/S0370269307011094",
 author = "Matteo Cacciari and Gavin P. Salam"
 }
 @article{Chatrchyan:2012jua, author = "Chatrchyan, Serguei and others", title = "{Identification of b-quark jets with the CMS experiment}", collaboration = "CMS Collaboration", journal = "JINST", volume = "8", pages = "P04013", doi = "10.1088/1748-0221/8/04/P04013", year = "2013", eprint = "1211.4462", archivePrefix = "arXiv", primaryClass = "hep-ex", reportNumber = "CMS-BTV-12-001, CERN-PH-EP-2012-262", SLACcitation = "%%CITATION = ARXIV:1211.4462;%%", }
-@article{CMS:2013vea, author = "CMS Collaboration", title = "{Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and boosted topology events}", collaboration = "CMS Collaboration", year = "2013", reportNumber = "CMS-PAS-BTV-13-001", SLACcitation = "%%CITATION = CMS-PAS-BTV-13-001 ETC.;%%", }
-@article{CMS:2013wea,
+@techreport{CMS:2013vea, author = "CMS Collaboration", title = "{Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and boosted topology events}", collaboration = "CMS Collaboration", year = "2013", number = "CMS-PAS-BTV-13-001", type = "CMS Physics Analysis Summary", SLACcitation = "%%CITATION = CMS-PAS-BTV-13-001 ETC.;%%", }
+@techreport{CMS:2013wea,
       author         = "CMS Collaboration",
       title          = "{Pileup Jet Identification}",
       collaboration  = "CMS",
       year           = "2013",
-      reportNumber   = "CMS-PAS-JME-13-005",
+      number         = "CMS-PAS-JME-13-005",
+      type           = "CMS Physics Analysis Summary",
       SLACcitation   = "%%CITATION = CMS-PAS-JME-13-005 ETC.;%%",
 }
-@article{CMS:2013lumi,
+@misc{CMS:2013lumi,
 	author = "CMS Collaboration", 
 	title = "CMS Luminosity - Public Results. Unpublished. Available at",
-	url = "https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults"
+	url = "\url{https://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}"
 	}
 @article{Alwall:2011uj,
       author         = "Alwall, Johan and Herquet, Michel and Maltoni, Fabio and
@@ -801,13 +813,42 @@ author = "Matteo Cacciari and Gavin P. Salam"
       reportNumber   = "SLAC-PUB-9350, FERMILAB-PUB-03-339",
       SLACcitation   = "%%CITATION = NUIMA,A506,250;%%",
 }
-@article{CMS:2014gta,
+@techreport{CMS:2014gta,
       author         = "CMS Collaboration",
       title          = "{Combination of ATLAS and CMS top quark pair cross
                         section measurements in the emu final state using
                         proton-proton collisions at 8 TeV}",
       collaboration  = "CMS",
       year           = "2014",
-      reportNumber   = "CMS-PAS-TOP-14-016",
+      number         = "CMS-PAS-TOP-14-016",
+      type 			= "CMS Physics Analysis Summary",
       SLACcitation   = "%%CITATION = CMS-PAS-TOP-14-016 ETC.;%%",
+}
+@article{Brun:1997pa,
+      author         = "Brun, R. and Rademakers, F.",
+      title          = "{ROOT: An object oriented data analysis framework}",
+      journal        = "Nucl.Instrum.Meth.",
+      volume         = "A389",
+      pages          = "81-86",
+      doi            = "10.1016/S0168-9002(97)00048-X",
+      year           = "1997",
+      SLACcitation   = "%%CITATION = NUIMA,A389,81;%%",
+}
+@article{Alwall:2014hca,
+      author         = "Alwall, J. and Frederix, R. and Frixione, S. and Hirschi,
+                        V. and Maltoni, F. and others",
+      title          = "{The automated computation of tree-level and
+                        next-to-leading order differential cross sections, and
+                        their matching to parton shower simulations}",
+      journal        = "JHEP",
+      volume         = "1407",
+      pages          = "079",
+      doi            = "10.1007/JHEP07(2014)079",
+      year           = "2014",
+      eprint         = "1405.0301",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "CERN-PH-TH-2014-064, CP3-14-18, LPN14-066, MCNET-14-09,
+                        ZU-TH-14-14",
+      SLACcitation   = "%%CITATION = ARXIV:1405.0301;%%",
 }

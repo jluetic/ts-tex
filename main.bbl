@@ -1,4 +1,4 @@
-\begin{thebibliography}{63}
+\begin{thebibliography}{66}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,8 +37,8 @@ G.~Arnison et~al.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/0370269383911772}.
 
-\bibitem[Arnison(1983)]{Arnison1983398}
-G.~et~al Arnison.
+\bibitem[et~al(1983)]{Arnison1983398}
+G.~Arnison et~al.
 \newblock Experimental observation of lepton pairs of invariant mass around 95
   gev/c2 at the cern sps collider.
 \newblock \emph{Physics Letters B}, 126\penalty0 (5):\penalty0 398--410, 1983.
@@ -141,6 +141,15 @@ A.D. Martin, W.J. Stirling, R.S. Thorne, and G.~Watt.
 \newblock {Parton distributions for the LHC}.
 \newblock \emph{Eur.Phys.J.}, C63:\penalty0 189--285, 2009.
 \newblock \doi{10.1140/epjc/s10052-009-1072-5}.
+
+\bibitem[Peskin and Schroeder(1995)]{opac-b1131978}
+Michael~Edward Peskin and Daniel~V. Schroeder.
+\newblock \emph{An introduction to quantum field theory}.
+\newblock Advanced book program. Westview Press Reading (Mass.), Boulder
+  (Colo.), 1995.
+\newblock ISBN 0-201-50934-2.
+\newblock URL \url{http://opac.inria.fr/record=b1131978}.
+\newblock Autre tirage : 1997.
 
 \bibitem[Maltoni et~al.(2012)Maltoni, Ridolfi, and Ubiali]{Maltoni:2012pa}
 Fabio Maltoni, Giovanni Ridolfi, and Maria Ubiali.
@@ -264,11 +273,11 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
 \newblock \emph{{LHC Design Report}}.
 \newblock CERN, Geneva, 2004.
 
-\bibitem[925379()]{CMS:2009nxa}
-925379.
+\bibitem[Collaboration(2009)]{CMS:2009nxa}
+CMS Collaboration.
 \newblock {Particle-Flow Event Reconstruction in CMS and Performance for Jets,
   Taus, and MET}.
-\newblock 2009.
+\newblock CMS Physics Analysis Summary CMS-PAS-PFT-09-001, 2009.
 
 \bibitem[{Adam} et~al.(2005){Adam}, {Fr{\"u}hwirth}, {Strandlie}, and
   {Todorov}]{2005JPhG31N9A}
@@ -279,10 +288,10 @@ W.~{Adam}, R.~{Fr{\"u}hwirth}, A.~{Strandlie}, and T.~{Todorov}.
   September 2005.
 \newblock \doi{10.1088/0954-3899/31/9/N01}.
 
-\bibitem[925263()]{CMS:2010bta}
-925263.
+\bibitem[Collaboration(2010)]{CMS:2010bta}
+CMS Collaboration.
 \newblock {Electron reconstruction and identification at sqrt(s) = 7 TeV}.
-\newblock 2010.
+\newblock CMS Physics Analysis Summary CMS-PAS-EGM-10-004, 2010.
 
 \bibitem[Frühwirth(1987)]{Fruhwirth1987444}
 R.~Frühwirth.
@@ -314,14 +323,15 @@ Serguei Chatrchyan et~al.
 \newblock \emph{JINST}, 6:\penalty0 P11002, 2011{\natexlab{a}}.
 \newblock \doi{10.1088/1748-0221/6/11/P11002}.
 
-\bibitem[CMS(2013)]{CMS-DP-2013-033}
-{8 TeV Jet Energy Corrections and Uncertainties based on 19.8 fb$^{-1}$ of data
-  in CMS}.
-\newblock Oct 2013.
+\bibitem[Collaboration(2013{\natexlab{a}})]{CMS-DP-2013-033}
+CMS Collaboration.
+\newblock {8 TeV Jet Energy Corrections and Uncertainties based on 19.8
+  fb$^{-1}$ of data in CMS}.
+\newblock Technical report, Oct 2013{\natexlab{a}}.
 \newblock URL \url{http://cds.cern.ch/record/1627305}.
 
-\bibitem[Cacciari and Salam(2008)]{Cacciari2008119}
-Matteo Cacciari and Gavin~P. Salam.
+\bibitem[Collaboration(2008)]{Cacciari2008119}
+CMS Collaboration.
 \newblock Pileup subtraction using jet areas.
 \newblock \emph{Physics Letters B}, 659\penalty0 (1–2):\penalty0 119 -- 126,
   2008.
@@ -342,11 +352,11 @@ Serguei Chatrchyan et~al.
 \newblock \emph{JINST}, 8:\penalty0 P04013, 2013{\natexlab{a}}.
 \newblock \doi{10.1088/1748-0221/8/04/P04013}.
 
-\bibitem[Collaboration(2013{\natexlab{a}})]{CMS:2013vea}
+\bibitem[Collaboration(2013{\natexlab{b}})]{CMS:2013vea}
 CMS Collaboration.
 \newblock {Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and
   boosted topology events}.
-\newblock 2013{\natexlab{a}}.
+\newblock CMS Physics Analysis Summary CMS-PAS-BTV-13-001, 2013{\natexlab{b}}.
 
 \bibitem[CMS(2009)]{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
@@ -400,6 +410,15 @@ John~M. Campbell and R.K. Ellis.
 \newblock \emph{Nucl.Phys.Proc.Suppl.}, 205-206:\penalty0 10--15, 2010.
 \newblock \doi{10.1016/j.nuclphysbps.2010.08.011}.
 
+\bibitem[Alwall et~al.(2014)Alwall, Frederix, Frixione, Hirschi, Maltoni,
+  et~al.]{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, et~al.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock \emph{JHEP}, 1407:\penalty0 079, 2014.
+\newblock \doi{10.1007/JHEP07(2014)079}.
+
 \bibitem[Oleari(2010)]{Oleari:2010nx}
 Carlo Oleari.
 \newblock {The POWHEG-BOX}.
@@ -418,16 +437,22 @@ S.~Agostinelli et~al.
 \newblock \emph{Nucl.Instrum.Meth.}, A506:\penalty0 250--303, 2003.
 \newblock \doi{10.1016/S0168-9002(03)01368-8}.
 
+\bibitem[Brun and Rademakers(1997)]{Brun:1997pa}
+R.~Brun and F.~Rademakers.
+\newblock {ROOT: An object oriented data analysis framework}.
+\newblock \emph{Nucl.Instrum.Meth.}, A389:\penalty0 81--86, 1997.
+\newblock \doi{10.1016/S0168-9002(97)00048-X}.
+
 \bibitem[Collaboration(2014)]{CMS:2014gta}
 CMS Collaboration.
 \newblock {Combination of ATLAS and CMS top quark pair cross section
   measurements in the emu final state using proton-proton collisions at 8 TeV}.
-\newblock 2014.
+\newblock CMS Physics Analysis Summary CMS-PAS-TOP-14-016, 2014.
 
-\bibitem[Collaboration(2013{\natexlab{b}})]{CMS:2013wea}
+\bibitem[Collaboration(2013{\natexlab{c}})]{CMS:2013wea}
 CMS Collaboration.
 \newblock {Pileup Jet Identification}.
-\newblock 2013{\natexlab{b}}.
+\newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013{\natexlab{c}}.
 
 \bibitem[Henrich and Kaufmann(2002)]{Henrich}
 B~Henrich and R~Kaufmann.

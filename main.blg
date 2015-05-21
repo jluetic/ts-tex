@@ -3,59 +3,58 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
+Warning--I'm ignoring Cacciari2008119's extra "author" field
+--line 674 of file Bibliography.bib
 Warning--empty journal in Campbell:2008cr
 Warning--empty journal in Quackenbush:2011bf
 Warning--empty journal in Bansal:2014paa
-Warning--empty author in CMS:2009nxa
-Warning--empty journal in CMS:2009nxa
-Warning--empty author in CMS:2010bta
-Warning--empty journal in CMS:2010bta
-Warning--empty author in CMS-DP-2013-033
-Warning--empty journal in CMS-DP-2013-033
-Warning--empty journal in CMS:2013vea
+Warning--empty institution in CMS:2009nxa
+Warning--empty institution in CMS:2010bta
+Warning--empty institution in CMS-DP-2013-033
+Warning--empty institution in CMS:2013vea
 Warning--empty author in CMS-PAS-PFT-09-001
 Warning--empty journal in Field:2010bc
-Warning--empty journal in CMS:2014gta
-Warning--empty journal in CMS:2013wea
-You've used 63 entries,
+Warning--empty institution in CMS:2014gta
+Warning--empty institution in CMS:2013wea
+You've used 66 entries,
             2481 wiz_defined-function locations,
-            997 strings with 15398 characters,
-and the built_in function-call counts, 23136 in all, are:
-= -- 2050
-> -- 1017
-< -- 44
-+ -- 422
-- -- 290
-* -- 1733
-:= -- 3742
-add.period$ -- 249
-call.type$ -- 63
-change.case$ -- 124
-chr.to.int$ -- 57
-cite$ -- 79
-duplicate$ -- 1183
-empty$ -- 2173
-format.name$ -- 384
-if$ -- 4960
-int.to.chr$ -- 7
-int.to.str$ -- 64
-missing$ -- 64
-newline$ -- 383
-num.names$ -- 177
-pop$ -- 427
+            1025 strings with 16152 characters,
+and the built_in function-call counts, 24276 in all, are:
+= -- 2157
+> -- 1099
+< -- 54
++ -- 453
+- -- 314
+* -- 1823
+:= -- 3989
+add.period$ -- 265
+call.type$ -- 66
+change.case$ -- 130
+chr.to.int$ -- 59
+cite$ -- 78
+duplicate$ -- 1221
+empty$ -- 2223
+format.name$ -- 416
+if$ -- 5172
+int.to.chr$ -- 8
+int.to.str$ -- 67
+missing$ -- 62
+newline$ -- 404
+num.names$ -- 195
+pop$ -- 420
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 66
 quote$ -- 0
-skip$ -- 681
+skip$ -- 702
 stack$ -- 0
-substring$ -- 1021
-swap$ -- 131
-text.length$ -- 1
+substring$ -- 1050
+swap$ -- 143
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 435
-warning$ -- 14
-while$ -- 170
+type$ -- 453
+warning$ -- 11
+while$ -- 184
 width$ -- 0
-write$ -- 927
-(There were 14 warnings)
+write$ -- 985
+(There were 12 warnings)

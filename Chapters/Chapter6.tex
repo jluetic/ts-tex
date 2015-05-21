@@ -6,11 +6,12 @@
 
 \lhead{Chapter 6. \emph{Event selection and background estimation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-
+This chapter describes the event selection criteria for identification of the $pp\rightarrow W+bb$ process necessary for the cross section measurement. The selection is focused on leptonic decay modes of W boson, identified by the presence of isolated muon or electron and missing energy, and two b-tagged jets. Reconstruction and identification of these object has been described in the previous chapters. All major background contributions will be determined using simulation and subtracted in order to get the final yields used for cross section measurement. 
+This chapter is organized as follows. Samples used in the analysis together with a short description on simulation procedures is described in Section \ref{sec:samples}. Signal selection criteria is listed in Section \ref{sec:selection} and background sources are identified in Section \ref{sec:background}. In order to obtain good agreement between data and simulation, certain corrections need to be applied to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. Applied corrections are listed in Section \ref{sec:mcSF}.     
 
 \section{Data and Monte Carlo samples}
-
-Data samples used in this analysis are collected with CMS experiment in proton proton collisions during 2012. After performing necessary data-quality checks, 19.8$fb^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
+\label{sec:samples}
+Data samples used in this analysis are collected with CMS experiment in proton proton collisions during 2012. After performing necessary data-quality checks, 19.8fb$^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
 \begin{itemize}
 \item Isolated muon with $p_T>24$ GeV (HLT$\_$IsoMu24$\_$eta2p1)
 \item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.(HLT$\_$Ele27$\_$WP80)
@@ -20,11 +21,12 @@ Data samples used in this analysis are collected with CMS experiment in proton p
 \begin{itemize}
 \item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is only able to calculate tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and TT samples were produced with Madgraph and showered with Pythia.  
 \item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements on tree level to arbitrary order (up to 10). Radiation of hard gluons in initial and final state radiation is taken into account on the matrix element calculation level. A minimum $p_T$ threshold has to be defined in order to avoid soft gluon emissions which causes total cross section to be strongly scale dependent. Thus, cross section is normalized to predictions from other software, such as MCFM\cite{Campbell:2010ff} for Standard model processes.   
+\item \textbf{aMC@NLO} \cite{Alwall:2014hca} unifies the tree-level and next-to-leading order automated computation tools within the MadGraph family.
 \item \textbf{Powheg} \cite{Oleari:2010nx} is a package optimized for heavy quark production in hadronic collisions. The hard process is calculated at the NLO order, but for fragmentation and hadronization other software is used (e.g. Pythia). Single top events were produced using this generator and showered with Pythia. 
 \item \textbf{Tauola} \cite{Jadach:1993hs} is a package for simulation of $\tau$ decays.
 \end{itemize}
         
-Detector response is simulated using GEANT4 simulation package \cite{Agostinelli:2002hh}. List of the used samples together wit the corresponding luminosities is listed in the Table \ref{tab:samples}.
+Detector response is simulated using GEANT4 simulation package \cite{Agostinelli:2002hh}. Data was analyzed using ROOT framework \cite{Brun:1997pa}. List of the used samples together wit the corresponding luminosities is listed in the Table \ref{tab:samples}.
 
 \begin{table}[h]
   \centering
@@ -86,14 +88,22 @@ After applying the described criteria, in the final distribution only around 20$
 %----------------------------------------------------------------------------------------
 
 \section{Background estimation}
-
+\label{sec:background}
 After applying all selection cuts described in the previous section, major backgrounds that remain are top quark, Z+jets, W+jets, diboson and QCD background. Each of the background contributions is described in detail below. 
 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.37\textwidth]{Figures/FD-tt.png}
+		\includegraphics[width=0.245\textwidth]{Figures/FD-st.png}
+		\includegraphics[width=0.25\textwidth]{Figures/FD-WJ.png}
+	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams showing major backgrounds.}
+	\label{fig:backgrounds}
+\end{figure}
 
 \subsection{Top quark background}
 
 Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions.
-With very large contribution of the $t\bar{t}$ background, a test of the normalization was performed. A separate control region was created which was defined to be same as signal region, but requiring additional jet activity. This results in a $t\bar{t}$ enriched sample where it is visible that the shape of the distribution is well described in the simulation, but the overall normalization is too small. 
+With very large contribution of the $t\bar{t}$ background, a test of the normalization was performed. A separate control region was created which was defined to be same as signal region, but requiring additional jet activity. This results in a $t\bar{t}$ enriched sample where it is visible that the shape of the distribution is well described in the simulation, but the difference in the overall normalization after applying all scale factors is of the order of 12$\%$. The disagreement is taken into account while performing the global fit for number of signal events extraction which will be described further in the next section. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetMET_doQCD1.pdf}
@@ -120,13 +130,13 @@ W+jets is the major background before applying the b-tagging criteria which can 
 		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetWpt_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_H_mass_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption[Distribution obtained using Wbb event selection before applying b-tagging criteria.]{Distribution obtained using Wbb event selection before applying b-tagging criteria.}
+	\caption[Distribution obtained using Wbb event selection before applying b-tagging criteria.]{PLACEHOLDER - Distribution obtained using Wbb event selection before applying b-tagging criteria.}
 	\label{fig:Wjets}
 \end{figure}
 
 \subsection{QCD}
 
-QCD background arises from QCD events containing soft leptons. An example of such event is shown in the left part of figure \ref{fig:QCD}. This is one of the more challenging backgrounds as it is difficult to simulate significant amount of such events without restrictions. Therefore, the contribution of QCD events in the signal region is determined from data. The illustration of the method is shown in the right part of figure \ref{fig:QCD}. Two uncorrelated variables are chosen, in this case transverse mass and lepton isolation. Signal region is shown in the region A. Control sample dominated by QCD events is created by inverting the lepton isolation cut to $iso>0.2$($0.15$) for muons(electrons) which is shown as region C. The rest of the selection criteria in the control sample is the same as in signal region. It is assumed that the QCD distribution has the same shape in regions A and C. The obtained sample is relatively clean, the shape of the distribution is determined by subtracting the simulation events that pass the selection. Normalization of the distribution is determined form the $M_T$ region below 30 GeV. Fake rate is determined from regions B and D by subtracting simulation number of simulated events that pass the cuts from the number of data events. The final normalization is than expressed as:
+QCD background arises from QCD events containing soft leptons. An example of such event is shown in the left part of figure \ref{fig:QCD}. This is one of the more challenging backgrounds as it is difficult to simulate significant amount of such events without restrictions. Therefore, the contribution of QCD events in the signal region is determined from data. The illustration of the method is shown in the right part of figure \ref{fig:QCD}. Two uncorrelated variables are chosen, in this case transverse mass and lepton isolation. Signal region is shown in the region A. Control sample dominated by QCD events is created by inverting the lepton isolation cut to $I_{rel}^{PF}>0.2$($0.15$) for muons(electrons) which is shown as region C. The rest of the selection criteria in the control sample is the same as in signal region. It is assumed that the QCD distribution has the same shape in regions A and C. The obtained sample is relatively clean, the shape of the distribution is determined by subtracting the simulation events that pass the selection. Normalization of the distribution is determined form the $M_T$ region below 30 GeV. Fake rate is determined from regions B and D by subtracting simulation number of simulated events that pass the cuts from the number of data events. The final normalization is than expressed as:
 \begin{equation}
 QCD^A=\frac{N^B_{data}-N^B_{MC}}{N^D_{data}-N^D_{MC}}\times QCD^{C}_{data}
 \end{equation}       
@@ -167,7 +177,7 @@ In proton-proton collisions at high beam intensities, there is a high probabilit
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.9\textwidth]{Figures/NPU_placeholder.pdf}
+		\includegraphics[width=\textwidth]{Figures/NPU_placeholder.pdf}
 		%\rule{35em}{0.5pt}
 	\caption[Placeholder - PU]{Placeholder - $N_PU$}
 	\label{fig:N_pu}
