@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  21 MAY 2015 19:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  22 MAY 2015 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,14 +1109,14 @@ Overfull \hbox (17.77689pt too wide) in paragraph at lines 64--65
 ed track in-side the tracker(\OT1/cmr/m/it/12 tracker
  []
 
-[49] [50] [51] <Figures/jet_unsafe2.pdf, id=2045, 353.5824pt x 108.08731pt>
+[49] [50] [51] <Figures/jet_unsafe2.pdf, id=2054, 353.5824pt x 108.08731pt>
 File: Figures/jet_unsafe2.pdf Graphic file (type pdf)
 
 <use Figures/jet_unsafe2.pdf>
 Package pdftex.def Info: Figures/jet_unsafe2.pdf used on input line 127.
 (pdftex.def)             Requested size: 364.70882pt x 111.49443pt.
  [52]
-<Figures/diff_algos.pdf, id=2053, 492.73836pt x 369.69287pt>
+<Figures/diff_algos.pdf, id=2064, 492.73836pt x 369.69287pt>
 File: Figures/diff_algos.pdf Graphic file (type pdf)
 
 <use Figures/diff_algos.pdf>
@@ -1131,14 +1131,14 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 166.
 
-[55] <Figures/jet_tot_corr_eta.pdf, id=2170, 405.92354pt x 202.37949pt>
+[55] <Figures/jet_tot_corr_eta.pdf, id=2184, 405.92354pt x 202.37949pt>
 File: Figures/jet_tot_corr_eta.pdf Graphic file (type pdf)
 
 <use Figures/jet_tot_corr_eta.pdf>
 Package pdftex.def Info: Figures/jet_tot_corr_eta.pdf used on input line 174.
 (pdftex.def)             Requested size: 410.29308pt x 204.56532pt.
 
-<Figures/jet_tot_corr_pt.pdf, id=2171, 400.78487pt x 384.00032pt>
+<Figures/jet_tot_corr_pt.pdf, id=2185, 400.78487pt x 384.00032pt>
 File: Figures/jet_tot_corr_pt.pdf Graphic file (type pdf)
 
 <use Figures/jet_tot_corr_pt.pdf>
@@ -1146,14 +1146,14 @@ Package pdftex.def Info: Figures/jet_tot_corr_pt.pdf used on input line 182.
 (pdftex.def)             Requested size: 410.29308pt x 393.11069pt.
  [56 <./Figures/jet_tot_corr_eta.pdf>]
 [57 <./Figures/jet_tot_corr_pt.pdf>] [58]
-<Figures/b-tag_csv.pdf, id=2339, 432.45007pt x 147.89072pt>
+<Figures/b-tag_csv.pdf, id=2357, 432.45007pt x 147.89072pt>
 File: Figures/b-tag_csv.pdf Graphic file (type pdf)
 
 <use Figures/b-tag_csv.pdf>
 Package pdftex.def Info: Figures/b-tag_csv.pdf used on input line 231.
 (pdftex.def)             Requested size: 455.8843pt x 155.90813pt.
 
-<Figures/MisID_CSVM.pdf, id=2343, 239.7494pt x 98.11145pt>
+<Figures/MisID_CSVM.pdf, id=2361, 239.7494pt x 98.11145pt>
 File: Figures/MisID_CSVM.pdf Graphic file (type pdf)
 
 <use Figures/MisID_CSVM.pdf>
@@ -1167,31 +1167,26 @@ Chapter 6.
 ------------------------------------------------------------------------------
  6 Event selection and background estimation
 ------------------------------------------------------------------------------
-[63]
-
-Package natbib Warning: Citation `Alwall:2014hca' on page 64 undefined on input
- line 24.
-
-[64] [65] [66] <Figures/FD-tt.png, id=2563, 245.91875pt x 149.55875pt>
+[63] [64] [65] [66] <Figures/FD-tt.png, id=2588, 245.91875pt x 149.55875pt>
 File: Figures/FD-tt.png Graphic file (type png)
 
 <use Figures/FD-tt.png>
 Package pdftex.def Info: Figures/FD-tt.png used on input line 96.
 (pdftex.def)             Requested size: 168.67496pt x 102.58632pt.
- <Figures/FD-st.png, id=2564, 176.66pt x 195.73125pt>
+ <Figures/FD-st.png, id=2589, 176.66pt x 195.73125pt>
 File: Figures/FD-st.png Graphic file (type png)
 
 <use Figures/FD-st.png>
 Package pdftex.def Info: Figures/FD-st.png used on input line 97.
 (pdftex.def)             Requested size: 111.68942pt x 123.74738pt.
- <Figures/FD-WJ.png, id=2565, 176.66pt x 192.72pt>
+ <Figures/FD-WJ.png, id=2590, 176.66pt x 192.72pt>
 File: Figures/FD-WJ.png Graphic file (type png)
 
 <use Figures/FD-WJ.png>
 Package pdftex.def Info: Figures/FD-WJ.png used on input line 98.
 (pdftex.def)             Requested size: 113.97107pt x 124.3343pt.
 
-<Figures/Results/TT_GetMET_doQCD1.pdf, id=2566, 569.12625pt x 546.04pt>
+<Figures/Results/TT_GetMET_doQCD1.pdf, id=2591, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_GetMET_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetMET_doQCD1.pdf>
@@ -1199,7 +1194,7 @@ Package pdftex.def Info: Figures/Results/TT_GetMET_doQCD1.pdf used on input lin
 e 109.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/TT_GetVMt_doQCD1.pdf, id=2567, 569.12625pt x 546.04pt>
+<Figures/Results/TT_GetVMt_doQCD1.pdf, id=2592, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_GetVMt_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetVMt_doQCD1.pdf>
@@ -1207,7 +1202,7 @@ Package pdftex.def Info: Figures/Results/TT_GetVMt_doQCD1.pdf used on input lin
 e 110.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/TT_GetWpt_doQCD1.pdf, id=2568, 569.12625pt x 546.04pt>
+<Figures/Results/TT_GetWpt_doQCD1.pdf, id=2593, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_GetWpt_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_GetWpt_doQCD1.pdf>
@@ -1215,7 +1210,7 @@ Package pdftex.def Info: Figures/Results/TT_GetWpt_doQCD1.pdf used on input lin
 e 111.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/TT_H_mass_doQCD1.pdf, id=2569, 569.12625pt x 546.04pt>
+<Figures/Results/TT_H_mass_doQCD1.pdf, id=2594, 569.12625pt x 546.04pt>
 File: Figures/Results/TT_H_mass_doQCD1.pdf Graphic file (type pdf)
 
 <use Figures/Results/TT_H_mass_doQCD1.pdf>
@@ -1252,28 +1247,28 @@ Package pdftex.def Info: Figures/Results/TT_H_mass_doQCD1.pdf used on input lin
 e 131.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
  [69]
-<Figures/QCD_diag.png, id=2763, 284.06125pt x 199.74625pt>
+<Figures/QCD_diag.png, id=2794, 284.06125pt x 199.74625pt>
 File: Figures/QCD_diag.png Graphic file (type png)
 
 <use Figures/QCD_diag.png>
 Package pdftex.def Info: Figures/QCD_diag.png used on input line 146.
 (pdftex.def)             Requested size: 182.35092pt x 128.23033pt.
 
-<Figures/QCD_AB.png, id=2764, 351.3125pt x 296.10625pt>
+<Figures/QCD_AB.png, id=2795, 351.3125pt x 296.10625pt>
 File: Figures/QCD_AB.png Graphic file (type png)
 
 <use Figures/QCD_AB.png>
 Package pdftex.def Info: Figures/QCD_AB.png used on input line 147.
 (pdftex.def)             Requested size: 205.14653pt x 172.91647pt.
  [70]
-<Figures/VMt_QCD_before.pdf, id=2770, 569.12625pt x 546.04pt>
+<Figures/VMt_QCD_before.pdf, id=2802, 569.12625pt x 546.04pt>
 File: Figures/VMt_QCD_before.pdf Graphic file (type pdf)
 
 <use Figures/VMt_QCD_before.pdf>
 Package pdftex.def Info: Figures/VMt_QCD_before.pdf used on input line 155.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/VMt_QCD_after.pdf, id=2771, 569.12625pt x 546.04pt>
+<Figures/VMt_QCD_after.pdf, id=2803, 569.12625pt x 546.04pt>
 File: Figures/VMt_QCD_after.pdf Graphic file (type pdf)
 
 <use Figures/VMt_QCD_after.pdf>
@@ -1282,28 +1277,28 @@ Package pdftex.def Info: Figures/VMt_QCD_after.pdf used on input line 156.
  [71 <./Figures/QCD_diag.png> <./Figures/QCD_AB.png> <./Figures/VMt_QCD_before.
 pdf, page is rotated 90 degrees> <./Figures/VMt_QCD_after.pdf, page is rotated 
 90 degrees>]
-<Figures/NPU_placeholder.pdf, id=2866, 443.5132pt x 155.5957pt>
+<Figures/NPU_placeholder.pdf, id=2900, 443.5132pt x 155.5957pt>
 File: Figures/NPU_placeholder.pdf Graphic file (type pdf)
 
 <use Figures/NPU_placeholder.pdf>
 Package pdftex.def Info: Figures/NPU_placeholder.pdf used on input line 180.
 (pdftex.def)             Requested size: 455.8843pt x 159.9401pt.
  [72] [73 <./Figures/NPU_placeholder.pdf>]
-<Figures/ID_eff.pdf, id=2951, 375.56932pt x 359.33295pt>
+<Figures/ID_eff.pdf, id=2989, 375.56932pt x 359.33295pt>
 File: Figures/ID_eff.pdf Graphic file (type pdf)
 
 <use Figures/ID_eff.pdf>
 Package pdftex.def Info: Figures/ID_eff.pdf used on input line 197.
 (pdftex.def)             Requested size: 223.3858pt x 213.73174pt.
 
-<Figures/ISO_eff.pdf, id=2952, 367.28949pt x 360.55623pt>
+<Figures/ISO_eff.pdf, id=2990, 367.28949pt x 360.55623pt>
 File: Figures/ISO_eff.pdf Graphic file (type pdf)
 
 <use Figures/ISO_eff.pdf>
 Package pdftex.def Info: Figures/ISO_eff.pdf used on input line 198.
 (pdftex.def)             Requested size: 223.3858pt x 219.28978pt.
 
-<Figures/trig_eff.pdf, id=2953, 365.98665pt x 357.25426pt>
+<Figures/trig_eff.pdf, id=2991, 365.98665pt x 357.25426pt>
 File: Figures/trig_eff.pdf Graphic file (type pdf)
 
 <use Figures/trig_eff.pdf>
@@ -1311,14 +1306,14 @@ Package pdftex.def Info: Figures/trig_eff.pdf used on input line 206.
 (pdftex.def)             Requested size: 227.94214pt x 222.50381pt.
  [74 <./Figures/ID_eff.pdf> <./Figures/ISO_eff.pdf>]
 [75 <./Figures/trig_eff.pdf>]
-<Figures/b-tagSF.pdf, id=3069, 281.33849pt x 147.10298pt>
+<Figures/b-tagSF.pdf, id=3109, 281.33849pt x 147.10298pt>
 File: Figures/b-tagSF.pdf Graphic file (type pdf)
 
 <use Figures/b-tagSF.pdf>
 Package pdftex.def Info: Figures/b-tagSF.pdf used on input line 229.
 (pdftex.def)             Requested size: 273.53336pt x 143.03311pt.
 
-<Figures/miss-tag.pdf, id=3070, 281.21251pt x 105.02106pt>
+<Figures/miss-tag.pdf, id=3110, 281.21251pt x 105.02106pt>
 File: Figures/miss-tag.pdf Graphic file (type pdf)
 
 <use Figures/miss-tag.pdf>
@@ -1337,14 +1332,14 @@ Chapter 7.
 LaTeX Warning: Reference `tab:systContrib' on page 79 undefined on input line 7
 0.
 
-<Figures/syst_Wbb_var.pdf, id=3162, 569.12625pt x 546.04pt>
+<Figures/syst_Wbb_var.pdf, id=3205, 569.12625pt x 546.04pt>
 File: Figures/syst_Wbb_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_Wbb_var.pdf>
 Package pdftex.def Info: Figures/syst_Wbb_var.pdf used on input line 74.
 (pdftex.def)             Requested size: 223.3858pt x 214.3295pt.
 
-<Figures/syst_TT_var.pdf, id=3163, 569.12625pt x 546.04pt>
+<Figures/syst_TT_var.pdf, id=3206, 569.12625pt x 546.04pt>
 File: Figures/syst_TT_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_TT_var.pdf>
@@ -1367,28 +1362,28 @@ Appendix A.
 ------------------------------------------------------------------------------
  A Lorentz angle measurement in Pixel detector
 ------------------------------------------------------------------------------
-[85] <Figures/kut.png, id=3292, 358.4592pt x 255.8358pt>
+[85] <Figures/kut.png, id=3340, 358.4592pt x 255.8358pt>
 File: Figures/kut.png Graphic file (type png)
  <use Figures/kut.png>
 Package pdftex.def Info: Figures/kut.png used on input line 34.
 (pdftex.def)             Requested size: 227.94214pt x 162.68425pt.
 
 [86 <./Figures/kut.png>]
-<Figures/LA2012_2D.png, id=3305, 598.235pt x 574.145pt>
+<Figures/LA2012_2D.png, id=3353, 598.235pt x 574.145pt>
 File: Figures/LA2012_2D.png Graphic file (type png)
 
 <use Figures/LA2012_2D.png>
 Package pdftex.def Info: Figures/LA2012_2D.png used on input line 53.
 (pdftex.def)             Requested size: 227.94214pt x 218.76433pt.
 
-<Figures/LA2012_Profile.png, id=3306, 569.12625pt x 546.04pt>
+<Figures/LA2012_Profile.png, id=3354, 569.12625pt x 546.04pt>
 File: Figures/LA2012_Profile.png Graphic file (type png)
 
 <use Figures/LA2012_Profile.png>
 Package pdftex.def Info: Figures/LA2012_Profile.png used on input line 60.
 (pdftex.def)             Requested size: 227.94214pt x 218.6954pt.
  [87 <./Figures/LA2012_2D.png> <./Figures/LA2012_Profile.png>] <Figures/LA2012.
-png, id=3315, 457.71pt x 444.059pt>
+png, id=3363, 457.71pt x 444.059pt>
 File: Figures/LA2012.png Graphic file (type png)
 
 <use Figures/LA2012.png>
@@ -1403,7 +1398,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:LA_VMethod' on page 89 undefined on input line 10
 3.
 
-<Figures/LA_VMethod_2015.pdf, id=3322, 569.12625pt x 546.04pt>
+<Figures/LA_VMethod_2015.pdf, id=3370, 569.12625pt x 546.04pt>
 File: Figures/LA_VMethod_2015.pdf Graphic file (type pdf)
 
 <use Figures/LA_VMethod_2015.pdf>
@@ -1456,23 +1451,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--49
 [93
 
 ] [94] [95] [96] [97] [98] [99])
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 353.
-[100]
+ [100]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 353.
- (./main.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 353.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 353.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 502C5C49A10202424F41AFF3F4034E1E;12656.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 502C5C49A10202424F41AFF3F4034E1E;12656
+(rerunfilecheck)             After:  770662C11713EC32DBB334B8365A2EFB;12654.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
@@ -1480,61 +1473,202 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 353.
  ) 
 Here is how much of TeX's memory you used:
- 14115 strings out of 493315
- 202589 string characters out of 6137903
- 267448 words of memory out of 5000000
+ 14161 strings out of 493315
+ 203246 string characters out of 6137903
+ 267533 words of memory out of 5000000
  16926 multiletter control sequences out of 15000+600000
  17827 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,15n,45p,1831b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2
-013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
-lic/mathpazo/fplmr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/m
-athpazo/fplmri.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-supe
-r/sfsx1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr
-8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
-pe1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (116 pages, 9631893 bytes).
+ 49i,15n,45p,1831b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.144} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.141} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.138} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.109} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.101} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.87} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.84} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.139} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.133} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.128} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.125} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.120} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.117} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.114} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.112} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.103} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.98} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.95} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.92} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.145} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.140} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.136} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.134} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.130} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.126} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.124} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.123} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.122} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.118} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.115} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.113} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.110} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.108} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.107} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.105} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.102} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.100} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.96} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.91} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.90} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.88} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.86} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.85} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.82} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.81} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.80} has been referenced but does not exist,
+ replaced by a fixed one
+
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
+c/mathpazo/fplmr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/mat
+hpazo/fplmri.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm1200.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/cm-super/
+sfsx1440.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8ac.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (116 pages, 9621083 bytes).
 PDF statistics:
- 3589 PDF objects out of 4296 (max. 8388607)
- 2717 compressed objects within 28 object streams
- 352 named destinations out of 1000 (max. 500000)
+ 3646 PDF objects out of 4296 (max. 8388607)
+ 2774 compressed objects within 28 object streams
+ 398 named destinations out of 1000 (max. 500000)
  850 words of extra memory for PDF output out of 10000 (max. 10000000)
 
