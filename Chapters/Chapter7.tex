@@ -11,8 +11,7 @@ Cross section for pp$\rightarrow$W+bb process is measured separately in electron
 \begin{equation}
 \sigma = \frac{N_{sig}}{A\times \epsilon \cdot \mathcal{L}}
 \end{equation}
-
-where $N_{sig}$ is the number of signal events after applying selection criteria described in \ref{sec:selection}, $A\times \epsilon$ is the detector acceptance and efficiency and $\mathcal{L}$ is the total integrated luminosity for the period over the which data was collected described in \ref{sec:lumi}. 
+where $N_{sig}$ is the number of signal events after applying selection criteria described in \ref{sec:selection}, $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity for the period over the which data was collected described in \ref{sec:lumi}. 
 \par In the following sections the fitting procedure for the extraction of signal events is described taking into account the systematic effects. After the subtraction of background contribution, final $N_{sig}$ for cross section calculation was obtained. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}. Finally, cross section are computed and compared to theoretical predictions. 
 
 %----------------------------------------------------------------------------------------
@@ -21,6 +20,14 @@ where $N_{sig}$ is the number of signal events after applying selection criteria
 
 \section{Fitting procedure}
 
+After applying selection criteria described in section \ref{sec:selection}, transverse mass distributions are obtained for both electron and muon channels. Modeling signal region was done using four-flavor scheme and five-flavor scheme separately. These samples are described in detail in \ref{sec:samples}. The comparison between the two samples is given in figure \ref{fig:4fsvs5fs}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=\textwidth]{Figures/4fsvs5fs.pdf}
+	\caption[Comparison of the two W+bb samples used to obtain the number of signal events.]{Shape comparison of the two samples used to obtain the number of signal events. Left figure shows muon channel while the right figure shows the electron channel.}
+	\label{fig:4fsvs5fs}
+\end{figure}
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 3
@@ -28,9 +35,8 @@ where $N_{sig}$ is the number of signal events after applying selection criteria
 
 \section{Systematics}
 
-The primary physics result described in this note is the cross section for production of a W boson and two b
-jets. Systematic uncertainties on the expected signal and background yields and shapes affect
-the final result. For a given systematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
+Systematic uncertainties on the expected signal and background yields and shapes affect
+the final distribution used to obtain $N_{sig}$. For a given systematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered:
 
 \begin{itemize}
         \item{\textbf{Luminosity:}}

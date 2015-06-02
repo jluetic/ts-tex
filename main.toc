@@ -55,19 +55,19 @@
 \contentsline {section}{\numberline {6.4}Monte-Carlo corrections}{72}{section.124}
 \contentsline {subsection}{\numberline {6.4.1}Pileup}{72}{subsection.125}
 \contentsline {subsection}{\numberline {6.4.2}Lepton efficiency measurement}{73}{subsection.127}
-\contentsline {subsection}{\numberline {6.4.3}\textit {b-tagging} scale factors}{74}{subsection.131}
-\contentsline {chapter}{\numberline {7}Cross section measurement}{77}{chapter.135}
-\contentsline {section}{\numberline {7.1}Fitting procedure}{78}{section.137}
-\contentsline {section}{\numberline {7.2}Systematics}{78}{section.138}
-\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{79}{section.141}
-\contentsline {section}{\numberline {7.4}Results}{81}{section.146}
-\contentsline {subsection}{\numberline {7.4.1}Double parton scattering contribution}{81}{subsection.147}
-\contentsline {chapter}{\numberline {8}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{83}{chapter.148}
-\contentsline {section}{\numberline {8.1}Main Section 1}{83}{section.149}
+\contentsline {subsection}{\numberline {6.4.3}\textit {b-tagging} scale factors}{75}{subsection.131}
+\contentsline {chapter}{\numberline {7}Cross section measurement}{79}{chapter.135}
+\contentsline {section}{\numberline {7.1}Fitting procedure}{79}{section.137}
+\contentsline {section}{\numberline {7.2}Systematics}{80}{section.139}
+\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{82}{section.142}
+\contentsline {section}{\numberline {7.4}Results}{83}{section.147}
+\contentsline {subsection}{\numberline {7.4.1}Double parton scattering contribution}{83}{subsection.148}
+\contentsline {chapter}{\numberline {8}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{85}{chapter.149}
+\contentsline {section}{\numberline {8.1}Main Section 1}{85}{section.150}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{85}{appendix.150}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{85}{section.151}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{89}{section.164}
-\contentsline {chapter}{\numberline {B}Acceptance and efficiency error calculation}{91}{appendix.167}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{87}{appendix.151}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{87}{section.152}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{91}{section.165}
+\contentsline {chapter}{\numberline {B}Acceptance and efficiency error calculation}{93}{appendix.168}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{93}{dummy.168}
+\contentsline {chapter}{Bibliography}{95}{dummy.169}
