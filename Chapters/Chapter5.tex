@@ -20,7 +20,7 @@ Each electron candidate has to pass various quality cuts in order to maximize th
 %-----------------------------------
 %	SUBSECTION 1.1
 %-----------------------------------
-\subsection{Electron identification}
+\subsubsection*{Electron identification}
 \label{sec:eleID}
 
 Electron identification procedure first focuses on good matching between reconstructed track and supercluster, by imposing cuts on angular distance $\Delta \eta$ and $\Delta \phi$ between the two. These variables are computed as absolute $\eta$ and $\phi$ distance between the supercluster and electron track extrapolated to the ECAL surface. Additionally, a cut is imposed on $\sigma_{i\eta i\eta}$ which describes a shower shape spread in $\eta$ direction. This variable is particularly discriminating against clusters coming from electrons and energy deposits from photons and fakes. Shower shape is defined as:
@@ -68,7 +68,7 @@ Muons in CMS are reconstructed by combining a reconstructed track inside the tra
 %	SUBSECTION 2.1
 %-----------------------------------
 
-\subsection{Muon identification}
+\subsubsection*{Muon identification}
 \label{sec:muID}
 
 In this analysis \textit{particle flow} muon identification selection is applied to the \textit{global muons}. Selection is applied in order to minimize misidentification of charged hadrons as muons, maximize the efficiency of identification of muons inside jets and ensure good momentum measurement. Muons used in the analysis have $|\eta|<2.1$ and transverse momentum $p_T<30$ GeV with more than 5 hits in the inner tracker system and at least one hit in pixel detector. At least one good muon chamber hit in the \textit{global muon} track fit is required to have $\chi^2/ndof<10$, at least two segments in two different muon stations should be matched to a track in order to suppress muons from in-flight decays. Cosmic muons are rejected by applying cuts on the impact parameter with respect to the primary vertex of $|d_{xy}|<$0.2 cm and $|d_z|<$ 0.5 cm. Muon identification criteria is summarized in Table \ref{tab:muID}.
