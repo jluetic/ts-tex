@@ -21,6 +21,7 @@ where $N_{sig}$ is the number of signal events after applying selection criteria
 \section{Fitting procedure}
 
 After applying selection criteria described in section \ref{sec:selection}, transverse mass distributions are obtained for both electron and muon channels. Modeling signal region was done using four-flavor scheme and five-flavor scheme separately. These samples are described in detail in \ref{sec:samples}. The comparison between the two samples is given in figure \ref{fig:4fsvs5fs}.
+
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=\textwidth]{Figures/4fsvs5fs.pdf}
@@ -30,6 +31,56 @@ After applying selection criteria described in section \ref{sec:selection}, tran
 
 Final signal yields are extracted using a binned maximum likelihood fit. Simultaneous fit was performed in Wbb region and in TT multijet control region. The result of the fit is represented as \textit{signal strength} $\mu$ which is the ratio between the cross section under test and the theoretical cross section.    
 For each shape uncertainty and process/channel affected by it, two additional input shapes have to be provided, obtained shifting that parameter up and down by one standard deviation. When building the likelihood, each shape uncertainty is associated to a nuisance parameter taken from a unit gaussian distribution, which is used to interpolate or extrapolate using the specified histograms.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Acceptance and efficiency}
+\label{sec:AE}
+    
+Due to the limitations of the detector, not all produced signal events will be detected. Some final state particles will end up outside the functional part of the detector. The fraction of the phase space covered with functional detector for signal final state particles is called \textit{acceptance}. Usually this part of the phase space is called \textit{fiducial region} and applied cuts are summarized in table \ref{tab:fiducial}.             
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {l l} \hline \hline
+        Variable         & Cut \\
+        \hline
+        Lepton $p_T$    & $>$ 30\ GeV \\
+        Lepton $|\eta|$   & $<$ 2.1 \\
+        Jet $p_T$       & $>$ 25  \\
+        Jet $|\eta|$      & $<$ 2.4 \\
+        \multicolumn{2}{l}{
+        Jet matched to a B hadron within a cone of 0.5} \\
+        \hline\hline
+   \end{tabular}
+\caption{Fiducial cuts used for cross section measurements.}
+\label{tab:fiducial}
+\end{center}
+\end{table}
+However, fraction of the events that fall into the fiducial volume will not be detected due to trigger and reconstruction inefficiency or selection cuts imposed by trigger or the analysis. Usually, acceptance and efficiency are estimated as a single quantity which is a product of these two numbers, defined as:
+\begin{equation}
+A\times \epsilon=\frac{\mathrm{number\ of\ selected\ Wbb\ events}}{\mathrm{number\ of\ generated\ Wbb\ events\ in\ the\ fiducial\ volume}}
+\end{equation}
+This ratio is computed using simulated Wbb sample for each of the channels separately. Number of selected events is obtained by applying the selection cuts described in \ref{sec:selection}. Number of generated hits is obtained by applying generator-level cuts summarized in the table \ref{tab:fiducial}. With this ratio being derived from simulation, it is necessary to correct it for the difference between data and Monte-Carlo. These corrections include pile-up  $w^{PU}$, lepton trigger, reconstruction and identification scale factors $w^{lep}$, and b-tagging scale factors $w^{b-tag}$ all described in \ref{sec:mcSF}. With all the corrections, $A\times \epsilon$ for each channel becomes:
+\begin{equation}
+A\times \epsilon = \frac{\sum^{sel} w^{lep} w^{PU} w^{b-tag}}{N_{fiducial}^{gen}}
+\end{equation}
+
+Obtained results are summarized in the table \ref{tab:AE} for each channel.
+
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {r c} \hline \hline
+        Channel         & A$\times \epsilon$ \\
+        \hline
+        Muon channel         & 9.12 $\pm$ 0.01 $\%$ \\
+        Electron channel     & 7.9 $\pm$ 0.01 $\%$ \\
+        \hline\hline
+   \end{tabular}
+\caption{Results of the A$\times \epsilon$ measurement for both, muon and electron channel.}
+\label{tab:AE}
+\end{center}
+\end{table}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 3
@@ -85,55 +136,7 @@ Shape variations used in the final fit are shown in the figure \ref{fig:shapeVar
 	\label{fig:shapeVar}
 \end{figure}
 
-%----------------------------------------------------------------------------------------
-%	SECTION 3
-%----------------------------------------------------------------------------------------
 
-\section{Acceptance and efficiency}
-\label{sec:AE}
-    
-Due to the limitations of the detector, not all produced signal events will be detected. Some final state particles will end up outside the functional part of the detector. The fraction of the phase space covered with functional detector for signal final state particles is called \textit{acceptance}. Usually this part of the phase space is called \textit{fiducial region} and applied cuts are summarized in table \ref{tab:fiducial}.             
-\begin{table}[!htb]
-\begin{center}
-   \begin{tabular} {l l} \hline \hline
-        Variable         & Cut \\
-        \hline
-        Lepton $p_T$    & $>$ 30\ GeV \\
-        Lepton $|\eta|$   & $<$ 2.1 \\
-        Jet $p_T$       & $>$ 25  \\
-        Jet $|\eta|$      & $<$ 2.4 \\
-        \multicolumn{2}{l}{
-        Jet matched to a B hadron within a cone of 0.5} \\
-        \hline\hline
-   \end{tabular}
-\caption{Fiducial cuts used for cross section measurements.}
-\label{tab:fiducial}
-\end{center}
-\end{table}
-However, fraction of the events that fall into the fiducial volume will not be detected due to trigger and reconstruction inefficiency or selection cuts imposed by trigger or the analysis. Usually, acceptance and efficiency are estimated as a single quantity which is a product of these two numbers, defined as:
-\begin{equation}
-A\times \epsilon=\frac{\mathrm{number\ of\ selected\ Wbb\ events}}{\mathrm{number\ of\ generated\ Wbb\ events\ in\ the\ fiducial\ volume}}
-\end{equation}
-This ratio is computed using simulated Wbb sample for each of the channels separately. Number of selected events is obtained by applying the selection cuts described in \ref{sec:selection}. Number of generated hits is obtained by applying generator-level cuts summarized in the table \ref{tab:fiducial}. With this ratio being derived from simulation, it is necessary to correct it for the difference between data and Monte-Carlo. These corrections include pile-up  $w^{PU}$, lepton trigger, reconstruction and identification scale factors $w^{lep}$, and b-tagging scale factors $w^{b-tag}$ all described in \ref{sec:mcSF}. With all the corrections, $A\times \epsilon$ for each channel becomes:
-\begin{equation}
-A\times \epsilon = \frac{\sum^{sel} w^{lep} w^{PU} w^{b-tag}}{N_{fiducial}^{gen}}
-\end{equation}
-
-Obtained results are summarized in the table \ref{tab:AE} for each channel.
-
-\begin{table}[!htb]
-\begin{center}
-   \begin{tabular} {r c} \hline \hline
-        Channel         & A$\times \epsilon$ \\
-        \hline
-        Muon channel         & 8.1$\%$ \\
-        Electron channel     & 7.8$\%$ \\
-        \hline\hline
-   \end{tabular}
-\caption{Results of the A$\times \epsilon$ measurement for both, muon and electron channel.}
-\label{tab:AE}
-\end{center}
-\end{table}
 
 
 
@@ -143,6 +146,26 @@ Obtained results are summarized in the table \ref{tab:AE} for each channel.
 
 \section{Results}
 \label{sec:res}
+
+\begin{table}
+\caption{Yields.}
+\label{tab:yields}
+\include{Results/yield_table_mu}
+\end{table}
+
+
+
+%\include{Results/yield_table_ele}
+
+\begin{table}
+\caption[Systematics]{Information about each source of systematic uncertainty together with the information whether just normalization or shape is included in the final fit. The table also shows the uncertainty on signal and background yields and the relative contribution to the signal strength uncertainty. Due to correlations, the total systematic uncertainty is smaller that the quadrature sum of individual uncertainties. The last column shows the decrease in total systematic uncertainty when removing specific source of uncertainty.}
+\label{tab:yields}
+\include{Results/syst_table_mu}
+\end{table}
+
+%\include{Results/syst_table_ele}
+
+
 
 \subsection{Double parton scattering contribution}
 
@@ -240,29 +263,28 @@ Obtained results are summarized in the table \ref{tab:AE} for each channel.
 %
 %
 %
-%\subsection{Tests of the fit stability}
-%
-%Additional tests were performed in order to verify the fit stability od the signal strength.
-%This was done by fitting different combinations of distributions in both signal region and $t\bar{t}$ control region.
-%Additional distributions include missing energy in the signal region and $t\bar{t}$ control region and
-%invariant mass of third and fourth jet in $t\bar{t}$ control region. All distributions show good agreement
-%in shapes between data and Monte Carlo. Fitting procedure is the as described in section \ref{sec:FitZagreb}.
-%Obtained signal strengths are summarized in Table \ref{tab:addFitTest}.
-%
-%\begin{table}[!htb]
-%\begin{center}
-%   \begin{tabular} {ccc} \hline\hline
-%   Fitted distribution (Wbb/TT) & ~~~Signal Strength~~~ & ~~~~Yield Ratio~~~ \\
-%        \hline
-%        $M_T$/$M_T$                     &1.34$\pm$0.15  &1.55\\
-%        $M_T$/$E^{miss}_T$              &1.31$\pm$0.14  &1.52\\
-%        $M_T$/$M(j_3j_4)$               &1.35$\pm$0.16  &1.53\\
-%        $E^{miss}_T$/$M_T$              &1.43$\pm$0.21  &1.64\\
-%        $E^{miss}_T$/$E^{miss}_T$       &1.33$\pm$0.17  &1.53\\
-%        $E^{miss}_T$/$M(j_3j_4)$        &1.38$\pm$0.21  &1.55\\
-%   \hline\hline
-%   \end{tabular}
-%                                                                                                                                                                                                 \caption{Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other.}
-%\label{tab:addFitTest}
-%\end{center}
-%\end{table}
+\subsection{Tests of the fit stability}
+
+Additional tests were performed in order to verify the fit stability od the signal strength.
+This was done by fitting different combinations of distributions in both signal region and $t\bar{t}$ control region.
+Additional distributions include missing energy in the signal region and $t\bar{t}$ control region and
+invariant mass of third and fourth jet in $t\bar{t}$ control region. All distributions show good agreement
+in shapes between data and Monte Carlo. Fitting procedure is the as described in section \ref{sec:FitZagreb}.
+Obtained signal strengths are summarized in Table \ref{tab:addFitTest}.
+\begin{table}[!htb]
+\begin{center}
+   \begin{tabular} {ccc} \hline\hline
+   Fitted distribution (Wbb/TT) & ~~~Signal Strength~~~ & ~~~~Yield Ratio~~~ \\
+        \hline
+        $M_T$/$M_T$                     &1.34$\pm$0.15  &1.55\\
+        $M_T$/$E^{miss}_T$              &1.31$\pm$0.14  &1.52\\
+        $M_T$/$M(j_3j_4)$               &1.35$\pm$0.16  &1.53\\
+        $E^{miss}_T$/$M_T$              &1.43$\pm$0.21  &1.64\\
+        $E^{miss}_T$/$E^{miss}_T$       &1.33$\pm$0.17  &1.53\\
+        $E^{miss}_T$/$M(j_3j_4)$        &1.38$\pm$0.21  &1.55\\
+   \hline\hline
+   \end{tabular}
+ \caption{Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other.}
+\label{tab:addFitTest}
+\end{center}
+\end{table}
