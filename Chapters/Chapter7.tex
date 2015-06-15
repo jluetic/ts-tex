@@ -18,7 +18,7 @@ where $N_{sig}$ is the number of signal events after applying selection criteria
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Fitting procedure}
+\section{Fit methodology}
 
 After applying selection criteria described in section \ref{sec:selection}, transverse mass distributions are obtained for both electron and muon channels. Modeling signal region was done using four-flavor scheme and five-flavor scheme separately. These samples are described in detail in \ref{sec:samples}. The comparison between the two samples is given in figure \ref{fig:4fsvs5fs}.
 
@@ -29,8 +29,16 @@ After applying selection criteria described in section \ref{sec:selection}, tran
 	\label{fig:4fsvs5fs}
 \end{figure}
 
-Final signal yields are extracted using a binned maximum likelihood fit. Simultaneous fit was performed in Wbb region and in TT multijet control region. The result of the fit is represented as \textit{signal strength} $\mu$ which is the ratio between the cross section under test and the theoretical cross section.    
-For each shape uncertainty and process/channel affected by it, two additional input shapes have to be provided, obtained shifting that parameter up and down by one standard deviation. When building the likelihood, each shape uncertainty is associated to a nuisance parameter taken from a unit gaussian distribution, which is used to interpolate or extrapolate using the specified histograms.
+Final signal yields are extracted using a binned maximum likelihood fit. The details of the fitting procedure are described in \cite{ATL-PHYS-PUB-2011-011}. Simultaneous fit was performed in Wbb region and in TT multijet control region. The result of the fit is represented as \textit{signal strength} $\mu$ which is the ratio between the cross section under test and the theoretical cross section, in this case Wbb cross-section. The predictions for both, signal and background yields, depend on various uncertainties which are included in the fit as nuisance parameters. Likelihood function is constructed as:
+\begin{equation}
+\mathcal{L}(\mathrm{data}|\mu,\theta) = Poisson(\mathrm{data}|\mu \cdot s(\theta)+b(\theta))\cdot p(\widetilde{\theta} | \theta) 
+\end{equation} 
+In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. Probability density functions($pdf$) $p(\theta)$ with some $\widetilde{\theta}$ as the best estimate of the parameter set describing each of the nuisances are used to characterize the nuisances. Different choices of $pdf$ in general include flat distribution, Gaussian, log-normal and gamma distribution. In this analysis, systematic uncertainties are treated in two different ways. In cases where systematic uncertainty doesn't change the shape of the fitted distribution, log-normal $pdf$ is used because it is suitable for the description of the positively defined variables like cross-section, luminosity of cut efficiency. The width of the log-normal is defined by the parameter $\kappa$:
+\begin{equation}
+\rho(\theta) = \frac{1}{\sqrt{2\pi}ln(\kappa)}exp\left(\frac{(ln(\theta/\widetilde{\theta}))^2}{2(ln \kappa)^2}\right)\frac{1}{\theta}.
+\end{equation}
+The value of the $\kappa$ implies by how much an observable can be larger or smaller, both deviations having a chance of 16$\%$. Other way of treating systematic uncertainties is by producing two additional input shapes for each process affected by the uncertainty, by shifting up and down that parameter by one standard deviation. 
+When building the likelihood, each shape uncertainty is associated to a nuisance parameter taken from a unit Gaussian distribution, which is used to interpolate or extrapolate using the specified histograms.
 
 %----------------------------------------------------------------------------------------
 %	SECTION 3

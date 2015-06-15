@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -45,7 +45,6 @@ G.~Arnison et~al.
 \newblock \doi{10.1016/0370-2693(83)90188-0}.
 \newblock URL
   \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-23044516930&partnerID=40&md5=8be07e2a211517aafdf5135170ca9591}.
-\newblock cited By 379.
 
 \bibitem[Aad et~al.(2012)]{Aad:2012tfa}
 Georges Aad et~al.
@@ -149,7 +148,6 @@ Michael~Edward Peskin and Daniel~V. Schroeder.
   (Colo.), 1995.
 \newblock ISBN 0-201-50934-2.
 \newblock URL \url{http://opac.inria.fr/record=b1131978}.
-\newblock Autre tirage : 1997.
 
 \bibitem[Maltoni et~al.(2012)Maltoni, Ridolfi, and Ubiali]{Maltoni:2012pa}
 Fabio Maltoni, Giovanni Ridolfi, and Maria Ubiali.
@@ -273,6 +271,12 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
 \newblock \emph{{LHC Design Report}}.
 \newblock CERN, Geneva, 2004.
 
+\bibitem[Collaboration(2013{\natexlab{a}})]{CMS:2013gfa}
+CMS Collaboration.
+\newblock {CMS Luminosity Based on Pixel Cluster Counting - Summer 2013
+  Update}.
+\newblock Technical Report CMS-PAS-LUM-13-001, 2013{\natexlab{a}}.
+
 \bibitem[Collaboration(2009)]{CMS:2009nxa}
 CMS Collaboration.
 \newblock {Particle-Flow Event Reconstruction in CMS and Performance for Jets,
@@ -323,11 +327,11 @@ Serguei Chatrchyan et~al.
 \newblock \emph{JINST}, 6:\penalty0 P11002, 2011{\natexlab{a}}.
 \newblock \doi{10.1088/1748-0221/6/11/P11002}.
 
-\bibitem[Collaboration(2013{\natexlab{a}})]{CMS-DP-2013-033}
+\bibitem[Collaboration(2013{\natexlab{b}})]{CMS-DP-2013-033}
 CMS Collaboration.
 \newblock {8 TeV Jet Energy Corrections and Uncertainties based on 19.8
   fb$^{-1}$ of data in CMS}.
-\newblock Technical report, Oct 2013{\natexlab{a}}.
+\newblock Technical report, Oct 2013{\natexlab{b}}.
 \newblock URL \url{http://cds.cern.ch/record/1627305}.
 
 \bibitem[Collaboration(2008)]{Cacciari2008119}
@@ -352,11 +356,11 @@ Serguei Chatrchyan et~al.
 \newblock \emph{JINST}, 8:\penalty0 P04013, 2013{\natexlab{a}}.
 \newblock \doi{10.1088/1748-0221/8/04/P04013}.
 
-\bibitem[Collaboration(2013{\natexlab{b}})]{CMS:2013vea}
+\bibitem[Collaboration(2013{\natexlab{c}})]{CMS:2013vea}
 CMS Collaboration.
 \newblock {Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and
   boosted topology events}.
-\newblock CMS Physics Analysis Summary CMS-PAS-BTV-13-001, 2013{\natexlab{b}}.
+\newblock CMS Physics Analysis Summary CMS-PAS-BTV-13-001, 2013{\natexlab{c}}.
 
 \bibitem[CMS(2009)]{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
@@ -449,10 +453,15 @@ CMS Collaboration.
   measurements in the emu final state using proton-proton collisions at 8 TeV}.
 \newblock CMS Physics Analysis Summary CMS-PAS-TOP-14-016, 2014.
 
-\bibitem[Collaboration(2013{\natexlab{c}})]{CMS:2013wea}
+\bibitem[Collaboration(2013{\natexlab{d}})]{CMS:2013wea}
 CMS Collaboration.
 \newblock {Pileup Jet Identification}.
-\newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013{\natexlab{c}}.
+\newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013{\natexlab{d}}.
+
+\bibitem[ATL(2011)]{ATL-PHYS-PUB-2011-011}
+{Procedure for the LHC Higgs boson search combination in summer 2011}.
+\newblock Technical Report ATL-PHYS-PUB-2011-011, CERN, Geneva, Aug 2011.
+\newblock URL \url{https://cds.cern.ch/record/1375842}.
 
 \bibitem[Henrich and Kaufmann(2002)]{Henrich}
 B~Henrich and R~Kaufmann.
