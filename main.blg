@@ -5,11 +5,10 @@ A level-1 auxiliary file: Results/yield_table_mu.aux
 A level-1 auxiliary file: Results/syst_table_mu.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
-Warning--I'm ignoring Cacciari2008119's extra "author" field
---line 668 of file Bibliography.bib
 Warning--empty journal in Campbell:2008cr
 Warning--empty journal in Quackenbush:2011bf
 Warning--empty journal in Bansal:2014paa
+Warning--empty author in CMS-PAS-SMP-12-008
 Warning--empty institution in CMS:2013gfa
 Warning--empty institution in CMS:2009nxa
 Warning--empty institution in CMS:2010bta
@@ -20,45 +19,45 @@ Warning--empty journal in Field:2010bc
 Warning--empty institution in CMS:2014gta
 Warning--empty institution in CMS:2013wea
 Warning--empty author in ATL-PHYS-PUB-2011-011
-You've used 68 entries,
+You've used 69 entries,
             2481 wiz_defined-function locations,
-            1033 strings with 16426 characters,
-and the built_in function-call counts, 24728 in all, are:
-= -- 2200
+            1036 strings with 16541 characters,
+and the built_in function-call counts, 24951 in all, are:
+= -- 2225
 > -- 1106
-< -- 57
-+ -- 460
+< -- 58
++ -- 462
 - -- 316
-* -- 1860
-:= -- 4057
-add.period$ -- 269
-call.type$ -- 68
-change.case$ -- 134
-chr.to.int$ -- 60
-cite$ -- 83
-duplicate$ -- 1251
-empty$ -- 2267
+* -- 1879
+:= -- 4087
+add.period$ -- 272
+call.type$ -- 69
+change.case$ -- 136
+chr.to.int$ -- 61
+cite$ -- 86
+duplicate$ -- 1266
+empty$ -- 2290
 format.name$ -- 419
-if$ -- 5265
+if$ -- 5314
 int.to.chr$ -- 9
-int.to.str$ -- 69
+int.to.str$ -- 70
 missing$ -- 62
-newline$ -- 412
+newline$ -- 417
 num.names$ -- 198
-pop$ -- 434
+pop$ -- 439
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 69
 quote$ -- 0
-skip$ -- 718
+skip$ -- 727
 stack$ -- 0
-substring$ -- 1055
-swap$ -- 149
-text.length$ -- 8
+substring$ -- 1058
+swap$ -- 151
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 467
-warning$ -- 13
+type$ -- 474
+warning$ -- 14
 while$ -- 186
 width$ -- 0
-write$ -- 1007
+write$ -- 1021
 (There were 14 warnings)

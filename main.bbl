@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -270,6 +270,12 @@ Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
   Poole, and Paul Proudlock.
 \newblock \emph{{LHC Design Report}}.
 \newblock CERN, Geneva, 2004.
+
+\bibitem[CMS(2012)]{CMS-PAS-SMP-12-008}
+{Absolute Calibration of the Luminosity Measurement at CMS: Winter 2012
+  Update}.
+\newblock Technical Report CMS-PAS-SMP-12-008, CERN, Geneva, 2012.
+\newblock URL \url{https://cds.cern.ch/record/1434360}.
 
 \bibitem[Collaboration(2013{\natexlab{a}})]{CMS:2013gfa}
 CMS Collaboration.

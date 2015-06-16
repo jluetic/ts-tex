@@ -39,9 +39,9 @@ Detector response is simulated using GEANT4 simulation package \cite{Agostinelli
       	\hline
     		W($\rightarrow l \nu$)+jets &  Madgraph + Pythia & $37509$ (NNLO) \\
      	W $+$ 1 jet & Madgraph $+$ Pythia & $-$ \\
-     	W $+$ 2 jet & Madgraph $+$ Pythia & $-$ \\
-     	W $+$ 3 jet & Madgraph $+$ Pythia & $-$ \\
-     	W $+$ 4 jet & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ 2 jets & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ 3 jets & Madgraph $+$ Pythia & $-$ \\
+     	W $+$ 4 jets & Madgraph $+$ Pythia & $-$ \\
      	W $+$ bb & Madgraph $+$ Pythia & 377.4 \\
      	\hline
      	Z $+$ jets & Madgraph $+$ Pythia &  3531.9 \\     	
@@ -83,6 +83,18 @@ Combined secondary vertex (CSV) algorithm is then used to identify jets arising 
 \end{itemize} 
 
 After applying the described criteria, in the final distribution only around 20$\%$ of the selected events come from the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Signal region detector level distributions.]{Top quark control region. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:TT_CR}
+\end{figure}
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
@@ -102,14 +114,16 @@ After applying all selection cuts described in the previous section, major backg
 
 \subsection{Top quark background}
 
-Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions.
+Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions. Nevertheless, the contribution from the top quark backgrounds in the final distribution is around 60$\%$.
 With very large contribution of the $t\bar{t}$ background, a test of the normalization was performed. A separate control region was created which was defined to be same as signal region, but requiring additional jet activity. This results in a $t\bar{t}$ enriched sample where it is visible that the shape of the distribution is well described in the simulation, but the difference in the overall normalization after applying all scale factors is of the order of 12$\%$. The disagreement is taken into account while performing the global fit for number of signal events extraction which will be described further in the next section. 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetMET_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetVMt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetWpt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_H_mass_doQCD1.pdf}		
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
 	\caption[Top quark control region]{Top quark control region. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
 	\label{fig:TT_CR}
@@ -184,6 +198,7 @@ In proton-proton collisions at high beam intensities, there is a high probabilit
 \end{figure} 
 
 \subsection{Lepton efficiency measurement}
+\label{sec:lepEff}
 
 Events used for cross section measurement are required to pass certain triggers in order to be selected. However, trigger selection is not 100$\%$ efficient and the selection efficiency has to be measured. The following steps in the analysis like reconstruction and isolation have some inefficiencies as well. Efficiency estimation from simulation shows large systematic errors due to inaccuracy in signal modeling and detector response. This was the main motivation for development of the fully data-driven efficiency estimation called \textit{Tag and probe}. Using well-known mass resonances, such as Z boson mass resonance, a selection criteria is applied to the decay products. \textit{Tag} lepton is the one passing very tight selection cuts with low missidentification probability. The efficiency for certain cuts is than measured by counting \textit{probe} leptons which are leptons passing this looser cut divided by number of all leptons. Probes are selected in such way that the invariant mass of the two leptons falls into the Z mass resonance. The following relation is used for the measurement:
 \begin{equation}
@@ -212,6 +227,7 @@ Final selection contains a number of events where Z boson was not actually produ
 
 
 \subsection{\textit{b-tagging} scale factors}
+\label{sec:btag}
 
 CMS simulations describe very well the detector performance, however, it can be difficult to accurately model all parameters used in b-tagging algorithms. Procedure used to identify b-jets is described in \ref{sec:btagging} and it depends on track reconstruction efficiency, tracking resolution and other tracking related parameters. Efficiency and missidentification probability are functions of transverse momentum and pseudorapidity of a jet. Therefore, it is very important to determine the b-tagging efficiency from data. The obtained corrections are applied to simulated events as scale factors which is ratio between efficiency measured in collisions $\epsilon_b^{data}$ and efficiency from simulated events $\epsilon_b^{MC}$:
 \begin{equation}
@@ -231,5 +247,3 @@ where $w(2|2)$ is event weight with 2 jets where both jets are b-tagged. The cho
 \label{fig:bSF}
 \caption{B-tagging scale factors and misstag scale factors}
 \end{figure}
-
- 
