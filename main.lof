@@ -16,7 +16,7 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces CMS Wbb total cross section measurement}}{24}{figure.caption.45}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{26}{figure.caption.47}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{28}{figure.caption.50}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{29}{figure.caption.50}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{31}{figure.caption.57}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{34}{figure.caption.59}
@@ -37,23 +37,27 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{60}{figure.caption.105}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Signal region detector level distributions.}}{68}{figure.caption.112}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Feynmann diagrams showing major backgrounds}}{69}{figure.caption.114}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Top quark control region}}{70}{figure.caption.116}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{71}{figure.caption.119}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces QCD diagram and illustration of QCD background determination}}{72}{figure.caption.122}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{73}{figure.caption.123}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Placeholder - PU}}{74}{figure.caption.127}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{76}{figure.caption.130}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{76}{figure.caption.131}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{78}{figure.caption.135}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Signal region detector level distributions.}}{69}{figure.caption.113}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Feynmann diagrams showing major backgrounds}}{70}{figure.caption.115}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Top quark control region}}{71}{figure.caption.117}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{72}{figure.caption.120}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces QCD diagram and illustration of QCD background determination}}{73}{figure.caption.123}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{74}{figure.caption.124}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{75}{figure.caption.128}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{77}{figure.caption.131}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{77}{figure.caption.132}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{79}{figure.caption.136}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the two W+bb samples used to obtain the number of signal events.}}{80}{figure.caption.139}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{84}{figure.caption.152}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the two W+bb samples used to obtain the number of signal events.}}{82}{figure.caption.140}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{87}{figure.caption.153}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Muon channel postfit distributions.\relax }}{89}{figure.caption.162}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Electron channel postfit distributions.\relax }}{90}{figure.caption.163}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{92}{figure.caption.175}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{93}{figure.caption.178}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{93}{figure.caption.179}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{94}{figure.caption.181}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{95}{figure.caption.184}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{98}{figure.caption.181}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{99}{figure.caption.184}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{99}{figure.caption.185}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{100}{figure.caption.187}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{101}{figure.caption.190}
 \addvspace {10\p@ }

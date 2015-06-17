@@ -2,7 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: Results/yield_table_mu.aux
-A level-1 auxiliary file: Results/syst_table_mu.aux
+A level-1 auxiliary file: Results/yield_table_ele.aux
+A level-1 auxiliary file: Figures/Results/Muon/syst_table_mu.aux
+A level-1 auxiliary file: Figures/Results/Electron/syst_table_ele.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
 Warning--empty journal in Campbell:2008cr
@@ -19,45 +21,45 @@ Warning--empty journal in Field:2010bc
 Warning--empty institution in CMS:2014gta
 Warning--empty institution in CMS:2013wea
 Warning--empty author in ATL-PHYS-PUB-2011-011
-You've used 69 entries,
+You've used 70 entries,
             2481 wiz_defined-function locations,
-            1036 strings with 16541 characters,
-and the built_in function-call counts, 24951 in all, are:
-= -- 2225
-> -- 1106
-< -- 58
-+ -- 462
-- -- 316
-* -- 1879
-:= -- 4087
-add.period$ -- 272
-call.type$ -- 69
-change.case$ -- 136
-chr.to.int$ -- 61
-cite$ -- 86
-duplicate$ -- 1266
-empty$ -- 2290
-format.name$ -- 419
-if$ -- 5314
+            1046 strings with 16820 characters,
+and the built_in function-call counts, 25255 in all, are:
+= -- 2253
+> -- 1113
+< -- 59
++ -- 466
+- -- 318
+* -- 1899
+:= -- 4137
+add.period$ -- 276
+call.type$ -- 70
+change.case$ -- 138
+chr.to.int$ -- 62
+cite$ -- 87
+duplicate$ -- 1285
+empty$ -- 2322
+format.name$ -- 422
+if$ -- 5379
 int.to.chr$ -- 9
-int.to.str$ -- 70
-missing$ -- 62
-newline$ -- 417
-num.names$ -- 198
-pop$ -- 439
+int.to.str$ -- 71
+missing$ -- 63
+newline$ -- 423
+num.names$ -- 201
+pop$ -- 445
 preamble$ -- 1
-purify$ -- 69
+purify$ -- 70
 quote$ -- 0
-skip$ -- 727
+skip$ -- 737
 stack$ -- 0
-substring$ -- 1058
-swap$ -- 151
+substring$ -- 1066
+swap$ -- 154
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 474
+type$ -- 481
 warning$ -- 14
-while$ -- 186
+while$ -- 189
 width$ -- 0
-write$ -- 1021
+write$ -- 1036
 (There were 14 warnings)

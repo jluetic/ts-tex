@@ -1,4 +1,4 @@
-\begin{thebibliography}{69}
+\begin{thebibliography}{70}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -313,6 +313,13 @@ R.~Frühwirth.
 \newblock \doi{http://dx.doi.org/10.1016/0168-9002(87)90887-4}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/0168900287908874}.
+
+\bibitem[Collaboration(2012)]{2012JInst7P0002T}
+The~CMS Collaboration.
+\newblock {Performance of CMS muon reconstruction in pp collision events at
+  $\sqrt{s}$ = 7 TeV}.
+\newblock \emph{Journal of Instrumentation}, 7:\penalty0 2P, October 2012.
+\newblock \doi{10.1088/1748-0221/7/10/P10002}.
 
 \bibitem[Salam(2010)]{Salam:2009jx}
 Gavin~P. Salam.

@@ -82,7 +82,7 @@ Combined secondary vertex (CSV) algorithm is then used to identify jets arising 
 \item Both selected jets are required to pass tight CSV discriminator cut of 0.898.
 \end{itemize} 
 
-After applying the described criteria, in the final distribution only around 20$\%$ of the selected events come from the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. 
+After applying the described criteria, in the final distribution only around 20$\%$ of the selected events come from the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muon} for the muon channel and in figure \ref{fig:Wbb_prefit_electron} for the electron channel. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf}
@@ -92,9 +92,22 @@ After applying the described criteria, in the final distribution only around 20$
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption[Signal region detector level distributions.]{Top quark control region. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
-	\label{fig:TT_CR}
+	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:Wbb_prefit_muon}
 \end{figure}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:Wbb_prefit_electron}
+\end{figure}
+
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
@@ -139,10 +152,10 @@ W+jets is the major background before applying the b-tagging criteria which can 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetMET_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetVMt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_GetWpt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/TT_H_mass_doQCD1.pdf}		
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetVMt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
 	\caption[Distribution obtained using Wbb event selection before applying b-tagging criteria.]{PLACEHOLDER - Distribution obtained using Wbb event selection before applying b-tagging criteria.}
 	\label{fig:Wjets}
@@ -187,13 +200,14 @@ Other backgrounds include processes with final states that match the final state
 \subsection{Pileup}
 
 In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions could happen. These additional interactions are usually referred to as pileup interactions. The average number of additional interactions during 2012 was 21 with some events going up to 70. With these conditions it is important to be able to recognize the signature from such interactions. Usually pileup originates form low$-p_T$ QCD jets. The identification of pileup jets as well as their removal is described in detail in \cite{CMS:2013wea}. 
-\par Simulated events have different distribution for number of pileup interaction with respect to data. This occurs because when generating simulated events, it was difficult to predict the exact pileup distribution in data. Therefore, simulated events to be rewighted to match the distribution in data. The data pile up distribution in the collision period was estimated assuming total proton-proton cross section of 68 mb. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows number of pile-up events before and after the rewighting procedure for signal events in the muon channel. The agreement between data and simulation has clearly improved after the procedure. 
+\par Simulated events have different distribution for number of pileup interaction with respect to data. This occurs because when generating simulated events, it was difficult to predict the exact pileup distribution in data. Therefore, simulated events to be reweighed to match the distribution in data. The data pile up distribution in the collision period was estimated assuming total proton-proton cross section of 68 mb. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows number of pile-up events before and after the rewighting procedure for signal events in the muon channel. The agreement between data and simulation has improved after the procedure which id also visible in the ratio plot. 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=\textwidth]{Figures/NPU_placeholder.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/noPU.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/withPU.pdf}	
 		%\rule{35em}{0.5pt}
-	\caption[Placeholder - PU]{Placeholder - $N_PU$}
+	\caption[Number of primary vertices before and after the pileup reweighing procedure.]{Number of primary vertices before (\textit{left}) and after (\textit{right}) the pileup reweighing procedure.}
 	\label{fig:N_pu}
 \end{figure} 
 
