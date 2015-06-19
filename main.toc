@@ -46,13 +46,13 @@
 \contentsline {section}{\numberline {6.2}Monte-Carlo corrections}{66}{section.112}
 \contentsline {subsection}{\numberline {6.2.1}Pileup}{66}{subsection.113}
 \contentsline {subsection}{\numberline {6.2.2}Lepton efficiency measurement}{67}{subsection.115}
-\contentsline {subsection}{\numberline {6.2.3}\textit {b-tagging} scale factors}{69}{subsection.119}
+\contentsline {subsection}{\numberline {6.2.3}\textit {b-tagging} scale factors}{68}{subsection.119}
 \contentsline {section}{\numberline {6.3}Event selection}{70}{section.123}
 \contentsline {section}{\numberline {6.4}Background estimation}{72}{section.126}
 \contentsline {subsection}{\numberline {6.4.1}Top quark background}{72}{subsection.128}
 \contentsline {subsection}{\numberline {6.4.2}Z+jets}{75}{subsection.130}
 \contentsline {subsection}{\numberline {6.4.3}W+light jets and W+charm}{75}{subsection.131}
-\contentsline {subsection}{\numberline {6.4.4}QCD}{75}{subsection.133}
+\contentsline {subsection}{\numberline {6.4.4}QCD}{77}{subsection.133}
 \contentsline {subsection}{\numberline {6.4.5}Other backgrounds}{78}{subsection.137}
 \contentsline {chapter}{\numberline {7}Cross section measurement}{81}{chapter.138}
 \contentsline {section}{\numberline {7.1}Fit methodology}{81}{section.140}
