@@ -139,7 +139,7 @@ d_{ij} = min(k_{T,i}^{2p},k_{T,j}^{2p}) \frac{\Delta R_{ij}^2}{R^2}
 \begin{equation}
 d_{iB}=k_{T,i}^{2p}
 \end{equation}
-where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is computed as $$\Delta R_{ij}^2 = (\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2.$$ $k_T$ is transverse momentum of the particle, $R$ is an angular cut-off similar to the one in \textit{cone algorithms},  and $p$ defines which particles are clustered first and is described below. Both $R$ and $p$ are free parameters of the algorithm. The algorithm is applied using the following approach: first two distances $d_{ij}$ and $d_iB$ are computed and minimal values are found. If $d_{ij}$ is smaller, that two particles are combined, treated as a new particle and the distance with next particle in the list is computed. In case of $d_iB$ being smaller, $i$ is declared to be the final jet is removed from the list of particles. The procedure continues until there are no more particles in the list.
+where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is computed as $$\Delta R_{ij}^2 = (\eta_i-\eta_j)^2+(\phi_i-\phi_j)^2.$$ $k_T$ is transverse momentum of the particle, $R$ is an angular cut-off similar to the one in \textit{cone algorithms},  and $p$ defines which particles are clustered first and is described below. Both $R$ and $p$ are free parameters of the algorithm. The algorithm is applied using the following approach: distances $d_{ij}$ between each pair of particles, and $d_iB$ for each particle are computed and minimal value is found. If $d_{ij}$ is the smallest value, particles $i$ and $j$ are combined, and treated as a new particle in the next iteration of the algorithm. In case of $d_{iB}$ being the smallest, $i$ is declared to be the final jet and is removed from the list of particles. The procedure continues until there are no more particles in the list.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.9\textwidth]{Figures/diff_algos.pdf}
@@ -147,7 +147,7 @@ where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is comp
 	\caption[Clustering particles into jets with different algorithms.]{Clustering same set of reconstructed particles into jets using different jet algorithms. \cite{Salam:2009jx}}
 	\label{fig:jetAlgos}
 \end{figure}
-\par Parameter $p$ defines which particles are clustered first thus defining the type of algorithm. The $k_T$ algorithm uses $p=1$, clustering soft particles first. This results in irregularly shaped jets, as shown in figure \ref{fig:jetAlgos}, which are sensitive to radiation in the event and difficult to calibrate. The \textit{Cambridge-Aachen} algorithm (CA) uses $p=0$ thus relying only on angular distribution of the input particles. This approach is particularly useful for jet substructure analysis and is less sensitive to radiation. The algorithm used in this analysis is $anti-k_T$ algorithm where $p=-1$ clusterizing the hardest particles first \cite{Cacciari:2008gp}. $Anti-k_T$ is an IRC safe algorithm with jets that are circular in shape because they are not affected by the softer components of the jet.       
+\par Parameter $p$ defines which particles are clustered first thus defining the type of algorithm. The $k_T$ algorithm uses $p=1$, clustering soft particles first. This results in irregularly shaped jets, as shown in figure \ref{fig:jetAlgos}, which are sensitive to radiation in the event and difficult to calibrate. The \textit{Cambridge-Aachen} algorithm (CA) uses $p=0$ thus relying only on angular distribution of the input particles. This approach is particularly useful for jet substructure analysis and is less sensitive to radiation. The algorithm used in this analysis is anti-$k_T$ algorithm where $p=-1$ clusterizing the hardest particles first \cite{Cacciari:2008gp}. Anti-$k_T$ is an IRC safe algorithm and results with jets that are circular in shape because they are not affected by the softer components of the jet.       
 
 
 %-----------------------------------
@@ -157,24 +157,24 @@ where $\Delta R_{ij}$ denotes the distance in the $\eta -\phi$ plane and is comp
 \subsection{Jet corrections}
 \label{sec:jetCorr}
 
-Measured jet energy at detector level in general doesn't correspond to the energy of the originating particle. Jet calibration procedure is introduced to compensate for the nonlinear response of the calorimeters. This is done using a factorized approach where corrections on each level of correction are determined separately as described in \cite{Chatrchyan:2011ds}. Final corrected jet momentum is obtained from measured $p^{raw}$ according to:
+Various measurements during the commissioning phase of the CMS detector showed that measured jet energy at detector level in general doesn't correspond to the energy of the originating particle. Jet calibration procedure is introduced to compensate for the nonlinear response of the calorimeters. This is done using a factorized approach where corrections on each level of correction are determined separately as described in \cite{Chatrchyan:2011ds}. Final corrected jet momentum is obtained from measured $p^{raw}$ according to:
 \begin{equation}
-p^{corr} = C_{offset}(p_T^{raw},\eta)\times C_{rel}(\eta) \times C_{abs}(p'_T) \times C_{res}(p_T'',\eta) \times p^{raw}
+p^{corr} =  C_{res}(p_T'',\eta)\times  C_{abs}(p'_T) \times C_{rel}(\eta) \times C_{offset}(p_T^{raw},\eta)\times p^{raw}
 \end{equation}     
-where offset correction $C_{offset}$ and calibration factors $C_{rel}$ and $C_{abs}$ are applied to both data and simulation, $C_{res}$ is applied only to data. Corrections are applied sequentially, in a fixed order such that $p_T' = C_{offset} \times C_{rel}(\eta) \times p^{raw}$ , and $p_T'' = C_{rel}(\eta) \times C_{abs}(p'_T)$. Correction factors used in this analysis can be found in \cite{CMS-DP-2013-033}.
+where offset correction $C_{offset}$ and calibration factors $C_{rel}$ and $C_{abs}$ are applied to both data and simulation and $C_{res}$ is applied only to data. Corrections are applied sequentially, in a fixed order such that $p_T' = C_{offset} \times C_{rel}(\eta) \times p^{raw}$ , and $p_T'' = C_{abs}(p'_T) \times C_{rel}(\eta) \times C_{offset}(p_T^{raw},\eta)\times p^{raw}$. Correction factors used in this analysis can be found in \cite{CMS-DP-2013-033}.
 Each level of corrections is summarized below:
 \begin{itemize}
-\item Offset correction $C_{offset}$ compensates for energy contributions arising from pile-up events or instrument noise. The offset is determined in dependence of pseudorapidity, jet area $p_T density$ which is described in \cite{Cacciari2008119}.
-\item Relative correction $C_{rel}$ is aimed to flattening the jet scale in pseudorapidity. The correction is determined from simulation, adjusting the jet scale in all $\eta$ regions to one of the jets in $|\eta|<1.3$ without changing the absolute scale.
+\item Offset correction $C_{offset}$ compensates for energy contributions arising from pile-up events or instrument noise. The offset is determined in dependence of pseudorapidity and jet area $p_T$ density which is described in detail in \cite{Cacciari2008119}.
+\item Relative correction $C_{rel}$ is aimed at flattening the jet scale in pseudorapidity. The correction is determined from simulated QCD multijet events, adjusting the jet scale in all $\eta$ regions to one of the jets in $|\eta|<1.3$ without changing the absolute scale.
 \item Absolute correction $C_{abs}$ flattens the jet scale in $p_T$. This correction is also determined from QCD multijet events as inverse of average response at fixed $p_T^{gen}$.
-\item Residual correction $C_{res}$ is applied only to data in order to account for possible residual differences in data and simulation agreement after applying absolute and relative corrections. These corrections are derived using events with momentum balance in transverse plane, like dijet events or $Z/\gamma$ + jet events.
+\item Residual correction $C_{res}$ is applied only to data in order to account for possible residual differences in data and simulation after applying absolute and relative corrections. These corrections are derived using events with momentum balance in transverse plane, like dijet events or $Z/\gamma$ + jet events.
 \end{itemize}
-The total jet correction for a fixed jet $p_T$ as a function of pseudorapidity is shown in figure \ref{fig:tot_corr_eta}.
+The total jet correction for a fixed jet $p_T$ as a function of pseudorapidity is shown in figure \ref{fig:tot_corr_eta}. The total jet correction for a fixed jet pseudorapidity as a function of transverse momentum is shown in figure \ref{fig:tot_corr_pt}. It is shown that jet energy correction factors for PF jets and JPT jets are relatively stable between 1 and 1.2 across wide $p_T$ and $\eta$ range. The total uncertainties to the jet energy corrections as a function of jet transverse momentum are shown in figure \ref{fig:tot_corr_err}.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.9\textwidth]{Figures/jet_tot_corr_eta.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.]{Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values. Corrections are shown for all three types of jets, calo, JPT and PF jets. Bands indicate corresponding uncertainty.}
+	\caption[Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.]{Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values. Corrections are shown for all three types of jets, calo, JPT and PF jets. Bands indicate corresponding uncertainty.\cite{Chatrchyan:2011ds}}
 	\label{fig:tot_corr_eta}
 \end{figure}
 
@@ -182,16 +182,25 @@ The total jet correction for a fixed jet $p_T$ as a function of pseudorapidity i
 	\centering
 		\includegraphics[width=0.9\textwidth]{Figures/jet_tot_corr_pt.pdf}
 		%\rule{35em}{0.5pt}
-	\caption[Total jet energy correction as a function of transverse momentum for four different $\eta$ values.]{Total jet energy correction as a function of transverse momentum for four different $\eta$ values. Corrections are shown for all three types of jets, calo, JPT and PF jets. Bands indicate corresponding uncertainty.}
+	\caption[Total jet energy correction as a function of transverse momentum for four different $\eta$ values.]{Total jet energy correction as a function of transverse momentum for four different $\eta$ values. Corrections are shown for all three types of jets, calo, JPT and PF jets. Bands indicate corresponding uncertainty.\cite{Chatrchyan:2011ds}}
 	\label{fig:tot_corr_pt}
 \end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.9\textwidth]{Figures/jet_unc_err.pdf}
+		%\rule{35em}{0.5pt}
+	\caption{Total jet uncertainty and contribution from different sources in jet $p_T$ and $\eta$ \cite{CMS-DP-2013-033}}
+	\label{fig:tot_corr_err}
+\end{figure}
+
 %-----------------------------------
 %	SUBSECTION 3.3
 %-----------------------------------
 
 \subsection{Jet identification}
 \label{sec:jetID}
-This analysis uses $anti-k_T$ algorithm with cone size $R=0.5$. Jet algorithm implementation is done in the \textit{Fast-jet} package \cite{Cacciari:2011ma}. Depending on which signals is the algorithm applied to, there are different kinds of jets: calo jets (using calorimeter deposits), jet-plus-track jets (calorimeter deposits complemented with tracker information) and most widely used \textit{particle flow} jets (PF). These jets are clustered from PF particles identified with PF algorithm, thus using the information not only from HCAL, but also from tracking system and ECAL which show much better resolution. Only neutral fraction of the jet is measured only with HCAL which makes about 15$\%$ of the total jet composition. PF jets show excellent performance and are the default jets for most CMS analysis. Pile-up information is also taken into account by removing charged hadrons originating from pile-up vertices from the list of particles available for the jet clusterization. This procedure is called \textit{charged hadron subtraction}. Some additional cuts to the jet composition are applied in order to endure good jet identification.  
+This analysis uses anti-$k_T$ algorithm with cone size $R=0.5$. Jet algorithm implementation is done in the \textit{Fast-jet} package \cite{Cacciari:2011ma}. Depending on which signals is the algorithm applied to, there are different kinds of jets: calo jets (calorimeter deposits used), jet-plus-track jets (calorimeter deposits complemented with tracker information) and most widely used \textit{particle flow} jets (PF). These jets are clustered from PF particles identified with PF algorithm, thus using the information not only from HCAL, but also from tracking system and ECAL which result in much better resolution. Only neutral fraction of the jet is measured with HCAL alone which makes about 15$\%$ of the total jet composition. PF jets show excellent performance and are the default jets for most CMS analysis. Pile-up information is also taken into account by removing charged hadrons originating from pile-up vertices from the list of particles available for the jet clusterization. This procedure is called \textit{charged hadron subtraction}. Some additional cuts to the jet composition are applied in order to endure good jet identification. All jet identification criteria are summarized in the table \ref{tab:jetID}.  
   \begin{table}[h]
 \centering
   \caption{A summary of jet identification criteria.}
@@ -222,18 +231,18 @@ This analysis uses $anti-k_T$ algorithm with cone size $R=0.5$. Jet algorithm im
 \subsection{Jets from b quarks}
 \label{sec:btagging}
 
-Unique properties of the bottom quark can be used to identify hadronic jets originating from b quarks which are usually referred to as b-jets. Long lifetime of B hadrons is a consequence of weak force decay which results in their displacement by few micrometers at the LHC energies. B hadron decays show a large number of tracks with hard $p_T$ spectrum and soft leptons emerging from semi-leptonic decays. The process of b-jet identification is called $b-tagging$. This process takes one or more variables and produces a single discriminant value for each jet. This value shows how much the observed jet looks like a b-jet. There are several \textit{b-tagging} algorithms in use at CMS which are described in detail in \cite{Chatrchyan:2012jua} and the following were used in 2012 data analysis:
+Unique properties of the bottom quark can be used to identify hadronic jets originating from b quarks which are usually referred to as b-jets. Long lifetime of B hadrons is a consequence of weak force decay which results in the displacement of their decay vertices by few micrometers at the LHC energies. B hadron decays show a large number of tracks with hard $p_T$ spectrum and soft leptons emerging from semi-leptonic decays. The process of b-jet identification is called $b-tagging$. This process takes one or more variables and produces a single discriminant value for each jet. This value shows how much the observed jet looks like a b-jet. There are several \textit{b-tagging} algorithms in use at CMS which are described in detail in \cite{Chatrchyan:2012jua} and the following were used in 2012 data analysis:
 \begin{itemize}
-	\item \textit{Track counting}(TC) - The discriminant value is the impact parameter significance which is calculated as impact parameter value divided by the respective impact parameter uncertainty. Impact parameter values are sorted in the decreasing order. Depending on whether second or third value is chosen, the algorithm is denoted as high efficiency or high purity. 
-	\item \textit{Jet Probability}(JP) - This algorithm combines information from several tracks inside a jet by computing a likelihood thet all tracks originated from the primary vertex.  
-	\item \textit{Combined secondary vertex}(CSV) - This is the most efficient \textit{b-tagging} algorithm currently used at CMS. Both secondary vertex and track related information are combined to build a CSV discriminant value. It shows high efficiency even when no good secondary vertex can be reconstructed. Some of the variables used in CSV algorithm are flight distance, vertex mass, impact parameter significance, track multiplicity at the vertex and track multiplicity in a jet. The distribution of CSV discriminant value is shown in figure \ref{fig:csv}.
+	\item \textit{Track counting}(TC) - The discriminant value is the impact parameter significance which is calculated as impact parameter value divided by the respective impact parameter uncertainty. Impact parameter significance values are sorted in the decreasing order. Depending on whether second or third value is chosen, the algorithm is denoted as high efficiency or high purity. 
+	\item \textit{Jet Probability}(JP) - This algorithm combines information from several tracks inside a jet by computing a likelihood that all tracks originate from the primary vertex.  
+	\item \textit{Combined secondary vertex}(CSV) - This is the most efficient \textit{b-tagging} algorithm currently used at CMS. Both secondary vertex and track related information are combined to build a CSV discriminator. It shows high efficiency even when no good secondary vertex can be reconstructed. Some of the variables used in CSV algorithm are flight distance, vertex mass, impact parameter significance, track multiplicity at the vertex and track multiplicity in a jet. The distribution of CSV discriminator is shown in figure \ref{fig:csv}.
 \end{itemize}
 \begin{figure}[ht]
 	\includegraphics[width=\textwidth]{Figures/b-tag_csv.pdf}
-	\caption{Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite{CMS:2013vea}}
+	\caption{Combined secondary vertex discriminator for multijet QCD sample (left) and tt enriched sample(right)\cite{CMS:2013vea}}
 	\label{fig:csv}
 \end{figure}
-For each non-b-jet there is a chance that it would be identified as b-jet. Based on this misidentification rate, three operating points have been defined for the discriminant value: loose, medium and tight. For an average jet of 80 GeV, these values correspond to misidentification rates of 10\%, 1\% and 0.1\% respectively. Misidentification probabilities as a function of b-jer efficiency for several algorithms are shown in figure \ref{fig:misID}. 
+For each non-b-jet there is a chance that it would be identified as b-jet. Based on this misidentification rate, three operating points have been defined for the discriminant value: loose, medium and tight. For an average jet of 80 GeV, these values correspond to misidentification rates of 10\%, 1\% and 0.1\% respectively. Misidentification probabilities as a function of b-jet efficiency for several algorithms are shown in figure \ref{fig:misID}. 
 \begin{figure}[ht]
 \centering
 	\includegraphics[width=0.6\textwidth]{Figures/MisID_CSVM.pdf}
@@ -249,14 +258,14 @@ For each non-b-jet there is a chance that it would be identified as b-jet. Based
 
 \section{Missing transverse energy}
 
-Missing transverse momentum is the imbalance in the vectorial sum of transverse momenta of all measured particles. Momentum conservation delegates that the imbalance arises from weakly interacting neutral particles such as neutrinos. Missing transverse energy is the magnitude of the missing transverse momentum and is calculated as:
+Missing transverse momentum is the imbalance in the vectorial sum of transverse momenta of all measured particles. Momentum conservation dictates that the imbalance arises from weakly interacting neutral particles such as neutrinos. Missing transverse energy is the magnitude of the missing transverse momentum and is calculated as:
 \begin{equation}
 E_T^{miss}= |-\sum_{i} \vec{p}_i|
 \end{equation}
-where $i$ goes over all visible particles. Measurement of the missing transverse energy relies on the good measurement of all other particles in the event and as such is very sensitive to detector inefficiencies, particle missmeasurements, limited acceptance of the detector, cosmic-ray particles all of which can cause artificial missing energy. There are several approaches to determine $E_T^{miss}$. In this analysis, particle flow technique is used which tries to identify each particle in the event by combining the information from all subdetectors and gives the best missing energy resolution.\cite{CMS-PAS-PFT-09-001,Chatrchyan:2011tn} Several corrections are applied to the $E_T^{miss}$ which correct for the possible bias in the missing energy measurement:
+where $i$ goes over all visible particles. Measurement of the missing transverse energy relies on the good measurement of all other particles in the event and as such is very sensitive to detector inefficiencies, particle missmeasurements, limited acceptance of the detector, cosmic-ray particles, all of which can cause artificial missing energy. There are several approaches to determine $E_T^{miss}$. In this analysis, particle flow technique is used which tries to identify each particle in the event by combining the information from all subdetectors and gives the best missing energy resolution.\cite{CMS-PAS-PFT-09-001,Chatrchyan:2011tn} Several corrections are applied to the $E_T^{miss}$ which correct for the possible bias in the missing energy measurement:
 \begin{itemize}
-\item Type-I correction: propagates jet energy corrections described in Section \ref{sec:jetCorr} to missing energy. This correction replaces the missing energy calculated by summing transverse momenta of particles in a jet by transverse momentum of a jet to which JEC were applied.
-\item xy-shift correction: aimed at correcting the observed missing energy $\phi$ modulation. True missing energy distribution is expected not to depend not to depend of $\phi$ because of the rotational symmetry of collisions around the beam axis. The possible cause for such modulation  include unisotropic detector response, detector misalignment, the displacement of the beam spot. The amplitude of the modulation is observed to increase with the number of pile-up interactions so this correction can be seen as mitigation for the pile-up effects.
+\item Type-I correction: propagates jet energy corrections described in Section \ref{sec:jetCorr} to missing energy. This correction replaces the missing energy calculated by summing uncorrected transverse momenta of particles in a jet by transverse momentum of a jet to which JEC were applied.
+\item xy-shift correction: aimes at correcting the observed missing energy $\phi$ modulation. True missing energy distribution is expected not to depend on $\phi$ because of the rotational symmetry of collisions around the beam axis. The possible cause for such modulation  include unisotropic detector response, detector misalignment, the displacement of the beam spot. The amplitude of the modulation is observed to increase with the number of pile-up interactions so this correction can be seen as mitigation for the pile-up effects.
 \end{itemize}
 
 

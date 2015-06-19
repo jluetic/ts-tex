@@ -1,5 +1,4 @@
 % Chapter Template
-
 \chapter{Cross section measurement} % Main chapter title
 
 \label{Chapter7} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
@@ -10,6 +9,7 @@
 Cross section for pp$\rightarrow$W+bb process is measured separately in electron and muon channel using this simple relation:
 \begin{equation}
 \sigma = \frac{N_{sig}}{A\times \epsilon \cdot \mathcal{L}}
+\label{equ:xsec}
 \end{equation}
 where $N_{sig}$ is the number of signal events after applying selection criteria described in \ref{sec:selection}, $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity for the period over which the data was collected as described in \ref{sec:lumi}. 
 \par In the following sections the fitting procedure for the extraction of signal events is described taking into account the systematic effects. After the subtraction of background contribution, final $N_{sig}$ for cross section calculation was obtained. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}. Finally, cross section are computed and compared to theoretical predictions. 
@@ -19,7 +19,7 @@ where $N_{sig}$ is the number of signal events after applying selection criteria
 %----------------------------------------------------------------------------------------
 
 \section{Fit methodology}
-
+\label{sec:fit}
 After applying selection criteria described in section \ref{sec:selection}, transverse mass distributions are obtained for both electron and muon channels. Modeling signal region was done using four-flavor scheme and five-flavor scheme separately. These samples are described in detail in \ref{sec:samples}. The comparison between the two samples is given in figure \ref{fig:4fsvs5fs}.
 
 \begin{figure}[htbp]
@@ -33,7 +33,12 @@ Final signal yields are extracted using a binned maximum likelihood fit. The det
 \begin{equation}
 \mathcal{L}(\mathrm{data}|\mu,\theta) = Poisson(\mathrm{data}|\mu \cdot s(\theta)+b(\theta))\cdot p(\widetilde{\theta} | \theta) 
 \end{equation} 
-In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. Probability density functions($pdf$) $p(\theta)$ with some $\widetilde{\theta}$ as the best estimate of the parameter set describing each of the nuisances are used to characterize the nuisances. Different choices of $pdf$ in general include flat distribution, Gaussian, log-normal and gamma distribution. In this analysis, systematic uncertainties are treated in two different ways. In cases where systematic uncertainty doesn't change the shape of the fitted distribution, log-normal $pdf$ is used because it is suitable for the description of the positively defined variables like cross-section, luminosity of cut efficiency. The width of the log-normal is defined by the parameter $\kappa$:
+In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. $Poisson$ in the context of the binned maximum likelihood represents the product of Poisson probabilities to find $n_i$ events in bin $i$ where the expected number of events is $\mu s_i+b_i$:
+\begin{equation}
+\prod\limits_{i} \frac{(\mu s_i+b_i)^{n_i}}{n_i!}e^{-(\mu s_i+b_i)}
+\end{equation}
+
+Probability density functions($pdf$) $p(\theta)$ with some $\widetilde{\theta}$ as the best estimate of the parameter set describing each of the nuisances are used to characterize the nuisances. Different choices of $pdf$ in general include flat distribution, Gaussian, log-normal and gamma distribution. In this analysis, systematic uncertainties are treated in two different ways. In cases where systematic uncertainty doesn't change the shape of the fitted distribution, log-normal $pdf$ is used because it is suitable for the description of the positively defined variables like cross-section, luminosity of cut efficiency. The width of the log-normal is defined by the parameter $\kappa$:
 \begin{equation}
 \rho(\theta) = \frac{1}{\sqrt{2\pi}ln(\kappa)}exp\left(\frac{(ln(\theta/\widetilde{\theta}))^2}{2(ln \kappa)^2}\right)\frac{1}{\theta}.
 \end{equation}
@@ -156,7 +161,12 @@ Obtained results are summarized in the table \ref{tab:AE} for each channel.
 \section{Results}
 \label{sec:res}
 
-Transverse mass distributions in signal region and $t\bar{t}$ region were fitted simultaneously in order to obtain the signal strength for Wbb. Yields before and after the fit are shown in Table \ref{tab:yieldsMu} for muon channel and \ref{tab:yieldsEle} for the electron channel. Contributions from different sources of systematic variations are summarized in table \ref{tab:systMu} for the muon channel and table \ref{tab:systEle} for the electron channel. Table also shows relative contribution to the signal strength uncertainty for each source of uncertainty together with the change in total systematic uncertainty when removing specific source of uncertainty. 
+Transverse mass distributions in signal region and $t\bar{t}$ region were fitted simultaneously in order to obtain the signal strength for Wbb. Yields before and after the fit are shown in Table \ref{tab:yieldsMu} for muon channel and \ref{tab:yieldsEle} for the electron channel. The obtained signal strength values are:
+\begin{align*}
+&\mu_{muon} = 1.42 \pm 0.20 \\
+&\mu_{ele} = 1.68 \pm 0.23
+\end{align*}
+
 
 \begin{table}[h!]
 \caption{Yields obtained in the muon channel before and after the fitting procedure.}
@@ -195,19 +205,39 @@ Transverse mass distributions in signal region and $t\bar{t}$ region were fitted
 	\label{fig:Wbb_postfit_ele}
 \end{figure}
 
-\subsection{Effects of the systematics}
+\subsection{Effects of the systematic uncertainties}
 \label{sec:systEff}
+
+Information about each source of systematic uncertainty together with the information whether just normalization or shape is included in the final fit is shown in table \ref{tab:systMu} for the muon channel and \ref{tab:systEle} for the electron channel. The table also shows the uncertainty on signal and background yields and the relative contribution to the signal strength uncertainty.
+Due to correlations, the total systematic uncertainty is smaller that the quadrature sum of individual uncertainties. The last column shows the decrease in total systematic uncertainty when removing specific source of uncertainty.
+
 \begin{table}
-\caption[Systematics]{Information about each source of systematic uncertainty together with the information whether just normalization or shape is included in the final fit. The table also shows the uncertainty on signal and background yields and the relative contribution to the signal strength uncertainty. Due to correlations, the total systematic uncertainty is smaller that the quadrature sum of individual uncertainties. The last column shows the decrease in total systematic uncertainty when removing specific source of uncertainty.}
+\caption[Systematic uncertainties in the muon channel.]{Systematic uncertainty effect on the final yield is shown in the table together with the uncertainty on the signal and background yields and relative contribution to the signal strength uncertainty. }
 \label{tab:systMu}
 \include{Figures/Results/Muon/syst_table_mu}
 \end{table}
 
 \begin{table}
-\caption[Systematics]{Same as table \ref{tab:systMu} for the electron channel.}
+\caption[Systematic uncertainties in the electron channel.]{Same as table \ref{tab:systMu} for the electron channel.}
 \label{tab:systEle}
 \include{Figures/Results/Electron/syst_table_ele}
 \end{table}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Figures/Results/Muon/systPlots/MuMTstability_abo_5FS.pdf}
+		\includegraphics[width=0.8\textwidth]{Figures/Results/Muon/systPlots/MuMTstability_one_5FS.pdf}		
+	\caption{ABOONE}
+	\label{fig:systStability_mu}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.8\textwidth]{Figures/Results/Electron/systPlots/EleMTstability_abo_5FS.pdf}
+		\includegraphics[width=0.8\textwidth]{Figures/Results/Electron/systPlots/EleMTstability_one_5FS.pdf}		
+	\caption{ABOONE}
+	\label{fig:systStability_ele}
+\end{figure}
+
 
 
 \subsection{Tests of the fit stability}
@@ -237,7 +267,12 @@ Obtained signal strengths are summarized in Table \ref{tab:addFitTest} and are f
 
 \subsection{Cross section measurement}
 
-
+The inclusive cross section measurement is computed using \ref{equ:xsec} where number of signal events is shown in tables \ref{tab:yieldsMu} and \ref{tab:yieldsEle} as $Data-MC$. Acceptance and efficiency are taken from the table \ref{tab:AE} and luminosity corresponds to 19.8 fb$^{-1}$. Measured cross sections correspond to:
+\begin{align*}
+\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow \mu\nu) = XXX \pm YYY(\mathrm{stat.}) \pm ZZZ(\mathrm{syst.})\\
+\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow e\nu) = XXX \pm YYY(\mathrm{stat.}) \pm ZZZ(\mathrm{syst.})\\
+\end{align*}
+for the muon and electron channel respectively. Uncertainties are introduced into the fit as nuisance parameters. Total uncertainty was obtained by including both systematic and statistical nuisances. Another fit was performed with only statistical nuisances in order to obtain statistical error. Total systematic error was computed by subtracting in quadrature statistical error from the total error.  
 
 \subsection{Theoretical calculations and comparison with the measurement}
 

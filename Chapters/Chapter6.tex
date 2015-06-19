@@ -6,31 +6,31 @@
 
 \lhead{Chapter 6. \emph{Event selection and background estimation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-This chapter describes the event selection criteria for identification of the $pp\rightarrow W+bb$ process necessary for the cross section measurement. The selection is focused on leptonic decay modes of W boson, identified by the presence of isolated muon or electron and missing energy, and two b-tagged jets. Reconstruction and identification of these object has been described in the previous chapters. All major background contributions will be determined using simulation and subtracted in order to get the final yields used for cross section measurement. 
-This chapter is organized as follows. Samples used in the analysis together with a short description on simulation procedures is described in Section \ref{sec:samples}. Signal selection criteria is listed in Section \ref{sec:selection} and background sources are identified in Section \ref{sec:background}. In order to obtain good agreement between data and simulation, certain corrections need to be applied to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. Applied corrections are listed in Section \ref{sec:mcSF}.     
+This chapter describes the event selection criteria used to identify $pp\rightarrow W+bb$ process necessary for the cross section measurement. The selection is focused on leptonic decay modes of W boson, thus requiring the presence of isolated muon or electron and missing energy, and two b-tagged jets. Reconstruction and identification of these object has been described in the previous chapter. All major background contributions are determined using simulation and subtracted in order to get the final yields used for cross section measurement. 
+This chapter is organized as follows. Samples used in the analysis together with a short description of simulation procedures are presented in Section \ref{sec:samples}. Signal selection criteria are listed in section \ref{sec:selection} while background sources are described in section \ref{sec:background}. In order to obtain good agreement between data and simulation, certain corrections are applied to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. Applied corrections are summarized in section \ref{sec:mcSF}.     
 
 \section{Data and Monte Carlo samples}
 \label{sec:samples}
-Data samples used in this analysis are collected with CMS experiment in proton proton collisions during 2012. After performing necessary data-quality checks, 19.8fb$^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
+Data samples used in this analysis are collected in pp collisions at center of mass energy of 8 TeV with CMS experiment during 2012. After performing necessary data-quality checks, 19.8fb$^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
 \begin{itemize}
-\item Isolated muon with $p_T>24$ GeV (HLT$\_$IsoMu24$\_$eta2p1)
-\item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.(HLT$\_$Ele27$\_$WP80)
+\item Isolated muon with $p_T>24$ GeV
+\item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.
 \end{itemize}
 
-\par Simulated samples for signal and background processes were obtained using Monte Carlo simulation, as a part of the official 2012 CMS production campaign. Several event generators were used to produce samples used in the analysis:
+\par Simulated samples for signal and background processes were obtained using Monte Carlo methods, as a part of the official 2012 CMS production campaign. Several event generators were used to produce samples needed in the analysis:
 \begin{itemize}
-\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is only able to calculate tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and TT samples were produced with Madgraph and showered with Pythia.  
-\item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements on tree level to arbitrary order (up to 10). Radiation of hard gluons in initial and final state radiation is taken into account on the matrix element calculation level. A minimum $p_T$ threshold has to be defined in order to avoid soft gluon emissions which causes total cross section to be strongly scale dependent. Thus, cross section is normalized to predictions from other software, such as MCFM\cite{Campbell:2010ff} for Standard model processes.   
+\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is able to calculate only tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and TT samples were produced with Madgraph and showered with Pythia.  
+\item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements on tree level for dercays and 2$\rightarrow n$ scatterings (with $n$ going up to 10). Radiation of hard gluons in initial and final state is taken into account on the matrix element calculation level. A minimum $p_T$ threshold is defined in order to avoid soft gluon emissions which cause total cross section to be strongly scale dependent. Thus, cross section is normalized to predictions from other software, such as MCFM\cite{Campbell:2010ff} for Standard model processes.   
 \item \textbf{aMC@NLO} \cite{Alwall:2014hca} unifies the tree-level and next-to-leading order automated computation tools within the MadGraph family.
 \item \textbf{Powheg} \cite{Oleari:2010nx} is a package optimized for heavy quark production in hadronic collisions. The hard process is calculated at the NLO order, but for fragmentation and hadronization other software is used (e.g. Pythia). Single top events were produced using this generator and showered with Pythia. 
 \item \textbf{Tauola} \cite{Jadach:1993hs} is a package for simulation of $\tau$ decays.
 \end{itemize}
         
-Detector response is simulated using GEANT4 simulation package \cite{Agostinelli:2002hh}. Data was analyzed using ROOT framework \cite{Brun:1997pa}. List of the used samples together wit the corresponding luminosities is listed in the Table \ref{tab:samples}.
+Detector response is simulated using GEANT4 simulation package \cite{Agostinelli:2002hh}. Data was analyzed using ROOT framework \cite{Brun:1997pa}. List of the used samples together with the corresponding luminosities is listed in the Table \ref{tab:samples} except for the QCD sample which is determined using a data-driven technique described in section \ref{sec:QCD}.
 
 \begin{table}[h]
   \centering
-  \caption{Samples, generators and cross sections used for normalizations for signal and background simulation considered in this analysis. All samples are calculated to the NLO order except the W+jets which is NLO and $t\bar{t}$ which is normalized to the latest combined cross section measurement of ATLAS and CMS collaborations \cite{CMS:2014gta}. }
+  \caption{Samples, generators and cross sections used for normalizations for signal and background simulation considered in this analysis. All samples are normalized to the NLO cross-section calculation except the W+jets which is NNLO and $t\bar{t}$ which is normalized to the latest combined cross section measurement of ATLAS and CMS collaborations \cite{CMS:2014gta}. }
   \label{tab:samples}
   \begin{tabular}{ l  c c}
       \hline
@@ -45,8 +45,8 @@ Detector response is simulated using GEANT4 simulation package \cite{Agostinelli
      	W $+$ bb & Madgraph $+$ Pythia & 377.4 \\
      	\hline
      	Z $+$ jets & Madgraph $+$ Pythia &  3531.9 \\     	
-     	$t\bar(t)$ semileptonic & Madgraph $+$ Pythia &  107.7 \\
-     	$t\bar{t}$ full leptonic & Madgraph $+$ Pythia &  25.8 \\
+     	$t\bar{t}$ semi-leptonic & Madgraph $+$ Pythia &  107.7 \\
+     	$t\bar{t}$ full-leptonic & Madgraph $+$ Pythia &  25.8 \\
      	\hline
      	single $t$ - t$-$channel & Powheg $+$ Pythia &  56.4 \\
      	single $t$ - s$-$channel & Powheg $+$ Pythia &  3.97 \\
@@ -62,145 +62,20 @@ Detector response is simulated using GEANT4 simulation package \cite{Agostinelli
   \end{tabular}
 \end{table}
 
-Signal events are simulated in exclusive W+1,2,3,4 jets samples using Madgraph event generator and showered with Pythia. These samples are generated using the five-flavour scheme with massless b-quark in the initial state. Samples are than divided into three subsamples labeled as W+b(b), W+c(c) and W+light. W+b(b) subsample is selected if there is a generated B hadron starting with pdgId=$\pm$5 in one of the jets. W+c(c) samples is selected if c quark is generated in one of the jets (pdgId$=\pm$4). Events are classified sequentially with W+b(b) events selected first. All other events are labeled as W+light jets (W+udcsg). Additionally, measurement has been preformed using the shape from four-flavour sample listed in the Table \ref{tab:samples} normalized to five-flavour cross section which has much larger number of generated signal events.
-
-%----------------------------------------------------------------------------------------
-%	SECTION 1
-%----------------------------------------------------------------------------------------
-
-\section{Event selection}
-\label{sec:selection}
-Signal events are characterized by presence of a W boson and two jets which have been tagged as coming from b quarks. 
-Candidates for a W boson are identified as isolated muons or electron and significant missing energy. 
-Jets are identified as particle flow objects clustered with anti-$k_T$ algorithm with a cone size of $0.5$.
-Combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks which is explained in \ref{sec:btagging}. Signal events are selected requiring the following:
-\begin{itemize}
-\item One muon or electron with $p_T>30$ GeV, within $|\eta|<$ 2.1. which passes the trigger requirement and tight ID criteria described in \ref{sec:muID}, and has $I_{rel}^{PF}<0.12(0.10)$ in case of muons(electrons).
-\item Exactly two jets with jet $p_T>25$ GeV, within $|\eta|<$ 2.4 passing loose ID criteria from \ref{sec:jetID} with distance between lepton and jet $\Delta R>0.5$. Events with more such jets are rejected.
-\item Events containing jets with $p_T>25$ in high pseudorapidity range $2.4<|\eta|<5$ are rejected.
-\item Events containing additional lepton with $p_T>10$ GeV, within $|\eta|<$ 2.1, tight ID and isolation are rejected.
-\item Both selected jets are required to pass tight CSV discriminator cut of 0.898.
-\end{itemize} 
-
-After applying the described criteria, in the final distribution only around 20$\%$ of the selected events come from the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muon} for the muon channel and in figure \ref{fig:Wbb_prefit_electron} for the electron channel. 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
-		%\rule{35em}{0.5pt}
-	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
-	\label{fig:Wbb_prefit_muon}
-\end{figure}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
-		%\rule{35em}{0.5pt}
-	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
-	\label{fig:Wbb_prefit_electron}
-\end{figure}
+Signal events are simulated in exclusive W+1,2,3,4 jets samples using Madgraph event generator and showered with Pythia. These samples are generated using the five-flavour scheme with massless b-quark in the initial state. Samples are than divided into three subsamples labeled as W+b(b), W+c(c) and W+light. W+b(b) subsample is selected if there is a generated B hadron starting with pdgId=$\pm$5 in one of the jets. W+c(c) samples is selected if c quark is generated in one of the jets (pdgId$=\pm$4). Events are classified sequentially with W+b(b) events selected first. All other events are labeled as W+light jets (W+udcsg). Additionally, analysis has been preformed using the shape from four-flavour sample listed in the Table \ref{tab:samples} which has much larger number of generated signal events. It was normalized to five-flavour cross section .
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Background estimation}
-\label{sec:background}
-After applying all selection cuts described in the previous section, major backgrounds that remain are top quark, Z+jets, W+jets, diboson and QCD background. Each of the background contributions is described in detail below. 
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.37\textwidth]{Figures/FD-tt.png}
-		\includegraphics[width=0.245\textwidth]{Figures/FD-st.png}
-		\includegraphics[width=0.25\textwidth]{Figures/FD-WJ.png}
-	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams showing major backgrounds.}
-	\label{fig:backgrounds}
-\end{figure}
-
-\subsection{Top quark background}
-
-Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring additional jet veto. Single top events are more difficult to reject relative to signal using just topological cuts, but production cross-section is smaller resulting in a smaller contribution in the final distributions. Nevertheless, the contribution from the top quark backgrounds in the final distribution is around 60$\%$.
-With very large contribution of the $t\bar{t}$ background, a test of the normalization was performed. A separate control region was created which was defined to be same as signal region, but requiring additional jet activity. This results in a $t\bar{t}$ enriched sample where it is visible that the shape of the distribution is well described in the simulation, but the difference in the overall normalization after applying all scale factors is of the order of 12$\%$. The disagreement is taken into account while performing the global fit for number of signal events extraction which will be described further in the next section. 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf}		
-		%\rule{35em}{0.5pt}
-	\caption[Top quark control region]{Top quark control region. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
-	\label{fig:TT_CR}
-\end{figure}
-
-\subsection{Z+jets}
-
-The contribution from the events where Z boson is produced in association with two b jets is largely suppressed by requiring only one lepton in the event. However, it can happen that one of the leptons from Z decay escapes the detection or is missidentified which possibly causes significant missing energy. Such events are than passing all selection criteria and have to be taken into account in the final cross section measurement. 
-
-\subsection{W+light jets and W+charm}
-
-W+jets is the major background before applying the b-tagging criteria which can be visible in figure \ref{fig:Wjets}. Both shape and normalization agree well between data and Monte Carlo for several distributions shown. Very tight b-tag selection reduces both W+light jets and W+charm to almost negligible levels.  
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetVMt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}		
-		%\rule{35em}{0.5pt}
-	\caption[Distribution obtained using Wbb event selection before applying b-tagging criteria.]{PLACEHOLDER - Distribution obtained using Wbb event selection before applying b-tagging criteria.}
-	\label{fig:Wjets}
-\end{figure}
-
-\subsection{QCD}
-
-QCD background arises from QCD multijet events containing soft leptons. An example of such event is shown in the left part of figure \ref{fig:QCD}. This is one of the more challenging backgrounds as it is difficult to simulate significant amount of such events without restrictions. Therefore, the contribution of QCD events in the signal region is determined from data. The illustration of the method is shown in the right part of figure \ref{fig:QCD}. Two uncorrelated variables are chosen, in this case transverse mass and lepton isolation. Transverse mass distribution shows Jakobian peak for the events containing a W boson, thus it is a natural choice for discrimination from the non W boson final states. In the case of QCD multijet, transverse mass values concentrate in the low region of  Signal region is shown in the region A. Control sample dominated by QCD events is created by inverting the lepton isolation cut to $I_{rel}^{PF}>0.2$($0.15$) for muons(electrons) which is shown as region C. The rest of the selection criteria in the control sample is the same as in signal region. It is assumed that the QCD distribution has the same shape in regions A and C. The obtained sample is relatively clean, the shape of the distribution is determined by subtracting the simulation events that pass the selection. Normalization of the distribution is determined form the $M_T$ region below 30 GeV. Fake rate is determined from regions B and D by subtracting simulation number of simulated events that pass the cuts from the number of data events. The final normalization is than expressed as:
-\begin{equation}
-QCD^A=\frac{N^B_{data}-N^B_{MC}}{N^D_{data}-N^D_{MC}}\times QCD^{C}_{data}
-\end{equation}       
-where $N^B_{data}$ and $N^D_{data}$ are the number of data events in data in regions B and D respectively, and $N^C_{MC}$ and $N^D_{MC}$ are the number of MC events in regions B and D respectively. The signal region before and after the QCD contribution determination is shown in figure \ref{fig:QCD_dist}.
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.4\textwidth]{Figures/QCD_diag.png}
-		\includegraphics[width=0.45\textwidth]{Figures/QCD_AB.png}		
-		%\rule{35em}{0.5pt}
-	\caption[QCD diagram and illustration of QCD background determination]{An example of QCD event which looks like signal event (\textit{left}) and illustration of ABCD method used for QCD background determination(\textit{right})}
-	\label{fig:QCD}
-\end{figure} 
-
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.48\textwidth]{Figures/VMt_QCD_before.pdf}
-		\includegraphics[width=0.48\textwidth]{Figures/VMt_QCD_after.pdf}		
-		%\rule{35em}{0.5pt}
-	\caption[Transverse mass distribution before and after QCD distribution determination.]{Transverse mass distribution before(\textit{left}) and after QCD background determination(\textit{right}).}
-	\label{fig:QCD_dist}
-\end{figure} 
-
-
-\subsection{Other backgrounds}
-Other backgrounds include processes with final states that match the final state of the signal. One of such signals is WZ where W decays leptonically and Z decays in a pair of b quarks. Another example is the production of Higgs boson in association with W boson where Higgs also decays to a pair of  quarks. Such backgrounds are called irreducible backgrounds.
-
-
-%-----------------------------------
-%	SECTION 3
-%-----------------------------------
 \section{Monte-Carlo corrections}
 \label{sec:mcSF}
 
 \subsection{Pileup}
 
-In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions could happen. These additional interactions are usually referred to as pileup interactions. The average number of additional interactions during 2012 was 21 with some events going up to 70. With these conditions it is important to be able to recognize the signature from such interactions. Usually pileup originates form low$-p_T$ QCD jets. The identification of pileup jets as well as their removal is described in detail in \cite{CMS:2013wea}. 
-\par Simulated events have different distribution for number of pileup interaction with respect to data. This occurs because when generating simulated events, it was difficult to predict the exact pileup distribution in data. Therefore, simulated events to be reweighed to match the distribution in data. The data pile up distribution in the collision period was estimated assuming total proton-proton cross section of 68 mb. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows number of pile-up events before and after the rewighting procedure for signal events in the muon channel. The agreement between data and simulation has improved after the procedure which id also visible in the ratio plot. 
+In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions will happen in a single bunch crossing. These additional interactions are usually referred to as pileup interactions and contain low$-p_T$ QCD jets. The identification of such jets as well as their removal is described in detail in \cite{CMS:2013wea}. The total inelastic cross section in the 2012 is 69 mb, so the luminosity per bunch crossing of 69 mb$^{-1}$ results in one interaction per bunch crossing. The estimate of the number of additional interactions during 2012 was 21 with some events going up to 70. With these conditions it is important to recognize the signature from such interactions.  
+\par Simulated events have different distribution for number of pileup interaction with respect to data. This occurs because it was difficult to predict the exact pileup distribution in data during the generation of the simulated events. Therefore, simulated events were reweighed to match the distribution in data. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows number of pile-up events before and after the reweighing procedure for signal events in the muon channel. The agreement between data and simulation has improved after the procedure which id also visible in the ratio plot. 
 
 \begin{figure}[htbp]
 	\centering
@@ -238,7 +113,9 @@ Final selection contains a number of events where Z boson was not actually produ
 	\label{fig:eff_trig}
 \end{figure}  
 
-
+%-----------------------------------
+%	SECTION 3
+%-----------------------------------
 
 \subsection{\textit{b-tagging} scale factors}
 \label{sec:btag}
@@ -261,3 +138,130 @@ where $w(2|2)$ is event weight with 2 jets where both jets are b-tagged. The cho
 \label{fig:bSF}
 \caption{B-tagging scale factors and misstag scale factors}
 \end{figure}
+
+
+\section{Event selection}
+\label{sec:selection}
+Signal events are characterized by presence of a W boson and two jets which have been tagged as coming from b quarks. 
+Candidates for a W boson are identified as isolated muons or electron and significant missing energy. 
+Jets are identified as particle flow objects clustered with anti-$k_T$ algorithm with a cone size of $0.5$.
+Combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks which is explained in \ref{sec:btagging}. Signal events are selected using the following requirements:
+\begin{itemize}
+\item One muon or electron with $p_T>30$ GeV, within $|\eta|<$ 2.1. which passes the trigger requirement and tight ID criteria described in \ref{sec:muID}, and has $I_{rel}^{PF}<0.12\ (0.10)$ in case of muons (electrons).
+\item Exactly two jets with jet $p_T>25$ GeV, within $|\eta|<$ 2.4 passing loose ID criteria from \ref{sec:jetID} with distance between lepton and jet $\Delta R>0.5$. 
+\item Events containing jets with $p_T>25$ in high pseudorapidity range $2.4<|\eta|<5$ are rejected.
+\item Events containing additional lepton with $p_T>10$ GeV, within $|\eta|<$ 2.1, tight ID and isolation are rejected.
+\item Both selected jets are required to pass tight CSV discriminator cut of 0.898.
+\end{itemize} 
+
+After applying the described criteria, in the final sample, there is only around 20$\%$ of the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muon} for the muon channel and in figure \ref{fig:Wbb_prefit_electron} for the electron channel. 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:Wbb_prefit_muon}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:Wbb_prefit_electron}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+
+\section{Background estimation}
+\label{sec:background}
+After applying all selection cuts described in the previous section, major backgrounds that remain are top quark, Z+jets, W+jets, diboson and QCD background. Each of the background contributions is described in detail below. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.37\textwidth]{Figures/FD-tt.png}
+		\includegraphics[width=0.245\textwidth]{Figures/FD-st.png}
+		\includegraphics[width=0.25\textwidth]{Figures/FD-WJ.png}
+	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams showing major backgrounds.}
+	\label{fig:backgrounds}
+\end{figure}
+
+\subsection{Top quark background}
+
+Production of $t\bar{t}$ pairs and single top represent a challenging background at the LHC because of their relatively large production cross sections. $t\bar{t}$ events are largely reduced by requiring additional jet veto. Single top background is more difficult to reduce using only topological cuts. However, its production cross-section is smaller resulting in a smaller contribution in the final distributions. Nevertheless, the contribution from the top quark backgrounds in the final sample is around 60$\%$.
+\par As the $t\bar{t}$ background is large, it is mandatory to perform a test of its normalization. For that purpose, a separate control region is defined requiring additional jet activity. This results in a $t\bar{t}$ enriched sample. Various distributions including missing energy, lepton transverse momentum, W transverse momentum, invariant mass and transverse momentum of two b jets and highest jet transverse momentum are shown in figure \ref{fig:TT_CR}. It is visible that the shape of the distributions is in agreement between data and simulation, but the difference in the overall normalization after applying all scale factors is of the order of 12$\%$. The disagreement is likely coming from the b-tagging scale factors not being properly determined. This is taken into account while performing the global fit performed in order to extract the number of signal events extraction which will be described in detail in the next chapter. 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Top quark control region]{Various top quark control region: missing energy, lepton transverse momentum, W transverse momentum, invariant mass and transverse momentum of two b jets and highest jet transverse momentum. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\label{fig:TT_CR}
+\end{figure}
+
+\subsection{Z+jets}
+
+The contribution from the events where Z boson is produced in association with two b jets is largely suppressed by requiring only one lepton in the event. However, it can happen that one of the leptons from Z decay escapes the detection or is missidentified which possibly causes significant missing energy. Such events are than passing all selection criteria and have to be taken into account in the final cross section measurement. 
+
+\subsection{W+light jets and W+charm}
+
+W+jets is the major background before applying the b-tagging criteria is visible in figure \ref{fig:Wjets}. Both shape and normalization agree well between data and Monte Carlo for several distributions shown. Very tight b-tag selection reduces both W+light jets and W+charm to almost negligible levels.  
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetVMt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Distribution obtained using Wbb event selection before applying b-tagging criteria.]{PLACEHOLDER - Distribution obtained using Wbb event selection before applying b-tagging criteria.}
+	\label{fig:Wjets}
+\end{figure}
+
+\subsection{QCD}
+\label{sec:QCD}
+
+QCD background arises from QCD multijet events containing soft lepton which passes lepton selection criteria. An example of such event is shown in the left part of figure \ref{fig:QCD}. This is one of the most challenging backgrounds as it is difficult to simulate significant amount of such events without restrictions. Therefore, the contribution of QCD events in the signal region is determined from data. Two uncorrelated variables are chosen, in this case transverse mass and lepton isolation. Transverse mass distribution shows Jakobian peak for the events containing a W boson, thus it is a natural choice for discrimination from the non W boson final states. In the case of QCD multijet, transverse mass distribution at low values is dominated by the such events. The method is illustrated on the right hand side of the figure \ref{fig:QCD}. Signal region is marked with A. Control sample dominated by QCD events is created by inverting the lepton isolation cut to $I_{rel}^{PF}>0.2$ ($0.15$) for muons (electrons) and is marked with C. The rest of the selection criteria in the control sample is the same as in signal region. The obtained sample is relatively clean. Shape of the final distribution is determined by subtracting the simulated background events that pass the selection. 
+\par It is assumed that the QCD distribution has the same shape in regions A and C. Normalization of the QCD distribution is determined form the $M_T$ region below 30 GeV (normalizing D region to B region). In these regions, contributions from other simulated events is subtracted from the data before the normalization. The number of QCD events is expressed as:
+\begin{equation}
+QCD^A=\frac{N^B_{data}-N^B_{MC}}{N^D_{data}-N^D_{MC}}\times QCD^{C}_{data}
+\end{equation}       
+where $N^B_{data}$ and $N^D_{data}$ are the number of data events in data in regions B and D respectively, and $N^C_{MC}$ and $N^D_{MC}$ are the number of MC background events in regions B and D respectively. The signal region before and after the QCD contribution determination is shown in figure \ref{fig:QCD_dist}.
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.4\textwidth]{Figures/QCD_diag.png}
+		\includegraphics[width=0.45\textwidth]{Figures/QCD_AB.png}		
+		%\rule{35em}{0.5pt}
+	\caption[QCD diagram and illustration of QCD background determination]{An example of QCD event which looks like signal event (\textit{left}) and illustration of ABCD method used for QCD background determination (\textit{right})}
+	\label{fig:QCD}
+\end{figure} 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.48\textwidth]{Figures/VMt_QCD_before.pdf}
+		\includegraphics[width=0.48\textwidth]{Figures/VMt_QCD_after.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[Transverse mass distribution before and after QCD distribution determination.]{Transverse mass distribution without (\textit{left}) and with QCD background (\textit{right}).}
+	\label{fig:QCD_dist}
+\end{figure} 
+
+
+\subsection{Other backgrounds}
+Other backgrounds include processes with final states that match the final state of the signal. One of such signals is WZ where W decays leptonically and Z decays in a pair of b quarks. Another example is the production of Higgs boson in association with W boson where Higgs  decays to a pair of b quarks. Such backgrounds are called irreducible backgrounds.
+
+

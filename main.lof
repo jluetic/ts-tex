@@ -33,31 +33,34 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{54}{figure.caption.96}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{56}{figure.caption.99}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{57}{figure.caption.100}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Combined secondary vertex discriminant value for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{59}{figure.caption.104}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{60}{figure.caption.105}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Total jet uncertainty and contribution from different sources in jet $p_T$ and $\eta $ \cite {CMS-DP-2013-033}\relax }}{58}{figure.caption.101}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex discriminator for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{60}{figure.caption.105}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{60}{figure.caption.106}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Signal region detector level distributions.}}{68}{figure.caption.112}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Signal region detector level distributions.}}{69}{figure.caption.113}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Feynmann diagrams showing major backgrounds}}{70}{figure.caption.115}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Top quark control region}}{71}{figure.caption.117}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{72}{figure.caption.120}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces QCD diagram and illustration of QCD background determination}}{73}{figure.caption.123}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{74}{figure.caption.124}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{75}{figure.caption.128}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{77}{figure.caption.131}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{77}{figure.caption.132}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{79}{figure.caption.136}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{67}{figure.caption.114}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{68}{figure.caption.117}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{69}{figure.caption.118}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging scale factors and misstag scale factors\relax }}{71}{figure.caption.122}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Signal region detector level distributions.}}{73}{figure.caption.124}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Signal region detector level distributions.}}{74}{figure.caption.125}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Feynmann diagrams showing major backgrounds}}{75}{figure.caption.127}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Top quark control region}}{76}{figure.caption.129}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{77}{figure.caption.132}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces QCD diagram and illustration of QCD background determination}}{78}{figure.caption.135}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{79}{figure.caption.136}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the two W+bb samples used to obtain the number of signal events.}}{82}{figure.caption.140}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{87}{figure.caption.153}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Muon channel postfit distributions.\relax }}{89}{figure.caption.162}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Electron channel postfit distributions.\relax }}{90}{figure.caption.163}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the two W+bb samples used to obtain the number of signal events.}}{82}{figure.caption.141}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.}}{87}{figure.caption.155}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Muon channel postfit distributions.\relax }}{90}{figure.caption.164}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Electron channel postfit distributions.\relax }}{91}{figure.caption.165}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces ABOONE\relax }}{93}{figure.caption.169}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces ABOONE\relax }}{94}{figure.caption.170}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{98}{figure.caption.181}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{99}{figure.caption.184}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{99}{figure.caption.185}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{100}{figure.caption.187}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{101}{figure.caption.190}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{102}{figure.caption.185}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{103}{figure.caption.188}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{103}{figure.caption.189}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{104}{figure.caption.191}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{105}{figure.caption.194}
 \addvspace {10\p@ }
