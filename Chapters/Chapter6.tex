@@ -6,22 +6,22 @@
 
 \lhead{Chapter 6. \emph{Event selection and background estimation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-This chapter describes the event selection criteria used to identify $pp\rightarrow W+bb$ process necessary for the cross section measurement. The selection is focused on leptonic decay modes of W boson, thus requiring the presence of isolated muon or electron and missing energy, and two b-tagged jets. Reconstruction and identification of these object has been described in the previous chapter. All major background contributions are determined using simulation and subtracted in order to get the final yields used for cross section measurement. 
-This chapter is organized as follows. Samples used in the analysis together with a short description of simulation procedures are presented in Section \ref{sec:samples}. Signal selection criteria are listed in section \ref{sec:selection} while background sources are described in section \ref{sec:background}. In order to obtain good agreement between data and simulation, certain corrections are applied to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. Applied corrections are summarized in section \ref{sec:mcSF}.     
+This chapter describes the event selection criteria used to identify $pp\rightarrow W+bb$ process necessary for the cross section measurement. The selection is focused on the leptonic decay modes of W boson, thus requiring the presence of an isolated muon or electron, missing energy, and two b-tagged jets. Reconstruction and identification of these object has been described in the previous chapter. All major backgrounds are identified using simulation and are used to get the final yields for the cross section measurement in chapter \ref{Chapter7}. 
+This chapter is organized as follows. Samples used in the analysis together with a short description of simulation procedures are presented in section \ref{sec:samples}. In order to obtain good agreement between data and simulation, certain corrections are applied to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. Applied corrections are summarized in section \ref{sec:mcSF}. Signal selection criteria are listed in section \ref{sec:selection} while background sources are described in section \ref{sec:background}.     
 
 \section{Data and Monte Carlo samples}
 \label{sec:samples}
-Data samples used in this analysis are collected in pp collisions at center of mass energy of 8 TeV with CMS experiment during 2012. After performing necessary data-quality checks, 19.8fb$^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
+Data samples used in this analysis are consist of pp collisions at center of mass energy of 8 TeV collected with CMS experiment during 2012. After performing necessary data-quality checks, 19.8fb$^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
 \begin{itemize}
-\item Isolated muon with $p_T>24$ GeV
+\item Isolated muon with $p_T>24$ GeV,
 \item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.
 \end{itemize}
 
-\par Simulated samples for signal and background processes were obtained using Monte Carlo methods, as a part of the official 2012 CMS production campaign. Several event generators were used to produce samples needed in the analysis:
+\par Simulated samples for signal and background processes were obtained using Monte Carlo methods, as a part of the official 2012 CMS production campaign. Simulated samples include W+jets, Z+jets, $t\bar{t}$, single top and WZ samples. Several event generators were used to produce samples needed in the analysis:
 \begin{itemize}
-\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is able to calculate only tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and TT samples were produced with Madgraph and showered with Pythia.  
-\item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements on tree level for dercays and 2$\rightarrow n$ scatterings (with $n$ going up to 10). Radiation of hard gluons in initial and final state is taken into account on the matrix element calculation level. A minimum $p_T$ threshold is defined in order to avoid soft gluon emissions which cause total cross section to be strongly scale dependent. Thus, cross section is normalized to predictions from other software, such as MCFM\cite{Campbell:2010ff} for Standard model processes.   
-\item \textbf{aMC@NLO} \cite{Alwall:2014hca} unifies the tree-level and next-to-leading order automated computation tools within the MadGraph family.
+\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is able to calculate only tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and $t\bar{t}$ samples were produced with Madgraph and showered with Pythia.  
+\item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements on tree level for dercays and 2$\rightarrow n$ scatterings (with $n$ going up to 10). Radiation of hard gluons in initial and final state is taken into account on the matrix element calculation level. A minimum $p_T$ threshold is defined in order to avoid soft gluon emissions which cause total cross section to be strongly scale dependent. Thus, cross section is normalized to predictions from other software, such as MCFM\cite{Campbell:2010ff} for standard model processes.   
+\item \textbf{aMC@NLO} \cite{Alwall:2014hca} automates and unifies the tree-level and next-to-leading order computation tools within the MadGraph family.
 \item \textbf{Powheg} \cite{Oleari:2010nx} is a package optimized for heavy quark production in hadronic collisions. The hard process is calculated at the NLO order, but for fragmentation and hadronization other software is used (e.g. Pythia). Single top events were produced using this generator and showered with Pythia. 
 \item \textbf{Tauola} \cite{Jadach:1993hs} is a package for simulation of $\tau$ decays.
 \end{itemize}
@@ -62,7 +62,7 @@ Detector response is simulated using GEANT4 simulation package \cite{Agostinelli
   \end{tabular}
 \end{table}
 
-Signal events are simulated in exclusive W+1,2,3,4 jets samples using Madgraph event generator and showered with Pythia. These samples are generated using the five-flavour scheme with massless b-quark in the initial state. Samples are than divided into three subsamples labeled as W+b(b), W+c(c) and W+light. W+b(b) subsample is selected if there is a generated B hadron starting with pdgId=$\pm$5 in one of the jets. W+c(c) samples is selected if c quark is generated in one of the jets (pdgId$=\pm$4). Events are classified sequentially with W+b(b) events selected first. All other events are labeled as W+light jets (W+udcsg). Additionally, analysis has been preformed using the shape from four-flavour sample listed in the Table \ref{tab:samples} which has much larger number of generated signal events. It was normalized to five-flavour cross section .
+Signal events are simulated in exclusive W+1,2,3,4 jets samples using Madgraph event generator and showered with Pythia. These samples are generated using the five-flavour scheme with massless b-quark in the initial state. Samples are than divided into three subsamples labeled as W+b(b), W+c(c) and W+light. W+b(b) subsample is selected by the requirement that there be a generated B hadron starting with pdgId=$\pm$5 in one of the jets. W+c(c) samples is selected if c quark is generated in one of the jets (pdgId$=\pm$4). Events are classified sequentially with W+b(b) events selected first. All other events are labeled as W+light jets (W+udcsg). Additionally, analysis has been preformed using the shape from four-flavour sample listed in the Table \ref{tab:samples} which has much larger number of generated signal events. It was normalized to five-flavour cross section .
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -74,7 +74,7 @@ Signal events are simulated in exclusive W+1,2,3,4 jets samples using Madgraph e
 
 \subsection{Pileup}
 
-In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions will happen in a single bunch crossing. These additional interactions are usually referred to as pileup interactions and contain low$-p_T$ QCD jets. The identification of such jets as well as their removal is described in detail in \cite{CMS:2013wea}. The total inelastic cross section in the 2012 is 69 mb, so the luminosity per bunch crossing of 69 mb$^{-1}$ results in one interaction per bunch crossing. The estimate of the number of additional interactions during 2012 was 21 with some events going up to 70. With these conditions it is important to recognize the signature from such interactions.  
+In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions will happen in a single bunch crossing. These additional interactions are usually referred to as pileup interactions and contain low$-p_T$ QCD jets. The identification of such jets as well as their removal is described in detail in \cite{CMS:2013wea}. The total inelastic cross section in the 2012 is 69 mb, so the luminosity per bunch crossing of 69 mb$^{-1}$ results in one interaction per bunch crossing. As the instantaneous luminosity per bunch crossing was higher than the total inelastic cross section, this resulted in 21 primary interactions on the average during 2012, with some bunch crossings  going up to 70. With these conditions it is important to recognize the signature from such interactions.  
 \par Simulated events have different distribution for number of pileup interaction with respect to data. This occurs because it was difficult to predict the exact pileup distribution in data during the generation of the simulated events. Therefore, simulated events were reweighed to match the distribution in data. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows number of pile-up events before and after the reweighing procedure for signal events in the muon channel. The agreement between data and simulation has improved after the procedure which id also visible in the ratio plot. 
 
 \begin{figure}[htbp]
@@ -161,7 +161,7 @@ Combined secondary vertex (CSV) algorithm is then used to identify jets arising 
 \item Both selected jets are required to pass tight CSV discriminator cut of 0.898.
 \end{itemize} 
 
-After applying the described criteria, in the final sample, there is only around 20$\%$ of the Wbb events. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muon} for the muon channel and in figure \ref{fig:Wbb_prefit_electron} for the electron channel. 
+Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muon} for the muon channel and in figure \ref{fig:Wbb_prefit_electron} for the electron channel obtained after applying all the correction factors described in section \ref{sec:mcSF}. It is visible there is only around 20$\%$ of the Wbb events in the final selection. Therefore it is essential to understand the contributions from all major backgrounds which is described in the next section. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf}
@@ -171,7 +171,7 @@ After applying the described criteria, in the final sample, there is only around
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\caption[Signal region detector level distributions for the muon channel]{Various signal region distributions for the electron channel: missing energy, lepton transverse momentum, W transverse momentum, invariant mass and transverse momentum of two b jets and highest jet transverse momentum.}
 	\label{fig:Wbb_prefit_muon}
 \end{figure}
 \begin{figure}[htbp]
@@ -183,7 +183,7 @@ After applying the described criteria, in the final sample, there is only around
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption[Signal region detector level distributions.]{Signal region detector level distributions. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\caption[Signal region distributions for the electron channel]{Various signal region distributions for the electron channel: missing energy, lepton transverse momentum, W transverse momentum, invariant mass and transverse momentum of two b jets and highest jet transverse momentum. }
 	\label{fig:Wbb_prefit_electron}
 \end{figure}
 
@@ -200,7 +200,7 @@ After applying all selection cuts described in the previous section, major backg
 		\includegraphics[width=0.37\textwidth]{Figures/FD-tt.png}
 		\includegraphics[width=0.245\textwidth]{Figures/FD-st.png}
 		\includegraphics[width=0.25\textwidth]{Figures/FD-WJ.png}
-	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams showing major backgrounds.}
+	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams for major backgrounds: $t\bar{t}$, single top and W+jets. [DODATI OSTALE DIJAGRAME]}
 	\label{fig:backgrounds}
 \end{figure}
 
@@ -217,7 +217,7 @@ Production of $t\bar{t}$ pairs and single top represent a challenging background
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption[Top quark control region]{Various top quark control region: missing energy, lepton transverse momentum, W transverse momentum, invariant mass and transverse momentum of two b jets and highest jet transverse momentum. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
+	\caption[Top quark control region]{Various top quark control region distributions: missing energy, lepton transverse momentum, W transverse momentum, invariant mass and transverse momentum of two b jets and highest jet transverse momentum. Good shape agreement between data and simulation is observed, however simulation normalization is smaller than expected from data.}
 	\label{fig:TT_CR}
 \end{figure}
 

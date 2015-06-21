@@ -6,13 +6,13 @@
 \lhead{Chapter 7. \emph{Cross section measurement}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 
-Cross section for pp$\rightarrow$W+bb process is measured separately in electron and muon channel using this simple relation:
+Cross section for pp$\rightarrow$W+bb process is determined separately in the electron and the muon channel using the relation:
 \begin{equation}
-\sigma = \frac{N_{sig}}{A\times \epsilon \cdot \mathcal{L}}
+\sigma = \frac{N_{data}-N_{bgd}}{A\times \epsilon \cdot \mathcal{L}}
 \label{equ:xsec}
 \end{equation}
-where $N_{sig}$ is the number of signal events after applying selection criteria described in \ref{sec:selection}, $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity for the period over which the data was collected as described in \ref{sec:lumi}. 
-\par In the following sections the fitting procedure for the extraction of signal events is described taking into account the systematic effects. After the subtraction of background contribution, final $N_{sig}$ for cross section calculation was obtained. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}. Finally, cross section are computed and compared to theoretical predictions. 
+where $N_{data}$ is the number of collision events after applying selection criteria described in \ref{sec:selection} and $N_{bkg}$ is the overall number of the background events which is precisely determined by performing the fit procedure presented in the next sections. $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity. 
+\par In the section \ref{sec:fit} fit methodology is shortly presented while the systematic uncertainties which are taken into account during the fit are described in detail in section \ref{sec:syst}. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}, while in the section \ref{sec:res} the cross sections are computed and compared to theoretical predictions. 
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -20,7 +20,9 @@ where $N_{sig}$ is the number of signal events after applying selection criteria
 
 \section{Fit methodology}
 \label{sec:fit}
-After applying selection criteria described in section \ref{sec:selection}, transverse mass distributions are obtained for both electron and muon channels. Modeling signal region was done using four-flavor scheme and five-flavor scheme separately. These samples are described in detail in \ref{sec:samples}. The comparison between the two samples is given in figure \ref{fig:4fsvs5fs}.
+
+The transverse mass distributions, obtained after applying selection criteria described in section \ref{sec:selection}, are used in the fit. The fit was performed in the full $M_T$ range to better constrain the QCD contribution.  
+Modeling Wbb contribution was done using four-flavor scheme and five-flavor scheme separately, described in detail in \ref{sec:samples}. The comparison between the two samples is given in figure \ref{fig:4fsvs5fs} where small differences in shapes can be seen.
 
 \begin{figure}[htbp]
 	\centering
@@ -29,16 +31,18 @@ After applying selection criteria described in section \ref{sec:selection}, tran
 	\label{fig:4fsvs5fs}
 \end{figure}
 
-Final signal yields are extracted using a binned maximum likelihood fit. The details of the fitting procedure are described in \cite{ATL-PHYS-PUB-2011-011}. Simultaneous fit was performed in Wbb region and in TT multijet control region. The result of the fit is represented as \textit{signal strength} $\mu$ which is the ratio between the cross section under test and the theoretical cross section, in this case Wbb cross-section. The predictions for both, signal and background yields, depend on various uncertainties which are included in the fit as nuisance parameters. Likelihood function is constructed as:
+Signal yields and background yields are extracted using a binned maximum likelihood fit. The details of the fitting procedure are described in \cite{ATL-PHYS-PUB-2011-011}. Due to the observed difference in the overall normalization of the $t\bar{t}$ sample, simultaneous fit was performed in Wbb region and in $t\bar{t}$ multijet control region. 
+%The result of the fit is represented as \textit{signal strength} $\mu$ which is the ratio between the cross section under test and the theoretical cross section, in this case Wbb cross-section. 
+The predictions for both, signal and background yields, depend on various uncertainties which are included in the fit as nuisance parameters. Likelihood function is constructed as:
 \begin{equation}
 \mathcal{L}(\mathrm{data}|\mu,\theta) = Poisson(\mathrm{data}|\mu \cdot s(\theta)+b(\theta))\cdot p(\widetilde{\theta} | \theta) 
 \end{equation} 
-In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. $Poisson$ in the context of the binned maximum likelihood represents the product of Poisson probabilities to find $n_i$ events in bin $i$ where the expected number of events is $\mu s_i+b_i$:
+In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. $\mu$ is the signal strength which is the ratio between the cross section under test and the theoretical cross section. $Poisson$ in the context of the binned maximum likelihood represents the product of Poisson probabilities to find $n_i$ events in bin $i$ where the expected number of events is $\mu s_i+b_i$:
 \begin{equation}
 \prod\limits_{i} \frac{(\mu s_i+b_i)^{n_i}}{n_i!}e^{-(\mu s_i+b_i)}
 \end{equation}
 
-Probability density functions($pdf$) $p(\theta)$ with some $\widetilde{\theta}$ as the best estimate of the parameter set describing each of the nuisances are used to characterize the nuisances. Different choices of $pdf$ in general include flat distribution, Gaussian, log-normal and gamma distribution. In this analysis, systematic uncertainties are treated in two different ways. In cases where systematic uncertainty doesn't change the shape of the fitted distribution, log-normal $pdf$ is used because it is suitable for the description of the positively defined variables like cross-section, luminosity of cut efficiency. The width of the log-normal is defined by the parameter $\kappa$:
+Probability density functions ($pdf$) $p(\theta)$ with some $\widetilde{\theta}$ as the best estimate of the parameter set describing each of the nuisances are used to characterize the nuisances. Different choices of $pdf$ in general include flat distribution, Gaussian, log-normal and gamma distribution. In this analysis, systematic uncertainties are treated in two different ways. In cases where systematic uncertainty does not change the shape of the fitted distribution, log-normal $pdf$ is used because it is suitable for the description of the positively defined variables like cross-section, luminosity or cut efficiency. The width of the log-normal distribution $\rho(\theta)$ is defined by the parameter $\kappa$:
 \begin{equation}
 \rho(\theta) = \frac{1}{\sqrt{2\pi}ln(\kappa)}exp\left(\frac{(ln(\theta/\widetilde{\theta}))^2}{2(ln \kappa)^2}\right)\frac{1}{\theta}.
 \end{equation}
@@ -53,27 +57,27 @@ When building the likelihood, each shape uncertainty is associated to a nuisance
 %----------------------------------------------------------------------------------------
 
 \section{Systematic uncertainties}
+\label{sec:syst}
 
 Systematic uncertainties on the expected signal and background yields and shapes affect
-the final distribution used to obtain $N_{sig}$. For a given systematic variation, a new set of signal and background templates was created which may differ both in shape and normalization from the original template.  These shape variations are included in the final fit. Several sources of systematic variations have been considered.
-
-\subsubsection*{Luminosity uncertainty}
-        Luminosity measurement is performed using cluster counting in the Pixel detector described in section \ref{sec:lumi}. An uncertainty of 2.2\% for luminosity measurement during 2012 datataking is reported by the CMS luminosity group \cite{CMS-PAS-SMP-12-008}.
+the final results. For several systematic variations, a new set of signal and background templates was created which may differ both in shape and normalization from the original template. 
+In cases where systematic uncertainty does not change the shape of the fitted distribution, only the systematic effect on the normalization was taken into account as described in the previous section. Several sources of systematic variations have been considered:
 \subsubsection*{Jet energy scale uncertainty}
-		The source of jet energy scale uncertainty arises from different jet energy corrections applied to unify the detector response in energy and pseudorapidity as described in section \ref{sec:jetCorr}. The uncertainty for each level of corrections is estimated separately and added in quadrature to get the final uncertainty \cite{Chatrchyan:2011ds}. The jet energy scale for each jet is varied within one standard deviation of the applied jet energy corrections. and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
+		The source of jet energy scale uncertainty arises from different jet energy corrections applied to unify the detector response in energy and pseudorapidity as described in section \ref{sec:jetCorr}. The uncertainty for each level of corrections is estimated separately and added in quadrature to get the final uncertainty \cite{Chatrchyan:2011ds}. The jet energy scale for each jet is varied within one standard deviation of the applied jet energy corrections and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
 \subsubsection*{Jet energy resolution}
         Jet energy resolution in simulation is smeared in order to take into account differences between data and Monte Carlo. The uncertainty on the applied smearing factors is used to produce modified signal and background templates.  These modified templates are then used in the final fit.
 \subsubsection*{Jet b-tagging efficiencies}
-        Jet b-tagging efficiencies are determined from the $t\bar{t}$ Monte Carlo events for the jets selected in the analysis as described in section \ref{sec:btag}. These efficiencies are applied as weight factors for each event and depend on $p_T$, $\eta$ and flavour of the selected jets. To estimate the effect of the uncertainties of the efficiency determination, each scale factor is shifted up and down by the corresponding uncertainty, and event weights are recalculated. The procedure is done separately for b jet efficiencies and for light jet mistag rate. The uncertainty for jets from c quark is taken to be twice as the one from b jets since there is no proper measurement for this uncertainty. The scale factor variation is found to be of the order of few percent. 
+        Jet b-tagging efficiencies are determined for the jets selected in the analysis as described in section \ref{sec:btag}. These efficiencies are applied as weight factors for each event and depend on $p_T$, $\eta$ and flavour of the selected jets. To estimate the effect of the uncertainties of the efficiency determination, each scale factor is shifted up and down by the corresponding uncertainty, and event weights are recalculated. The procedure is done separately for b jet efficiencies and for light jet mistag rate. The uncertainty for jets from c quark is taken to be twice as the one from b jets since there is no proper measurement for this uncertainty. The scale factor variation is found to be of the order of few percent. 
 \subsubsection*{Lepton scale factors}
         Muon and electron trigger, reconstruction, and identification efficiencies are determined in data using the standard tag-and-probe technique with Z bosons as described in \ref{sec:lepEff}. The effects of the corresponding uncertainties were determined by varying the corresponding scale factors by one standard deviation from the tag-and-probe technique. 
 \subsubsection*{Lepton energy scale} 
 		The lepton energy scale measurement uncertainty corresponds to $1\%$ for muons in the whole detector and electrons in the barrel region. Systematic uncertainty od 2.5$\%$ is associated to the electrons in the endcap region. The systematic effect is evaluated by varying lepton energy scale for each lepton within one standard deviation and creating corresponding transverse mass distributions used in the final fit.
 \subsubsection*{Unclustered missing energy}
-        The uncertainty on missing energy measurement from unclustered energy, e.g. jets with $p_T$<10 GeV and $|\eta|<$4.7 is estimated. The energy scale of such jets is varied by 10$\%$, which is propagated into the calculation of missing energy. New transverse mass distributions are created and taken into account in the final fit.
+        The uncertainty on missing energy measurement from unclustered energy, e.g. jets with $p_T<$10 GeV and $|\eta|<$4.7 is estimated. The energy scale of such jets is varied by 10$\%$, which is propagated into the calculation of missing energy. New transverse mass distributions are created and taken into account in the final fit.
 \subsubsection*{MC samples normalizations}
-        The finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations for each of the Monte-Carlo samples are also allowed to vary within the uncertainties of measured Standard model cross-sections. Cross section uncertainties are summarized in the table \ref{tab:SMunc}
-
+        The finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations for each of the Monte-Carlo samples are also allowed to vary within the uncertainties of measured standard model cross-sections. Cross section uncertainties are summarized in the table \ref{tab:SMunc}
+\subsubsection*{Luminosity uncertainty}
+        Luminosity measurement is performed using cluster counting in the Pixel detector described in section \ref{sec:lumi}. An uncertainty of 2.6$\%$ for luminosity measurement during 2012 datataking is reported by the CMS luminosity group \cite{CMS-PAS-LUM-13-001}.
 
 \begin{table}[!htb]
 \begin{center}
@@ -88,18 +92,19 @@ the final distribution used to obtain $N_{sig}$. For a given systematic variatio
         VV              & 8.1$\%$ \\
         \hline\hline
    \end{tabular}
-\caption{Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.}
+\caption{
+ model cross section uncertainties used in the evaluation of MC normalization systematic effect.}
 \label{tab:SMunc}
 \end{center}
 \end{table}
 
-Sum of the Monte Carlo distributions for each source of systematic uncertainty included in the final fit are shown in the figure \ref{fig:shapeVar}. The largest systematic variations comes from the b-tagging uncertainties. A more detailed study of the final signal strength dependence on the systematic variations is shown in section \ref{sec:systEff}.
+In figure \ref{fig:shapeVar} the effect of different systematic uncertainties on the shape of the transverse mass distribution is shown for signal and $t\bar{t}$ control region. The shown $M_T$ distributions are obtained by summing signal and all background contributions. The largest systematic variations comes from the b-tagging uncertainties. A more detailed study of the final signal strength dependence on the systematic variations is shown in section \ref{sec:systEff}.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.49\textwidth]{Figures/syst_Wbb_var.pdf}
 		\includegraphics[width=0.49\textwidth]{Figures/syst_TT_var.pdf}
-	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and TT control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (left) and TT control region(right).}
+	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and $t\bar{t}$ control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (\textit{left}) and $t\bar{t}$ control region(\textit{right}).}
 	\label{fig:shapeVar}
 \end{figure}
 
@@ -119,8 +124,7 @@ Due to the limitations of the detector, not all produced signal events will be d
         Lepton $|\eta|$   & $<$ 2.1 \\
         Jet $p_T$       & $>$ 25  \\
         Jet $|\eta|$      & $<$ 2.4 \\
-        \multicolumn{2}{l}{
-        $\Delta R$(jet, B hadron) $<$ 0.5} \\
+        $\Delta R$(jet, B hadron) & $<$ 0.5} \\
         \hline\hline
    \end{tabular}
 \caption{Fiducial cuts used for cross section measurements.}
