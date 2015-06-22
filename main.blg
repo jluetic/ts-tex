@@ -1,13 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: Results/yield_table_mu.aux
-A level-1 auxiliary file: Results/yield_table_ele.aux
+A level-1 auxiliary file: Figures/Results/Muon/yield_table_mu.aux
+A level-1 auxiliary file: Figures/Results/Electron/yield_table_ele.aux
 A level-1 auxiliary file: Figures/Results/Muon/syst_table_mu.aux
 A level-1 auxiliary file: Figures/Results/Electron/syst_table_ele.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
-Warning--empty journal in Campbell:2008cr
 Warning--empty journal in Quackenbush:2011bf
 Warning--empty journal in Bansal:2014paa
 Warning--empty author in CMS-PAS-SMP-12-008
@@ -21,45 +20,46 @@ Warning--empty journal in Field:2010bc
 Warning--empty institution in CMS:2014gta
 Warning--empty institution in CMS:2013wea
 Warning--empty author in ATL-PHYS-PUB-2011-011
-You've used 70 entries,
+Warning--empty author in CMS-PAS-LUM-13-001
+You've used 74 entries,
             2481 wiz_defined-function locations,
-            1046 strings with 16820 characters,
-and the built_in function-call counts, 25255 in all, are:
-= -- 2253
-> -- 1113
-< -- 59
-+ -- 466
-- -- 318
-* -- 1899
-:= -- 4137
-add.period$ -- 276
-call.type$ -- 70
-change.case$ -- 138
-chr.to.int$ -- 62
-cite$ -- 87
-duplicate$ -- 1285
-empty$ -- 2322
-format.name$ -- 422
-if$ -- 5379
-int.to.chr$ -- 9
-int.to.str$ -- 71
-missing$ -- 63
-newline$ -- 423
-num.names$ -- 201
-pop$ -- 445
+            1071 strings with 17680 characters,
+and the built_in function-call counts, 26736 in all, are:
+= -- 2392
+> -- 1170
+< -- 62
++ -- 491
+- -- 334
+* -- 2026
+:= -- 4368
+add.period$ -- 292
+call.type$ -- 74
+change.case$ -- 146
+chr.to.int$ -- 65
+cite$ -- 92
+duplicate$ -- 1358
+empty$ -- 2462
+format.name$ -- 443
+if$ -- 5700
+int.to.chr$ -- 10
+int.to.str$ -- 75
+missing$ -- 66
+newline$ -- 447
+num.names$ -- 210
+pop$ -- 463
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 74
 quote$ -- 0
-skip$ -- 737
+skip$ -- 779
 stack$ -- 0
-substring$ -- 1066
-swap$ -- 154
-text.length$ -- 9
+substring$ -- 1141
+swap$ -- 164
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 481
+type$ -- 509
 warning$ -- 14
-while$ -- 189
+while$ -- 199
 width$ -- 0
-write$ -- 1036
+write$ -- 1099
 (There were 14 warnings)

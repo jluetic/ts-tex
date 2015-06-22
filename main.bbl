@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -97,11 +97,6 @@ M.~Banner et~al.
 \newblock \emph{Phys.Lett.}, B122:\penalty0 476--485, 1983.
 \newblock \doi{10.1016/0370-2693(83)91605-2}.
 
-\bibitem[Campbell(2008)]{Campbell:2008cr}
-John~M. Campbell.
-\newblock {Overview of the theory of W/Z + jets and heavy flavor}.
-\newblock 2008.
-
 \bibitem[Mangano(1993)]{Mangano:1992kp}
 Michelangelo~L. Mangano.
 \newblock {Production of $W$ plus heavy quark pairs in hadronic collisions}.
@@ -122,6 +117,23 @@ Serguei Chatrchyan et~al.
   fermions}.
 \newblock \emph{Nature Phys.}, 10:\penalty0 557--560, 2014{\natexlab{b}}.
 \newblock \doi{10.1038/nphys3005}.
+
+\bibitem[Khachatryan et~al.(2015)]{Khachatryan:2014jba}
+Vardan Khachatryan et~al.
+\newblock {Precise determination of the mass of the Higgs boson and tests of
+  compatibility of its couplings with the standard model predictions using
+  proton collisions at 7 and 8 $\,\text {TeV}$}.
+\newblock \emph{Eur.Phys.J.}, C75\penalty0 (5):\penalty0 212, 2015.
+\newblock \doi{10.1140/epjc/s10052-015-3351-7}.
+
+\bibitem[Chatrchyan et~al.(2013{\natexlab{a}})]{Chatrchyan:2012sca}
+Serguei Chatrchyan et~al.
+\newblock {Search for supersymmetry in final states with a single lepton,
+  $b$-quark jets, and missing transverse energy in proton-proton collisions at
+  $\sqrt{s}=7$ TeV}.
+\newblock \emph{Phys.Rev.}, D87\penalty0 (5):\penalty0 052006,
+  2013{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevD.87.052006}.
 
 \bibitem[Olive et~al.(2014)]{Agashe:2014kda}
 K.A. Olive et~al.
@@ -340,13 +352,6 @@ Serguei Chatrchyan et~al.
 \newblock \emph{JINST}, 6:\penalty0 P11002, 2011{\natexlab{a}}.
 \newblock \doi{10.1088/1748-0221/6/11/P11002}.
 
-\bibitem[Collaboration(2013{\natexlab{b}})]{CMS-DP-2013-033}
-CMS Collaboration.
-\newblock {8 TeV Jet Energy Corrections and Uncertainties based on 19.8
-  fb$^{-1}$ of data in CMS}.
-\newblock Technical report, Oct 2013{\natexlab{b}}.
-\newblock URL \url{http://cds.cern.ch/record/1627305}.
-
 \bibitem[Collaboration(2008)]{Cacciari2008119}
 CMS Collaboration.
 \newblock Pileup subtraction using jet areas.
@@ -357,16 +362,23 @@ CMS Collaboration.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0370269307011094}.
 
+\bibitem[Collaboration(2013{\natexlab{b}})]{CMS-DP-2013-033}
+CMS Collaboration.
+\newblock {8 TeV Jet Energy Corrections and Uncertainties based on 19.8
+  fb$^{-1}$ of data in CMS}.
+\newblock Technical report, Oct 2013{\natexlab{b}}.
+\newblock URL \url{http://cds.cern.ch/record/1627305}.
+
 \bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{Cacciari:2011ma}
 Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock {FastJet User Manual}.
 \newblock \emph{Eur.Phys.J.}, C72:\penalty0 1896, 2012.
 \newblock \doi{10.1140/epjc/s10052-012-1896-2}.
 
-\bibitem[Chatrchyan et~al.(2013{\natexlab{a}})]{Chatrchyan:2012jua}
+\bibitem[Chatrchyan et~al.(2013{\natexlab{b}})]{Chatrchyan:2012jua}
 Serguei Chatrchyan et~al.
 \newblock {Identification of b-quark jets with the CMS experiment}.
-\newblock \emph{JINST}, 8:\penalty0 P04013, 2013{\natexlab{a}}.
+\newblock \emph{JINST}, 8:\penalty0 P04013, 2013{\natexlab{b}}.
 \newblock \doi{10.1088/1748-0221/8/04/P04013}.
 
 \bibitem[Collaboration(2013{\natexlab{c}})]{CMS:2013vea}
@@ -404,13 +416,13 @@ Rick Field.
 \newblock {Early LHC Underlying Event Data - Findings and Surprises}.
 \newblock 2010.
 
-\bibitem[Chatrchyan et~al.(2013{\natexlab{b}})]{Chatrchyan:2013ala}
+\bibitem[Chatrchyan et~al.(2013{\natexlab{c}})]{Chatrchyan:2013ala}
 Serguei Chatrchyan et~al.
 \newblock {Jet and underlying event properties as a function of
   charged-particle multiplicity in proton–proton collisions at $\sqrt{s}$ = 7
   TeV}.
 \newblock \emph{Eur.Phys.J.}, C73\penalty0 (12):\penalty0 2674,
-  2013{\natexlab{b}}.
+  2013{\natexlab{c}}.
 \newblock \doi{10.1140/epjc/s10052-013-2674-5}.
 
 \bibitem[Alwall et~al.(2011)Alwall, Herquet, Maltoni, Mattelaer, and
@@ -471,10 +483,29 @@ CMS Collaboration.
 \newblock {Pileup Jet Identification}.
 \newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013{\natexlab{d}}.
 
+\bibitem[collaboration(2012)]{1748-0221-7-10-P10002}
+The~CMS collaboration.
+\newblock Performance of cms muon reconstruction in pp collision events at
+  $\sqrt{s}$ = 7 tev.
+\newblock \emph{Journal of Instrumentation}, 7\penalty0 (10):\penalty0 P10002,
+  2012.
+\newblock URL \url{http://stacks.iop.org/1748-0221/7/i=10/a=P10002}.
+
 \bibitem[ATL(2011)]{ATL-PHYS-PUB-2011-011}
 {Procedure for the LHC Higgs boson search combination in summer 2011}.
 \newblock Technical Report ATL-PHYS-PUB-2011-011, CERN, Geneva, Aug 2011.
 \newblock URL \url{https://cds.cern.ch/record/1375842}.
+
+\bibitem[CMS(2013)]{CMS-PAS-LUM-13-001}
+{CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
+\newblock Technical Report CMS-PAS-LUM-13-001, CERN, Geneva, 2013.
+\newblock URL \url{http://cds.cern.ch/record/1598864}.
+
+\bibitem[Gavin et~al.(2013)Gavin, Li, Petriello, and Quackenbush]{Gavin:2012sy}
+Ryan Gavin, Ye~Li, Frank Petriello, and Seth Quackenbush.
+\newblock {W Physics at the LHC with FEWZ 2.1}.
+\newblock \emph{Comput.Phys.Commun.}, 184:\penalty0 208--214, 2013.
+\newblock \doi{10.1016/j.cpc.2012.09.005}.
 
 \bibitem[Henrich and Kaufmann(2002)]{Henrich}
 B~Henrich and R~Kaufmann.

@@ -8,11 +8,11 @@
 
 Cross section for pp$\rightarrow$W+bb process is determined separately in the electron and the muon channel using the relation:
 \begin{equation}
-\sigma = \frac{N_{data}-N_{bgd}}{A\times \epsilon \cdot \mathcal{L}}
+\sigma = \frac{N_{data}-N_{bkg}}{A\times \epsilon \cdot \mathcal{L}}
 \label{equ:xsec}
 \end{equation}
-where $N_{data}$ is the number of collision events after applying selection criteria described in \ref{sec:selection} and $N_{bkg}$ is the overall number of the background events which is precisely determined by performing the fit procedure presented in the next sections. $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity. 
-\par In the section \ref{sec:fit} fit methodology is shortly presented while the systematic uncertainties which are taken into account during the fit are described in detail in section \ref{sec:syst}. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}, while in the section \ref{sec:res} the cross sections are computed and compared to theoretical predictions. 
+where $N_{data}$ is the number of collision events after applying selection criteria described in \ref{sec:selection} and $N_{bkg}$ is the overall number of the background events, which is precisely determined by performing the fit procedure presented in the next sections. $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity. 
+\par In the section \ref{sec:fit} fit methodology is shortly presented while the systematic uncertainties, which are taken into account during the fit are described in detail in section \ref{sec:syst}. The procedure for calculation of $A\times \epsilon$ is described in \ref{sec:AE}, while in the section \ref{sec:res} the cross sections are computed and compared to theoretical predictions. 
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -33,11 +33,11 @@ Modeling Wbb contribution was done using four-flavor scheme and five-flavor sche
 
 Signal yields and background yields are extracted using a binned maximum likelihood fit. The details of the fitting procedure are described in \cite{ATL-PHYS-PUB-2011-011}. Due to the observed difference in the overall normalization of the $t\bar{t}$ sample, simultaneous fit was performed in Wbb region and in $t\bar{t}$ multijet control region. 
 %The result of the fit is represented as \textit{signal strength} $\mu$ which is the ratio between the cross section under test and the theoretical cross section, in this case Wbb cross-section. 
-The predictions for both, signal and background yields, depend on various uncertainties which are included in the fit as nuisance parameters. Likelihood function is constructed as:
+The predictions for both, signal and background yields, depend on various uncertainties, which are included in the fit as nuisance parameters. Likelihood function is constructed as:
 \begin{equation}
 \mathcal{L}(\mathrm{data}|\mu,\theta) = Poisson(\mathrm{data}|\mu \cdot s(\theta)+b(\theta))\cdot p(\widetilde{\theta} | \theta) 
 \end{equation} 
-In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. $\mu$ is the signal strength which is the ratio between the cross section under test and the theoretical cross section. $Poisson$ in the context of the binned maximum likelihood represents the product of Poisson probabilities to find $n_i$ events in bin $i$ where the expected number of events is $\mu s_i+b_i$:
+In this expression "data" represents the actual measurements, $\theta$ is a set of nuisance parameters describing the uncertainties while $s(\theta)$ and $b(\theta)$ describe signal and background yields respectively, which depend on the nuisance parameters. $\mu$ is the signal strength, which is the ratio between the cross section under test and the theoretical cross section. $Poisson$ in the context of the binned maximum likelihood represents the product of Poisson probabilities to find $n_i$ events in bin $i$ where the expected number of events is $\mu s_i+b_i$:
 \begin{equation}
 \prod\limits_{i} \frac{(\mu s_i+b_i)^{n_i}}{n_i!}e^{-(\mu s_i+b_i)}
 \end{equation}
@@ -47,7 +47,7 @@ Probability density functions ($pdf$) $p(\theta)$ with some $\widetilde{\theta}$
 \rho(\theta) = \frac{1}{\sqrt{2\pi}ln(\kappa)}exp\left(\frac{(ln(\theta/\widetilde{\theta}))^2}{2(ln \kappa)^2}\right)\frac{1}{\theta}.
 \end{equation}
 The value of the $\kappa$ implies by how much an observable can be larger or smaller, both deviations having a chance of 16$\%$. Other way of treating systematic uncertainties is by producing two additional input shapes for each process affected by the uncertainty, by shifting up and down that parameter by one standard deviation. 
-When building the likelihood, each shape uncertainty is associated to a nuisance parameter taken from a unit Gaussian distribution, which is used to interpolate or extrapolate using the specified histograms. After the construction of the likelihood function, standard maximum likelihood procedure is performed yielding the values of $\theta$ and $\mu$ which make the measured data most probable. Next section lists the major sources of the systematic uncertainties together with the strategy used for determination of the corresponding nuisance $pdf$.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+When building the likelihood, each shape uncertainty is associated to a nuisance parameter taken from a unit Gaussian distribution, which is used to interpolate or extrapolate using the specified histograms. After the construction of the likelihood function, standard binned maximum likelihood procedure is performed yielding the values of $\theta$ and $\mu$, which make the measured data most probable. Next section lists the major sources of the systematic uncertainties together with the strategy used for determination of the corresponding nuisance $pdf$.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
 
 
@@ -60,7 +60,7 @@ When building the likelihood, each shape uncertainty is associated to a nuisance
 \label{sec:syst}
 
 Systematic uncertainties on the expected signal and background yields and shapes affect
-the final results. For several systematic variations, a new set of signal and background templates was created which may differ both in shape and normalization from the original template. 
+the final results. For several systematic variations, a new set of signal and background templates was created, which may differ both in shape and normalization from the original template. 
 In cases where systematic uncertainty does not change the shape of the fitted distribution, only the systematic effect on the normalization was taken into account as described in the previous section. Several sources of systematic variations have been considered:
 \subsubsection*{Jet energy scale uncertainty}
 		The source of jet energy scale uncertainty arises from different jet energy corrections applied to unify the detector response in energy and pseudorapidity as described in section \ref{sec:jetCorr}. The uncertainty for each level of corrections is estimated separately and added in quadrature to get the final uncertainty \cite{Chatrchyan:2011ds}. The jet energy scale for each jet is varied within one standard deviation of the applied jet energy corrections and the efficiency of the analysis selection is recomputed to assess the systematic variation on the normalization and shape of the signal and all background components.
@@ -69,7 +69,7 @@ In cases where systematic uncertainty does not change the shape of the fitted di
 \subsubsection*{Jet b-tagging efficiencies}
         Jet b-tagging efficiencies are determined for the jets selected in the analysis as described in section \ref{sec:btag}. These efficiencies are applied as weight factors for each event and depend on $p_T$, $\eta$ and flavour of the selected jets. To estimate the effect of the uncertainties of the efficiency determination, each scale factor is shifted up and down by the corresponding uncertainty, and event weights are recalculated. The procedure is done separately for b jet efficiencies and for light jet mistag rate. The uncertainty for jets from c quark is taken to be twice as the one from b jets since there is no proper measurement for this uncertainty. The scale factor variation is found to be of the order of few percent. 
 \subsubsection*{Lepton scale factors}
-        Muon and electron trigger, reconstruction, and identification efficiencies are determined in data using the standard tag-and-probe technique with Z bosons as described in \ref{sec:lepEff}. The effects of the corresponding uncertainties were determined by varying the corresponding scale factors by one standard deviation from the tag-and-probe technique. 
+        Muon and electron trigger, reconstruction, and identification efficiencies are determined in data using the standard tag-and-probe technique with Z bosons as described in \ref{sec:lepEff}. The effects of the corresponding uncertainties were assessed by varying the corresponding scale factors by one standard deviation and producing the modified signal and background templates. 
 \subsubsection*{Lepton energy scale} 
 		The lepton energy scale measurement uncertainty corresponds to $1\%$ for muons in the whole detector and electrons in the barrel region. Systematic uncertainty od 2.5$\%$ is associated to the electrons in the endcap region. The systematic effect is evaluated by varying lepton energy scale for each lepton within one standard deviation and creating corresponding transverse mass distributions used in the final fit.
 \subsubsection*{Unclustered missing energy}
@@ -104,7 +104,7 @@ In figure \ref{fig:shapeVar} the effect of different systematic uncertainties on
 	\centering
 		\includegraphics[width=0.49\textwidth]{Figures/syst_Wbb_var.pdf}
 		\includegraphics[width=0.49\textwidth]{Figures/syst_TT_var.pdf}
-	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and $t\bar{t}$ control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (\textit{left}) and $t\bar{t}$ control region(\textit{right}).}
+	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and $t\bar{t}$ control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (\textit{left}) and $t\bar{t}$ control region (\textit{right}).}
 	\label{fig:shapeVar}
 \end{figure}
 
@@ -114,7 +114,7 @@ In figure \ref{fig:shapeVar} the effect of different systematic uncertainties on
 \section{Acceptance and efficiency}
 \label{sec:AE}
     
-Due to the limitations of the detector, not all produced signal events will be detected. Some final state particles will end up outside the functional part of the detector. The fraction of the phase space covered with functional detector for signal final state particles is called \textit{acceptance}. Usually this part of the phase space is called \textit{fiducial region} and applied cuts are summarized in table \ref{tab:fiducial}.             
+Due to the limitations of the detector, not all produced signal events will be detected. Some final state particles will end up outside the functional part of the detector. The fraction of the phase space covered with functional detector for signal final state particles is called \textit{acceptance}. The fiducial region in which the cross section is computed corresponds to one lepton with $p_T>$30 GeV and $|\eta|<$2.1, corrected for final state radiation by summing all the photons four-momenta inside a cone of 0.1 from the lepton. Additionally, exactly two jets with $p_T>$ 25 GeV and $|\eta|<$2.4 are required in the event. Jets have been clustered from the list of generated particles except neutrinos using anti$-k_T$ algorithm with cone size of 0.5. Jets are required to have at least one particle originating from a B hadron within a cone of 0.5 from the jet axis in the list of the clustered particles. Fiducial region requirements are summarized in table \ref{tab:fiducial}.             
 \begin{table}[!htb]
 \begin{center}
    \begin{tabular} {l c} \hline \hline
@@ -124,14 +124,14 @@ Due to the limitations of the detector, not all produced signal events will be d
         Lepton $|\eta|$   & $<$ 2.1 \\
         Jet $p_T$       & $>$ 25  \\
         Jet $|\eta|$      & $<$ 2.4 \\
-        $\Delta R$(jet, B hadron) & $<$ 0.5} \\
+        $\Delta R$(jet, B hadron) & $<$ 0.5 \\
         \hline\hline
    \end{tabular}
 \caption{Fiducial cuts used for cross section measurements.}
 \label{tab:fiducial}
 \end{center}
 \end{table}
-However, fraction of the events that fall into the fiducial volume will not be detected due to trigger and reconstruction inefficiency or selection cuts imposed by trigger or the analysis. Usually, acceptance and efficiency are estimated as a single quantity which is a product of these two numbers, defined as:
+However, fraction of the events that fall into the fiducial volume will not be detected due to trigger and reconstruction inefficiency or selection cuts imposed by trigger or the analysis. Usually, acceptance and efficiency are estimated as a single quantity, which is a product of these two numbers, defined as:
 \begin{equation}
 A\times \epsilon=\frac{\mathrm{number\ of\ selected\ Wbb\ events}}{\mathrm{number\ of\ generated\ Wbb\ events\ in\ the\ fiducial\ volume}}
 \end{equation}
@@ -167,10 +167,11 @@ Obtained results are summarized in the table \ref{tab:AE} for each channel.
 
 Transverse mass distributions in signal region and $t\bar{t}$ region were fitted simultaneously in order to obtain the signal strength for Wbb. Yields before and after the fit are shown in Table \ref{tab:yieldsMu} for muon channel and \ref{tab:yieldsEle} for the electron channel. The obtained signal strength values are:
 \begin{align*}
-&\mu_{muon} = 1.42 \pm 0.20 \\
-&\mu_{ele} = 1.68 \pm 0.23
+\mu_{muon} &= 1.43 \pm 0.06\mathrm{(stat)} \pm 0.19 \mathrm{(syst)}\\\
+\mu_{ele} &= 1.68 \pm 0.06\mathrm{(stat)} \pm 0.23\mathrm{(syst)}
 \end{align*}
-
+Total uncertainty was obtained by including both systematic and statistical nuisances. Another fit was performed without systematic uncertainties in order to obtain statistical error. Total systematic error was computed by subtracting in quadrature statistical error from the total error. 
+Figures \ref{fig:Wbb_postfit_mu} and \ref{fig:Wbb_postfit_ele} show the most important detector distribution after performing the fit for the muon and electron channels respectively. The recovered distributions show a good agreement between data and simulation for all considered distributions.
 
 \begin{table}[h!]
 \caption{Yields obtained in the muon channel before and after the fitting procedure.}
@@ -192,7 +193,7 @@ Transverse mass distributions in signal region and $t\bar{t}$ region were fitted
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption{Muon channel postfit distributions.}
+	\caption{Muon channel distributions after the fit.}
 	\label{fig:Wbb_postfit_mu}
 \end{figure}
 
@@ -205,7 +206,7 @@ Transverse mass distributions in signal region and $t\bar{t}$ region were fitted
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf}
 		\includegraphics[width=0.48\textwidth]{Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf}		
 		%\rule{35em}{0.5pt}
-	\caption{Electron channel postfit distributions.}
+	\caption{Electron channel distributions after the fit.}
 	\label{fig:Wbb_postfit_ele}
 \end{figure}
 
@@ -227,20 +228,20 @@ Due to correlations, the total systematic uncertainty is smaller that the quadra
 \include{Figures/Results/Electron/syst_table_ele}
 \end{table}
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{Figures/Results/Muon/systPlots/MuMTstability_abo_5FS.pdf}
-		\includegraphics[width=0.8\textwidth]{Figures/Results/Muon/systPlots/MuMTstability_one_5FS.pdf}		
-	\caption{ABOONE}
-	\label{fig:systStability_mu}
-\end{figure}
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=0.8\textwidth]{Figures/Results/Electron/systPlots/EleMTstability_abo_5FS.pdf}
-		\includegraphics[width=0.8\textwidth]{Figures/Results/Electron/systPlots/EleMTstability_one_5FS.pdf}		
-	\caption{ABOONE}
-	\label{fig:systStability_ele}
-\end{figure}
+%\begin{figure}[htbp]
+%	\centering
+%		\includegraphics[width=0.8\textwidth]{Figures/Results/Muon/systPlots/MuMTstability_abo_5FS.pdf}
+%		\includegraphics[width=0.8\textwidth]{Figures/Results/Muon/systPlots/MuMTstability_one_5FS.pdf}		
+%	\caption{ABOONE}
+%	\label{fig:systStability_mu}
+%\end{figure}
+%\begin{figure}[htbp]
+%	\centering
+%		\includegraphics[width=0.8\textwidth]{Figures/Results/Electron/systPlots/EleMTstability_abo_5FS.pdf}
+%		\includegraphics[width=0.8\textwidth]{Figures/Results/Electron/systPlots/EleMTstability_one_5FS.pdf}		
+%	\caption{ABOONE}
+%	\label{fig:systStability_ele}
+%\end{figure}
 
 
 
@@ -248,8 +249,8 @@ Due to correlations, the total systematic uncertainty is smaller that the quadra
 
 Additional tests were performed in order to verify consistency of the obtained signal strength.
 This was done by fitting different combinations of distributions in both signal region and $t\bar{t}$ control region.
-Additional distributions include missing energy in the signal region and $t\bar{t}$ control region shown in figures \ref{fig:Wbb_prefit_muon} and \ref{fig:TT_CR} and invariant mass of third and fourth jet in $t\bar{t}$ control region. All distributions show good agreement
-in shapes between data and Monte Carlo. Fitting procedure is performed in the muon channel as previously described.
+Additional distributions include missing energy in the signal region and $t\bar{t}$ control region shown in figures \ref{fig:Wbb_prefit_muon} and \ref{fig:TT_CR} and invariant mass of third and fourth jet in $t\bar{t}$ control region. All used distributions show good agreement
+in shapes between data and simulations making them suitable for the fit. Fitting procedure is performed in the muon channel only, as previously described.
 Obtained signal strengths are summarized in Table \ref{tab:addFitTest} and are found to be consistent with the transverse mass fit.
 \begin{table}[!htb]
 \begin{center}
@@ -271,19 +272,43 @@ Obtained signal strengths are summarized in Table \ref{tab:addFitTest} and are f
 
 \subsection{Cross section measurement}
 
-The inclusive cross section measurement is computed using \ref{equ:xsec} where number of signal events is shown in tables \ref{tab:yieldsMu} and \ref{tab:yieldsEle} as $Data-MC$. Acceptance and efficiency are taken from the table \ref{tab:AE} and luminosity corresponds to 19.8 fb$^{-1}$. Measured cross sections correspond to:
+The inclusive cross section measurement was performed in the fiducial region corresponding to one lepton with $p_T>$30 GeV and $|\eta|<$2.1 and exactly two jets $p_T>$ 25 GeV and $|\eta|<$2.4. Jets are required to have at least one particle originating from a B hadron within a cone of 0.5 from the jet axis. Cross section was computed using the relation \ref{equ:xsec}, where the final yields were obtained from the tables \ref{tab:yieldsMu} and \ref{tab:yieldsEle} for muon and electron channel respectively. Acceptance and efficiency are taken from the table \ref{tab:AE} and luminosity corresponds to 19.8 fb$^{-1}$. Measured cross sections correspond to:
 \begin{align*}
-\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow \mu\nu) = XXX \pm YYY(\mathrm{stat.}) \pm ZZZ(\mathrm{syst.})\\
-\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow e\nu) = XXX \pm YYY(\mathrm{stat.}) \pm ZZZ(\mathrm{syst.})\\
+\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow \mu\nu) = 0.67 \pm 0.06(\mathrm{stat.}) \pm 0.15(\mathrm{syst.})\\
+\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow e\nu) = 0.74 \pm 0.06(\mathrm{stat.}) \pm 0.16(\mathrm{syst.})
 \end{align*}
-for the muon and electron channel respectively. Uncertainties are introduced into the fit as nuisance parameters. Total uncertainty was obtained by including both systematic and statistical nuisances. Another fit was performed with only statistical nuisances in order to obtain statistical error. Total systematic error was computed by subtracting in quadrature statistical error from the total error.  
+for the muon and electron channel respectively. The quoted systematic and statistical take into account all previously described effects. However, these results are not taking into account the systematic effects on the acceptance and efficiency calculation of different choices for the parton distribution functions, or the effect of variation of factorization and renormalization scales. These effects were assessed in the previous measurements of Wbb process by the CMS experiment and contribute 10\% to the total cross section uncertainty \cite{Chatrchyan:2013uza}. The obtained cross sections are compatible between muon and electron channel.   
 
-\subsection{Theoretical calculations and comparison with the measurement}
+\subsection{Theoretical predictions and comparison with the measurement}
 
+The theoretical prediction for the cross section defined in the table \ref{tab:fiducial} was estimated using MCFM 6.8 in the massless five flavour scheme at the NLO precision with factorization and renormalization scales set to the mass of the W boson. The obtained result is the following:
+\begin{equation*}
+\sigma_{TH}=0.51\pm 0.06 \mathrm{\ pb}
+\end{equation*} 
+The uncertainty of this calculation includes only the statistical uncertainties. Other sources of the uncertainties, such as different choice of parton distribution functions or different choice of renormaliztion and factorization scale were not taken into account. 
+\par Double parton scattering contribution was not taken into account during the theoretical calculation. However, it has been estimated following the procedure described in section \ref{sec:DPS} using the formula:
+\begin{equation}
+\sigma_{DPS} = \frac{\sigma_W \times \sigma_{bb}}{\sigma_{eff}}
+\end{equation}
+where $\sigma_W$ and $\sigma_{bb}$ are the corresponding single parton scattering cross sections for the production of the W boson and the production of b quark pair respectively. These cross sections were estimated for the same fiducial region as for the analysis and correspond to:
+\begin{align*}
+\sigma_{W} &= 4361 \pm 79 \mathrm{\ pb} \\
+\sigma_{bb} &= 0.18 \pm 0.09 \mathrm{\mu b}.
+\end{align*}
+The inclusive cross section for the W boson production $\sigma_W$ is estimated with FEWZ \cite{Gavin:2012sy} at the NNLO level. Total cross section for pair of b quarks is estimated on a sample of events created with Madgraph and is accurate to the LO precision yielding a much larger associated error. The value of the effective cross section $\sigma_{eff}$ measured by the CMS is:
+\begin{equation*}
+\sigma_{eff}=20.7 \pm 6.6 \mathrm{mb}.
+\end{equation*}   
+The resulting contribution from the double parton scattering to the Wbb cross section is:
+\begin{equation*}
+\sigma_{DPS}=0.40 \pm 0.02 \mathrm{pb}.
+\end{equation*}
+yielding the final Wbb cross section of:
+\begin{equation*}
+\sigma_{TH} = 0.55 \pm 0.06 \mathrm{(stat.)} \pm 0.02 \mathrm{(DPS)} \mathrm{\ pb}.
+\end{equation*}
 
-
-
-
+The results for the cross section obtained in this thesis show agreement with this theoretical prediction within one standard deviation.
 %\begin{table}[!htb]
 %\begin{center}
 %   \begin{tabular} {r|l|l} \hline \hline
