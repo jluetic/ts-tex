@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{77}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -71,6 +71,19 @@ Makoto Kobayashi and Toshihide Maskawa.
 \newblock \emph{Prog.Theor.Phys.}, 49:\penalty0 652--657, 1973.
 \newblock \doi{10.1143/PTP.49.652}.
 
+\bibitem[Aubert et~al.(2001)]{Aubert:2001sp}
+Bernard Aubert et~al.
+\newblock {Measurement of CP violating asymmetries in $B^0$ decays to CP
+  eigenstates}.
+\newblock \emph{Phys.Rev.Lett.}, 86:\penalty0 2515--2522, 2001.
+\newblock \doi{10.1103/PhysRevLett.86.2515}.
+
+\bibitem[Abe et~al.(2001)]{Abe:2001xe}
+K.~Abe et~al.
+\newblock {Observation of large CP violation in the neutral $B$ meson system}.
+\newblock \emph{Phys.Rev.Lett.}, 87:\penalty0 091802, 2001.
+\newblock \doi{10.1103/PhysRevLett.87.091802}.
+
 \bibitem[Herb et~al.(1977)Herb, Hom, Lederman, Sens, Snyder, Yoh, Appel, Brown,
   Brown, Innes, Ueno, Yamanouchi, Ito, J\"ostlein, Kaplan, and
   Kephart]{PhysRevLett.39.252}
@@ -134,6 +147,13 @@ Serguei Chatrchyan et~al.
 \newblock \emph{Phys.Rev.}, D87\penalty0 (5):\penalty0 052006,
   2013{\natexlab{a}}.
 \newblock \doi{10.1103/PhysRevD.87.052006}.
+
+\bibitem[Gleisberg et~al.(2009)Gleisberg, Hoeche, Krauss, Schonherr, Schumann,
+  et~al.]{Gleisberg:2008ta}
+T.~Gleisberg, Stefan. Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, et~al.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock \emph{JHEP}, 0902:\penalty0 007, 2009.
+\newblock \doi{10.1088/1126-6708/2009/02/007}.
 
 \bibitem[Olive et~al.(2014)]{Agashe:2014kda}
 K.A. Olive et~al.

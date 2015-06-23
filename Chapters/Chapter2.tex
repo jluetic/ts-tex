@@ -31,10 +31,11 @@ In this chapter a brief overview of the Standard model particles and interaction
 %	SUBSECTION 1.1
 %-----------------------------------
 
-\subsection{Bottom quarks}
+\subsection{Bottom quark}
 
-The bottom quark was first predicted by Makoto Kobayashi and Toshihide Maskawa in 1974 when extending Cabbibo mixing to take into account CP violation observed in neutral K mesons \cite{Kobayashi:1973fv}. The name "bottom" was introduced in 1975 by Haim Harari. The bottom quark was discovered in 1977 by the Fermilab E288 experiment team led by Leon M. Lederman through the observation of the $\Upsilon$ resonance \cite{PhysRevLett.39.252}. Kobayashi and Maskawa won the 2008 Nobel Prize in Physics for their explanation of CP-violation. 
-\par At the LHC, the main production mechanism for b quarks is through strong interaction ($g\rightarrow bb$) and top quark decay ($t\rightarrow Wb$). Every b quark, after production, goes through the process of hadronization, forming one of the color neutral B mesons. B meson decays electromagnetically if produced in excited state to the ground state. Lowest state B mesons decay weakly, resulting in relatively long lifetime of $\sim$1.5 ps. Bottom quark can decay either to c quark or u quark. Both of these decays are suppressed by the CKM matrix \ref{eq:ckmmatrix}.
+The history of the bottom quark begins in 1973, when Makoto Kobayashi and Toshihide Maskawa first introduced the third generation of quarks to explain the CP violation observed in neutral K mesons \cite{Kobayashi:1973fv}. CP violation is introduced as a small phase factor $\delta$ in the Cabibbo-Kobayashi-Maskawa (CKM) matrix provided there are at least three generations of quarks. This prediction was done even before the discovery of c quark. Kobayashi and Maskawa winning the 2008 Nobel Prize in Physics for their explanation of CP-violation after several experiments confirmed that the predicted behavior is not exclusive for K mesons, but can be seen also in B mesons \cite{Aubert:2001sp,Abe:2001xe}.
+\par The name "bottom" was introduced in 1975 by Haim Harari. The bottom quark was discovered in 1977 by the Fermilab E288 experiment team led by Leon M. Lederman through the observation of the $\Upsilon$ resonance, which is formed from a bottom quark and its antiparticle \cite{PhysRevLett.39.252}.  
+\par At the LHC, the main production mechanism for b quarks is through strong interaction (any diagram involving $g\rightarrow bb$). Other important contribution for this analysis is also from top quark decay ($t\rightarrow Wb$). Every b quark, after production, goes through the process of hadronization, forming one of the color neutral B hadrons. Excited B hadrons decay strongly or electromagnetically, while ground state B hadrons decay weakly, resulting in relatively long lifetime of $\sim$1.5 ps. Bottom quark can decay either to c quark or u quark. Both of these decays are suppressed by the CKM matrix \ref{eq:ckmmatrix}.
 \begin{equation} 
 \begin{pmatrix}
 V_{ud} & V_{us} & V_{ub} \\
@@ -75,6 +76,23 @@ First theoretical computations of W boson production in association with b jets 
 Standard model Higgs boson ($m_H=125$ GeV) branching ratio for decays into a bottom quark-antiquark pair ($b\bar{b}$) is $\approx 58\%$. The study of this decay channel is therefore essential in determining the nature of the newly discovered boson. The measurement of the H $\rightarrow$ $b\bar{b}$ decay will be the first direct test the observed boson interaction with the quark sector. Direct measurement of this coupling requires a measurement of the corresponding Higgs boson decay. The result of the study of Higgs decay to bottom quarks was recently reported by the CMS experiment in  \cite{Chatrchyan:2013zna,Chatrchyan:2014vua}. Higgs coupling to the top quark is measured in the gluon-gluon fusion production channel. In the standard model this process is dominated by the virtual top quark loop. Measurement for the top-quark couplings show agreement with the standard model prediction \cite{Khachatryan:2014jba}.
 There are also searches for beyond standard model physics where contributions from W+b jets process is substantial, among others supersymmetry searches with lepton, b jets and missing energy in the final state \cite{Chatrchyan:2012sca}.
 
+The complexity of the proton collisions is arising from the composite nature of protons. Although protons are mainly composed of valence $uud$ quarks, other quarks, called sea quarks, can be excited as well. In principle, all these partons have a probability to participate in the collision.  The accurate description of the collision events heavily relies on the combination of theoretical calculations and experimental findings.  Usually this description is divided into separate stages, which occur at different energy scales. Going from higher energy scales and smaller distances, processes which describe particle are added depending on the available phase space ending in the stable particles detected in the detector. This evolution can be summarized as follows:
+\begin{itemize}
+\item \textbf{Hard process} - resulting in the production of heavy or highly energetic particles and subsequent decay of a heavy particle, all of which is described through matrix elements.
+\item \textbf{Parton shower} - the process of radiating lighter particles, e.g photons or gluons, which tend to be collinear with the originating particle
+\item \textbf{Hadronization} - quarks and gluons form hadrons, which are usually unstable and eventually decay into long lived particles detected in the detector. 
+\end{itemize}
+
+All these stages are represented in figure \ref{fig:collision} in an event where top quark pair is produced in association with a Higgs boson. 
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.5\textwidth]{Figures/collision.png}
+		%\rule{35em}{0.5pt}
+	\caption[A drawing of a proton-proton collision with its decay products.]{Drawing represents a proton-proton collision production a ttH event. The hard interaction, represented with big red circle, is followed by the decay of both top quarks and the Higgs boson. Additional hard QCD radiation and a secondary interaction, shown in red and purple, take place before the final-state partons hadronise (light green) and hadrons decay (dark green). Photon radiation is shown in yellow and it can occur at any stage \cite{Gleisberg:2008ta}. }
+	\label{fig:collision}
+\end{figure}
+
 
 %-----------------------------------
 %	SUBSECTION 2.1
@@ -83,7 +101,7 @@ There are also searches for beyond standard model physics where contributions fr
 \subsection{Cross sections at hadron colliders}
 \label{subsec:2.1}
 
-	Determining cross sections for processes at hadron collides is not an easy task. The proton is a composite object consisting of partons, thus it is necessary to include its internal structure as well as the diagrams for the hard scattering process of interest. Quarks and gluons within the proton interact through strong force and are described using quantum chromodynamics. Calculations within QCD are possible thanks to \textit{asymptotic freedom} and \textit{factorization theorem}. Since the strong force coupling constant $\alpha_s$ depends on the scale of the process, for high momentum transfers ($Q >> \Lambda_{QCD}\approx 200$MeV) it becomes sufficiently small to make perturbative expansion in $\alpha_s$ possible. This feature is called \textit{asymptotic freedom} and it is used to determine the hard process cross section. Figure \ref{fig:alpha_s} shows the results of the $\alpha_s$ measurements which is in complete agreement with the QCD predictions of asymptotic freedom. \\
+	Determining cross sections for processes at hadron collides is not an easy task. The proton is a composite object consisting of partons, thus it is necessary to include its internal structure as well as the diagrams for the hard scattering process of interest. Quarks and gluons within the proton interact through strong force and are described using quantum chromodynamics. Calculations within QCD are possible thanks to \textit{asymptotic freedom} and \textit{factorization theorem}. Since the strong force coupling constant $\alpha_s$ depends on the scale of the process, for high momentum transfers ($Q >> \Lambda_{QCD}\approx 200$ MeV) it becomes sufficiently small to make perturbative expansion in $\alpha_s$ possible. This feature is called \textit{asymptotic freedom} and it is used to determine the hard process cross section. Figure \ref{fig:alpha_s} shows the results of the $\alpha_s$ measurements which is in complete agreement with the QCD predictions of asymptotic freedom. \\
 \begin{figure}[htbp]
 	\centering
 		\includegraphics{Figures/alpha_s.pdf}
@@ -131,7 +149,7 @@ The renormalization scale is another cut-off used to control divergences from th
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.5\textwidth]{Figures/pp_xsec.pdf}
+		\includegraphics[width=0.7\textwidth]{Figures/pp_xsec.pdf}
 		%\rule{35em}{0.5pt}
 	\caption[Proton-proton cross sections]{Standard model cross sections as a function of center of mass energy.\cite{Campbell:2006wx} }
 	\label{fig:pp_xsec}
@@ -198,7 +216,7 @@ The effect of the b quark mass has been shown to affect the total NLO cross sect
 \subsubsection{Double parton scattering}
 \label{sec:DPS}
 
-\par Multiple parton interactions happen due to the composite nature of the proton. Usually inside a proton, only one parton has a significant fraction of proton momentum $x$ to produce a hard scattering. However, sometimes it can happen that two such partons exist which results in two hard scatterings in the same collision. This phenomenon is called Double Parton Scattering (DPS) and is shown in Figure \ref{fig:DPS_diag}. In the framework of this thesis, two partons are responsible for the creation of a W boson and other two for creation of a pair of b jets. 
+\par Multiple parton interactions happen due to the composite nature of the proton. Usually it is assumed that only one hard scattering occurs per bunch crossing. The probability of single parton interaction in hadron collisions is very small thus having two or more interactions is highly suppressed. However, sometimes it can happen that two such partons exist which results in two hard scatterings in the same collision. This phenomenon is called Double Parton Scattering (DPS) and is shown in Figure \ref{fig:DPS_diag}. In the framework of this thesis, two partons are responsible for the creation of a W boson and other two for creation of a pair of b jets. 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.5\textwidth]{Figures/DPS_diag.pdf}

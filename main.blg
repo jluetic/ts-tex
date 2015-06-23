@@ -21,45 +21,45 @@ Warning--empty institution in CMS:2014gta
 Warning--empty institution in CMS:2013wea
 Warning--empty author in ATL-PHYS-PUB-2011-011
 Warning--empty author in CMS-PAS-LUM-13-001
-You've used 74 entries,
+You've used 77 entries,
             2481 wiz_defined-function locations,
-            1071 strings with 17680 characters,
-and the built_in function-call counts, 26736 in all, are:
-= -- 2392
-> -- 1170
-< -- 62
-+ -- 491
-- -- 334
-* -- 2026
-:= -- 4368
-add.period$ -- 292
-call.type$ -- 74
-change.case$ -- 146
-chr.to.int$ -- 65
-cite$ -- 92
-duplicate$ -- 1358
-empty$ -- 2462
-format.name$ -- 443
-if$ -- 5700
+            1093 strings with 18187 characters,
+and the built_in function-call counts, 27964 in all, are:
+= -- 2497
+> -- 1239
+< -- 64
++ -- 517
+- -- 354
+* -- 2120
+:= -- 4572
+add.period$ -- 304
+call.type$ -- 77
+change.case$ -- 152
+chr.to.int$ -- 68
+cite$ -- 95
+duplicate$ -- 1415
+empty$ -- 2570
+format.name$ -- 468
+if$ -- 5962
 int.to.chr$ -- 10
-int.to.str$ -- 75
-missing$ -- 66
-newline$ -- 447
-num.names$ -- 210
-pop$ -- 463
+int.to.str$ -- 78
+missing$ -- 69
+newline$ -- 465
+num.names$ -- 219
+pop$ -- 481
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 77
 quote$ -- 0
-skip$ -- 779
+skip$ -- 813
 stack$ -- 0
-substring$ -- 1141
-swap$ -- 164
+substring$ -- 1201
+swap$ -- 170
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 509
+type$ -- 530
 warning$ -- 14
-while$ -- 199
+while$ -- 208
 width$ -- 0
-write$ -- 1099
+write$ -- 1144
 (There were 14 warnings)
