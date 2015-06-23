@@ -243,7 +243,7 @@ W+jets is the major background before applying the b-tagging criteria is visible
 \subsection{QCD}
 \label{sec:QCD}
 
-The QCD background arises from QCD multijet events containing a soft lepton that passes lepton selection criteria. An example of such an event is shown in the left part of figure \ref{fig:QCD}. This is one of the most challenging backgrounds as it is difficult to simulate significant amount of such events because of the very high cross section for such processes. Therefore, the contribution of QCD events in the signal region is determined from data. Two uncorrelated variables are chosen, in this case the transverse mass and the lepton isolation. The transverse mass distribution shows a Jacobian peak for the events containing a W boson. Thus it is a natural choice for discrimination from the final states without W boson. The transverse mass distribution at low values is dominated by QCD multijet events. Their contribution is estimated using the so called ABCD method. The method is illustrated on the right hand side of the figure \ref{fig:QCD}. The signal region is marked with A. A control sample dominated by QCD events is created by inverting the lepton isolation cut to $I_{rel}^{PF}>0.2$ ($0.15$) for muons (electrons) and is marked with C. The rest of the selection criteria in the control sample is the same as in the signal region. The obtained sample is relatively clean. The shape of the final distribution is determined by subtracting the simulated background events that pass the selection. 
+The QCD background arises from QCD multijet events containing a soft lepton that passes lepton selection criteria. An example of such an event is shown in the left part of figure \ref{fig:QCD}. This is one of the most challenging backgrounds as it is difficult to simulate significant amount of such events because of the very high cross section for such processes. Therefore, the contribution of QCD events in the signal region is determined from data. Two uncorrelated variables are chosen, in this case the transverse mass and the lepton isolation. The transverse mass distribution shows a Jacobian peak for the events containing a W boson. Thus it is a natural choice for discrimination from the final states without W boson. The transverse mass distribution at low values is dominated by QCD multijet events. Their contribution is estimated using the so called ABCD method. The method is illustrated on the right hand side of the figure \ref{fig:QCD}. The signal region is marked with A. A control sample dominated by QCD events is created by inverting the lepton isolation cut to $I_{rel}^{PF}>0.2$ ($0.15$) for muons (electrons) and is marked with C. The rest of the selection criteria in the control sample is the same as in the signal region. The obtained sample is relatively clean, however there are still some small contributions from background processes as it is visible in figure \ref{fig:QCD_CD}. The shape of the final distribution is determined by subtracting these background events from the data distribution. 
 \par It is assumed that the QCD distribution has the same shape in regions A and C. Normalization of the QCD distribution is determined from the $M_T$ region below 30 GeV (normalizing D region to B region). In these regions, contributions from other processes is subtracted from the data before the normalization using MC expectations. The number of QCD events is expressed as:
 \begin{equation}
 QCD^A=\frac{N^B_{data}-N^B_{MC}}{N^D_{data}-N^D_{MC}}\times QCD^{C}_{data}
@@ -257,6 +257,13 @@ where $N^B_{data}$ and $N^D_{data}$ are the number of data events in data in reg
 	\caption[QCD diagram and illustration of QCD background determination]{An example of QCD event which looks like signal event (\textit{left}) and illustration of ABCD method used for QCD background determination (\textit{right})}
 	\label{fig:QCD}
 \end{figure} 
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.9\textwidth]{Figures/QCD_CD.pdf}		
+		%\rule{35em}{0.5pt}
+	\caption[QCD contribution using the inverted isolation selection.]{The shape of the QCD is found by inverting the isolation cut on the lepton and subtracting the remaining MC contributions from the data. This plot shows data and MC in the inverted lepton isolation region together with the extrapolated QCD shape for muon (\textit{left}) and electron (\textit{right}) channel.}
+	\label{fig:QCD_CD}
+\end{figure}
 
 \begin{figure}[htbp]
 	\centering

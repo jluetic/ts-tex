@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  22 JUN 2015 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  22 JUN 2015 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -921,7 +921,7 @@ Chapter 2.
 ------------------------------------------------------------------------------
  2 Theoretical overview and previous measurements
 ------------------------------------------------------------------------------
-[3] <Figures/Elementary_Particles.png, id=632, 445.665pt x 445.665pt>
+[3] <Figures/Elementary_Particles.png, id=634, 445.665pt x 445.665pt>
 File: Figures/Elementary_Particles.png Graphic file (type png)
 
 <use Figures/Elementary_Particles.png>
@@ -929,28 +929,28 @@ Package pdftex.def Info: Figures/Elementary_Particles.png used on input line 22
 .
 (pdftex.def)             Requested size: 227.94214pt x 227.94577pt.
  [4] [5 <./Figures/Elementary_Particles.png>] [6] [7] <Figures/alpha_s.pdf, id=
-681, 241.0129pt x 168.46529pt>
+683, 241.0129pt x 168.46529pt>
 File: Figures/alpha_s.pdf Graphic file (type pdf)
 
 <use Figures/alpha_s.pdf>
 Package pdftex.def Info: Figures/alpha_s.pdf used on input line 89.
 (pdftex.def)             Requested size: 241.01228pt x 168.46487pt.
  [8]
-<Figures/diagram.pdf, id=693, 219.02448pt x 146.14731pt>
+<Figures/diagram.pdf, id=695, 219.02448pt x 146.14731pt>
 File: Figures/diagram.pdf Graphic file (type pdf)
 
 <use Figures/diagram.pdf>
 Package pdftex.def Info: Figures/diagram.pdf used on input line 98.
 (pdftex.def)             Requested size: 219.02394pt x 146.14693pt.
  [9 <./Figures/alpha_s.pdf>] [10 <./Figures/diagram.pdf>] <Figures/MSTW.pdf, id
-=862, 415.62657pt x 265.3915pt>
+=864, 415.62657pt x 265.3915pt>
 File: Figures/MSTW.pdf Graphic file (type pdf)
 
 <use Figures/MSTW.pdf>
 Package pdftex.def Info: Figures/MSTW.pdf used on input line 124.
 (pdftex.def)             Requested size: 415.62555pt x 265.39084pt.
  [11]
-<Figures/pp_xsec.pdf, id=871, 335.36642pt x 445.99pt>
+<Figures/pp_xsec.pdf, id=873, 335.36642pt x 445.99pt>
 File: Figures/pp_xsec.pdf Graphic file (type pdf)
 
 <use Figures/pp_xsec.pdf>
@@ -965,70 +965,70 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 151.
  [12 <./Figures/MSTW.pdf>] [13 <./Figures/pp_xsec.pdf>]
-<Figures/LO_diag.pdf, id=971, 212.09238pt x 154.06729pt>
+<Figures/LO_diag.pdf, id=973, 212.09238pt x 154.06729pt>
 File: Figures/LO_diag.pdf Graphic file (type pdf)
 
 <use Figures/LO_diag.pdf>
 Package pdftex.def Info: Figures/LO_diag.pdf used on input line 162.
 (pdftex.def)             Requested size: 227.94214pt x 165.59088pt.
 
-<Figures/scale_dep.pdf, id=972, 394.73201pt x 284.27806pt>
+<Figures/scale_dep.pdf, id=974, 394.73201pt x 284.27806pt>
 File: Figures/scale_dep.pdf Graphic file (type pdf)
 
 <use Figures/scale_dep.pdf>
 Package pdftex.def Info: Figures/scale_dep.pdf used on input line 169.
 (pdftex.def)             Requested size: 319.1176pt x 229.82584pt.
  [14]
-<Figures/2006_scale.pdf, id=983, 350.06384pt x 253.16171pt>
+<Figures/2006_scale.pdf, id=985, 350.06384pt x 253.16171pt>
 File: Figures/2006_scale.pdf Graphic file (type pdf)
 
 <use Figures/2006_scale.pdf>
 Package pdftex.def Info: Figures/2006_scale.pdf used on input line 184.
 (pdftex.def)             Requested size: 350.06299pt x 253.16109pt.
  [15 <./Figures/LO_diag.pdf> <./Figures/scale_dep.pdf>] <Figures/5FS_diag.pdf, 
-id=1055, 215.53845pt x 174.6528pt>
+id=1057, 215.53845pt x 174.6528pt>
 File: Figures/5FS_diag.pdf Graphic file (type pdf)
 
 <use Figures/5FS_diag.pdf>
 Package pdftex.def Info: Figures/5FS_diag.pdf used on input line 192.
 (pdftex.def)             Requested size: 227.94214pt x 184.70735pt.
  [16 <./Figures/2006_scale.pdf>]
-<Figures/DPS_diag.pdf, id=1108, 207.21596pt x 161.55005pt>
+<Figures/DPS_diag.pdf, id=1110, 207.21596pt x 161.55005pt>
 File: Figures/DPS_diag.pdf Graphic file (type pdf)
 
 <use Figures/DPS_diag.pdf>
 Package pdftex.def Info: Figures/DPS_diag.pdf used on input line 204.
 (pdftex.def)             Requested size: 227.94214pt x 177.71793pt.
  [17 <./Figures/5FS_diag.pdf>] [18 <./Figures/DPS_diag.pdf>] <Figures/DPS_res.p
-df, id=1189, 190.25137pt x 181.56142pt>
+df, id=1191, 190.25137pt x 181.56142pt>
 File: Figures/DPS_res.pdf Graphic file (type pdf)
 
 <use Figures/DPS_res.pdf>
 Package pdftex.def Info: Figures/DPS_res.pdf used on input line 230.
 (pdftex.def)             Requested size: 273.53336pt x 261.0382pt.
  [19] [20 <./Figures/DPS_res.pdf>]
-<Figures/atlas_total.pdf, id=1300, 569.12625pt x 408.52625pt>
+<Figures/atlas_total.pdf, id=1302, 569.12625pt x 408.52625pt>
 File: Figures/atlas_total.pdf Graphic file (type pdf)
 
 <use Figures/atlas_total.pdf>
 Package pdftex.def Info: Figures/atlas_total.pdf used on input line 248.
 (pdftex.def)             Requested size: 319.1176pt x 229.07858pt.
 
-<Figures/atlas_diff1j.pdf, id=1303, 569.12625pt x 503.8825pt>
+<Figures/atlas_diff1j.pdf, id=1305, 569.12625pt x 503.8825pt>
 File: Figures/atlas_diff1j.pdf Graphic file (type pdf)
 
 <use Figures/atlas_diff1j.pdf>
 Package pdftex.def Info: Figures/atlas_diff1j.pdf used on input line 257.
 (pdftex.def)             Requested size: 227.94214pt x 201.81084pt.
 
-<Figures/atlas_diff.pdf, id=1304, 569.12625pt x 503.8825pt>
+<Figures/atlas_diff.pdf, id=1306, 569.12625pt x 503.8825pt>
 File: Figures/atlas_diff.pdf Graphic file (type pdf)
 
 <use Figures/atlas_diff.pdf>
 Package pdftex.def Info: Figures/atlas_diff.pdf used on input line 263.
 (pdftex.def)             Requested size: 227.94214pt x 201.81084pt.
  [21] [22 <./Figures/atlas_total.pdf>]
-<Figures/cms_tot.pdf, id=1333, 213.70972pt x 266.14651pt>
+<Figures/cms_tot.pdf, id=1335, 213.70972pt x 266.14651pt>
 File: Figures/cms_tot.pdf Graphic file (type pdf)
 
 <use Figures/cms_tot.pdf>
@@ -1040,7 +1040,7 @@ Chapter 3.
 ------------------------------------------------------------------------------
  3 Large Hadron Collider
 ------------------------------------------------------------------------------
-<Figures/LHC.jpg, id=1428, 845.1575pt x 683.05188pt>
+<Figures/LHC.jpg, id=1430, 845.1575pt x 683.05188pt>
 File: Figures/LHC.jpg Graphic file (type jpg)
  <use Figures/LHC.jpg>
 Package pdftex.def Info: Figures/LHC.jpg used on input line 13.
@@ -1054,21 +1054,21 @@ Overfull \hbox (1.18909pt too wide) in paragraph at lines 34--36
 lud-ing dipoles, quadrupoles,
  []
 
-<Figures/LHC_magnet.pdf, id=1449, 406.67093pt x 345.5594pt>
+<Figures/LHC_magnet.pdf, id=1451, 406.67093pt x 345.5594pt>
 File: Figures/LHC_magnet.pdf Graphic file (type pdf)
 
 <use Figures/LHC_magnet.pdf>
 Package pdftex.def Info: Figures/LHC_magnet.pdf used on input line 40.
 (pdftex.def)             Requested size: 273.53336pt x 232.43578pt.
 
-<Figures/LHC_MagVec.pdf, id=1450, 276.69835pt x 277.66145pt>
+<Figures/LHC_MagVec.pdf, id=1452, 276.69835pt x 277.66145pt>
 File: Figures/LHC_MagVec.pdf Graphic file (type pdf)
 
 <use Figures/LHC_MagVec.pdf>
 Package pdftex.def Info: Figures/LHC_MagVec.pdf used on input line 41.
 (pdftex.def)             Requested size: 177.79459pt x 178.41872pt.
  [28] [29 <./Figures/LHC_magnet.pdf> <./Figures/LHC_MagVec.pdf>] <Figures/lumi.
-png, id=1537, 1027.84pt x 410.53375pt>
+png, id=1539, 1027.84pt x 410.53375pt>
 File: Figures/lumi.png Graphic file (type png)
 
 <use Figures/lumi.png>
@@ -1085,28 +1085,28 @@ Chapter 4.
 ------------------------------------------------------------------------------
  4 Compact Muon Solenoid
 ------------------------------------------------------------------------------
-<Figures/CMS.pdf, id=1555, 845.1575pt x 597.23125pt>
+<Figures/CMS.pdf, id=1557, 845.1575pt x 597.23125pt>
 File: Figures/CMS.pdf Graphic file (type pdf)
  <use Figures/CMS.pdf>
 Package pdftex.def Info: Figures/CMS.pdf used on input line 10.
 (pdftex.def)             Requested size: 410.29308pt x 289.9393pt.
 
 [33] [34 <./Figures/CMS.pdf>] [35]
-<Figures/pixel_detector.png, id=1722, 4717.625pt x 3333.45375pt>
+<Figures/pixel_detector.png, id=1724, 4717.625pt x 3333.45375pt>
 File: Figures/pixel_detector.png Graphic file (type png)
 
 <use Figures/pixel_detector.png>
 Package pdftex.def Info: Figures/pixel_detector.png used on input line 63.
 (pdftex.def)             Requested size: 364.70882pt x 257.67876pt.
 
-<Figures/pixel_eta.pdf, id=1725, 199.95953pt x 102.75047pt>
+<Figures/pixel_eta.pdf, id=1727, 199.95953pt x 102.75047pt>
 File: Figures/pixel_eta.pdf Graphic file (type pdf)
 
 <use Figures/pixel_eta.pdf>
 Package pdftex.def Info: Figures/pixel_eta.pdf used on input line 70.
 (pdftex.def)             Requested size: 223.3858pt x 114.79124pt.
 
-<Figures/pixel_eta2.pdf, id=1726, 213.63704pt x 99.42555pt>
+<Figures/pixel_eta2.pdf, id=1728, 213.63704pt x 99.42555pt>
 File: Figures/pixel_eta2.pdf Graphic file (type pdf)
 
 <use Figures/pixel_eta2.pdf>
@@ -1114,42 +1114,42 @@ Package pdftex.def Info: Figures/pixel_eta2.pdf used on input line 71.
 (pdftex.def)             Requested size: 223.3858pt x 103.96751pt.
  [36] [37 <./Figures/pixel_detector.png> <./Figures/pixel_eta.pdf> <./Figures/p
 ixel_eta2.pdf>] [38]
-<Figures/strip_detector.png, id=1844, 482.80376pt x 241.90375pt>
+<Figures/strip_detector.png, id=1846, 482.80376pt x 241.90375pt>
 File: Figures/strip_detector.png Graphic file (type png)
 
 <use Figures/strip_detector.png>
 Package pdftex.def Info: Figures/strip_detector.png used on input line 91.
 (pdftex.def)             Requested size: 410.29308pt x 205.57855pt.
 
-<Figures/ECAL.pdf, id=1847, 396.36963pt x 265.40305pt>
+<Figures/ECAL.pdf, id=1849, 396.36963pt x 265.40305pt>
 File: Figures/ECAL.pdf Graphic file (type pdf)
  <use Figures/ECAL.pdf>
 Package pdftex.def Info: Figures/ECAL.pdf used on input line 106.
 (pdftex.def)             Requested size: 364.70882pt x 244.2183pt.
 
 [39 <./Figures/strip_detector.png (PNG copy)>]
-<Figures/HCAL.pdf, id=1856, 399.99248pt x 234.73618pt>
+<Figures/HCAL.pdf, id=1858, 399.99248pt x 234.73618pt>
 File: Figures/HCAL.pdf Graphic file (type pdf)
  <use Figures/HCAL.pdf>
 Package pdftex.def Info: Figures/HCAL.pdf used on input line 128.
 (pdftex.def)             Requested size: 364.70882pt x 214.04005pt.
 
 [40 <./Figures/ECAL.pdf>]
-<Figures/Muon_chambres.png, id=1887, 790.955pt x 574.145pt>
+<Figures/Muon_chambres.png, id=1889, 790.955pt x 574.145pt>
 File: Figures/Muon_chambres.png Graphic file (type png)
 
 <use Figures/Muon_chambres.png>
 Package pdftex.def Info: Figures/Muon_chambres.png used on input line 144.
 (pdftex.def)             Requested size: 364.70882pt x 264.74068pt.
  [41 <./Figures/HCAL.pdf>]
-<Figures/MU_pt_res.pdf, id=1942, 197.06071pt x 225.59944pt>
+<Figures/MU_pt_res.pdf, id=1944, 197.06071pt x 225.59944pt>
 File: Figures/MU_pt_res.pdf Graphic file (type pdf)
 
 <use Figures/MU_pt_res.pdf>
 Package pdftex.def Info: Figures/MU_pt_res.pdf used on input line 152.
 (pdftex.def)             Requested size: 227.94214pt x 260.9692pt.
 
-<Figures/trigger.pdf, id=1946, 172.65816pt x 214.7489pt>
+<Figures/trigger.pdf, id=1948, 172.65816pt x 214.7489pt>
 File: Figures/trigger.pdf Graphic file (type pdf)
 
 <use Figures/trigger.pdf>
@@ -1174,35 +1174,35 @@ Overfull \hbox (17.77689pt too wide) in paragraph at lines 64--65
 ed track in-side the tracker(\OT1/cmr/m/it/12 tracker
  []
 
-[49] [50] [51] <Figures/jet_unsafe2.pdf, id=2096, 353.5824pt x 108.08731pt>
+[49] [50] [51] <Figures/jet_unsafe2.pdf, id=2098, 353.5824pt x 108.08731pt>
 File: Figures/jet_unsafe2.pdf Graphic file (type pdf)
 
 <use Figures/jet_unsafe2.pdf>
 Package pdftex.def Info: Figures/jet_unsafe2.pdf used on input line 128.
 (pdftex.def)             Requested size: 364.70882pt x 111.49443pt.
  [52] [53 <./Figures/jet_unsafe2.pdf>]
-<Figures/diff_algos.pdf, id=2161, 492.73836pt x 369.69287pt>
+<Figures/diff_algos.pdf, id=2163, 492.73836pt x 369.69287pt>
 File: Figures/diff_algos.pdf Graphic file (type pdf)
 
 <use Figures/diff_algos.pdf>
 Package pdftex.def Info: Figures/diff_algos.pdf used on input line 145.
 (pdftex.def)             Requested size: 410.29308pt x 307.84348pt.
  [54] [55 <./Figures/diff_algos.pdf>]
-<Figures/jet_tot_corr_eta.pdf, id=2222, 405.92354pt x 202.37949pt>
+<Figures/jet_tot_corr_eta.pdf, id=2224, 405.92354pt x 202.37949pt>
 File: Figures/jet_tot_corr_eta.pdf Graphic file (type pdf)
 
 <use Figures/jet_tot_corr_eta.pdf>
 Package pdftex.def Info: Figures/jet_tot_corr_eta.pdf used on input line 175.
 (pdftex.def)             Requested size: 410.29308pt x 204.56532pt.
 
-<Figures/jet_tot_corr_pt.pdf, id=2225, 400.78487pt x 384.00032pt>
+<Figures/jet_tot_corr_pt.pdf, id=2227, 400.78487pt x 384.00032pt>
 File: Figures/jet_tot_corr_pt.pdf Graphic file (type pdf)
 
 <use Figures/jet_tot_corr_pt.pdf>
 Package pdftex.def Info: Figures/jet_tot_corr_pt.pdf used on input line 183.
 (pdftex.def)             Requested size: 410.29308pt x 393.11069pt.
 
-<Figures/jet_unc_err.pdf, id=2228, 684.7802pt x 338.52275pt>
+<Figures/jet_unc_err.pdf, id=2230, 684.7802pt x 338.52275pt>
 File: Figures/jet_unc_err.pdf Graphic file (type pdf)
 
 <use Figures/jet_unc_err.pdf>
@@ -1214,14 +1214,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [57 <./Figures/jet_tot_corr_eta.pdf>] [58 <./Figures/jet_tot_corr_pt.pdf>]
 [59 <./Figures/jet_unc_err.pdf>]
-<Figures/b-tag_csv.pdf, id=2441, 432.45007pt x 147.89072pt>
+<Figures/b-tag_csv.pdf, id=2443, 432.45007pt x 147.89072pt>
 File: Figures/b-tag_csv.pdf Graphic file (type pdf)
 
 <use Figures/b-tag_csv.pdf>
 Package pdftex.def Info: Figures/b-tag_csv.pdf used on input line 241.
 (pdftex.def)             Requested size: 455.8843pt x 155.90813pt.
 
-<Figures/MisID_CSVM.pdf, id=2445, 239.7494pt x 98.11145pt>
+<Figures/MisID_CSVM.pdf, id=2447, 239.7494pt x 98.11145pt>
 File: Figures/MisID_CSVM.pdf Graphic file (type pdf)
 
 <use Figures/MisID_CSVM.pdf>
@@ -1236,14 +1236,14 @@ Chapter 6.
 [63
 
 ] [64] [65] [66]
-<Figures/Results/noPU.pdf, id=2663, 569.12625pt x 546.04pt>
+<Figures/Results/noPU.pdf, id=2665, 569.12625pt x 546.04pt>
 File: Figures/Results/noPU.pdf Graphic file (type pdf)
 
 <use Figures/Results/noPU.pdf>
 Package pdftex.def Info: Figures/Results/noPU.pdf used on input line 82.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/withPU.pdf, id=2664, 569.12625pt x 546.04pt>
+<Figures/Results/withPU.pdf, id=2666, 569.12625pt x 546.04pt>
 File: Figures/Results/withPU.pdf Graphic file (type pdf)
 
 <use Figures/Results/withPU.pdf>
@@ -1251,21 +1251,21 @@ Package pdftex.def Info: Figures/Results/withPU.pdf used on input line 83.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
  [67 <./Figures/Results/noPU.pdf, page is rotated 90 degrees> <./Figures/Result
 s/withPU.pdf, page is rotated 90 degrees>]
-<Figures/ID_eff.pdf, id=2758, 375.56932pt x 359.33295pt>
+<Figures/ID_eff.pdf, id=2760, 375.56932pt x 359.33295pt>
 File: Figures/ID_eff.pdf Graphic file (type pdf)
 
 <use Figures/ID_eff.pdf>
 Package pdftex.def Info: Figures/ID_eff.pdf used on input line 106.
 (pdftex.def)             Requested size: 223.3858pt x 213.73174pt.
 
-<Figures/ISO_eff.pdf, id=2759, 367.28949pt x 360.55623pt>
+<Figures/ISO_eff.pdf, id=2761, 367.28949pt x 360.55623pt>
 File: Figures/ISO_eff.pdf Graphic file (type pdf)
 
 <use Figures/ISO_eff.pdf>
 Package pdftex.def Info: Figures/ISO_eff.pdf used on input line 107.
 (pdftex.def)             Requested size: 223.3858pt x 219.28978pt.
 
-<Figures/trig_eff.pdf, id=2762, 365.98665pt x 357.25426pt>
+<Figures/trig_eff.pdf, id=2764, 365.98665pt x 357.25426pt>
 File: Figures/trig_eff.pdf Graphic file (type pdf)
 
 <use Figures/trig_eff.pdf>
@@ -1280,21 +1280,21 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `fig:bSF' on page 70 undefined on input line 134.
 
-<Figures/b-tagSF.pdf, id=2881, 281.33849pt x 147.10298pt>
+<Figures/b-tagSF.pdf, id=2883, 281.33849pt x 147.10298pt>
 File: Figures/b-tagSF.pdf Graphic file (type pdf)
 
 <use Figures/b-tagSF.pdf>
 Package pdftex.def Info: Figures/b-tagSF.pdf used on input line 143.
 (pdftex.def)             Requested size: 273.53336pt x 143.03311pt.
 
-<Figures/miss-tag.pdf, id=2882, 281.21251pt x 105.02106pt>
+<Figures/miss-tag.pdf, id=2884, 281.21251pt x 105.02106pt>
 File: Figures/miss-tag.pdf Graphic file (type pdf)
 
 <use Figures/miss-tag.pdf>
 Package pdftex.def Info: Figures/miss-tag.pdf used on input line 144.
 (pdftex.def)             Requested size: 273.53336pt x 102.16193pt.
  [70] [71 <./Figures/b-tagSF.pdf> <./Figures/miss-tag.pdf>]
-<Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf, id=2973, 569.12625pt x 546.
+<Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf, id=2975, 569.12625pt x 546.
 04pt>
 File: Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf Graphic file (type pdf)
 
@@ -1303,7 +1303,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf used
  on input line 167.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf, id=2974, 569.12625pt x 
+<Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf, id=2976, 569.12625pt x 
 546.04pt>
 File: Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf Graphic file (type 
 pdf)
@@ -1312,7 +1312,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/Wbb_vLepton_pt_doQCD1.pdf
 used on input line 168.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf, id=2975, 569.12625pt x 546.
+<Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf, id=2977, 569.12625pt x 546.
 04pt>
 File: Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf Graphic file (type pdf)
 
@@ -1321,7 +1321,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/Wbb_GetWpt_doQCD1.pdf used
  on input line 169.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf, id=2976, 569.12625pt x 546.04
+<Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf, id=2978, 569.12625pt x 546.04
 pt>
 File: Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf>
@@ -1329,7 +1329,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/Wbb_H_pt_doQCD1.pdf used o
 n input line 170.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf, id=2977, 569.12625pt x 546.
+<Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf, id=2979, 569.12625pt x 546.
 04pt>
 File: Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf Graphic file (type pdf)
 
@@ -1338,7 +1338,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/Wbb_H_mass_doQCD1.pdf used
  on input line 171.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf, id=2978, 569.12625pt x
+<Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf, id=2980, 569.12625pt x
  546.04pt>
 File: Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf Graphic file (type
  pdf)
@@ -1351,7 +1351,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/Wbb_max_hJet_pt_doQCD1.pdf
 LaTeX Warning: Float too large for page by 38.75284pt on input line 176.
 
 
-<Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf, id=2979, 569.12625pt x 
+<Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf, id=2981, 569.12625pt x 
 546.04pt>
 File: Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf Graphic file (type 
 pdf)
@@ -1360,7 +1360,7 @@ Package pdftex.def Info: Figures/Results/Electron/prefit/Wbb_GetMET_doQCD1.pdf
 used on input line 179.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.pdf, id=2980, 569.12625p
+<Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.pdf, id=2982, 569.12625p
 t x 546.04pt>
 File: Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.pdf Graphic file (t
 ype pdf)
@@ -1369,7 +1369,7 @@ Package pdftex.def Info: Figures/Results/Electron/prefit/Wbb_vLepton_pt_doQCD1.
 pdf used on input line 180.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf, id=2981, 569.12625pt x 
+<Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf, id=2983, 569.12625pt x 
 546.04pt>
 File: Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf Graphic file (type 
 pdf)
@@ -1378,7 +1378,7 @@ Package pdftex.def Info: Figures/Results/Electron/prefit/Wbb_GetWpt_doQCD1.pdf
 used on input line 181.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf, id=2982, 569.12625pt x 54
+<Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf, id=2984, 569.12625pt x 54
 6.04pt>
 File: Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf Graphic file (type pd
 f)
@@ -1387,7 +1387,7 @@ Package pdftex.def Info: Figures/Results/Electron/prefit/Wbb_H_pt_doQCD1.pdf us
 ed on input line 182.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf, id=2983, 569.12625pt x 
+<Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf, id=2985, 569.12625pt x 
 546.04pt>
 File: Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf Graphic file (type 
 pdf)
@@ -1396,7 +1396,7 @@ Package pdftex.def Info: Figures/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf
 used on input line 183.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf, id=2984, 569.12625
+<Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf, id=2986, 569.12625
 pt x 546.04pt>
 File: Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf Graphic file (
 type pdf)
@@ -1409,19 +1409,19 @@ Package pdftex.def Info: Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1
 
 LaTeX Warning: Float too large for page by 38.75284pt on input line 188.
 
-<Figures/FD-tt.png, id=2987, 245.91875pt x 149.55875pt>
+<Figures/FD-tt.png, id=2989, 245.91875pt x 149.55875pt>
 File: Figures/FD-tt.png Graphic file (type png)
 
 <use Figures/FD-tt.png>
 Package pdftex.def Info: Figures/FD-tt.png used on input line 200.
 (pdftex.def)             Requested size: 168.67496pt x 102.58632pt.
- <Figures/FD-st.png, id=2988, 176.66pt x 195.73125pt>
+ <Figures/FD-st.png, id=2990, 176.66pt x 195.73125pt>
 File: Figures/FD-st.png Graphic file (type png)
 
 <use Figures/FD-st.png>
 Package pdftex.def Info: Figures/FD-st.png used on input line 201.
 (pdftex.def)             Requested size: 111.68942pt x 123.74738pt.
- <Figures/FD-WJ.png, id=2989, 176.66pt x 192.72pt>
+ <Figures/FD-WJ.png, id=2991, 176.66pt x 192.72pt>
 File: Figures/FD-WJ.png Graphic file (type png)
 
 <use Figures/FD-WJ.png>
@@ -1441,7 +1441,7 @@ ults/Electron/prefit/Wbb_H_pt_doQCD1.pdf, page is rotated 90 degrees> <./Figure
 s/Results/Electron/prefit/Wbb_H_mass_doQCD1.pdf, page is rotated 90 degrees> <.
 /Figures/Results/Electron/prefit/Wbb_max_hJet_pt_doQCD1.pdf, page is rotated 90
  degrees>]
-<Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf, id=3522, 569.12625pt x 546.0
+<Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf, id=3524, 569.12625pt x 546.0
 4pt>
 File: Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf>
@@ -1449,7 +1449,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/TT_GetMET_doQCD1.pdf used
 on input line 213.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf, id=3523, 569.12625pt x 5
+<Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf, id=3525, 569.12625pt x 5
 46.04pt>
 File: Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf Graphic file (type p
 df)
@@ -1458,7 +1458,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/TT_vLepton_pt_doQCD1.pdf u
 sed on input line 214.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf, id=3524, 569.12625pt x 546.0
+<Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf, id=3526, 569.12625pt x 546.0
 4pt>
 File: Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf>
@@ -1466,7 +1466,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/TT_GetWpt_doQCD1.pdf used
 on input line 215.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf, id=3525, 569.12625pt x 546.04p
+<Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf, id=3527, 569.12625pt x 546.04p
 t>
 File: Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf>
@@ -1474,7 +1474,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf used on
  input line 216.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf, id=3526, 569.12625pt x 546.0
+<Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf, id=3528, 569.12625pt x 546.0
 4pt>
 File: Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf>
@@ -1482,7 +1482,7 @@ Package pdftex.def Info: Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf used
 on input line 217.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf, id=3527, 569.12625pt x 
+<Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf, id=3529, 569.12625pt x 
 546.04pt>
 File: Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf Graphic file (type 
 pdf)
@@ -1502,88 +1502,95 @@ rees> <./Figures/Results/Muon/prefit/TT_H_pt_doQCD1.pdf, page is rotated 90 deg
 rees> <./Figures/Results/Muon/prefit/TT_H_mass_doQCD1.pdf, page is rotated 90 d
 egrees> <./Figures/Results/Muon/prefit/TT_max_hJet_pt_doQCD1.pdf, page is rotat
 ed 90 degrees>]
-<Figures/Results/noBtag/Wbb_GetMET_doQCD1.pdf, id=3800, 569.12625pt x 546.04pt>
+<Figures/Results/noBtag/Wbb_GetMET_doQCD1.pdf, id=3802, 569.12625pt x 546.04pt>
 File: Figures/Results/noBtag/Wbb_GetMET_doQCD1.pdf Graphic file (type pdf)
 <use Figures/Results/noBtag/Wbb_GetMET_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/noBtag/Wbb_GetMET_doQCD1.pdf used on i
 nput line 234.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/noBtag/Wbb_GetVMt_doQCD1.pdf, id=3801, 569.12625pt x 546.04pt>
+<Figures/Results/noBtag/Wbb_GetVMt_doQCD1.pdf, id=3803, 569.12625pt x 546.04pt>
 File: Figures/Results/noBtag/Wbb_GetVMt_doQCD1.pdf Graphic file (type pdf)
 <use Figures/Results/noBtag/Wbb_GetVMt_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/noBtag/Wbb_GetVMt_doQCD1.pdf used on i
 nput line 235.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/noBtag/Wbb_GetWpt_doQCD1.pdf, id=3802, 569.12625pt x 546.04pt>
+<Figures/Results/noBtag/Wbb_GetWpt_doQCD1.pdf, id=3804, 569.12625pt x 546.04pt>
 File: Figures/Results/noBtag/Wbb_GetWpt_doQCD1.pdf Graphic file (type pdf)
 <use Figures/Results/noBtag/Wbb_GetWpt_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/noBtag/Wbb_GetWpt_doQCD1.pdf used on i
 nput line 236.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/noBtag/Wbb_H_mass_doQCD1.pdf, id=3803, 569.12625pt x 546.04pt>
+<Figures/Results/noBtag/Wbb_H_mass_doQCD1.pdf, id=3805, 569.12625pt x 546.04pt>
 File: Figures/Results/noBtag/Wbb_H_mass_doQCD1.pdf Graphic file (type pdf)
 <use Figures/Results/noBtag/Wbb_H_mass_doQCD1.pdf>
 Package pdftex.def Info: Figures/Results/noBtag/Wbb_H_mass_doQCD1.pdf used on i
 nput line 237.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
  [77]
-<Figures/QCD_diag.png, id=3811, 284.06125pt x 199.74625pt>
+<Figures/QCD_diag.png, id=3814, 284.06125pt x 199.74625pt>
 File: Figures/QCD_diag.png Graphic file (type png)
 
 <use Figures/QCD_diag.png>
 Package pdftex.def Info: Figures/QCD_diag.png used on input line 254.
 (pdftex.def)             Requested size: 182.35092pt x 128.23033pt.
 
-<Figures/QCD_AB.png, id=3812, 351.3125pt x 296.10625pt>
+<Figures/QCD_AB.png, id=3815, 351.3125pt x 296.10625pt>
 File: Figures/QCD_AB.png Graphic file (type png)
 
 <use Figures/QCD_AB.png>
 Package pdftex.def Info: Figures/QCD_AB.png used on input line 255.
 (pdftex.def)             Requested size: 205.14653pt x 172.91647pt.
+
+<Figures/QCD_CD.pdf, id=3816, 351.08897pt x 225.28778pt>
+File: Figures/QCD_CD.pdf Graphic file (type pdf)
+
+<use Figures/QCD_CD.pdf>
+Package pdftex.def Info: Figures/QCD_CD.pdf used on input line 262.
+(pdftex.def)             Requested size: 410.29308pt x 263.29686pt.
  [78 <./Figures/Results/noBtag/Wbb_GetMET_doQCD1.pdf, page is rotated 90 degree
 s> <./Figures/Results/noBtag/Wbb_GetVMt_doQCD1.pdf, page is rotated 90 degrees>
  <./Figures/Results/noBtag/Wbb_GetWpt_doQCD1.pdf, page is rotated 90 degrees> <
 ./Figures/Results/noBtag/Wbb_H_mass_doQCD1.pdf, page is rotated 90 degrees>]
-<Figures/VMt_QCD_before.pdf, id=3991, 569.12625pt x 546.04pt>
+<Figures/VMt_QCD_before.pdf, id=3995, 569.12625pt x 546.04pt>
 File: Figures/VMt_QCD_before.pdf Graphic file (type pdf)
 
 <use Figures/VMt_QCD_before.pdf>
-Package pdftex.def Info: Figures/VMt_QCD_before.pdf used on input line 263.
+Package pdftex.def Info: Figures/VMt_QCD_before.pdf used on input line 270.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/VMt_QCD_after.pdf, id=3992, 569.12625pt x 546.04pt>
+<Figures/VMt_QCD_after.pdf, id=3996, 569.12625pt x 546.04pt>
 File: Figures/VMt_QCD_after.pdf Graphic file (type pdf)
 
 <use Figures/VMt_QCD_after.pdf>
-Package pdftex.def Info: Figures/VMt_QCD_after.pdf used on input line 264.
+Package pdftex.def Info: Figures/VMt_QCD_after.pdf used on input line 271.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
- [79 <./Figures/QCD_diag.png> <./Figures/QCD_AB.png> <./Figures/VMt_QCD_before.
-pdf, page is rotated 90 degrees> <./Figures/VMt_QCD_after.pdf, page is rotated 
-90 degrees>]) (./Chapters/Chapter7.tex [80]
+) (./Chapters/Chapter7.tex [79 <./Figures/QCD_diag.png> <./Figures/QCD_AB.png>]
+ [80 <./Figures/QCD_CD.pdf> <./Figures/VMt_QCD_before.pdf, page is rotated 90 d
+egrees> <./Figures/VMt_QCD_after.pdf, page is rotated 90 degrees>]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Cross section measurement
 ------------------------------------------------------------------------------
 [81
 
-] <Figures/4fsvs5fs.pdf, id=4104, 357.10254pt x 177.58997pt>
+] <Figures/4fsvs5fs.pdf, id=4146, 357.10254pt x 177.58997pt>
 File: Figures/4fsvs5fs.pdf Graphic file (type pdf)
 
 <use Figures/4fsvs5fs.pdf>
 Package pdftex.def Info: Figures/4fsvs5fs.pdf used on input line 29.
 (pdftex.def)             Requested size: 455.8843pt x 226.71822pt.
  [82 <./Figures/4fsvs5fs.pdf>] [83] [84] [85]
-[86] <Figures/syst_Wbb_var.pdf, id=4185, 569.12625pt x 546.04pt>
+[86] <Figures/syst_Wbb_var.pdf, id=4226, 569.12625pt x 546.04pt>
 File: Figures/syst_Wbb_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_Wbb_var.pdf>
 Package pdftex.def Info: Figures/syst_Wbb_var.pdf used on input line 105.
 (pdftex.def)             Requested size: 223.3858pt x 214.3295pt.
 
-<Figures/syst_TT_var.pdf, id=4186, 569.12625pt x 546.04pt>
+<Figures/syst_TT_var.pdf, id=4227, 569.12625pt x 546.04pt>
 File: Figures/syst_TT_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_TT_var.pdf>
@@ -1603,7 +1610,7 @@ T_var.pdf, page is rotated 90 degrees>] [88]
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf, id=4293, 569.12625pt x 546
+<Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf, id=4335, 569.12625pt x 546
 .04pt>
 File: Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf Graphic file (type pdf
 )
@@ -1612,7 +1619,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf use
 d on input line 189.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4294, 569.12625pt x
+<Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4336, 569.12625pt x
  546.04pt>
 File: Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf Graphic file (type
  pdf)
@@ -1621,7 +1628,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf
  used on input line 190.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf, id=4295, 569.12625pt x 546
+<Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf, id=4337, 569.12625pt x 546
 .04pt>
 File: Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf Graphic file (type pdf
 )
@@ -1630,7 +1637,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf use
 d on input line 191.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf, id=4296, 569.12625pt x 546.0
+<Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf, id=4338, 569.12625pt x 546.0
 4pt>
 File: Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf>
@@ -1638,7 +1645,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf used
 on input line 192.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf, id=4297, 569.12625pt x 546
+<Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf, id=4339, 569.12625pt x 546
 .04pt>
 File: Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf Graphic file (type pdf
 )
@@ -1647,7 +1654,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf use
 d on input line 193.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4298, 569.12625pt 
+<Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4340, 569.12625pt 
 x 546.04pt>
 File: Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf Graphic file (typ
 e pdf)
@@ -1660,7 +1667,7 @@ f used on input line 194.
 LaTeX Warning: Float too large for page by 11.55283pt on input line 198.
 
 
-<Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf, id=4299, 569.12625pt x
+<Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf, id=4341, 569.12625pt x
  546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf Graphic file (type
  pdf)
@@ -1669,7 +1676,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf
  used on input line 202.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4300, 569.12625
+<Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4342, 569.12625
 pt x 546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1.pdf Graphic file (
 type pdf)
@@ -1679,7 +1686,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1
 .pdf used on input line 203.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf, id=4301, 569.12625pt x
+<Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf, id=4343, 569.12625pt x
  546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf Graphic file (type
  pdf)
@@ -1688,7 +1695,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf
  used on input line 204.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf, id=4302, 569.12625pt x 5
+<Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf, id=4344, 569.12625pt x 5
 46.04pt>
 File: Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf Graphic file (type p
 df)
@@ -1697,7 +1704,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf u
 sed on input line 205.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf, id=4303, 569.12625pt x
+<Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf, id=4345, 569.12625pt x
  546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf Graphic file (type
  pdf)
@@ -1706,7 +1713,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf
  used on input line 206.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4304, 569.1262
+<Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4346, 569.1262
 5pt x 546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf Graphic file 
 (type pdf)
@@ -1772,35 +1779,35 @@ Appendix A.
 ------------------------------------------------------------------------------
  A Lorentz angle measurement in Pixel detector
 ------------------------------------------------------------------------------
-[101] <Figures/kut.png, id=4900, 358.4592pt x 255.8358pt>
+[101] <Figures/kut.png, id=4942, 358.4592pt x 255.8358pt>
 File: Figures/kut.png Graphic file (type png)
 
 <use Figures/kut.png>
 Package pdftex.def Info: Figures/kut.png used on input line 34.
 (pdftex.def)             Requested size: 227.94214pt x 162.68425pt.
  [102 <./Figures/kut.png>]
-<Figures/LA2012_2D.png, id=4914, 598.235pt x 574.145pt>
+<Figures/LA2012_2D.png, id=4955, 598.235pt x 574.145pt>
 File: Figures/LA2012_2D.png Graphic file (type png)
 
 <use Figures/LA2012_2D.png>
 Package pdftex.def Info: Figures/LA2012_2D.png used on input line 53.
 (pdftex.def)             Requested size: 227.94214pt x 218.76433pt.
 
-<Figures/LA2012_Profile.png, id=4915, 569.12625pt x 546.04pt>
+<Figures/LA2012_Profile.png, id=4956, 569.12625pt x 546.04pt>
 File: Figures/LA2012_Profile.png Graphic file (type png)
 
 <use Figures/LA2012_Profile.png>
 Package pdftex.def Info: Figures/LA2012_Profile.png used on input line 60.
 (pdftex.def)             Requested size: 227.94214pt x 218.6954pt.
  [103 <./Figures/LA2012_2D.png> <./Figures/LA2012_Profile.png>] <Figures/LA2012
-.png, id=4923, 457.71pt x 444.059pt>
+.png, id=4964, 457.71pt x 444.059pt>
 File: Figures/LA2012.png Graphic file (type png)
 
 <use Figures/LA2012.png>
 Package pdftex.def Info: Figures/LA2012.png used on input line 87.
 (pdftex.def)             Requested size: 227.94214pt x 221.14131pt.
  [104 <./Figures/LA2012.png>]
-<Figures/LA_VMethod_2015.pdf, id=4930, 569.12625pt x 546.04pt>
+<Figures/LA_VMethod_2015.pdf, id=4971, 569.12625pt x 546.04pt>
 File: Figures/LA_VMethod_2015.pdf Graphic file (type pdf)
 
 <use Figures/LA_VMethod_2015.pdf>
@@ -1840,7 +1847,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 79EBE8BA372C771073B99082120D8EF3;13329.
+(rerunfilecheck)             Checksum: 4A1769FF346EB0B262189D17CCE3E31E;13329.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1852,10 +1859,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
  ) 
 Here is how much of TeX's memory you used:
- 15128 strings out of 493315
- 225075 string characters out of 6137903
- 294381 words of memory out of 5000000
- 17804 multiletter control sequences out of 15000+600000
+ 15135 strings out of 493315
+ 225206 string characters out of 6137903
+ 294472 words of memory out of 5000000
+ 17809 multiletter control sequences out of 15000+600000
  17827 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,15n,75p,2860b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1901,10 +1908,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (133 pages, 10421829 bytes).
+Output written on main.pdf (133 pages, 10608438 bytes).
 PDF statistics:
- 5220 PDF objects out of 6186 (max. 8388607)
- 3481 compressed objects within 35 object streams
- 405 named destinations out of 1000 (max. 500000)
- 1031 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5262 PDF objects out of 6186 (max. 8388607)
+ 3515 compressed objects within 36 object streams
+ 406 named destinations out of 1000 (max. 500000)
+ 1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 
