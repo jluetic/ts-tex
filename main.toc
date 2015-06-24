@@ -7,69 +7,69 @@
 \contentsline {chapter}{List of Tables}{xi}{dummy.10}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}
-\contentsline {chapter}{\numberline {2}Theoretical overview and previous measurements}{3}{chapter.13}
-\contentsline {section}{\numberline {2.1}Standard model overview}{4}{section.14}
-\contentsline {subsection}{\numberline {2.1.1}Bottom quark}{6}{subsection.16}
-\contentsline {subsection}{\numberline {2.1.2}W boson}{7}{subsection.18}
-\contentsline {section}{\numberline {2.2}W + b jets at hadron colliders}{8}{section.19}
-\contentsline {subsection}{\numberline {2.2.1}Cross sections at hadron colliders}{9}{subsection.21}
-\contentsline {subsection}{\numberline {2.2.2}Contributions to Wbb cross section}{15}{subsection.32}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Double parton scattering}{18}{subsubsection.37}
-\contentsline {section}{\numberline {2.3}Previous measurements}{22}{section.43}
-\contentsline {chapter}{\numberline {3}Large Hadron Collider}{27}{chapter.47}
-\contentsline {section}{\numberline {3.1}Physics goals for the LHC}{28}{section.49}
-\contentsline {section}{\numberline {3.2}Design of the LHC}{29}{section.50}
-\contentsline {section}{\numberline {3.3}LHC performance}{31}{section.52}
-\contentsline {chapter}{\numberline {4}Compact Muon Solenoid}{35}{chapter.59}
-\contentsline {section}{\numberline {4.1}CMS coordinate system}{36}{section.61}
-\contentsline {section}{\numberline {4.2}Solenoid magnet}{37}{section.64}
-\contentsline {section}{\numberline {4.3}Inner tracker system}{38}{section.65}
-\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{38}{subsection.66}
-\contentsline {subsection}{\numberline {4.3.2}Strip detector}{40}{subsection.69}
-\contentsline {section}{\numberline {4.4}Electromagnetic calorimeter}{41}{section.71}
-\contentsline {section}{\numberline {4.5}Hadronic calorimeter}{43}{section.74}
-\contentsline {section}{\numberline {4.6}Muon chambers}{44}{section.76}
-\contentsline {section}{\numberline {4.7}Trigger}{44}{section.79}
-\contentsline {section}{\numberline {4.8}Luminosity measurement}{47}{section.81}
-\contentsline {chapter}{\numberline {5}Physics objects definitions}{49}{chapter.82}
-\contentsline {section}{\numberline {5.1}Electrons}{50}{section.83}
-\contentsline {section}{\numberline {5.2}Muons}{51}{section.87}
-\contentsline {section}{\numberline {5.3}Lepton isolation}{53}{section.90}
-\contentsline {section}{\numberline {5.4}Jets}{54}{section.92}
-\contentsline {subsection}{\numberline {5.4.1}Jet algorithms}{54}{subsection.93}
-\contentsline {subsection}{\numberline {5.4.2}Jet corrections}{57}{subsection.98}
-\contentsline {subsection}{\numberline {5.4.3}Jet identification}{59}{subsection.103}
-\contentsline {subsection}{\numberline {5.4.4}Jets from b quarks}{60}{subsection.105}
-\contentsline {section}{\numberline {5.5}Missing transverse energy}{63}{section.108}
-\contentsline {chapter}{\numberline {6}Event selection and background estimation}{65}{chapter.111}
-\contentsline {section}{\numberline {6.1}Data and Monte Carlo samples}{66}{section.112}
-\contentsline {section}{\numberline {6.2}Monte-Carlo corrections}{68}{section.114}
-\contentsline {subsection}{\numberline {6.2.1}Pileup}{68}{subsection.115}
-\contentsline {subsection}{\numberline {6.2.2}Lepton efficiency measurement}{69}{subsection.117}
-\contentsline {subsection}{\numberline {6.2.3}\textit {b-tagging} scale factors}{70}{subsection.121}
-\contentsline {section}{\numberline {6.3}Event selection}{73}{section.125}
-\contentsline {section}{\numberline {6.4}Background estimation}{74}{section.128}
-\contentsline {subsection}{\numberline {6.4.1}Top quark background}{74}{subsection.130}
-\contentsline {subsection}{\numberline {6.4.2}Z+jets}{77}{subsection.132}
-\contentsline {subsection}{\numberline {6.4.3}W+light jets and W+charm}{79}{subsection.133}
-\contentsline {subsection}{\numberline {6.4.4}QCD}{79}{subsection.135}
-\contentsline {subsection}{\numberline {6.4.5}Other backgrounds}{81}{subsection.140}
-\contentsline {chapter}{\numberline {7}Cross section measurement}{83}{chapter.141}
-\contentsline {section}{\numberline {7.1}Fit methodology}{84}{section.143}
-\contentsline {section}{\numberline {7.2}Systematic uncertainties}{86}{section.148}
-\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{89}{section.159}
-\contentsline {section}{\numberline {7.4}Results}{91}{section.164}
-\contentsline {subsection}{\numberline {7.4.1}Effects of the systematic uncertainties}{91}{subsection.169}
-\contentsline {subsection}{\numberline {7.4.2}Tests of the fit stability}{95}{subsection.172}
-\contentsline {subsection}{\numberline {7.4.3}Cross section measurement}{95}{subsection.174}
-\contentsline {subsection}{\numberline {7.4.4}Theoretical predictions and comparison with the measurement}{96}{subsection.175}
-\contentsline {chapter}{\numberline {8}Conclusions}{99}{chapter.177}
-\contentsline {chapter}{\numberline {9}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{101}{chapter.178}
-\contentsline {section}{\numberline {9.1}Main Section 1}{101}{section.179}
+\contentsline {chapter}{\numberline {2}Theoretical overview and previous measurements}{5}{chapter.13}
+\contentsline {section}{\numberline {2.1}Standard model overview}{6}{section.14}
+\contentsline {subsection}{\numberline {2.1.1}Bottom quark}{8}{subsection.16}
+\contentsline {subsection}{\numberline {2.1.2}W boson}{9}{subsection.18}
+\contentsline {section}{\numberline {2.2}W + b jets at hadron colliders}{10}{section.19}
+\contentsline {subsection}{\numberline {2.2.1}Cross sections at hadron colliders}{11}{subsection.21}
+\contentsline {subsection}{\numberline {2.2.2}Contributions to Wbb cross section}{17}{subsection.32}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Double parton scattering}{20}{subsubsection.37}
+\contentsline {section}{\numberline {2.3}Previous measurements}{24}{section.43}
+\contentsline {chapter}{\numberline {3}Large Hadron Collider}{29}{chapter.47}
+\contentsline {section}{\numberline {3.1}Physics goals for the LHC}{30}{section.49}
+\contentsline {section}{\numberline {3.2}Design of the LHC}{31}{section.50}
+\contentsline {section}{\numberline {3.3}LHC performance}{33}{section.52}
+\contentsline {chapter}{\numberline {4}Compact Muon Solenoid}{37}{chapter.59}
+\contentsline {section}{\numberline {4.1}CMS coordinate system}{38}{section.61}
+\contentsline {section}{\numberline {4.2}Solenoid magnet}{39}{section.64}
+\contentsline {section}{\numberline {4.3}Inner tracker system}{40}{section.65}
+\contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{40}{subsection.66}
+\contentsline {subsection}{\numberline {4.3.2}Strip detector}{42}{subsection.69}
+\contentsline {section}{\numberline {4.4}Electromagnetic calorimeter}{43}{section.71}
+\contentsline {section}{\numberline {4.5}Hadronic calorimeter}{45}{section.74}
+\contentsline {section}{\numberline {4.6}Muon chambers}{46}{section.76}
+\contentsline {section}{\numberline {4.7}Trigger}{46}{section.79}
+\contentsline {section}{\numberline {4.8}Luminosity measurement}{49}{section.81}
+\contentsline {chapter}{\numberline {5}Physics objects definitions}{51}{chapter.82}
+\contentsline {section}{\numberline {5.1}Electrons}{52}{section.83}
+\contentsline {section}{\numberline {5.2}Muons}{53}{section.87}
+\contentsline {section}{\numberline {5.3}Lepton isolation}{55}{section.90}
+\contentsline {section}{\numberline {5.4}Jets}{56}{section.92}
+\contentsline {subsection}{\numberline {5.4.1}Jet algorithms}{56}{subsection.93}
+\contentsline {subsection}{\numberline {5.4.2}Jet corrections}{59}{subsection.98}
+\contentsline {subsection}{\numberline {5.4.3}Jet identification}{61}{subsection.103}
+\contentsline {subsection}{\numberline {5.4.4}Jets from b quarks}{62}{subsection.105}
+\contentsline {section}{\numberline {5.5}Missing transverse energy}{65}{section.108}
+\contentsline {chapter}{\numberline {6}Event selection and background estimation}{67}{chapter.111}
+\contentsline {section}{\numberline {6.1}Data and Monte Carlo samples}{68}{section.112}
+\contentsline {section}{\numberline {6.2}Monte-Carlo corrections}{70}{section.114}
+\contentsline {subsection}{\numberline {6.2.1}Pileup}{70}{subsection.115}
+\contentsline {subsection}{\numberline {6.2.2}Lepton efficiency measurement}{71}{subsection.117}
+\contentsline {subsection}{\numberline {6.2.3}\textit {b-tagging} scale factors}{72}{subsection.121}
+\contentsline {section}{\numberline {6.3}Event selection}{75}{section.125}
+\contentsline {section}{\numberline {6.4}Background estimation}{76}{section.128}
+\contentsline {subsection}{\numberline {6.4.1}Top quark background}{76}{subsection.130}
+\contentsline {subsection}{\numberline {6.4.2}Z+jets}{79}{subsection.132}
+\contentsline {subsection}{\numberline {6.4.3}W+light jets and W+charm}{81}{subsection.133}
+\contentsline {subsection}{\numberline {6.4.4}QCD}{81}{subsection.135}
+\contentsline {subsection}{\numberline {6.4.5}Other backgrounds}{83}{subsection.140}
+\contentsline {chapter}{\numberline {7}Cross section measurement}{85}{chapter.141}
+\contentsline {section}{\numberline {7.1}Fit methodology}{86}{section.143}
+\contentsline {section}{\numberline {7.2}Systematic uncertainties}{88}{section.148}
+\contentsline {section}{\numberline {7.3}Acceptance and efficiency}{91}{section.159}
+\contentsline {section}{\numberline {7.4}Results}{93}{section.164}
+\contentsline {subsection}{\numberline {7.4.1}Effects of the systematic uncertainties}{93}{subsection.169}
+\contentsline {subsection}{\numberline {7.4.2}Tests of the fit stability}{97}{subsection.172}
+\contentsline {subsection}{\numberline {7.4.3}Cross section measurement}{97}{subsection.174}
+\contentsline {subsection}{\numberline {7.4.4}Theoretical predictions and comparison with the measurement}{98}{subsection.175}
+\contentsline {chapter}{\numberline {8}Conclusions}{101}{chapter.177}
+\contentsline {chapter}{\numberline {9}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{103}{chapter.178}
+\contentsline {section}{\numberline {9.1}Main Section 1}{103}{section.179}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{103}{appendix.180}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{103}{section.181}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{107}{section.194}
-\contentsline {chapter}{\numberline {B}Acceptance and efficiency error calculation}{109}{appendix.197}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{105}{appendix.180}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{105}{section.181}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{109}{section.194}
+\contentsline {chapter}{\numberline {B}Acceptance and efficiency error calculation}{111}{appendix.197}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{111}{dummy.198}
+\contentsline {chapter}{Bibliography}{113}{dummy.198}
