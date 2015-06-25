@@ -59,9 +59,9 @@
 \contentsline {section}{\numberline {7.2}Systematic uncertainties}{88}{section.148}
 \contentsline {section}{\numberline {7.3}Acceptance and efficiency}{91}{section.159}
 \contentsline {section}{\numberline {7.4}Results}{93}{section.164}
-\contentsline {subsection}{\numberline {7.4.1}Effects of the systematic uncertainties}{93}{subsection.169}
+\contentsline {subsection}{\numberline {7.4.1}Effects of the systematic uncertainties}{96}{subsection.169}
 \contentsline {subsection}{\numberline {7.4.2}Tests of the fit stability}{97}{subsection.172}
-\contentsline {subsection}{\numberline {7.4.3}Cross section measurement}{97}{subsection.174}
+\contentsline {subsection}{\numberline {7.4.3}Cross section measurement}{98}{subsection.174}
 \contentsline {subsection}{\numberline {7.4.4}Theoretical predictions and comparison with the measurement}{98}{subsection.175}
 \contentsline {chapter}{\numberline {8}Conclusions}{101}{chapter.177}
 \contentsline {chapter}{\numberline {9}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{103}{chapter.178}
@@ -70,6 +70,5 @@
 \contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{105}{appendix.180}
 \contentsline {section}{\numberline {A.1}Grazing angle method}{105}{section.181}
 \contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{109}{section.194}
-\contentsline {chapter}{\numberline {B}Acceptance and efficiency error calculation}{111}{appendix.197}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{113}{dummy.198}
+\contentsline {chapter}{Bibliography}{111}{dummy.197}

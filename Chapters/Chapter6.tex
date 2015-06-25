@@ -131,20 +131,21 @@ SF_b=\frac{\epsilon_B^{data}}{\epsilon_b^{MC}}
 \end{equation}
 The scale factor determination has to be performed using a b-jet enriched sample such as $t\bar{t}$ or multijets events with jet containing a muon within a $\Delta R <0.4$ cone from the jet axis. The choice of the jet which contains a muon relies on the fact that the B hadron semileptonic branching ratio is much higher than that for other hadrons ($\sim$ 20$\%$ when including b$\rightarrow$c$\rightarrow$ decays) and such jets are much more likely to arise from B hadron decay. With very high muon detection efficiency at CMS, it is relatively easy to obtain a clean sample with jets containing nonisolated muons. Another efficiency measurement is performed using a $t\bar{t}$ enriched sample \cite{CMS:2013vea}.
 %by cutting on number of selected jets and isolated leptons in the event and approximating that the $t$ quark decays to $W+b$ exclusively. 
-By combining the results from both measurements, scale factors were obtained as a function of jet $p_T$ together with statistical and systematic uncertainty for each $p_T$ bin. The same strategy is used to obtain missidentification rates by using the inverted cut on b-tag discriminator. The estimated scale factors as a function of jet transverse momentum are shown in figure \ref{fig:bSF}.  
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/b-tagSF.pdf}
+\includegraphics[width=0.6\textwidth]{Figures/miss-tag.pdf}
+\caption{B-tagging (\textit{up}) and misstag (\textit{bottom}) scale factors. \cite{CMS:2013vea}}
+\label{fig:nesto}
+\end{figure}
+By combining the results from both measurements, scale factors were obtained as a function of jet $p_T$ together with statistical and systematic uncertainty for each $p_T$ bin. The same strategy is used to obtain missidentification rates by using the inverted cut on b-tag discriminator. The estimated scale factors as a function of jet transverse momentum are shown in figure \ref{fig:nesto}.  
 The usage of the scale factors depends on the number of b-tagged jets in the event. In this analysis two b-tagged jets are required and the weight for each event is derived as:
 \begin{equation}
 w(2|2)=SF_{b||light}(\mathrm{1st\ jet})\times SF_{b||light}(\mathrm{second\ jet})
 \end{equation}
 where $w(2|2)$ is the event weight for an event with 2 jets where both jets are b-tagged. The choice between $SF_{b}$ and $SF_{light}$ depends on the flavor of the jet in the simulation. A jet is considered a b jet if there is a B hadron present among the jet constituents within a cone of 0.4 from the jet axis.    
 
-\begin{figure}
-\centering
-\includegraphics[width=0.6\textwidth]{Figures/b-tagSF.pdf}
-\includegraphics[width=0.6\textwidth]{Figures/miss-tag.pdf}
-\label{fig:bSF}
-\caption{B-tagging (\textit{up}) and misstag (\textit{bottom}) scale factors. \cite{CMS:2013vea}}
-\end{figure}
+
 
 
 \section{Event selection}
@@ -159,6 +160,7 @@ The combined secondary vertex (CSV) algorithm is then used to identify jets aris
 \item Events containing jets with $p_T>25$ in high pseudorapidity range $2.4<|\eta|<5$ are rejected.
 \item Events containing additional lepton with $p_T>10$ GeV, within $|\eta|<$ 2.1, tight ID and loose isolation are rejected.
 \item Both selected jets are required to pass tight CSV discriminator cut of 0.898.
+\item Transverse mass higher than 45 GeV.
 \end{itemize} 
 
 Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muon} for the muon channel and in figure \ref{fig:Wbb_prefit_electron} for the electron channel obtained after applying all the correction factors described in section \ref{sec:mcSF}. It is visible that the final sample contains only around 20$\%$ of Wbb events. Therefore it is essential to understand the contributions from all major backgrounds. The estimation of the various background contributions to the signal sample is described in the following section. 

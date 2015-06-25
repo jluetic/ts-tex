@@ -41,7 +41,7 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{71}{figure.caption.116}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{73}{figure.caption.119}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{73}{figure.caption.120}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging (\textit {up}) and misstag (\textit {bottom}) scale factors. \cite {CMS:2013vea}\relax }}{75}{figure.caption.124}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging (\textit {up}) and misstag (\textit {bottom}) scale factors. \cite {CMS:2013vea}\relax }}{74}{figure.caption.123}
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Signal region detector level distributions for the muon channel}}{77}{figure.caption.126}
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Signal region distributions for the electron channel}}{78}{figure.caption.127}
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Feynmann diagrams showing major backgrounds}}{79}{figure.caption.129}
@@ -63,4 +63,3 @@
 \contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{107}{figure.caption.191}
 \contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{108}{figure.caption.193}
 \contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{109}{figure.caption.196}
-\addvspace {10\p@ }
