@@ -56,22 +56,29 @@
 \contentsline {subsection}{\numberline {6.4.4}QCD}{81}{subsection.135}
 \contentsline {subsection}{\numberline {6.4.5}Other backgrounds}{83}{subsection.140}
 \contentsline {chapter}{\numberline {7}Cross section measurement}{85}{chapter.141}
-\contentsline {section}{\numberline {7.1}Fit methodology}{85}{section.143}
+\contentsline {section}{\numberline {7.1}Signal extraction method}{85}{section.143}
 \contentsline {section}{\numberline {7.2}Systematic uncertainties}{88}{section.148}
 \contentsline {section}{\numberline {7.3}Acceptance and efficiency}{91}{section.159}
 \contentsline {section}{\numberline {7.4}Results}{93}{section.164}
-\contentsline {subsection}{\numberline {7.4.1}Effects of the systematic uncertainties}{96}{subsection.169}
-\contentsline {subsection}{\numberline {7.4.2}Tests of the fit stability}{97}{subsection.172}
+\contentsline {subsection}{\numberline {7.4.1}Effects of the systematic uncertainties}{93}{subsection.169}
+\contentsline {subsection}{\numberline {7.4.2}Tests of the fit stability}{96}{subsection.172}
 \contentsline {subsection}{\numberline {7.4.3}Cross section measurement}{98}{subsection.174}
 \contentsline {subsection}{\numberline {7.4.4}Theoretical predictions and comparison with the measurement}{98}{subsection.175}
 \contentsline {chapter}{\numberline {8}Conclusions}{101}{chapter.177}
 \select@language {croatian}
-\contentsline {chapter}{\numberline {9}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{103}{chapter.178}
-\contentsline {section}{\numberline {9.1}Main Section 1}{103}{section.179}
+\contentsline {chapter}{\numberline {9}Strukturirani sa\IeC {\v z}etak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{103}{chapter.178}
+\contentsline {section}{\numberline {9.1}Teorijski uvod}{104}{section.179}
+\contentsline {section}{\numberline {9.2}Eksperimentalni postav}{104}{section.180}
+\contentsline {subsection}{\numberline {9.2.1}LHC}{104}{subsection.181}
+\contentsline {subsection}{\numberline {9.2.2}CMS}{104}{subsection.182}
+\contentsline {section}{\numberline {9.3}Rekonstrukcija fizikalnih objekata}{104}{section.183}
+\contentsline {section}{\numberline {9.4}Selekcija doga\IeC {\dj }aja i nava\IeC {\v z}nije pozadine}{104}{section.184}
+\contentsline {section}{\numberline {9.5}Rezultati}{104}{section.185}
+\contentsline {section}{\numberline {9.6}Zaklju\IeC {\v c}ak}{104}{section.186}
 \select@language {croatian}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{105}{appendix.180}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{105}{section.181}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{109}{section.194}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{105}{appendix.187}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{105}{section.188}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{109}{section.201}
 \vspace {2em}
-\contentsline {chapter}{Bibliografija}{111}{dummy.197}
+\contentsline {chapter}{Bibliografija}{111}{dummy.204}
