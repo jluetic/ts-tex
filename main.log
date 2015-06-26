@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  25 JUN 2015 12:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.31)  26 JUN 2015 09:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -732,7 +732,25 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen156
 \@vwid@roff=\dimen157
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count139
+\U@D=\dimen158
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-croatian/croatian.ldf
+Language: croatian 2005/03/29 v1.3l Croatian support from the babel system
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 12.
 
 (./main.aux (./Figures/Results/Muon/yield_table_mu.aux)
 (./Figures/Results/Electron/yield_table_ele.aux)
@@ -740,22 +758,22 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 11.
 (./Figures/Results/Electron/syst_table_ele.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -769,19 +787,19 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count139
-\scratchdimen=\dimen158
+\scratchcounter=\count140
+\scratchdimen=\dimen159
 \scratchbox=\box37
-\nofMPsegments=\count140
-\nofMParguments=\count141
+\nofMPsegments=\count141
+\nofMParguments=\count142
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count142
-\MPscratchDim=\dimen159
-\MPnumerator=\count143
-\makeMPintoPDFobject=\count144
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen160
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
 \everyMPtoPDFconversion=\toks35
 )
-\c@lstlisting=\count145
+\c@lstlisting=\count146
 \AtBeginShipoutBox=\box38
  (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
@@ -791,7 +809,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 15.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -799,11 +817,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -812,9 +830,9 @@ LaTeX Info: Redefining \nameref on input line 14.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 103.
+(Font)              size <17.28> substituted on input line 104.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 104.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 105.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -822,10 +840,10 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 <logo_unizg_eng.jpg, id=281, 359.07378pt x 249.175pt>
 File: logo_unizg_eng.jpg Graphic file (type jpg)
  <use logo_unizg_eng.jpg>
-Package pdftex.def Info: logo_unizg_eng.jpg used on input line 111.
+Package pdftex.def Info: logo_unizg_eng.jpg used on input line 112.
 (pdftex.def)             Requested size: 169.01125pt x 117.1807pt.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <22> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 120.
 
 [1
 
@@ -837,7 +855,7 @@ unizg_eng.jpg>] [2
 ]
 File: logo_unizg_eng.jpg Graphic file (type jpg)
  <use logo_unizg_eng.jpg>
-Package pdftex.def Info: logo_unizg_eng.jpg used on input line 136.
+Package pdftex.def Info: logo_unizg_eng.jpg used on input line 137.
 (pdftex.def)             Requested size: 169.01125pt x 117.1807pt.
  [1] [2
 
@@ -845,7 +863,7 @@ Package pdftex.def Info: logo_unizg_eng.jpg used on input line 136.
 <logo_unizg2.jpg, id=303, 359.07378pt x 249.31728pt>
 File: logo_unizg2.jpg Graphic file (type jpg)
  <use logo_unizg2.jpg>
-Package pdftex.def Info: logo_unizg2.jpg used on input line 163.
+Package pdftex.def Info: logo_unizg2.jpg used on input line 164.
 (pdftex.def)             Requested size: 169.01125pt x 117.17912pt.
 
 [1 <./logo_unizg2.jpg>] [2]
@@ -865,11 +883,11 @@ Package pdftex.def Info: logo_unizg2.jpg used on input line 163.
  Table of Contents
 ------------------------------------------------------------------------------
 (./main.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -907,7 +925,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [12
 
 ] (./Chapters/Chapter1.tex
-Chapter 1.
+Poglavlje 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
@@ -917,7 +935,7 @@ Chapter 1.
 ]) (./Chapters/Chapter2.tex [2] [3] [4
 
 ]
-Chapter 2.
+Poglavlje 2.
 ------------------------------------------------------------------------------
  2 Theoretical overview and previous measurements
 ------------------------------------------------------------------------------
@@ -1045,7 +1063,7 @@ Package pdftex.def Info: Figures/cms_tot.pdf used on input line 292.
 ) (./Chapters/Chapter3.tex [27 <./Figures/cms_tot.pdf>] [28
 
 ]
-Chapter 3.
+Poglavlje 3.
 ------------------------------------------------------------------------------
  3 Large Hadron Collider
 ------------------------------------------------------------------------------
@@ -1056,11 +1074,6 @@ Package pdftex.def Info: Figures/LHC.jpg used on input line 13.
 (pdftex.def)             Requested size: 455.8843pt x 368.44647pt.
 
 [29] [30 <./Figures/LHC.jpg>] [31]
-Overfull \hbox (1.18909pt too wide) in paragraph at lines 34--36
-[]\OT1/cmr/m/n/12 The LHC is made out of nearly 9600 dif-fer-ent mag-nets, in-c
-lud-ing dipoles, quadrupoles,
- []
-
 <Figures/LHC_magnet.pdf, id=1474, 406.67093pt x 345.5594pt>
 File: Figures/LHC_magnet.pdf Graphic file (type pdf)
 
@@ -1088,7 +1101,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (./Chapters/Chapter4.tex [34] [35 <./Figures/lumi.png>] [36
 
 ]
-Chapter 4.
+Poglavlje 4.
 ------------------------------------------------------------------------------
  4 Compact Muon Solenoid
 ------------------------------------------------------------------------------
@@ -1167,19 +1180,13 @@ Package pdftex.def Info: Figures/trigger.pdf used on input line 168.
 [49] [50
 
 ]
-Chapter 5.
+Poglavlje 5.
 ------------------------------------------------------------------------------
  5 Physics objects definitions
 ------------------------------------------------------------------------------
 [51] [52]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (17.77689pt too wide) in paragraph at lines 64--65
-\OT1/cmr/m/n/12 Muons in CMS are re-con-structed by com-bin-ing a re-con-struct
-ed track in-side the tracker(\OT1/cmr/m/it/12 tracker
- []
 
 [53] [54] [55] <Figures/jet_unsafe2.pdf, id=2121, 353.5824pt x 108.08731pt>
 File: Figures/jet_unsafe2.pdf Graphic file (type pdf)
@@ -1236,7 +1243,7 @@ Package pdftex.def Info: Figures/MisID_CSVM.pdf used on input line 248.
 (pdftex.def)             Requested size: 273.53336pt x 111.94998pt.
  [64 <./Figures/b-tag_csv.pdf>] [65 <./Figures/MisID_CSVM.pdf>]) (./Chapters/Ch
 apter6.tex [66]
-Chapter 6.
+Poglavlje 6.
 ------------------------------------------------------------------------------
  6 Event selection and background estimation
 ------------------------------------------------------------------------------
@@ -1293,7 +1300,7 @@ File: Figures/miss-tag.pdf Graphic file (type pdf)
 <use Figures/miss-tag.pdf>
 Package pdftex.def Info: Figures/miss-tag.pdf used on input line 137.
 (pdftex.def)             Requested size: 273.53336pt x 102.16193pt.
- [74 <./Figures/b-tagSF.pdf> <./Figures/miss-tag.pdf>] [75]
+ [74] [75 <./Figures/b-tagSF.pdf> <./Figures/miss-tag.pdf>]
 <Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf, id=2999, 569.12625pt x 546.
 04pt>
 File: Figures/Results/Muon/prefit/Wbb_GetMET_doQCD1.pdf Graphic file (type pdf)
@@ -1570,27 +1577,27 @@ Package pdftex.def Info: Figures/VMt_QCD_after.pdf used on input line 273.
 ) (./Chapters/Chapter7.tex [83 <./Figures/QCD_diag.png> <./Figures/QCD_AB.png>]
  [84 <./Figures/QCD_CD.pdf> <./Figures/VMt_QCD_before.pdf, page is rotated 90 d
 egrees> <./Figures/VMt_QCD_after.pdf, page is rotated 90 degrees>]
-Chapter 7.
+Poglavlje 7.
 ------------------------------------------------------------------------------
  7 Cross section measurement
 ------------------------------------------------------------------------------
 [85
 
-] <Figures/4fsvs5fs.pdf, id=4169, 357.10254pt x 177.58997pt>
+] <Figures/4fsvs5fs.pdf, id=4168, 357.10254pt x 177.58997pt>
 File: Figures/4fsvs5fs.pdf Graphic file (type pdf)
 
 <use Figures/4fsvs5fs.pdf>
 Package pdftex.def Info: Figures/4fsvs5fs.pdf used on input line 29.
 (pdftex.def)             Requested size: 455.8843pt x 226.71822pt.
  [86 <./Figures/4fsvs5fs.pdf>] [87] [88] [89]
-[90] <Figures/syst_Wbb_var.pdf, id=4250, 569.12625pt x 546.04pt>
+[90] <Figures/syst_Wbb_var.pdf, id=4249, 569.12625pt x 546.04pt>
 File: Figures/syst_Wbb_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_Wbb_var.pdf>
 Package pdftex.def Info: Figures/syst_Wbb_var.pdf used on input line 104.
 (pdftex.def)             Requested size: 223.3858pt x 214.3295pt.
 
-<Figures/syst_TT_var.pdf, id=4251, 569.12625pt x 546.04pt>
+<Figures/syst_TT_var.pdf, id=4250, 569.12625pt x 546.04pt>
 File: Figures/syst_TT_var.pdf Graphic file (type pdf)
 
 <use Figures/syst_TT_var.pdf>
@@ -1610,7 +1617,7 @@ T_var.pdf, page is rotated 90 degrees>] [92]
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf, id=4358, 569.12625pt x 546
+<Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf, id=4357, 569.12625pt x 546
 .04pt>
 File: Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf Graphic file (type pdf
 )
@@ -1619,7 +1626,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_GetMET_doQCD1.pdf use
 d on input line 188.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4359, 569.12625pt x
+<Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4358, 569.12625pt x
  546.04pt>
 File: Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf Graphic file (type
  pdf)
@@ -1628,7 +1635,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_vLepton_pt_doQCD1.pdf
  used on input line 189.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf, id=4360, 569.12625pt x 546
+<Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf, id=4359, 569.12625pt x 546
 .04pt>
 File: Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf Graphic file (type pdf
 )
@@ -1637,7 +1644,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_GetWpt_doQCD1.pdf use
 d on input line 190.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf, id=4361, 569.12625pt x 546.0
+<Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf, id=4360, 569.12625pt x 546.0
 4pt>
 File: Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf Graphic file (type pdf)
  <use Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf>
@@ -1645,7 +1652,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_H_pt_doQCD1.pdf used
 on input line 191.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf, id=4362, 569.12625pt x 546
+<Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf, id=4361, 569.12625pt x 546
 .04pt>
 File: Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf Graphic file (type pdf
 )
@@ -1654,7 +1661,7 @@ Package pdftex.def Info: Figures/Results/Muon/postfit/Wbb_H_mass_doQCD1.pdf use
 d on input line 192.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4363, 569.12625pt 
+<Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4362, 569.12625pt 
 x 546.04pt>
 File: Figures/Results/Muon/postfit/Wbb_max_hJet_pt_doQCD1.pdf Graphic file (typ
 e pdf)
@@ -1667,7 +1674,7 @@ f used on input line 193.
 LaTeX Warning: Float too large for page by 11.55283pt on input line 197.
 
 
-<Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf, id=4364, 569.12625pt x
+<Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf, id=4363, 569.12625pt x
  546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf Graphic file (type
  pdf)
@@ -1676,7 +1683,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_GetMET_doQCD1.pdf
  used on input line 201.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4365, 569.12625
+<Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1.pdf, id=4364, 569.12625
 pt x 546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1.pdf Graphic file (
 type pdf)
@@ -1686,7 +1693,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_vLepton_pt_doQCD1
 .pdf used on input line 202.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf, id=4366, 569.12625pt x
+<Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf, id=4365, 569.12625pt x
  546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf Graphic file (type
  pdf)
@@ -1695,7 +1702,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_GetWpt_doQCD1.pdf
  used on input line 203.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf, id=4367, 569.12625pt x 5
+<Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf, id=4366, 569.12625pt x 5
 46.04pt>
 File: Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf Graphic file (type p
 df)
@@ -1704,7 +1711,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_H_pt_doQCD1.pdf u
 sed on input line 204.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf, id=4368, 569.12625pt x
+<Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf, id=4367, 569.12625pt x
  546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf Graphic file (type
  pdf)
@@ -1713,7 +1720,7 @@ Package pdftex.def Info: Figures/Results/Electron/postfit/Wbb_H_mass_doQCD1.pdf
  used on input line 205.
 (pdftex.def)             Requested size: 218.82251pt x 209.94693pt.
 
-<Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4369, 569.1262
+<Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf, id=4368, 569.1262
 5pt x 546.04pt>
 File: Figures/Results/Electron/postfit/Wbb_max_hJet_pt_doQCD1.pdf Graphic file 
 (type pdf)
@@ -1757,16 +1764,16 @@ tated 90 degrees>]
 ] [97
 
 
-] [98])
-(./Chapters/Chapter8.tex [99] [100]
-Chapter 8.
+] [98] [99])
+(./Chapters/Chapter8.tex [100]
+Poglavlje 8.
 ------------------------------------------------------------------------------
  8 Conclusions
 ------------------------------------------------------------------------------
 [101
 
 ]) (./Chapters/Chapter9.tex [102]
-Chapter 9.
+Poglavlje 9.
 ------------------------------------------------------------------------------
  9 Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcij
 e W bozona i para b kvarkova
@@ -1776,39 +1783,39 @@ e W bozona i para b kvarkova
 ] [104
 
 ]
-Appendix A.
+Dodatak A.
 ------------------------------------------------------------------------------
  A Lorentz angle measurement in Pixel detector
 ------------------------------------------------------------------------------
-[105] <Figures/kut.png, id=4966, 358.4592pt x 255.8358pt>
+[105] <Figures/kut.png, id=4963, 358.4592pt x 255.8358pt>
 File: Figures/kut.png Graphic file (type png)
 
 <use Figures/kut.png>
 Package pdftex.def Info: Figures/kut.png used on input line 34.
 (pdftex.def)             Requested size: 227.94214pt x 162.68425pt.
  [106 <./Figures/kut.png>]
-<Figures/LA2012_2D.png, id=4979, 598.235pt x 574.145pt>
+<Figures/LA2012_2D.png, id=4976, 598.235pt x 574.145pt>
 File: Figures/LA2012_2D.png Graphic file (type png)
 
 <use Figures/LA2012_2D.png>
 Package pdftex.def Info: Figures/LA2012_2D.png used on input line 53.
 (pdftex.def)             Requested size: 227.94214pt x 218.76433pt.
 
-<Figures/LA2012_Profile.png, id=4980, 569.12625pt x 546.04pt>
+<Figures/LA2012_Profile.png, id=4977, 569.12625pt x 546.04pt>
 File: Figures/LA2012_Profile.png Graphic file (type png)
 
 <use Figures/LA2012_Profile.png>
 Package pdftex.def Info: Figures/LA2012_Profile.png used on input line 60.
 (pdftex.def)             Requested size: 227.94214pt x 218.6954pt.
  [107 <./Figures/LA2012_2D.png> <./Figures/LA2012_Profile.png>] <Figures/LA2012
-.png, id=4988, 457.71pt x 444.059pt>
+.png, id=4985, 457.71pt x 444.059pt>
 File: Figures/LA2012.png Graphic file (type png)
 
 <use Figures/LA2012.png>
 Package pdftex.def Info: Figures/LA2012.png used on input line 87.
 (pdftex.def)             Requested size: 227.94214pt x 221.14131pt.
  [108 <./Figures/LA2012.png>]
-<Figures/LA_VMethod_2015.pdf, id=4995, 569.12625pt x 546.04pt>
+<Figures/LA_VMethod_2015.pdf, id=4992, 569.12625pt x 546.04pt>
 File: Figures/LA_VMethod_2015.pdf Graphic file (type pdf)
 
 <use Figures/LA_VMethod_2015.pdf>
@@ -1816,7 +1823,7 @@ Package pdftex.def Info: Figures/LA_VMethod_2015.pdf used on input line 107.
 (pdftex.def)             Requested size: 227.94214pt x 218.6954pt.
  [109 <./Figures/LA_VMethod_2015.pdf, page is rotated 90 degrees>]) [110]
 ------------------------------------------------------------------------------
- Bibliography
+ Bibliografija
 ------------------------------------------------------------------------------
 (./main.bbl
 Underfull \hbox (badness 1708) in paragraph at lines 9--16
@@ -1824,37 +1831,49 @@ Underfull \hbox (badness 1708) in paragraph at lines 9--16
  doi . org / 10 . 1016 /
  []
 
+
+Underfull \hbox (badness 1117) in paragraph at lines 30--39
+\OT1/cmr/m/n/12 elec-trons with asso-ci-ated mi-ssing energy at s=540 gev.  \OT
+1/cmr/m/it/12 Physics Let-ters B\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 30--39
+\OT1/cmr/m/n/12 122(1):103 -- 116, 1983.  ISSN 0370-2693.  doi: $http : / / dx 
+. doi . org / 10 . 1016 /
+ []
+
 [111
 
 
 ] [112] [113] [114] [115] [116] [117] [118])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
  [119]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
  (./main.aux
 (./Figures/Results/Muon/yield_table_mu.aux)
 (./Figures/Results/Electron/yield_table_ele.aux)
 (./Figures/Results/Muon/syst_table_mu.aux)
 (./Figures/Results/Electron/syst_table_ele.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A1D8EFC40DC8645683A6A461F24DB016;13037.
+(rerunfilecheck)             Checksum: D714F522AAF2D0C9E7045DF851C80E17;13042.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
  ) 
 Here is how much of TeX's memory you used:
- 15150 strings out of 493315
- 225520 string characters out of 6137903
- 295678 words of memory out of 5000000
- 17821 multiletter control sequences out of 15000+600000
+ 15510 strings out of 493315
+ 230346 string characters out of 6137903
+ 304463 words of memory out of 5000000
+ 18163 multiletter control sequences out of 15000+600000
  17827 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,15n,75p,2860b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,15n,75p,2860b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
@@ -1897,10 +1916,10 @@ nts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (135 pages, 10632188 bytes).
+Output written on main.pdf (135 pages, 10617979 bytes).
 PDF statistics:
- 5278 PDF objects out of 6186 (max. 8388607)
- 3526 compressed objects within 36 object streams
+ 5275 PDF objects out of 6186 (max. 8388607)
+ 3523 compressed objects within 36 object streams
  411 named destinations out of 1000 (max. 500000)
  1033 words of extra memory for PDF output out of 10000 (max. 10000000)
 

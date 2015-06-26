@@ -1,3 +1,4 @@
+\select@language {croatian}
 \contentsline {chapter}{Abstract}{iii}{dummy.4}
 \vspace {1em}
 \contentsline {chapter}{Acknowledgements}{iv}{dummy.5}
@@ -55,7 +56,7 @@
 \contentsline {subsection}{\numberline {6.4.4}QCD}{81}{subsection.135}
 \contentsline {subsection}{\numberline {6.4.5}Other backgrounds}{83}{subsection.140}
 \contentsline {chapter}{\numberline {7}Cross section measurement}{85}{chapter.141}
-\contentsline {section}{\numberline {7.1}Fit methodology}{86}{section.143}
+\contentsline {section}{\numberline {7.1}Fit methodology}{85}{section.143}
 \contentsline {section}{\numberline {7.2}Systematic uncertainties}{88}{section.148}
 \contentsline {section}{\numberline {7.3}Acceptance and efficiency}{91}{section.159}
 \contentsline {section}{\numberline {7.4}Results}{93}{section.164}
@@ -64,11 +65,13 @@
 \contentsline {subsection}{\numberline {7.4.3}Cross section measurement}{98}{subsection.174}
 \contentsline {subsection}{\numberline {7.4.4}Theoretical predictions and comparison with the measurement}{98}{subsection.175}
 \contentsline {chapter}{\numberline {8}Conclusions}{101}{chapter.177}
+\select@language {croatian}
 \contentsline {chapter}{\numberline {9}Prosireni sazetak - Mjerenje udarnog presjeka zajedni\IeC {\v c}ke produkcije W bozona i para b kvarkova}{103}{chapter.178}
 \contentsline {section}{\numberline {9.1}Main Section 1}{103}{section.179}
+\select@language {croatian}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{105}{appendix.180}
 \contentsline {section}{\numberline {A.1}Grazing angle method}{105}{section.181}
 \contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{109}{section.194}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{111}{dummy.197}
+\contentsline {chapter}{Bibliografija}{111}{dummy.197}
