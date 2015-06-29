@@ -49,9 +49,6 @@ Probability density functions $p(\theta)$, with some $\widetilde{\theta}$ as the
 The value of $\kappa$ implies by how much an observable can be larger or smaller, both deviations having a chance of 16$\%$. Another way of treating systematic uncertainties is by producing two additional input shapes for each process affected by some uncertainty, by shifting up and down that parameter by one standard deviation. 
 When building the likelihood, each shape uncertainty is associated to a nuisance parameter taken from a unit Gaussian distribution, which is used to interpolate or extrapolate using the specified histograms. After the construction of the likelihood function, parameters $\theta$ and $\mu$ are extracted by minimizing the likelihood function. The next section lists the major sources of systematic uncertainties together with the strategy used for determination of the corresponding nuisance $pdf$.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 
-
-
-
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
@@ -280,11 +277,11 @@ The quoted systematic and statistical uncertainties take into account all previo
 
 \subsection{Theoretical predictions and comparison with the measurement}
 
-The theoretical prediction for the cross section defined in table \ref{tab:fiducial} was estimated using MCFM 6.8 in the massless five flavour scheme at NLO precision with factorization and renormalization scales set to the mass of the W boson. The obtained result is the following:
+The theoretical prediction for the cross section defined in table \ref{tab:fiducial} was estimated using MCFM 6.8 in the massless five flavour scheme at NLO precision with factorization and renormalization scales set to the mass of the W boson. A hadronization correction factor $0.92\pm 0.01$ to extrapolate from the final-state particle jets to the parton-level cross section is estimated with MADGRAPH+PYTHIA. The obtained result is the following:
 \begin{equation*}
-\sigma_{TH}=0.51\pm 0.06 \mathrm{\ pb}
+\sigma_{TH}(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow l\nu)=0.508\pm 0.001 \mathrm{stat.} \pm 0.005 \mathrm{PDF} \pm 0.029 \mathrm{scale} \pm 0.01 \mathrm{hadronization} \mathrm{\ pb}
 \end{equation*} 
-The uncertainty of this calculation includes only statistical uncertainties. Other sources of  uncertainties, such as different choice of parton distribution functions or different choice of renormaliztion and factorization scale, were not taken into account. 
+The statistical uncertainty associated to this result comes from the integration step of the calculation; the PDF and scale uncertainties have been estimated by repeating the calculation with different PDF sets and by varying the renormalization and factorization scales by a factor two with respect to the reference values ( M_W ).
 \par The double parton scattering contribution was not taken into account during the theoretical calculation. However, it has been estimated following the procedure described in section \ref{sec:DPS} using the formula:
 \begin{equation}
 \sigma_{DPS} = \frac{\sigma_W \times \sigma_{bb}}{\sigma_{eff}}
@@ -304,7 +301,7 @@ The resulting contribution from double parton scattering to the Wbb cross sectio
 \end{equation*}
 yielding the final Wbb cross section of:
 \begin{equation*}
-\sigma_{TH} = 0.55 \pm 0.06 \mathrm{(stat.)} \pm 0.02 \mathrm{(DPS)} \mathrm{\ pb}.
+\sigma_{TH}(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow l\nu) = 0.55 \pm 0.03 \mathrm{(theor.)} \pm 0.02 \mathrm{(DPS)} \mathrm{\ pb}.
 \end{equation*}
 
 The results for the cross section measurement obtained in this thesis are one standard deviation away from the theoretical predictions for the electron and the muon channel. 
