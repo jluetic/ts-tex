@@ -1,4 +1,5 @@
-\select@language {croatian}
+\select@language {british}
+\select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces List of Standard model elementary particles}}{7}{figure.caption.15}
@@ -42,7 +43,7 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{71}{figure.caption.116}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{73}{figure.caption.119}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{73}{figure.caption.120}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging (\textit {up}) and misstag (\textit {bottom}) scale factors. \cite {CMS:2013vea}\relax }}{75}{figure.caption.123}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging (\textit {up}) and misstag (\textit {bottom}) scale factors. \cite {CMS:2013vea}\relax }}{74}{figure.caption.123}
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Signal region detector level distributions for the muon channel}}{77}{figure.caption.126}
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Signal region distributions for the electron channel}}{78}{figure.caption.127}
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Feynmann diagrams showing major backgrounds}}{79}{figure.caption.129}
@@ -57,12 +58,12 @@
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Muon channel distributions after the fit.\relax }}{94}{figure.caption.167}
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Electron channel distributions after the fit.\relax }}{95}{figure.caption.168}
 \addvspace {10\p@ }
-\select@language {croatian}
 \addvspace {10\p@ }
 \select@language {croatian}
+\select@language {british}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{106}{figure.caption.194}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{107}{figure.caption.197}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{107}{figure.caption.198}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{108}{figure.caption.200}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{109}{figure.caption.203}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{114}{figure.caption.198}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{115}{figure.caption.201}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{115}{figure.caption.202}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{116}{figure.caption.204}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{117}{figure.caption.207}

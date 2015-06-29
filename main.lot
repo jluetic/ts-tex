@@ -1,4 +1,5 @@
-\select@language {croatian}
+\select@language {british}
+\select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -17,12 +18,13 @@
 \contentsline {table}{\numberline {7.3}{\ignorespaces Results of the A$\times \epsilon $ determination for both, muon and electron channel together with the statistical uncertainty.\relax }}{93}{table.caption.163}
 \contentsline {table}{\numberline {7.4}{\ignorespaces Yields obtained in the muon channel before and after the fitting procedure.\relax }}{96}{table.caption.165}
 \contentsline {table}{\numberline {7.5}{\ignorespaces Yields obtained in the electron channel before and after the fitting procedure.\relax }}{96}{table.caption.166}
-\contentsline {table}{\numberline {7.6}{\ignorespaces Systematic uncertainties in the muon channel.}}{97}{table.caption.170}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Systematic uncertainties in the muon channel.}}{96}{table.caption.170}
 \contentsline {table}{\numberline {7.7}{\ignorespaces Systematic uncertainties in the electron channel.}}{97}{table.caption.171}
 \contentsline {table}{\numberline {7.8}{\ignorespaces UPDATE NUMBERS! - Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other.\relax }}{97}{table.caption.173}
 \addvspace {10\p@ }
-\select@language {croatian}
 \addvspace {10\p@ }
 \select@language {croatian}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Rezultati odre\IeC {\dj }ivanja A$\times \epsilon $ za mionski i elektronski kanal.\relax }}{110}{table.caption.189}
+\select@language {british}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Selection criteria for Lorentz angle measurement\relax }}{108}{table.caption.199}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Selection criteria for Lorentz angle measurement\relax }}{116}{table.caption.203}
