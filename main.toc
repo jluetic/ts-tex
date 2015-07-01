@@ -70,16 +70,16 @@
 \select@language {croatian}
 \contentsline {section}{\numberline {9.1}Uvod}{103}{section.179}
 \contentsline {section}{\numberline {9.2}Teorijski uvod i prethodna mjerenja}{104}{section.180}
-\contentsline {section}{\numberline {9.3}LHC}{104}{section.181}
-\contentsline {section}{\numberline {9.4}CMS detektor}{105}{section.182}
+\contentsline {section}{\numberline {9.3}LHC}{105}{section.181}
+\contentsline {section}{\numberline {9.4}CMS detektor}{106}{section.182}
 \contentsline {section}{\numberline {9.5}Rekonstrukcija fizikalnih objekata}{107}{section.183}
-\contentsline {section}{\numberline {9.6}Selekcija doga\IeC {\dj }aja i nava\IeC {\v z}nije pozadine}{108}{section.185}
-\contentsline {section}{\numberline {9.7}Rezultati}{110}{section.186}
-\contentsline {section}{\numberline {9.8}Zaklju\IeC {\v c}ak}{112}{section.190}
+\contentsline {section}{\numberline {9.6}Selekcija doga\IeC {\dj }aja i nava\IeC {\v z}nije pozadine}{109}{section.185}
+\contentsline {section}{\numberline {9.7}Rezultati}{111}{section.186}
+\contentsline {section}{\numberline {9.8}Zaklju\IeC {\v c}ak}{114}{section.191}
 \select@language {british}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{113}{appendix.191}
-\contentsline {section}{\numberline {A.1}Grazing angle method}{113}{section.192}
-\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{117}{section.205}
+\contentsline {chapter}{\numberline {A}Lorentz angle measurement in Pixel detector}{115}{appendix.192}
+\contentsline {section}{\numberline {A.1}Grazing angle method}{115}{section.193}
+\contentsline {section}{\numberline {A.2}Minimum cluster size method (V-method)}{119}{section.206}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{119}{dummy.208}
+\contentsline {chapter}{Bibliography}{121}{dummy.209}

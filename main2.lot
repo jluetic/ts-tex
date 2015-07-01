@@ -1,0 +1,30 @@
+\select@language {british}
+\thispagestyle {empty}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces LHC performance in 2012 together with design performance\cite {Evans:2008zzb}\relax }}{28}{table.caption.25}
+\contentsline {table}{\numberline {3.2}{\ignorespaces LHC performance highlights\relax }}{28}{table.caption.26}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary of electron identification criteria used in this analysis.\relax }}{45}{table.caption.38}
+\contentsline {table}{\numberline {5.2}{\ignorespaces A summary of muon identification criteria.\relax }}{46}{table.caption.40}
+\contentsline {table}{\numberline {5.3}{\ignorespaces A summary of jet identification criteria.\relax }}{53}{table.caption.46}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Samples, generators and cross sections used for normalizations for signal and background simulation considered in this analysis. All samples are normalized to the NLO cross-section calculation except the W+jets which is NNLO and $t\mathaccentV {bar}016{t}$ which is normalized to the latest combined cross section measurement of ATLAS and CMS collaborations \cite {CMS:2014gta}. \relax }}{59}{table.caption.49}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Standard model cross section uncertainties used in the evaluation of MC normalization systematic effect.\relax }}{77}{table.caption.71}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Fiducial cuts used for cross section measurements.\relax }}{79}{table.caption.73}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Results of the A$\times \epsilon $ determination for both, muon and electron channel together with the statistical uncertainty.\relax }}{79}{table.caption.74}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Yields obtained in the muon channel before and after the fitting procedure.\relax }}{80}{table.caption.75}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Yields obtained in the electron channel before and after the fitting procedure.\relax }}{83}{table.caption.76}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Systematic uncertainties in the muon channel.}}{83}{table.caption.79}
+\contentsline {table}{\numberline {7.7}{\ignorespaces Systematic uncertainties in the electron channel.}}{84}{table.caption.80}
+\contentsline {table}{\numberline {7.8}{\ignorespaces UPDATE NUMBERS! - Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other.\relax }}{84}{table.caption.81}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\select@language {croatian}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Rezultati odre\IeC {\dj }ivanja A$\times \epsilon $ za mionski i elektronski kanal.\relax }}{95}{table.caption.82}
+\select@language {british}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Selection criteria for Lorentz angle measurement\relax }}{101}{table.caption.87}

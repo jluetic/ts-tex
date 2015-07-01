@@ -1,58 +1,65 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main2.aux
-A level-1 auxiliary file: eg_supervisor.aux
-A level-1 auxiliary file: eg_abstract.aux
-A level-1 auxiliary file: eg_extended_abstract.aux
+A level-1 auxiliary file: Figures/Results/Muon/yield_table_mu.aux
+A level-1 auxiliary file: Figures/Results/Electron/yield_table_ele.aux
+A level-1 auxiliary file: Figures/Results/Muon/syst_table_mu.aux
+A level-1 auxiliary file: Figures/Results/Electron/syst_table_ele.aux
 The style file: unsrt.bst
 Database file #1: Bibliography.bib
-Warning--empty journal in Campbell:2008cr
 Warning--empty journal in Quackenbush:2011bf
 Warning--empty journal in Bansal:2014paa
-Warning--empty author in CMS:2010bta
-Warning--empty journal in CMS:2010bta
-Warning--empty author in CMS-DP-2013-033
-Warning--empty journal in CMS-DP-2013-033
+Warning--empty author in CMS-PAS-SMP-12-008
+Warning--empty institution in CMS:2013gfa
+Warning--empty institution in CMS:2009nxa
+Warning--empty institution in CMS:2010bta
+Warning--empty institution in CMS-DP-2013-033
+Warning--empty institution in CMS:2013vea
 Warning--empty author in CMS-PAS-PFT-09-001
-You've used 44 entries,
+Warning--empty journal in Field:2010bc
+Warning--empty institution in CMS:2014gta
+Warning--empty institution in CMS:2013wea
+Warning--empty author in ATL-PHYS-PUB-2011-011
+Warning--empty author in CMS-PAS-LUM-13-001
+You've used 77 entries,
             1791 wiz_defined-function locations,
-            725 strings with 10349 characters,
-and the built_in function-call counts, 9142 in all, are:
-= -- 777
-> -- 416
-< -- 1
-+ -- 156
-- -- 112
-* -- 618
-:= -- 1527
-add.period$ -- 129
-call.type$ -- 44
-change.case$ -- 42
+            914 strings with 14853 characters,
+and the built_in function-call counts, 15527 in all, are:
+= -- 1346
+> -- 660
+< -- 10
++ -- 254
+- -- 177
+* -- 1049
+:= -- 2606
+add.period$ -- 228
+call.type$ -- 77
+change.case$ -- 75
 chr.to.int$ -- 0
-cite$ -- 52
-duplicate$ -- 391
-empty$ -- 908
-format.name$ -- 112
-if$ -- 2007
+cite$ -- 91
+duplicate$ -- 670
+empty$ -- 1548
+format.name$ -- 177
+if$ -- 3406
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 45
-newline$ -- 220
-num.names$ -- 41
-pop$ -- 77
+int.to.str$ -- 77
+missing$ -- 69
+newline$ -- 384
+num.names$ -- 73
+pop$ -- 120
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 154
+skip$ -- 242
 stack$ -- 0
-substring$ -- 625
-swap$ -- 39
-text.length$ -- 1
+substring$ -- 1043
+swap$ -- 73
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 78
-width$ -- 46
-write$ -- 471
-(There were 8 warnings)
+warning$ -- 14
+while$ -- 135
+width$ -- 79
+write$ -- 833
+(There were 14 warnings)
