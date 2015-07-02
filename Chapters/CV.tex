@@ -1,0 +1,188 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[croatian]{babel}
+% Set your name here
+\def\name{Jelena Luetić}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {physics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+%\begin{minipage}{0.45\linewidth}
+%  \href{http://www.irb.hr/}{Ruđer Bošković Institute} \\
+%  Department of experimental physics \\
+%  Bijenička 54, 10000 Zagreb
+%\end{minipage}
+
+\section*{Personal}
+
+
+  \begin{tabular}{r|l}
+	Address & Supilova 7, 10000 Zagreb, Croatia \\   
+    Date of Birth & April 5, 1987. \\
+    Citizenship & Croatian \\    
+    Phone & +385 91 1480103 \\
+    Email & \href{mailto:jelena.luetic@cern.ch}{\tt jelena.luetic@cern.ch} \\
+  \end{tabular}
+
+
+
+\section*{Education}
+
+\begin{table}[h!]
+ \centering
+\begin{tabular}{r | l}
+2011. - & \textbf{PhD}, Faculty of Science, Physics department \\ & \textit{Title}: 
+Measurement of the cross section for associated production of a W boson \\ & and two b quarks with the CMS detector at the Large Hadron Collider \\ &  \textit{Advisor:} Prof. Vuko Brigljević, thesis defence is scheduled for July, 15th 2015. \\ \\ 
+2005. - 2010. & \textbf{MSc}, Faculty of Science, Physics department \\  & \textit{Title}: Measurement of Z boson cross section in proton-proton collisions \\ & with CMS detector at Large Hadron Collider \\ &  \textit{Advisor:} Prof. Ivica Puljak, thesis defended on November, 30th 2010. \\ 
+\end{tabular}
+\end{table}
+
+
+\section*{Professional experience}
+
+Since 2009. I've been a part of the CMS group at Ruđer Bošković Institute, working on gauge boson produced in association with jets measurements and on technical aspects of CMS detector:
+\begin{itemize}
+\item One of the main contributors to Wbb cross section measurement at $\sqrt{s} =$ 8 TeV. Collaboration with University of Wisconsin-Madison, University of Trieste and CERN.
+\item Responsible for Lorentz angle monitoring and calibration for CMS Pixel detector.
+\item Responsible for development and maintenance of technical tools used in the offline analysis shared with other members of CMS Pixel group.
+\item Participated in pixel detector recommissioning during the long shutdown. 
+\item Paricipated in CMS Pixel Operations
+\end{itemize}
+
+
+
+\section*{Teaching}
+
+\begin{tabular}{r | l}
+  2011 - 2015 & Faculty of Science, Zagreb, Croatia \\ & Teaching assistant in 2 courses - Introductory laboratory exercises (2011.- 2012.) \\ & and Programming in C (2011.-2015.) \\
+  2010 - 2011 & Faculty of Electrical Engineering, Mechanical Engineering and Naval \\ & Architecture in Split, Croatia \\ & Teaching assistant - Laboratory exercises in Modern physics 
+\end{tabular}
+
+\section*{Schools and Conferences}
+
+\begin{tabular}{r | l}
+  2009 & CERN Summer Student Programme, Geneva, Switzerland \\
+  2010 & CERN School of Computing, London, UK \\ 
+  2011 & CMSDAS - Data analysis school, Pisa, Italy \\
+  2013 & EDIT - Excellence in Detectors, Tsukuba, Japan \\
+  	   & \textit{Poster}: CMS Pixel detector and Lorentz angle determination
+  2014 & Fermilab - CERN Hadron Collider School, Fermilab, USA\\
+\end{tabular}
+
+\section*{Other}
+\begin{itemize}
+\item 
+\end{itemize}
+
+
+\section*{Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+\item A General Mathematical Theory of Depreciation, 1929, {\it Journal
+    of The American Statistical Association} 20, 340--353.
+\item Differential Equations Subject to Error, 1927, {\it Journal of The
+    American Statistical Association}.
+\item Applications of the Theory of Error to the Interpretation of
+  Trends (with H. Working), 1929, {\it Journal of the American
+    Statistical Association}.
+\end{itemize}
+
+\subsection*{Proceedings}
+
+\begin{itemize}
+\item A generalized T-Test and measure of multivariate dispersion,
+  Proc. Second Berkeley Symposium of Mathematical Statistics and
+  Probability, 1951.
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}

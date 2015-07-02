@@ -2,69 +2,69 @@
 \select@language {british}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces List of Standard model elementary particles}}{7}{figure.caption.15}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces A drawing of a proton-proton collision with its decay products.}}{12}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Strong force coupling constant}}{13}{figure.caption.22}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Drawing of a proton-proton collision}}{13}{figure.caption.23}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Parton distribution functions for different momentum transfers}}{15}{figure.caption.30}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Proton-proton cross sections}}{16}{figure.caption.31}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Leading order Wbb Feynmann diagram}}{18}{figure.caption.33}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Scale dependence of Wbb cross section}}{19}{figure.caption.34}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Wbb NLO scale dependence}}{20}{figure.caption.35}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Wbb production within 5 flavor scheme}}{21}{figure.caption.36}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Double parton scattering}}{21}{figure.caption.38}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{24}{figure.caption.42}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Atlas Wbb total cross section measurement}}{26}{figure.caption.44}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$}}{26}{figure.caption.45}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces CMS Wbb total cross section measurement}}{27}{figure.caption.46}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces List of Standard model elementary particles}}{7}{figure.caption.18}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A drawing of a proton-proton collision with its decay products.}}{12}{figure.caption.23}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Strong force coupling constant}}{12}{figure.caption.25}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Drawing of a proton-proton collision}}{13}{figure.caption.26}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Parton distribution functions for different momentum transfers}}{15}{figure.caption.33}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Proton-proton cross sections}}{16}{figure.caption.34}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Leading order Wbb Feynmann diagram}}{18}{figure.caption.36}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Scale dependence of Wbb cross section}}{18}{figure.caption.37}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Wbb NLO scale dependence}}{20}{figure.caption.38}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Wbb production within 5 flavor scheme}}{20}{figure.caption.39}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Double parton scattering}}{21}{figure.caption.41}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Results of $\sigma _{eff}$ measurements}}{24}{figure.caption.45}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Atlas Wbb total cross section measurement}}{26}{figure.caption.47}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Measured differential W+b-jets cross-sections as a function of leading b-jet $p_{T}$}}{26}{figure.caption.48}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces CMS Wbb total cross section measurement}}{27}{figure.caption.49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{30}{figure.caption.48}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{33}{figure.caption.51}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{35}{figure.caption.58}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Large Hadron Collider}}{30}{figure.caption.51}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematics of dipole magnets}}{33}{figure.caption.54}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Luminosity delivered to the CMS experiment}}{35}{figure.caption.61}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{38}{figure.caption.60}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Pixel Detector}}{41}{figure.caption.67}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces CMS Pixel Detector psudorapidity range coverage and efficiency}}{41}{figure.caption.68}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CMS Strip Detector}}{43}{figure.caption.70}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces CMS Electromagnetic Calorimeter}}{44}{figure.caption.72}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces CMS Hadronic Calorimeter}}{45}{figure.caption.75}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces CMS Muon Chambers}}{47}{figure.caption.77}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{47}{figure.caption.78}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces A drawing of CMS Trigger System.}}{48}{figure.caption.80}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CMS detector}}{38}{figure.caption.63}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces CMS Pixel Detector}}{41}{figure.caption.70}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces CMS Pixel Detector psudorapidity range coverage and efficiency}}{41}{figure.caption.71}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CMS Strip Detector}}{43}{figure.caption.73}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces CMS Electromagnetic Calorimeter}}{44}{figure.caption.75}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces CMS Hadronic Calorimeter}}{45}{figure.caption.78}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces CMS Muon Chambers}}{47}{figure.caption.80}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Muon resolution measurements for tracker, muon chambers and combined}}{47}{figure.caption.81}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces A drawing of CMS Trigger System.}}{48}{figure.caption.83}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{57}{figure.caption.94}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{59}{figure.caption.97}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{61}{figure.caption.100}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{62}{figure.caption.101}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Total jet uncertainty and contribution from different sources in jet $p_T$ and $\eta $ \cite {CMS-DP-2013-033}\relax }}{63}{figure.caption.102}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex discriminator for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{64}{figure.caption.106}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{65}{figure.caption.107}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces An example of configuration of IRC unsafe jet algorithm.}}{57}{figure.caption.97}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Clustering particles into jets with different algorithms.}}{59}{figure.caption.100}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Total jet energy correction as a function of pseudorapidity of two different jet $p_T$ values.}}{61}{figure.caption.103}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Total jet energy correction as a function of transverse momentum for four different $\eta $ values.}}{62}{figure.caption.104}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Total jet uncertainty and contribution from different sources in jet $p_T$ and $\eta $ \cite {CMS-DP-2013-033}\relax }}{63}{figure.caption.105}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Combined secondary vertex discriminator for multijet QCD sample (left) and tt enriched sample(right)\cite {CMS:2013vea}\relax }}{64}{figure.caption.109}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Combined secondary vertex misidentification probability for data and MC for medium working point.\cite {CMS:2013vea}\relax }}{65}{figure.caption.110}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{71}{figure.caption.116}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{73}{figure.caption.119}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{73}{figure.caption.120}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging (\textit {up}) and misstag (\textit {bottom}) scale factors. \cite {CMS:2013vea}\relax }}{74}{figure.caption.123}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Signal region detector level distributions for the muon channel}}{77}{figure.caption.126}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Signal region distributions for the electron channel}}{78}{figure.caption.127}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Feynmann diagrams showing major backgrounds}}{79}{figure.caption.129}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Top quark control region}}{80}{figure.caption.131}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{82}{figure.caption.134}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces QCD diagram and illustration of QCD background determination}}{83}{figure.caption.137}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces QCD contribution using the inverted isolation selection.}}{84}{figure.caption.138}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{84}{figure.caption.139}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Number of primary vertices before and after the pileup reweighing procedure.}}{71}{figure.caption.119}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Muon identification and isolation efficiencies using \textit {tag and probe} method.}}{73}{figure.caption.122}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Muon trigger efficiency using \textit {tag and probe} method.}}{73}{figure.caption.123}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces B-tagging (\textit {up}) and misstag (\textit {bottom}) scale factors. \cite {CMS:2013vea}\relax }}{74}{figure.caption.126}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Signal region detector level distributions for the muon channel}}{77}{figure.caption.129}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Signal region distributions for the electron channel}}{78}{figure.caption.130}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Feynmann diagrams showing major backgrounds}}{79}{figure.caption.132}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Top quark control region}}{80}{figure.caption.134}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Distribution obtained using Wbb event selection before applying b-tagging criteria.}}{82}{figure.caption.137}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces QCD diagram and illustration of QCD background determination}}{83}{figure.caption.140}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces QCD contribution using the inverted isolation selection.}}{84}{figure.caption.141}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Transverse mass distribution before and after QCD distribution determination.}}{84}{figure.caption.142}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the two W+bb samples used to obtain the number of signal events.}}{86}{figure.caption.144}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and $t\mathaccentV {bar}016{t}$ control region.}}{91}{figure.caption.158}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Muon channel distributions after the fit.\relax }}{94}{figure.caption.167}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Electron channel distributions after the fit.\relax }}{95}{figure.caption.168}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison of the two W+bb samples used to obtain the number of signal events.}}{86}{figure.caption.147}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Shape of the transverse mass distribution for each systematic variation in both, signal region and $t\mathaccentV {bar}016{t}$ control region.}}{91}{figure.caption.161}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Muon channel distributions after the fit.\relax }}{94}{figure.caption.170}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Electron channel distributions after the fit.\relax }}{95}{figure.caption.171}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \select@language {croatian}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Transverse mass distributions}}{112}{figure.caption.190}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Transverse mass distributions}}{112}{figure.caption.193}
 \select@language {british}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{116}{figure.caption.199}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{117}{figure.caption.202}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{117}{figure.caption.203}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{118}{figure.caption.205}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{119}{figure.caption.208}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Angle definitions for grazing angle method.\relax }}{116}{figure.caption.202}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Depth at which electrons in silicon bulk were produced as a function of Lorentz drift.\relax }}{117}{figure.caption.205}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces The average drift of electrons as a function of the production depth. Slope of the linear fit result is the $tan \theta _L$.\relax }}{117}{figure.caption.206}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lorentz angle as a function of integrated luminosity for 2012.\relax }}{118}{figure.caption.208}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces An example of V-method fit.\relax }}{119}{figure.caption.211}
