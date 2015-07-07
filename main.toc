@@ -12,27 +12,27 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}
 \contentsline {chapter}{\numberline {2}Theoretical overview and previous measurements}{5}{chapter.16}
 \contentsline {section}{\numberline {2.1}Standard model overview}{6}{section.17}
-\contentsline {subsection}{\numberline {2.1.1}Bottom quark}{8}{subsection.19}
+\contentsline {subsection}{\numberline {2.1.1}The bottom quark}{8}{subsection.19}
 \contentsline {subsection}{\numberline {2.1.2}W boson}{9}{subsection.21}
 \contentsline {section}{\numberline {2.2}W + b jets at hadron colliders}{10}{section.22}
 \contentsline {subsection}{\numberline {2.2.1}Cross sections at hadron colliders}{11}{subsection.24}
-\contentsline {subsection}{\numberline {2.2.2}Contributions to Wbb cross section}{16}{subsection.35}
+\contentsline {subsection}{\numberline {2.2.2}Theoretical contributions to Wbb cross section}{17}{subsection.35}
 \contentsline {subsubsection}{\numberline {2.2.2.1}Double parton scattering}{21}{subsubsection.40}
-\contentsline {section}{\numberline {2.3}Previous measurements}{24}{section.46}
-\contentsline {chapter}{\numberline {3}Large Hadron Collider}{29}{chapter.50}
+\contentsline {section}{\numberline {2.3}The previous measurements}{25}{section.46}
+\contentsline {chapter}{\numberline {3}The Large hadron collider}{29}{chapter.50}
 \contentsline {section}{\numberline {3.1}Physics goals for the LHC}{30}{section.52}
 \contentsline {section}{\numberline {3.2}Design of the LHC}{31}{section.53}
 \contentsline {section}{\numberline {3.3}LHC performance}{33}{section.55}
-\contentsline {chapter}{\numberline {4}Compact Muon Solenoid}{37}{chapter.62}
+\contentsline {chapter}{\numberline {4}The Compact muon solenoid}{37}{chapter.62}
 \contentsline {section}{\numberline {4.1}CMS coordinate system}{38}{section.64}
 \contentsline {section}{\numberline {4.2}Solenoid magnet}{39}{section.67}
 \contentsline {section}{\numberline {4.3}Inner tracker system}{40}{section.68}
 \contentsline {subsection}{\numberline {4.3.1}Pixel Detector}{40}{subsection.69}
 \contentsline {subsection}{\numberline {4.3.2}Strip detector}{42}{subsection.72}
-\contentsline {section}{\numberline {4.4}Electromagnetic calorimeter}{43}{section.74}
-\contentsline {section}{\numberline {4.5}Hadronic calorimeter}{45}{section.77}
-\contentsline {section}{\numberline {4.6}Muon chambers}{46}{section.79}
-\contentsline {section}{\numberline {4.7}Trigger}{46}{section.82}
+\contentsline {section}{\numberline {4.4}The electromagnetic calorimeter}{43}{section.74}
+\contentsline {section}{\numberline {4.5}The hadronic calorimeter}{45}{section.77}
+\contentsline {section}{\numberline {4.6}The muon chambers}{46}{section.79}
+\contentsline {section}{\numberline {4.7}The trigger}{46}{section.82}
 \contentsline {section}{\numberline {4.8}Luminosity measurement}{49}{section.84}
 \contentsline {chapter}{\numberline {5}Physics objects definitions}{51}{chapter.85}
 \contentsline {section}{\numberline {5.1}Electrons}{52}{section.86}
