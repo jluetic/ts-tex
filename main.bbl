@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{78}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -407,6 +407,13 @@ CMS Collaboration.
   boosted topology events}.
 \newblock CMS Physics Analysis Summary CMS-PAS-BTV-13-001, 2013{\natexlab{c}}.
 
+\bibitem[collaboration(2013)]{1748-0221-8-04-P04013}
+The~CMS collaboration.
+\newblock Identification of b-quark jets with the cms experiment.
+\newblock \emph{Journal of Instrumentation}, 8\penalty0 (04):\penalty0 P04013,
+  2013.
+\newblock URL \url{http://stacks.iop.org/1748-0221/8/i=04/a=P04013}.
+
 \bibitem[CMS(2009)]{CMS-PAS-PFT-09-001}
 {Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
   MET}.
@@ -498,10 +505,10 @@ CMS Collaboration.
   measurements in the emu final state using proton-proton collisions at 8 TeV}.
 \newblock CMS Physics Analysis Summary CMS-PAS-TOP-14-016, 2014.
 
-\bibitem[Collaboration(2013{\natexlab{d}})]{CMS:2013wea}
+\bibitem[Collaboration(2013)]{CMS:2013wea}
 CMS Collaboration.
 \newblock {Pileup Jet Identification}.
-\newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013{\natexlab{d}}.
+\newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013.
 
 \bibitem[collaboration(2012)]{1748-0221-7-10-P10002}
 The~CMS collaboration.

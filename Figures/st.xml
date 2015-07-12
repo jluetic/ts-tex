@@ -107,7 +107,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point3"/>
-         <int>176</int>
+         <int>160</int>
         </void>
        </void>
       </void>
@@ -119,7 +119,7 @@
       <float>1.0</float>
      </void>
      <void property="wiggles">
-      <int>3</int>
+      <int>2</int>
      </void>
     </object>
    </void>
@@ -147,7 +147,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point4"/>
-         <int>240</int>
+         <int>224</int>
         </void>
        </void>
       </void>
@@ -163,7 +163,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point5"/>
-         <int>208</int>
+         <int>192</int>
         </void>
        </void>
       </void>
@@ -209,7 +209,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point6"/>
-         <int>208</int>
+         <int>192</int>
         </void>
        </void>
       </void>
@@ -225,7 +225,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point7"/>
-         <int>176</int>
+         <int>160</int>
         </void>
        </void>
       </void>
@@ -268,7 +268,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point8"/>
-         <int>176</int>
+         <int>160</int>
         </void>
        </void>
       </void>
@@ -284,7 +284,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point9"/>
-         <int>177</int>
+         <int>160</int>
         </void>
        </void>
       </void>
@@ -386,7 +386,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point12"/>
-         <int>208</int>
+         <int>192</int>
         </void>
        </void>
       </void>
@@ -402,7 +402,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point13"/>
-         <int>240</int>
+         <int>224</int>
         </void>
        </void>
       </void>
@@ -478,7 +478,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point15"/>
-         <int>256</int>
+         <int>223</int>
         </void>
        </void>
       </void>
@@ -509,7 +509,7 @@
         <string>x</string>
         <void method="set">
          <object idref="Point16"/>
-         <int>272</int>
+         <int>261</int>
         </void>
        </void>
        <void class="java.awt.Point" method="getField">
@@ -547,14 +547,14 @@
         <string>x</string>
         <void method="set">
          <object idref="Point17"/>
-         <int>272</int>
+         <int>261</int>
         </void>
        </void>
        <void class="java.awt.Point" method="getField">
         <string>y</string>
         <void method="set">
          <object idref="Point17"/>
-         <int>176</int>
+         <int>164</int>
         </void>
        </void>
       </void>
@@ -592,7 +592,7 @@
         <string>y</string>
         <void method="set">
          <object idref="Point18"/>
-         <int>256</int>
+         <int>229</int>
         </void>
        </void>
       </void>

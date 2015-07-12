@@ -1,0 +1,543 @@
+\begin{thebibliography}{78}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Glashow(1961)]{Glashow1961579}
+Sheldon~L. Glashow.
+\newblock Partial-symmetries of weak interactions.
+\newblock \emph{Nuclear Physics}, 22\penalty0 (4):\penalty0 579 -- 588, 1961.
+\newblock ISSN 0029-5582.
+\newblock \doi{http://dx.doi.org/10.1016/0029-5582(61)90469-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0029558261904692}.
+
+\bibitem[Weinberg(1967)]{PhysRevLett.19.1264}
+Steven Weinberg.
+\newblock A model of leptons.
+\newblock \emph{Phys. Rev. Lett.}, 19:\penalty0 1264--1266, Nov 1967.
+\newblock \doi{10.1103/PhysRevLett.19.1264}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.19.1264}.
+
+\bibitem[Salam(1968)]{Salam:1968rm}
+Abdus Salam.
+\newblock {Weak and Electromagnetic Interactions}.
+\newblock \emph{Conf.Proc.}, C680519:\penalty0 367--377, 1968.
+
+\bibitem[et~al.(1983)]{Arnison1983103}
+G.~Arnison et~al.
+\newblock Experimental observation of isolated large transverse energy
+  electrons with associated missing energy at s=540 gev.
+\newblock \emph{Physics Letters B}, 122\penalty0 (1):\penalty0 103 -- 116,
+  1983.
+\newblock ISSN 0370-2693.
+\newblock \doi{http://dx.doi.org/10.1016/0370-2693(83)91177-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383911772}.
+
+\bibitem[et~al(1983)]{Arnison1983398}
+G.~Arnison et~al.
+\newblock Experimental observation of lepton pairs of invariant mass around 95
+  gev/c2 at the cern sps collider.
+\newblock \emph{Physics Letters B}, 126\penalty0 (5):\penalty0 398--410, 1983.
+\newblock \doi{10.1016/0370-2693(83)90188-0}.
+\newblock URL
+  \url{http://www.scopus.com/inward/record.url?eid=2-s2.0-23044516930&partnerID=40&md5=8be07e2a211517aafdf5135170ca9591}.
+
+\bibitem[Aad et~al.(2012)]{Aad:2012tfa}
+Georges Aad et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock \emph{Phys.Lett.}, B716:\penalty0 1--29, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.020}.
+
+\bibitem[Chatrchyan et~al.(2012)]{Chatrchyan:2012ufa}
+Serguei Chatrchyan et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock \emph{Phys.Lett.}, B716:\penalty0 30--61, 2012.
+\newblock \doi{10.1016/j.physletb.2012.08.021}.
+
+\bibitem[Griffiths(1987)]{Griffiths:1987tj}
+D.~Griffiths.
+\newblock \emph{Introduction to Elementary Particles}.
+\newblock John Wiley \& Sons, New York, USA, 1987.
+
+\bibitem[Kobayashi and Maskawa(1973)]{Kobayashi:1973fv}
+Makoto Kobayashi and Toshihide Maskawa.
+\newblock {CP Violation in the Renormalizable Theory of Weak Interaction}.
+\newblock \emph{Prog.Theor.Phys.}, 49:\penalty0 652--657, 1973.
+\newblock \doi{10.1143/PTP.49.652}.
+
+\bibitem[Aubert et~al.(2001)]{Aubert:2001sp}
+Bernard Aubert et~al.
+\newblock {Measurement of CP violating asymmetries in $B^0$ decays to CP
+  eigenstates}.
+\newblock \emph{Phys.Rev.Lett.}, 86:\penalty0 2515--2522, 2001.
+\newblock \doi{10.1103/PhysRevLett.86.2515}.
+
+\bibitem[Abe et~al.(2001)]{Abe:2001xe}
+K.~Abe et~al.
+\newblock {Observation of large CP violation in the neutral $B$ meson system}.
+\newblock \emph{Phys.Rev.Lett.}, 87:\penalty0 091802, 2001.
+\newblock \doi{10.1103/PhysRevLett.87.091802}.
+
+\bibitem[Herb et~al.(1977)Herb, Hom, Lederman, Sens, Snyder, Yoh, Appel, Brown,
+  Brown, Innes, Ueno, Yamanouchi, Ito, J\"ostlein, Kaplan, and
+  Kephart]{PhysRevLett.39.252}
+S.~W. Herb, D.~C. Hom, L.~M. Lederman, J.~C. Sens, H.~D. Snyder, J.~K. Yoh,
+  J.~A. Appel, B.~C. Brown, C.~N. Brown, W.~R. Innes, K.~Ueno, T.~Yamanouchi,
+  A.~S. Ito, H.~J\"ostlein, D.~M. Kaplan, and R.~D. Kephart.
+\newblock Observation of a dimuon resonance at 9.5 gev in 400-gev
+  proton-nucleus collisions.
+\newblock \emph{Phys. Rev. Lett.}, 39:\penalty0 252--255, Aug 1977.
+\newblock \doi{10.1103/PhysRevLett.39.252}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevLett.39.252}.
+
+\bibitem[Arnison et~al.(1983)]{Arnison:1983rp}
+G.~Arnison et~al.
+\newblock {Experimental Observation of Isolated Large Transverse Energy
+  Electrons with Associated Missing Energy at s**(1/2) = 540-GeV}.
+\newblock \emph{Phys.Lett.}, B122:\penalty0 103--116, 1983.
+\newblock \doi{10.1016/0370-2693(83)91177-2}.
+
+\bibitem[Banner et~al.(1983)]{Banner:1983jy}
+M.~Banner et~al.
+\newblock {Observation of Single Isolated Electrons of High Transverse Momentum
+  in Events with Missing Transverse Energy at the CERN anti-p p Collider}.
+\newblock \emph{Phys.Lett.}, B122:\penalty0 476--485, 1983.
+\newblock \doi{10.1016/0370-2693(83)91605-2}.
+
+\bibitem[Mangano(1993)]{Mangano:1992kp}
+Michelangelo~L. Mangano.
+\newblock {Production of $W$ plus heavy quark pairs in hadronic collisions}.
+\newblock \emph{Nucl.Phys.}, B405:\penalty0 536--554, 1993.
+\newblock \doi{10.1016/0550-3213(93)90558-7}.
+
+\bibitem[Chatrchyan et~al.(2014{\natexlab{a}})]{Chatrchyan:2013zna}
+Serguei Chatrchyan et~al.
+\newblock {Search for the standard model Higgs boson produced in association
+  with a W or a Z boson and decaying to bottom quarks}.
+\newblock \emph{Phys.Rev.}, D89\penalty0 (1):\penalty0 012003,
+  2014{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevD.89.012003}.
+
+\bibitem[Chatrchyan et~al.(2014{\natexlab{b}})]{Chatrchyan:2014vua}
+Serguei Chatrchyan et~al.
+\newblock {Evidence for the direct decay of the 125 GeV Higgs boson to
+  fermions}.
+\newblock \emph{Nature Phys.}, 10:\penalty0 557--560, 2014{\natexlab{b}}.
+\newblock \doi{10.1038/nphys3005}.
+
+\bibitem[Khachatryan et~al.(2015)]{Khachatryan:2014jba}
+Vardan Khachatryan et~al.
+\newblock {Precise determination of the mass of the Higgs boson and tests of
+  compatibility of its couplings with the standard model predictions using
+  proton collisions at 7 and 8 $\,\text {TeV}$}.
+\newblock \emph{Eur.Phys.J.}, C75\penalty0 (5):\penalty0 212, 2015.
+\newblock \doi{10.1140/epjc/s10052-015-3351-7}.
+
+\bibitem[Chatrchyan et~al.(2013{\natexlab{a}})]{Chatrchyan:2012sca}
+Serguei Chatrchyan et~al.
+\newblock {Search for supersymmetry in final states with a single lepton,
+  $b$-quark jets, and missing transverse energy in proton-proton collisions at
+  $\sqrt{s}=7$ TeV}.
+\newblock \emph{Phys.Rev.}, D87\penalty0 (5):\penalty0 052006,
+  2013{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevD.87.052006}.
+
+\bibitem[Gleisberg et~al.(2009)Gleisberg, Hoeche, Krauss, Schonherr, Schumann,
+  et~al.]{Gleisberg:2008ta}
+T.~Gleisberg, Stefan. Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, et~al.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock \emph{JHEP}, 0902:\penalty0 007, 2009.
+\newblock \doi{10.1088/1126-6708/2009/02/007}.
+
+\bibitem[Olive et~al.(2014)]{Agashe:2014kda}
+K.A. Olive et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin.Phys.}, C38:\penalty0 090001, 2014.
+\newblock \doi{10.1088/1674-1137/38/9/090001}.
+
+\bibitem[Campbell et~al.(2007)Campbell, Huston, and Stirling]{Campbell:2006wx}
+John~M. Campbell, J.W. Huston, and W.J. Stirling.
+\newblock {Hard Interactions of Quarks and Gluons: A Primer for LHC Physics}.
+\newblock \emph{Rept.Prog.Phys.}, 70:\penalty0 89, 2007.
+\newblock \doi{10.1088/0034-4885/70/1/R02}.
+
+\bibitem[Martin et~al.(2009)Martin, Stirling, Thorne, and Watt]{Martin:2009iq}
+A.D. Martin, W.J. Stirling, R.S. Thorne, and G.~Watt.
+\newblock {Parton distributions for the LHC}.
+\newblock \emph{Eur.Phys.J.}, C63:\penalty0 189--285, 2009.
+\newblock \doi{10.1140/epjc/s10052-009-1072-5}.
+
+\bibitem[Peskin and Schroeder(1995)]{opac-b1131978}
+Michael~Edward Peskin and Daniel~V. Schroeder.
+\newblock \emph{An introduction to quantum field theory}.
+\newblock Advanced book program. Westview Press Reading (Mass.), Boulder
+  (Colo.), 1995.
+\newblock ISBN 0-201-50934-2.
+\newblock URL \url{http://opac.inria.fr/record=b1131978}.
+
+\bibitem[Maltoni et~al.(2012)Maltoni, Ridolfi, and Ubiali]{Maltoni:2012pa}
+Fabio Maltoni, Giovanni Ridolfi, and Maria Ubiali.
+\newblock {b-initiated processes at the LHC: a reappraisal}.
+\newblock \emph{JHEP}, 1207:\penalty0 022, 2012.
+\newblock \doi{10.1007/JHEP04(2013)095, 10.1007/JHEP07(2012)022}.
+
+\bibitem[Ellis and Veseli(1999)]{Ellis:1998fv}
+R.~Keith Ellis and Sinisa Veseli.
+\newblock {Strong radiative corrections to W b anti-b production in p anti-p
+  collisions}.
+\newblock \emph{Phys.Rev.}, D60:\penalty0 011501, 1999.
+\newblock \doi{10.1103/PhysRevD.60.011501}.
+
+\bibitem[Mangano et~al.(2002)Mangano, Moretti, and Pittau]{Mangano:2001xp}
+Michelangelo~L. Mangano, Mauro Moretti, and Roberto Pittau.
+\newblock {Multijet matrix elements and shower evolution in hadronic
+  collisions: $W b \bar{b}$ + $n$ jets as a case study}.
+\newblock \emph{Nucl.Phys.}, B632:\penalty0 343--362, 2002.
+\newblock \doi{10.1016/S0550-3213(02)00249-3}.
+
+\bibitem[Febres~Cordero et~al.(2006)Febres~Cordero, Reina, and
+  Wackeroth]{FebresCordero:2006sj}
+F.~Febres~Cordero, L.~Reina, and D.~Wackeroth.
+\newblock {NLO QCD corrections to W boson production with a massive b-quark jet
+  pair at the Tevatron p anti-p collider}.
+\newblock \emph{Phys.Rev.}, D74:\penalty0 034007, 2006.
+\newblock \doi{10.1103/PhysRevD.74.034007}.
+
+\bibitem[Quackenbush et~al.(2011)Quackenbush, Berger, Jackson, and
+  Shaughnessy]{Quackenbush:2011bf}
+Seth Quackenbush, Edmond~L. Berger, C.B. Jackson, and Gabe Shaughnessy.
+\newblock {LHC Sensitivity to $Wb\bar{b}$ Production via Double Parton
+  Scattering}.
+\newblock 2011.
+
+\bibitem[Gaunt and Stirling(2010)]{Gaunt:2009re}
+Jonathan~R. Gaunt and W.~James Stirling.
+\newblock {Double Parton Distributions Incorporating Perturbative QCD Evolution
+  and Momentum and Quark Number Sum Rules}.
+\newblock \emph{JHEP}, 1003:\penalty0 005, 2010.
+\newblock \doi{10.1007/JHEP03(2010)005}.
+
+\bibitem[Bansal et~al.(2014)Bansal, Bartalini, Blok, Ciangottini, Diehl,
+  et~al.]{Bansal:2014paa}
+Sunil Bansal, Paolo Bartalini, Boris Blok, Diego Ciangottini, Markus Diehl,
+  et~al.
+\newblock {Progress in Double Parton Scattering Studies}.
+\newblock 2014.
+
+\bibitem[Chatrchyan et~al.(2014{\natexlab{c}})]{Chatrchyan:2013xxa}
+Serguei Chatrchyan et~al.
+\newblock {Study of double parton scattering using W + 2-jet events in
+  proton-proton collisions at $\sqrt{s}$ = 7 TeV}.
+\newblock \emph{JHEP}, 1403:\penalty0 032, 2014{\natexlab{c}}.
+\newblock \doi{10.1007/JHEP03(2014)032}.
+
+\bibitem[Chatrchyan et~al.(2014{\natexlab{d}})]{Chatrchyan:2013uza}
+Serguei Chatrchyan et~al.
+\newblock {Measurement of the production cross section for a W boson and two b
+  jets in pp collisions at $\sqrt{s}$=7 TeV}.
+\newblock \emph{Phys.Lett.}, B735:\penalty0 204--225, 2014{\natexlab{d}}.
+\newblock \doi{10.1016/j.physletb.2014.06.041}.
+
+\bibitem[Aaltonen et~al.(2010)]{Aaltonen:2009qi}
+T.~Aaltonen et~al.
+\newblock {First Measurement of the b-jet Cross Section in Events with a W
+  Boson in p anti-p Collisions at s**(1/2) = 1.96-TeV}.
+\newblock \emph{Phys.Rev.Lett.}, 104:\penalty0 131801, 2010.
+\newblock \doi{10.1103/PhysRevLett.104.131801}.
+
+\bibitem[Abazov et~al.(2013)]{D0:2012qt}
+V.M. Abazov et~al.
+\newblock {Measurement of the $p\bar{p} \to W+b+X$ production cross section at
+  $\sqrt{s}=1.96$ TeV}.
+\newblock \emph{Phys.Lett.}, B718:\penalty0 1314--1320, 2013.
+\newblock \doi{10.1016/j.physletb.2012.12.044}.
+
+\bibitem[Aad et~al.(2013)]{Aad:2013vka}
+Georges Aad et~al.
+\newblock {Measurement of the cross-section for W boson production in
+  association with b-jets in pp collisions at $\sqrt{s}$ = 7 TeV with the ATLAS
+  detector}.
+\newblock \emph{JHEP}, 1306:\penalty0 084, 2013.
+\newblock \doi{10.1007/JHEP06(2013)084}.
+
+\bibitem[Chatrchyan et~al.(2008)]{Chatrchyan:2008aa}
+S.~Chatrchyan et~al.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08004, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08004}.
+
+\bibitem[Aad et~al.(2008)]{Aad:2008zzm}
+G.~Aad et~al.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
+\bibitem[Aamodt et~al.(2008)]{Aamodt:2008zz}
+K.~Aamodt et~al.
+\newblock {The ALICE experiment at the CERN LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08002, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08002}.
+
+\bibitem[Alves et~al.(2008)]{Alves:2008zz}
+Jr. Alves, A.~Augusto et~al.
+\newblock {The LHCb Detector at the LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08005, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08005}.
+
+\bibitem[Evans and Bryant(2008)]{Evans:2008zzb}
+Lyndon Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock \emph{JINST}, 3:\penalty0 S08001, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08001}.
+
+\bibitem[Brüning et~al.(2004)Brüning, Collier, Lebrun, Myers, Ostojic, Poole,
+  and Proudlock]{Bruning:782076}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock \emph{{LHC Design Report}}.
+\newblock CERN, Geneva, 2004.
+
+\bibitem[CMS(2012)]{CMS-PAS-SMP-12-008}
+{Absolute Calibration of the Luminosity Measurement at CMS: Winter 2012
+  Update}.
+\newblock Technical Report CMS-PAS-SMP-12-008, CERN, Geneva, 2012.
+\newblock URL \url{https://cds.cern.ch/record/1434360}.
+
+\bibitem[Collaboration(2013{\natexlab{a}})]{CMS:2013gfa}
+CMS Collaboration.
+\newblock {CMS Luminosity Based on Pixel Cluster Counting - Summer 2013
+  Update}.
+\newblock Technical Report CMS-PAS-LUM-13-001, 2013{\natexlab{a}}.
+
+\bibitem[Collaboration(2009)]{CMS:2009nxa}
+CMS Collaboration.
+\newblock {Particle-Flow Event Reconstruction in CMS and Performance for Jets,
+  Taus, and MET}.
+\newblock CMS Physics Analysis Summary CMS-PAS-PFT-09-001, 2009.
+
+\bibitem[{Adam} et~al.(2005){Adam}, {Fr{\"u}hwirth}, {Strandlie}, and
+  {Todorov}]{2005JPhG31N9A}
+W.~{Adam}, R.~{Fr{\"u}hwirth}, A.~{Strandlie}, and T.~{Todorov}.
+\newblock {RESEARCH NOTE FROM COLLABORATION: Reconstruction of electrons with
+  the Gaussian-sum filter in the CMS tracker at the LHC}.
+\newblock \emph{Journal of Physics G Nuclear Physics}, 31:\penalty0 9,
+  September 2005.
+\newblock \doi{10.1088/0954-3899/31/9/N01}.
+
+\bibitem[Collaboration(2010)]{CMS:2010bta}
+CMS Collaboration.
+\newblock {Electron reconstruction and identification at sqrt(s) = 7 TeV}.
+\newblock CMS Physics Analysis Summary CMS-PAS-EGM-10-004, 2010.
+
+\bibitem[Frühwirth(1987)]{Fruhwirth1987444}
+R.~Frühwirth.
+\newblock Application of kalman filtering to track and vertex fitting.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  262\penalty0 (2–3):\penalty0 444 -- 450, 1987.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/0168-9002(87)90887-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0168900287908874}.
+
+\bibitem[Collaboration(2012)]{2012JInst7P0002T}
+The~CMS Collaboration.
+\newblock {Performance of CMS muon reconstruction in pp collision events at
+  $\sqrt{s}$ = 7 TeV}.
+\newblock \emph{Journal of Instrumentation}, 7:\penalty0 2P, October 2012.
+\newblock \doi{10.1088/1748-0221/7/10/P10002}.
+
+\bibitem[Salam(2010)]{Salam:2009jx}
+Gavin~P. Salam.
+\newblock {Towards Jetography}.
+\newblock \emph{Eur.Phys.J.}, C67:\penalty0 637--686, 2010.
+\newblock \doi{10.1140/epjc/s10052-010-1314-6}.
+
+\bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The Anti-k(t) jet clustering algorithm}.
+\newblock \emph{JHEP}, 0804:\penalty0 063, 2008.
+\newblock \doi{10.1088/1126-6708/2008/04/063}.
+
+\bibitem[Chatrchyan et~al.(2011{\natexlab{a}})]{Chatrchyan:2011ds}
+Serguei Chatrchyan et~al.
+\newblock {Determination of Jet Energy Calibration and Transverse Momentum
+  Resolution in CMS}.
+\newblock \emph{JINST}, 6:\penalty0 P11002, 2011{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/6/11/P11002}.
+
+\bibitem[Collaboration(2008)]{Cacciari2008119}
+CMS Collaboration.
+\newblock Pileup subtraction using jet areas.
+\newblock \emph{Physics Letters B}, 659\penalty0 (1–2):\penalty0 119 -- 126,
+  2008.
+\newblock ISSN 0370-2693.
+\newblock \doi{http://dx.doi.org/10.1016/j.physletb.2007.09.077}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269307011094}.
+
+\bibitem[Collaboration(2013{\natexlab{b}})]{CMS-DP-2013-033}
+CMS Collaboration.
+\newblock {8 TeV Jet Energy Corrections and Uncertainties based on 19.8
+  fb$^{-1}$ of data in CMS}.
+\newblock Technical report, Oct 2013{\natexlab{b}}.
+\newblock URL \url{http://cds.cern.ch/record/1627305}.
+
+\bibitem[Cacciari et~al.(2012)Cacciari, Salam, and Soyez]{Cacciari:2011ma}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {FastJet User Manual}.
+\newblock \emph{Eur.Phys.J.}, C72:\penalty0 1896, 2012.
+\newblock \doi{10.1140/epjc/s10052-012-1896-2}.
+
+\bibitem[Chatrchyan et~al.(2013{\natexlab{b}})]{Chatrchyan:2012jua}
+Serguei Chatrchyan et~al.
+\newblock {Identification of b-quark jets with the CMS experiment}.
+\newblock \emph{JINST}, 8:\penalty0 P04013, 2013{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/8/04/P04013}.
+
+\bibitem[Collaboration(2013{\natexlab{c}})]{CMS:2013vea}
+CMS Collaboration.
+\newblock {Performance of b tagging at sqrt(s)=8 TeV in multijet, ttbar and
+  boosted topology events}.
+\newblock CMS Physics Analysis Summary CMS-PAS-BTV-13-001, 2013{\natexlab{c}}.
+
+\bibitem[collaboration(2013)]{1748-0221-8-04-P04013}
+The~CMS collaboration.
+\newblock Identification of b-quark jets with the cms experiment.
+\newblock \emph{Journal of Instrumentation}, 8\penalty0 (04):\penalty0 P04013,
+  2013.
+\newblock URL \url{http://stacks.iop.org/1748-0221/8/i=04/a=P04013}.
+
+\bibitem[CMS(2009)]{CMS-PAS-PFT-09-001}
+{Particle-Flow Event Reconstruction in CMS and Performance for Jets, Taus, and
+  MET}.
+\newblock Technical Report CMS-PAS-PFT-09-001, CERN, 2009. Geneva, Apr 2009.
+\newblock URL \url{http://cds.cern.ch/record/1194487}.
+
+\bibitem[Chatrchyan et~al.(2011{\natexlab{b}})]{Chatrchyan:2011tn}
+Serguei Chatrchyan et~al.
+\newblock {Missing transverse energy performance of the CMS detector}.
+\newblock \emph{JINST}, 6:\penalty0 P09001, 2011{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/6/09/P09001}.
+
+\bibitem[Sjostrand et~al.(2006)Sjostrand, Mrenna, and Skands]{Sjostrand:2006za}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock \emph{JHEP}, 0605:\penalty0 026, 2006.
+\newblock \doi{10.1088/1126-6708/2006/05/026}.
+
+\bibitem[Sjostrand et~al.(2008)Sjostrand, Mrenna, and Skands]{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock \emph{Comput.Phys.Commun.}, 178:\penalty0 852--867, 2008.
+\newblock \doi{10.1016/j.cpc.2008.01.036}.
+
+\bibitem[Field(2010)]{Field:2010bc}
+Rick Field.
+\newblock {Early LHC Underlying Event Data - Findings and Surprises}.
+\newblock 2010.
+
+\bibitem[Chatrchyan et~al.(2013{\natexlab{c}})]{Chatrchyan:2013ala}
+Serguei Chatrchyan et~al.
+\newblock {Jet and underlying event properties as a function of
+  charged-particle multiplicity in proton–proton collisions at $\sqrt{s}$ = 7
+  TeV}.
+\newblock \emph{Eur.Phys.J.}, C73\penalty0 (12):\penalty0 2674,
+  2013{\natexlab{c}}.
+\newblock \doi{10.1140/epjc/s10052-013-2674-5}.
+
+\bibitem[Alwall et~al.(2011)Alwall, Herquet, Maltoni, Mattelaer, and
+  Stelzer]{Alwall:2011uj}
+Johan Alwall, Michel Herquet, Fabio Maltoni, Olivier Mattelaer, and Tim
+  Stelzer.
+\newblock {MadGraph 5 : Going Beyond}.
+\newblock \emph{JHEP}, 1106:\penalty0 128, 2011.
+\newblock \doi{10.1007/JHEP06(2011)128}.
+
+\bibitem[Campbell and Ellis(2010)]{Campbell:2010ff}
+John~M. Campbell and R.K. Ellis.
+\newblock {MCFM for the Tevatron and the LHC}.
+\newblock \emph{Nucl.Phys.Proc.Suppl.}, 205-206:\penalty0 10--15, 2010.
+\newblock \doi{10.1016/j.nuclphysbps.2010.08.011}.
+
+\bibitem[Alwall et~al.(2014)Alwall, Frederix, Frixione, Hirschi, Maltoni,
+  et~al.]{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, et~al.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock \emph{JHEP}, 1407:\penalty0 079, 2014.
+\newblock \doi{10.1007/JHEP07(2014)079}.
+
+\bibitem[Oleari(2010)]{Oleari:2010nx}
+Carlo Oleari.
+\newblock {The POWHEG-BOX}.
+\newblock \emph{Nucl.Phys.Proc.Suppl.}, 205-206:\penalty0 36--41, 2010.
+\newblock \doi{10.1016/j.nuclphysbps.2010.08.016}.
+
+\bibitem[Jadach et~al.(1993)Jadach, Was, Decker, and Kuhn]{Jadach:1993hs}
+S.~Jadach, Z.~Was, R.~Decker, and Johann~H. Kuhn.
+\newblock {The tau decay library TAUOLA: Version 2.4}.
+\newblock \emph{Comput.Phys.Commun.}, 76:\penalty0 361--380, 1993.
+\newblock \doi{10.1016/0010-4655(93)90061-G}.
+
+\bibitem[Agostinelli et~al.(2003)]{Agostinelli:2002hh}
+S.~Agostinelli et~al.
+\newblock {GEANT4: A Simulation toolkit}.
+\newblock \emph{Nucl.Instrum.Meth.}, A506:\penalty0 250--303, 2003.
+\newblock \doi{10.1016/S0168-9002(03)01368-8}.
+
+\bibitem[Brun and Rademakers(1997)]{Brun:1997pa}
+R.~Brun and F.~Rademakers.
+\newblock {ROOT: An object oriented data analysis framework}.
+\newblock \emph{Nucl.Instrum.Meth.}, A389:\penalty0 81--86, 1997.
+\newblock \doi{10.1016/S0168-9002(97)00048-X}.
+
+\bibitem[Collaboration(2014)]{CMS:2014gta}
+CMS Collaboration.
+\newblock {Combination of ATLAS and CMS top quark pair cross section
+  measurements in the emu final state using proton-proton collisions at 8 TeV}.
+\newblock CMS Physics Analysis Summary CMS-PAS-TOP-14-016, 2014.
+
+\bibitem[Collaboration(2013)]{CMS:2013wea}
+CMS Collaboration.
+\newblock {Pileup Jet Identification}.
+\newblock CMS Physics Analysis Summary CMS-PAS-JME-13-005, 2013.
+
+\bibitem[collaboration(2012)]{1748-0221-7-10-P10002}
+The~CMS collaboration.
+\newblock Performance of cms muon reconstruction in pp collision events at
+  $\sqrt{s}$ = 7 tev.
+\newblock \emph{Journal of Instrumentation}, 7\penalty0 (10):\penalty0 P10002,
+  2012.
+\newblock URL \url{http://stacks.iop.org/1748-0221/7/i=10/a=P10002}.
+
+\bibitem[ATL(2011)]{ATL-PHYS-PUB-2011-011}
+{Procedure for the LHC Higgs boson search combination in summer 2011}.
+\newblock Technical Report ATL-PHYS-PUB-2011-011, CERN, Geneva, Aug 2011.
+\newblock URL \url{https://cds.cern.ch/record/1375842}.
+
+\bibitem[CMS(2013)]{CMS-PAS-LUM-13-001}
+{CMS Luminosity Based on Pixel Cluster Counting - Summer 2013 Update}.
+\newblock Technical Report CMS-PAS-LUM-13-001, CERN, Geneva, 2013.
+\newblock URL \url{http://cds.cern.ch/record/1598864}.
+
+\bibitem[Gavin et~al.(2013)Gavin, Li, Petriello, and Quackenbush]{Gavin:2012sy}
+Ryan Gavin, Ye~Li, Frank Petriello, and Seth Quackenbush.
+\newblock {W Physics at the LHC with FEWZ 2.1}.
+\newblock \emph{Comput.Phys.Commun.}, 184:\penalty0 208--214, 2013.
+\newblock \doi{10.1016/j.cpc.2012.09.005}.
+
+\bibitem[Henrich and Kaufmann(2002)]{Henrich}
+B~Henrich and R~Kaufmann.
+\newblock {Lorentz-angle in irradiated silicon}.
+\newblock \emph{Nucl. Instrum. Methods Phys. Res., A}, 477\penalty0
+  (1-3):\penalty0 304--307, 2002.
+
+\end{thebibliography}

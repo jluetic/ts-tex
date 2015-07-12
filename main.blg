@@ -7,7 +7,6 @@ A level-1 auxiliary file: Figures/Results/Muon/syst_table_mu.aux
 A level-1 auxiliary file: Figures/Results/Electron/syst_table_ele.aux
 The style file: unsrtnat.bst
 Database file #1: Bibliography.bib
-Warning--I didn't find a database entry for ""
 Warning--empty journal in Quackenbush:2011bf
 Warning--empty journal in Bansal:2014paa
 Warning--empty author in CMS-PAS-SMP-12-008
@@ -22,45 +21,45 @@ Warning--empty institution in CMS:2014gta
 Warning--empty institution in CMS:2013wea
 Warning--empty author in ATL-PHYS-PUB-2011-011
 Warning--empty author in CMS-PAS-LUM-13-001
-You've used 77 entries,
+You've used 78 entries,
             2481 wiz_defined-function locations,
-            1093 strings with 18187 characters,
-and the built_in function-call counts, 27964 in all, are:
-= -- 2497
-> -- 1239
-< -- 64
-+ -- 517
-- -- 354
-* -- 2120
-:= -- 4572
-add.period$ -- 304
-call.type$ -- 77
-change.case$ -- 152
-chr.to.int$ -- 68
-cite$ -- 95
-duplicate$ -- 1415
-empty$ -- 2570
-format.name$ -- 468
-if$ -- 5962
-int.to.chr$ -- 10
-int.to.str$ -- 78
-missing$ -- 69
-newline$ -- 465
-num.names$ -- 219
-pop$ -- 481
+            1098 strings with 18332 characters,
+and the built_in function-call counts, 28305 in all, are:
+= -- 2529
+> -- 1246
+< -- 65
++ -- 520
+- -- 356
+* -- 2143
+:= -- 4627
+add.period$ -- 308
+call.type$ -- 78
+change.case$ -- 154
+chr.to.int$ -- 70
+cite$ -- 96
+duplicate$ -- 1434
+empty$ -- 2607
+format.name$ -- 471
+if$ -- 6036
+int.to.chr$ -- 9
+int.to.str$ -- 79
+missing$ -- 70
+newline$ -- 471
+num.names$ -- 222
+pop$ -- 487
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 78
 quote$ -- 0
-skip$ -- 813
+skip$ -- 825
 stack$ -- 0
-substring$ -- 1201
-swap$ -- 170
+substring$ -- 1221
+swap$ -- 171
 text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 530
+type$ -- 537
 warning$ -- 14
-while$ -- 208
+while$ -- 211
 width$ -- 0
-write$ -- 1144
-(There were 15 warnings)
+write$ -- 1159
+(There were 14 warnings)

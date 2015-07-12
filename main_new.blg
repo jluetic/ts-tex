@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main_new.aux
+A level-1 auxiliary file: eg_supervisor.aux
+A level-1 auxiliary file: eg_extended_abstract.aux
+A level-1 auxiliary file: Figures/Results/Muon/yield_table_mu.aux
+A level-1 auxiliary file: Figures/Results/Electron/yield_table_ele.aux
+A level-1 auxiliary file: Figures/Results/Muon/syst_table_mu.aux
+A level-1 auxiliary file: Figures/Results/Electron/syst_table_ele.aux
+The style file: unsrtnat.bst
+Database file #1: Bibliography.bib
+Warning--empty journal in Quackenbush:2011bf
+Warning--empty journal in Bansal:2014paa
+Warning--empty author in CMS-PAS-SMP-12-008
+Warning--empty institution in CMS:2013gfa
+Warning--empty institution in CMS:2009nxa
+Warning--empty institution in CMS:2010bta
+Warning--empty institution in CMS-DP-2013-033
+Warning--empty institution in CMS:2013vea
+Warning--empty author in CMS-PAS-PFT-09-001
+Warning--empty journal in Field:2010bc
+Warning--empty institution in CMS:2014gta
+Warning--empty institution in CMS:2013wea
+Warning--empty author in ATL-PHYS-PUB-2011-011
+Warning--empty author in CMS-PAS-LUM-13-001
+You've used 78 entries,
+            2481 wiz_defined-function locations,
+            1100 strings with 18381 characters,
+and the built_in function-call counts, 28305 in all, are:
+= -- 2529
+> -- 1246
+< -- 65
++ -- 520
+- -- 356
+* -- 2143
+:= -- 4627
+add.period$ -- 308
+call.type$ -- 78
+change.case$ -- 154
+chr.to.int$ -- 70
+cite$ -- 96
+duplicate$ -- 1434
+empty$ -- 2607
+format.name$ -- 471
+if$ -- 6036
+int.to.chr$ -- 9
+int.to.str$ -- 79
+missing$ -- 70
+newline$ -- 471
+num.names$ -- 222
+pop$ -- 487
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 825
+stack$ -- 0
+substring$ -- 1221
+swap$ -- 171
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 537
+warning$ -- 14
+while$ -- 211
+width$ -- 0
+write$ -- 1159
+(There were 14 warnings)

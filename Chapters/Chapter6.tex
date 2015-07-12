@@ -6,7 +6,7 @@
 
 \lhead{Chapter 6. \emph{Event selection and background estimation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-This chapter describes the event selection criteria used to identify $pp\rightarrow W+bb+X$ process. The selection is focused on the leptonic decay modes of W boson, thus requiring the presence of an isolated muon or electron, missing energy, and two b-tagged jets. The reconstruction and identification of these objects has been described in the previous chapter. All major backgrounds are identified using simulation and are used to get the final signal yields for the cross section measurement in chapter \ref{Chapter7}. 
+This chapter describes the event selection criteria used to identify the process $pp\rightarrow W+bb+X$. The selection is focused on the leptonic decay modes of W boson, thus requiring the presence of an isolated muon or electron, missing energy, and two b-tagged jets. The reconstruction and identification of these objects has been described in the previous chapter. All major backgrounds are identified using simulation and are used to get the final signal yields for the cross section measurement in chapter \ref{Chapter7}. 
 This chapter is organized as follows. The samples used in the analysis together with a short description of simulation procedures are presented in section \ref{sec:samples}. In order to obtain good agreement between data and simulation, certain corrections are applied to the simulation to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. The applied corrections are summarized in section \ref{sec:mcSF}. Signal selection criteria are described in section \ref{sec:selection} while the estimation of the background sources is described in section \ref{sec:background}.     
 
 \section{Data and Monte Carlo samples}
@@ -17,9 +17,9 @@ The data samples used in this analysis are consist of pp collisions at center of
 \item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.
 \end{itemize}
 
-\par Simulated samples for signal and background processes were obtained using Monte Carlo methods, as a part of the official 2012 CMS production campaign. Simulated samples include W+jets, Z+jets, $t\bar{t}$, single top and WZ samples. Several event generators were used to produce samples needed in the analysis:
+\par Simulated samples for signal and background processes were obtained using Monte Carlo methods, as a part of the official 2012 CMS production campaign. Simulated samples include W+jets, Z+jets, $t\bar{t}$, single top and WZ samples. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and $t\bar{t}$ samples were produced with Madgraph and showered with Pythia.Several event generators were used to produce samples needed in the analysis:
 \begin{itemize}
-\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is able to calculate only tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses the so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and $t\bar{t}$ samples were produced with Madgraph and showered with Pythia.  
+\item \textbf{Pythia} \cite{Sjostrand:2006za,Sjostrand:2007gs} is a multi-purpose generator which can also simulate parton shower. Pythia is able to calculate only tree-level 1$\rightarrow$2 and 2$\rightarrow$2 processes while higher orders are approximated with parton shower algorithm. Parton showering in all samples uses the so called Z2 tune for modeling the underlying event \cite{Field:2010bc,Chatrchyan:2013ala}.   
 \item \textbf{Madgraph} \cite{Alwall:2011uj} calculates matrix elements at tree level for decays and 2$\rightarrow n$ scatterings (with $n$ going up to 10). Radiation of hard gluons in initial and final state is taken into account at the matrix element calculation level. A minimum $p_T$ threshold is defined in order to avoid soft gluon emissions which cause the total cross section to be strongly scale dependent. Cross section is normalized to predictions (N)NLO from other programs, such as MCFM \cite{Campbell:2010ff} for standard model processes.   
 \item \textbf{aMC@NLO} \cite{Alwall:2014hca} automates and unifies the tree-level and next-to-leading order computation tools within the MadGraph family.
 \item \textbf{Powheg} \cite{Oleari:2010nx} is a package optimized for heavy quark production in hadronic collisions. The hard process is calculated at the NLO order. For fragmentation and hadronization other software is used (e.g. Pythia). Single top events were produced using this generator and showered with Pythia. 
@@ -74,7 +74,7 @@ Signal events are simulated in exclusive W+1,2,3,4 jets samples using the Madgra
 
 \subsection{Pileup}
 
-In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions will happen in a single bunch crossing. These additional interactions are usually referred to as pileup interactions and contain low$-p_T$ QCD processes. The identification of such jets as well as their removal is described in detail in \cite{CMS:2013wea}. The total inelastic cross section at $\sqrt{s}=$8 TeV, in the 2012 is 69 mb, so the luminosity per bunch crossing of 69 mb$^{-1}$ results in one interaction per bunch crossing. As the instantaneous luminosity per bunch crossing was higher than the total inelastic cross section, this resulted in 21 primary interactions on the average during 2012, with some bunch crossings  going up to 70.Under these conditions it is important to recognize the signature from such interactions.  
+In proton-proton collisions at high beam intensities, there is a high probability that multiple interactions will happen in a single bunch crossing. These additional interactions are usually referred to as pileup interactions and contain low$-p_T$ QCD processes. The identification of such jets as well as their removal is described in detail in \cite{CMS:2013wea}. The total inelastic cross section at $\sqrt{s}=$8 TeV, in the 2012 is 69 mb, so the luminosity per bunch crossing of 69 mb$^{-1}$ results in one interaction per bunch crossing. As the instantaneous luminosity per bunch crossing was higher than the total inelastic cross section, this resulted in 21 primary interactions on average during 2012, with some bunch crossings  going up to 70. Under these conditions it is important to recognize the signature from such interactions.  
 \par Simulated events have a different distribution for the number of pileup interaction with respect to data. This occurs because it was difficult to predict the exact pileup distribution in data during the generation of the simulated events. Therefore, simulated events were reweighed to match the distribution in data. For each simulated event, a weight $w_{PU}$ is derived based on the number of pileup events provided by the generator. Figure \ref{fig:N_pu} shows the number of reconstructed vertices before and after the reweighing procedure for the events passing full selection described in section \ref{sec:selection} in the muon channel. The agreement between data and simulation has improved after the reweighing procedure which is also visible in the ratio plot. 
 
 \begin{figure}[htbp]
@@ -89,13 +89,13 @@ In proton-proton collisions at high beam intensities, there is a high probabilit
 \subsection{Lepton efficiency measurement}
 \label{sec:lepEff}
 
-Events used for the cross section measurement are required to pass certain triggers in order to be selected. However, the trigger selection is not 100$\%$ efficient and the selection efficiency has to be determined. The additional steps in the analysis, like reconstruction and isolation, have some inefficiencies as well. The efficiency estimation from simulation shows large systematic uncertainties due to inaccuracy in signal modeling and detector response. This was the main motivation for the development of the fully data-driven lepton efficiency estimation called \textit{Tag and probe}. In this method well-known mass resonances, such as the Z boson, are used and the following selection criteria is applied to the decay products. 
+Events used for the cross section measurement are required to pass certain triggers in order to be selected. However, the trigger selection is not 100$\%$ efficient and the selection efficiency has to be determined. The additional steps in the analysis, like reconstruction and isolation, which introduce some inefficiencies as well. The efficiency estimation from simulation shows large systematic uncertainties due to inaccuracy in signal modeling and detector response. This was the main motivation for the development of the fully data-driven lepton efficiency estimation called \textit{Tag and probe}. In this method well-known mass resonances, such as the Z boson, are used and the following selection criteria is applied to the decay products. 
 Very tight selection criteria are applied on one Z boson daughter lepton (\textit{tag}) while the looser cuts, used in the analysis, are applied on the other (\textit{probe}) lepton. The efficiency ($\epsilon$) for a given cut is than determined by counting the number of probe leptons that pass the cut ($N_{pass}$) divided by the number of  all probe leptons. This number includes the probe leptons that passed and failed the cut ($N_{fail}$):    
 \begin{equation}
 \epsilon = \frac{N_{pass}}{N_{pass}+N_{fail}}
 \end{equation} 
 As it is not possible to uniquely identify Z bosons, while performing tag and probe method, invariant mass distributions of the two leptons are used to determine $N_{pass}$ and $N_{fail}$. 
-%\textit{Tag} lepton is the one passing very tight selection cuts with low missidentification probability. The efficiency for certain cuts is than measured by counting \textit{probe} leptons which are leptons passing this looser cut divided by number of all leptons. Probes are selected in such way that the invariant mass of the two leptons falls into the Z mass resonance. The following relation is used for the measurement:
+%\textit{Tag} lepton is the one passing very tight selection cuts with low misidentification probability. The efficiency for certain cuts is than measured by counting \textit{probe} leptons which are leptons passing this looser cut divided by number of all leptons. Probes are selected in such way that the invariant mass of the two leptons falls into the Z mass resonance. The following relation is used for the measurement:
   
 %Final selection contains a number of events where Z boson was not actually produced and which have to be subtracted. Both 
 Signal and background are parameterized and their contributions are estimated using a maximum likelihood fit. For signal events, a convolution of Z generator shape with a Gaussian is used to take into account the detector effects, while for background parametrization, a combination of exponential function and polynomial was used.
@@ -125,9 +125,9 @@ Signal and background are parameterized and their contributions are estimated us
 \subsection{\textit{b-tagging} scale factors}
 \label{sec:btag}
 
-CMS simulations describe very well the detector performance. However, it is difficult to accurately model all parameters used in b-tagging algorithms. The procedure used to identify b-jets is described in \ref{sec:btagging} and it depends on track reconstruction efficiency, tracking resolution and other tracking related parameters. Efficiency and missidentification probabilities are functions of transverse momentum and pseudorapidity of a jet. Therefore, it is very important to determine the b-tagging efficiency from data. The obtained corrections are applied to simulated events as scale factors which are defined as the ratio between efficiency measured in collisions $\epsilon_b^{data}$ and efficiency from simulated events $\epsilon_b^{MC}$:
+CMS simulations describe very well the detector performance. However, it is difficult to accurately model all parameters used in b-tagging algorithms. The procedure used to identify b-jets is described in \ref{sec:btagging} and it depends on track reconstruction efficiency, tracking resolution and other tracking related parameters. Efficiency and misidentification probabilities are functions of transverse momentum and pseudorapidity of a jet. Therefore, it is very important to determine the b-tagging efficiency from data. The obtained corrections are applied to simulated events as scale factors which are defined as the ratio between efficiency measured in collisions $\epsilon_b^{data}$ and efficiency from simulated events $\epsilon_b^{MC}$:
 \begin{equation}
-SF_b=\frac{\epsilon_B^{data}}{\epsilon_b^{MC}}
+SF_b=\frac{\epsilon_b^{data}}{\epsilon_b^{MC}}
 \end{equation}
 The scale factor determination has to be performed using a b-jet enriched sample such as $t\bar{t}$ or multijets events with jet containing a muon within a $\Delta R <0.4$ cone from the jet axis. The choice of the jet which contains a muon relies on the fact that the B hadron semileptonic branching ratio is much higher than that for other hadrons ($\sim$ 20$\%$ when including b$\rightarrow$c$\rightarrow$ decays) and such jets are much more likely to arise from B hadron decay. With very high muon detection efficiency at CMS, it is relatively easy to obtain a clean sample with jets containing nonisolated muons. Another efficiency measurement is performed using a $t\bar{t}$ enriched sample \cite{CMS:2013vea}.
 %by cutting on number of selected jets and isolated leptons in the event and approximating that the $t$ quark decays to $W+b$ exclusively. 
@@ -138,7 +138,7 @@ The scale factor determination has to be performed using a b-jet enriched sample
 \caption{B-tagging (\textit{up}) and misstag (\textit{bottom}) scale factors. \cite{CMS:2013vea}}
 \label{fig:nesto}
 \end{figure}
-By combining the results from both measurements, scale factors were obtained as a function of jet $p_T$ together with statistical and systematic uncertainty for each $p_T$ bin. The same strategy is used to obtain missidentification rates by using the inverted cut on b-tag discriminator. The estimated scale factors as a function of jet transverse momentum are shown in figure \ref{fig:nesto}.  
+By combining the results from both measurements, scale factors were obtained as a function of jet $p_T$ together with statistical and systematic uncertainty for each $p_T$ bin. The same strategy is used to obtain misidentification rates by using the inverted cut on b-tag discriminator. The estimated scale factors as a function of jet transverse momentum are shown in figure \ref{fig:nesto}.  
 The usage of the scale factors depends on the number of b-tagged jets in the event. In this analysis two b-tagged jets are required and the weight for each event is derived as:
 \begin{equation}
 w(2|2)=SF_{b||light}(\mathrm{1st\ jet})\times SF_{b||light}(\mathrm{second\ jet})
@@ -155,7 +155,7 @@ Candidates for a W boson are identified as isolated muons or electron and signif
 Jets are identified as particle flow objects clustered with anti-$k_T$ algorithm with a cone size of $0.5$.
 The combined secondary vertex (CSV) algorithm is then used to identify jets arising from fragmentation and hadronization of b-quarks as is explained in \ref{sec:btagging}. Signal events are selected using the following requirements:
 \begin{itemize}
-\item One muon or electron with $p_T>30$ GeV, within $|\eta|<$ 2.1, which passes the trigger requirement and tight ID criteria described in \ref{sec:muID}, and has $I_{rel}^{PF}<0.12\ (0.10)$ in case of muons (electrons).
+\item One muon or electron with $p_T>30$ GeV, within $|\eta|<$ 2.1, which passes the trigger requirement ($p_T>24(27)$ GeV for muons(electrons) and tight ID criteria described in \ref{sec:muID}, and has $I_{rel}^{PF}<0.12\ (0.10)$ in case of muons (electrons).
 \item Exactly two jets with jet $p_T>25$ GeV, within $|\eta|<$ 2.4 passing loose ID criteria from \ref{sec:jetID} with distance between lepton and jet $\Delta R>0.5$. 
 \item Events containing jets with $p_T>25$ in high pseudorapidity range $2.4<|\eta|<5$ are rejected.
 \item Events containing additional lepton with $p_T>10$ GeV, within $|\eta|<$ 2.1, tight ID and loose isolation are rejected.
@@ -195,14 +195,18 @@ Several detector level distributions are shown in figure \ref{fig:Wbb_prefit_muo
 
 \section{Background estimation}
 \label{sec:background}
-After applying all selection cuts described in the previous section, major backgrounds that remain are top quarks, Z+jets, W+jets, diboson and QCD multijet processes. All samples describing the signal and background processes are normalized to their corresponding cross sections as described in the section \ref{sec:samples}. The obtained distributions are then used as an input the fitting procedure described in the chapter \ref{Chapter7} aimed to determining the final yields used in the cross section calculation. Each of the background contributions is described in detail below. 
+After applying all selection cuts described in the previous section, the major backgrounds that remain are top quarks, Z+jets, W+jets, diboson and QCD multijet processes. All samples describing the signal and background processes are normalized to their corresponding cross sections as described in the section \ref{sec:samples}. The obtained distributions are then used as an input the fitting procedure described in the chapter \ref{Chapter7} aimed to determining the final yields used in the cross section calculation. Each of the background contributions is described in detail below. 
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.37\textwidth]{Figures/FD-tt.png}
-		\includegraphics[width=0.245\textwidth]{Figures/FD-st.png}
-		\includegraphics[width=0.25\textwidth]{Figures/FD-WJ.png}
-	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams for major backgrounds: $t\bar{t}$, single top and W+jets. [DODATI OSTALE DIJAGRAME]}
+		\includegraphics[width=0.31\textwidth]{Figures/tt.png}
+		\includegraphics[width=0.24\textwidth]{Figures/st.png}
+		\includegraphics[width=0.34\textwidth]{WZ.png}
+		\includegraphics[width=0.34\textwidth]{WH.png}		
+		\includegraphics[width=0.24\textwidth]{Figures/Wj.png}
+		\includegraphics[width=0.23\textwidth]{Zj.png}
+		
+	\caption[Feynmann diagrams showing major backgrounds]{Feynmann diagrams for major backgrounds: $t\bar{t}$, single top, WZ, WH, W+jets and Z+jets.}
 	\label{fig:backgrounds}
 \end{figure}
 
@@ -225,7 +229,7 @@ Production of $t\bar{t}$ pairs and single top represent a challenging background
 
 \subsection{Z+jets}
 
-The contribution from the events where a Z boson is produced in association with two b jets is largely suppressed by requiring only one lepton in the event. However, it can happen that one of the leptons from the Z decay escapes detection or is missidentified, which may cause significant missing energy. Such events are then passing all selection criteria and have to be taken into account in the final cross section measurement. 
+The contribution from the events where a Z boson is produced in association with two b jets is largely suppressed by requiring only one lepton in the event. However, it can happen that one of the leptons from the Z decay escapes detection or is missidentified, which may cause significant missing energy. Such events are then passing all selection criteria and have to be taken into account in the final cross section measurement. Contribution from Z+jets background in the final distribution is around 3\%.
 
 \subsection{W+light jets and W+charm}
 
@@ -242,7 +246,7 @@ W+jets is the major background before applying the b-tagging criteria is visible
 	\label{fig:Wjets}
 \end{figure}
 
-\subsection{QCD}
+\subsection{QCD multijets}
 \label{sec:QCD}
 
 The QCD background arises from QCD multijet events containing a soft lepton that passes lepton selection criteria. An example of such an event is shown in the left part of figure \ref{fig:QCD}. This is one of the most challenging backgrounds as it is difficult to simulate significant amount of such events because of the very high cross section for such processes. Therefore, the contribution of QCD events in the signal region is determined from data. Two uncorrelated variables are chosen, in this case the transverse mass and the lepton isolation. The transverse mass distribution shows a Jacobian peak for the events containing a W boson. Thus it is a natural choice for discrimination from the final states without W boson. The transverse mass distribution at low values is dominated by QCD multijet events. Their contribution is estimated using the so called ABCD method. The method is illustrated on the right hand side of the figure \ref{fig:QCD}. The signal region is marked with A. A control sample dominated by QCD events is created by inverting the lepton isolation cut to $I_{rel}^{PF}>0.2$ ($0.15$) for muons (electrons) and is marked with C. The rest of the selection criteria in the control sample is the same as in the signal region. The obtained sample is relatively clean, however there are still some small contributions from background processes as it is visible in figure \ref{fig:QCD_CD}. The shape of the final distribution is determined by subtracting these background events from the data distribution. 
@@ -250,7 +254,7 @@ The QCD background arises from QCD multijet events containing a soft lepton that
 \begin{equation}
 QCD^A=\frac{N^B_{data}-N^B_{MC}}{N^D_{data}-N^D_{MC}}\times QCD^{C}_{data}
 \end{equation}       
-where $N^B_{data}$ and $N^D_{data}$ are the number of data events in data in regions B and D respectively, and $N^C_{MC}$ and $N^D_{MC}$ are the number of MC background events in regions B and D respectively. The signal region before and after the QCD contribution determination is shown in figure \ref{fig:QCD_dist}.
+where $N^B_{data}$ and $N^D_{data}$ are the number of data events in data in regions B and D respectively, and $N^C_{MC}$ and $N^D_{MC}$ are the number of MC background events in regions B and D respectively. The signal region before and after the QCD contribution determination is shown in figure \ref{fig:QCD_dist}. The QCD contribution in the final distribution is approximately 20$\%$.
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=0.4\textwidth]{Figures/QCD_diag.png}

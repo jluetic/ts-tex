@@ -12,7 +12,7 @@ The cross section for the pp$\rightarrow$W+bb+$X$ process is determined separate
 \label{equ:xsec}
 \end{equation}
 where $N_{sig}$ is the overall number of the signal events, which is precisely determined by performing the fit procedure presented in the next sections. $A\times \epsilon$ is the detector acceptance and efficiency (section \ref{sec:AE}) and $\mathcal{L}$ is the total integrated luminosity. 
-\par Fit methodology is shortly presented in the section \ref{sec:fit}, while the systematic uncertainties, which are taken into account during the fit, are described in detail in section \ref{sec:syst}. The procedure for the calculation of $A\times \epsilon$ is described in \ref{sec:AE}, in section \ref{sec:res} the cross sections results are given and compared to the theoretical prediction. 
+\par Fit methodology is shortly presented in the section \ref{sec:fit}, while the systematic uncertainties, which are taken into account during the fit, are described in detail in section \ref{sec:syst}. The procedure for the calculation of $A\times \epsilon$ is described in section \ref{sec:AE} and lastly, in section \ref{sec:res} the cross sections results are given and compared to the theoretical prediction. 
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
@@ -74,7 +74,7 @@ In cases where systematic uncertainty does not change the shape of the distribut
 \subsubsection*{MC samples normalizations}
         The finite size of the signal and background MC samples are included in the normalization uncertainties. Normalizations for each of the Monte-Carlo samples are also allowed to vary within the uncertainties of measured standard model cross-sections. Cross section uncertainties are summarized in the table \ref{tab:SMunc}
 \subsubsection*{Luminosity uncertainty}
-        Luminosity measurement is performed using cluster counting in the Pixel detector described in section \ref{sec:lumi}. An uncertainty of 2.6$\%$ for the luminosity measurement during 2012 data taking is reported by the CMS luminosity group \cite{CMS-PAS-LUM-13-001}.
+        Luminosity measurement is performed using the cluster counting in the Pixel detector described in section \ref{sec:lumi}. An uncertainty of 2.6$\%$ for the luminosity measurement during 2012 data taking is reported by the CMS luminosity group \cite{CMS-PAS-LUM-13-001}.
 
 \begin{table}[!htb]
 \begin{center}
@@ -164,7 +164,7 @@ Obtained results are summarized in table \ref{tab:AE} for each channel.
 Transverse mass distributions in the signal region and $t\bar{t}$ region were fitted simultaneously in order to obtain the signal strength for Wbb. Yields before and after the fit are shown in Table \ref{tab:yieldsMu} for the muon channel and \ref{tab:yieldsEle} for the electron channel. The obtained signal strength values are:
 \begin{align*}
 \mu_{muon} &= 1.37 \pm 0.07\mathrm{(stat.)} \pm 0.20 \mathrm{(syst.)}\\\
-\mu_{ele} &= 1.67 \pm 0.08\mathrm{(stat.)} \pm 0.27\mathrm{(syst.)}
+\mu_{ele} &= 1.51 \pm 0.08\mathrm{(stat.)} \pm 0.20\mathrm{(syst.)}
 \end{align*}
 The total uncertainty was obtained by including both systematic and statistical uncertainties. Another fit was performed without systematic uncertainties in order to obtain the statistical error. The total systematic error was computed by subtracting in quadrature the statistical error from the total error. 
 Figures \ref{fig:Wbb_postfit_mu} and \ref{fig:Wbb_postfit_ele} show the most important detector distribution after performing the fit for the muon and electron channels respectively. The recovered distributions show a good agreement between data and simulation for all considered distributions.
@@ -261,17 +261,18 @@ Obtained signal strengths are summarized in Table \ref{tab:addFitTest} and are f
         $E^{miss}_T$/$M(j_3j_4)$        &1.38$\pm$0.21  &1.55\\
    \hline\hline
    \end{tabular}
- \caption{UPDATE NUMBERS! - Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other.}
+ \caption{Signal strengths obtained by fitting different distributions. Signal strengths are found to be consistent with each other within the uncertainties.}
 \label{tab:addFitTest}
 \end{center}
 \end{table}
 
 \subsection{Cross section measurement}
 
-The inclusive cross section measurement was performed in the fiducial region corresponding to one lepton with $p_T>$30 GeV and $|\eta|<$2.1 and exactly two jets $p_T>$ 25 GeV and $|\eta|<$2.4. Jets are required to have at least one particle originating from a B hadron within a cone of 0.5 from the jet axis. The cross section was computed using the relation \ref{equ:xsec}, where the signal yields were obtained by multiplying the Wbb yield with the signal strength obtained from the fitting procedure for muon and electron channel, respectively. Acceptance and efficiency are taken from table \ref{tab:AE} and luminosity corresponds to 19.8 fb$^{-1}$. The measured cross sections are:
+The inclusive cross section measurement was performed in the fiducial region corresponding to one lepton with $p_T>$30 GeV and $|\eta|<$2.1 and exactly two jets $p_T>$ 25 GeV and $|\eta|<$2.4. Jets are required to have at least one particle originating from a B hadron within a cone of 0.5 from the jet axis. Cross section was computed using the relation \ref{equ:xsec}, where the final yields were obtained from the tables \ref{tab:yieldsMu} and \ref{tab:yieldsEle} for muon and electron channel respectively. The $N_{sig}$ was obtained by subtracting the sum of MC contributions of all backgrounds from the number of events obtained in data after applying the selection cuts.
+Acceptance and efficiency are taken from table \ref{tab:AE} and luminosity corresponds to 19.8 fb$^{-1}$. The measured cross sections are:
 \begin{align*}
-\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow \mu\nu) = 0.66 \pm 0.03(\mathrm{stat.}) \pm 0.10(\mathrm{syst.})\\
-\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow e\nu) = 0.78 \pm 0.04(\mathrm{stat.}) \pm 0.13(\mathrm{syst.})
+\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow \mu\nu) = 0.73 \pm 0.03(\mathrm{stat.}) \pm 0.10(\mathrm{syst.})\\
+\sigma(pp\rightarrow W+bb)\times \mathcal{B}(W\rightarrow e\nu) = 0.75 \pm 0.04(\mathrm{stat.}) \pm 0.10(\mathrm{syst.})
 \end{align*}
 The quoted systematic and statistical uncertainties take into account all previously described effects. However, these results are not taking into account the systematic effects on the acceptance and efficiency calculation of different choices for the parton distribution functions, or the effect of variation of factorization and renormalization scales. These effects were assessed in the previous measurements of Wbb process by the CMS experiment and contribute 10\% to the total cross section uncertainty \cite{Chatrchyan:2013uza}. The obtained cross section for electrons is somewhat higher than the one for muons but still within the systematic uncertainties.   
 
