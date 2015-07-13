@@ -4,7 +4,7 @@
 
 \label{Chapter6} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-\lhead{Chapter 6. \emph{Event selection and background estimation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+\fancyhead[LE,RO]{Chapter 6. \emph{Event selection and background estimation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 This chapter describes the event selection criteria used to identify the process $pp\rightarrow W+bb+X$. The selection is focused on the leptonic decay modes of W boson, thus requiring the presence of an isolated muon or electron, missing energy, and two b-tagged jets. The reconstruction and identification of these objects has been described in the previous chapter. All major backgrounds are identified using simulation and are used to get the final signal yields for the cross section measurement in chapter \ref{Chapter7}. 
 This chapter is organized as follows. The samples used in the analysis together with a short description of simulation procedures are presented in section \ref{sec:samples}. In order to obtain good agreement between data and simulation, certain corrections are applied to the simulation to take into account trigger and reconstruction efficiencies, pileup reweighing and b-tagging inefficiencies. The applied corrections are summarized in section \ref{sec:mcSF}. Signal selection criteria are described in section \ref{sec:selection} while the estimation of the background sources is described in section \ref{sec:background}.     
@@ -13,8 +13,8 @@ This chapter is organized as follows. The samples used in the analysis together 
 \label{sec:samples}
 The data samples used in this analysis are consist of pp collisions at center of mass energy of 8 TeV collected with the CMS experiment during 2012. After performing necessary data-quality checks, 19.8fb$^{-1}$ of data was marked as good quality for physics analysis. Selected events are required to pass one of the following triggers:
 \begin{itemize}
-\item Isolated muon with $p_T>24$ GeV,
-\item Electron with $p_T>27$ GeV which passes some additional identification criteria as described in \ref{sec:eleID}.
+\item Isolated muon with $p_T>24$ GeV and $|\eta|<2.1$,
+\item Electron with $p_T>27$ GeV and $|\eta|<2.1$
 \end{itemize}
 
 \par Simulated samples for signal and background processes were obtained using Monte Carlo methods, as a part of the official 2012 CMS production campaign. Simulated samples include W+jets, Z+jets, $t\bar{t}$, single top and WZ samples. Diboson samples were generated with Pythia event generator while W+jets, Z+jets and $t\bar{t}$ samples were produced with Madgraph and showered with Pythia.Several event generators were used to produce samples needed in the analysis:

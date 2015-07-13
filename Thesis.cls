@@ -409,7 +409,7 @@
 \btypeout{Acknowledgements}
 \addtotoc{Acknowledgements}
 \thispagestyle{plain}
-\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+\begin{center}{\huge{Acknowledgements} \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 

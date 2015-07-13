@@ -3,7 +3,7 @@
 
 \label{Chapter7} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-\lhead{Chapter 7. \emph{Cross section measurement}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+\fancyhead[LE,RO]{Chapter 7. \emph{Cross section measurement}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 
 The cross section for the pp$\rightarrow$W+bb+$X$ process is determined separately in the electron and the muon channel using the relation:
@@ -94,14 +94,22 @@ In cases where systematic uncertainty does not change the shape of the distribut
 \end{center}
 \end{table}
 
-In figure \ref{fig:shapeVar} the effect of different systematic uncertainties on the shape of the transverse mass distribution is shown for signal and $t\bar{t}$ control region. The shown $M_T$ distributions are obtained by summing signal and all background contributions. The largest systematic variations come from the b-tagging uncertainties. A more detailed study of the final signal strength dependence on the systematic variations is shown in section \ref{sec:systEff}.
+In figures \ref{fig:shapeVar} and \ref{fig:shapeVar_ele} the effect of different systematic uncertainties on the shape of the transverse mass distribution is shown for signal and $t\bar{t}$ control region. The shown $M_T$ distributions are obtained by summing signal and all background contributions. The largest systematic variations come from the b-tagging uncertainties. A more detailed study of the final signal strength dependence on the systematic variations is shown in section \ref{sec:systEff}.
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=0.49\textwidth]{Figures/syst_Wbb_var.pdf}
-		\includegraphics[width=0.49\textwidth]{Figures/syst_TT_var.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/Results/Muon/systPlots/syst_Wbb_GetVMt.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/Results/Muon/systPlots/syst_TT_GetVMt.pdf}
 	\caption[Shape of the transverse mass distribution for each systematic variation in both, signal region and $t\bar{t}$ control region.]{Shape of the transverse mass distribution in the muon channel for each systematic variation in both, signal region (\textit{left}) and $t\bar{t}$ control region (\textit{right}).}
 	\label{fig:shapeVar}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.49\textwidth]{Figures/Results/Electron/systPlots/syst_Wbb_GetVMt.pdf}
+		\includegraphics[width=0.49\textwidth]{Figures/Results/Electron/systPlots/syst_TT_GetVMt.pdf}
+	\caption[Shape of the systematic variations in electron channel for signal region and $t\bar{t}$ control region.]{Shape of the transverse mass distribution in the electron channel for each systematic variation in both, signal region (\textit{left}) and $t\bar{t}$ control region (\textit{right}).}
+	\label{fig:shapeVar_ele}
 \end{figure}
 
 %----------------------------------------------------------------------------------------

@@ -22,9 +22,9 @@
 
 % Define the page headers using the FancyHdr package and set up for one-sided printing
 \fancyhead{} % Clears all page headers and footers
-\rhead{\thepage} % Sets the right side header to show the page number
-\lhead{} % Clears the left side page header
-
+%\rfoot{\thepage} % Sets the right side header to show the page number
+%\lhead{} % Clears the left side page header
+\fancyfoot[LE,RO]{\thepage}
 \pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
 
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
@@ -208,9 +208,7 @@ Stephan Hawking
 \addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
 
 \abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-
-
-\par   
+   
 \par The goal of this thesis is a measurement of the cross section of the $pp\rightarrow W+bb+X$ process using the data collected during 2012 at $\sqrt{s} = 8$ TeV. The data is provided by the Large Hadron Collider (LHC) accelerator at CERN, Geneva and collected by the Compact Muon Solenoid (CMS). The production of a W boson in association with a pair of b quarks (Wbb) in proton collisions has been the topic of many theoretical calculations and simulations. It is however still not well described due to divergences which arise in theoretical calculations, in cases where b quarks are collinear or there is a low energy massless particle irradiated. A precise measurement of Wbb production will allow to further constrain theoretical predictions in the framework of perturbative quantum chromodynamics (pQCD). On the other hand, Wbb is a background in the measurements of different standard model processes as well as in several searches for physics beyond standard model. 
 \par The presence of a W boson is identified through the detection of an energetic, isolated lepton (muon or electron) and a significant amount of missing energy, which indicates the presence of a neutrino. Jets in the detector are identified as collimated sprays of particles. Selected jets are required to be tagged as jets originating from b quarks. 
 \par The cross section measurement was performed in the fiducial region defined by a presence of a lepton and exactly two 2 b-tagged jets. The result is quoted separately in the muon and electron channel. The measured values in the two channels are compatible, as predicted by the standard model. The theoretical cross section was derived using MCFM. The measured values are around one standard deviation higher than the predicted theoretical values. 
@@ -232,7 +230,7 @@ The uncertainty on the measured values is dominated by the systematic effects. T
 I would like to thank all the people who helped make this thesis see the light of day. Thanks to the colegues from University of Wisconsin-Madison, University of Trieste and CERN, specially to Tom , Andrea and others for all their effort and help during past year. Big thanks to Michele for his guidance, patience and precious comments.
 \par I would like to thank to all the CMS group from Ruđer Bošković Institute. Thanks to Lucija for being a good friend and listener when I needed one. Thanks to Tanja for all her help and hard work and fruitful discussions, without you this would be nearly half as fun. Thanks to Srećko, Senka, Darko, Saša and Benjamin for all the help and interesting discussions over the past few years. 
 Special thanks to my supervisor Vuko Brigljević for helping me and believing in me over the past few years. 
-\par Thanks to the Pixel group, specially to Danek, Viktor, Gino, Janos, Annapaola and others for giving me a chance to work on something new and exciting. 
+\par Thanks to the Pixel group, specially to Danek, Viktor, Gino, Janos, Urs, Annapaola and others for giving me a chance to work on something new and exciting. 
 \par Special thanks to my family for all their support and patience. Without you none of this would be possible.
 \par Goran, thank you for being there for me and making me happy. 
 }
@@ -244,13 +242,13 @@ Special thanks to my supervisor Vuko Brigljević for helping me and believing in
 
 \pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
 
-\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\fancyhead[LE,RO]{\emph{Contents}} % Set the left side page header to "Contents"
 \tableofcontents % Write out the Table of Contents
 
-\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\fancyhead[LE,RO]{\emph{List of Figures}} % Set the left side page header to "List of Figures"
 \listoffigures % Write out the List of Figures
 
-\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\fancyhead[LE,RO]{\emph{List of Tables}} % Set the left side page header to "List of Tables"
 \listoftables % Write out the List of Tables
 
 %----------------------------------------------------------------------------------------
@@ -261,7 +259,7 @@ Special thanks to my supervisor Vuko Brigljević for helping me and believing in
 
 \setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
 
-\lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+\fancyhead[LE,RO]{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
 \listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
 {
 \textbf{SM} & Standard Model \\
@@ -313,7 +311,7 @@ Special thanks to my supervisor Vuko Brigljević for helping me and believing in
 %{
 %$a$ & distance & m \\
 %$P$ & power & W (Js$^{-1}$) \\
-%% Symbol & Name & Unit \\
+%% Symbol & Name & Unit \\\fancyhead[LE,RO]\fancyhead[LE,RO]
 %
 %& & \\ % Gap to separate the Roman symbols from the Greek
 %
